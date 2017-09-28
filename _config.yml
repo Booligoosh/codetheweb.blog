@@ -1,6 +1,6 @@
 # Site settings
 title: 'Code The Web'
-description: 'Web development for normal people.'
+description: 'Web development explained for normal people.'
 keyword: 'web, web development, development, programming, internet, blog, website, html, css, javascript, learn, code, coding, learn to code'
 url: 'http://liaokeyu.com' # your host
 baseurl: '/'
@@ -38,10 +38,7 @@ postPatterns: 'circuitBoard'
 
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
+  github: '//github.com/Booligoosh'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -62,3 +59,8 @@ RSS: false
 
 # Plugins
 gems: [jekyll-paginate]
+
+
+# ME
+sass:
+  style: compressed

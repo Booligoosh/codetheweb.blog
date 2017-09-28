@@ -1,0 +1,29 @@
+---
+---
+
+$light-grey: #E4E4E4;
+$blue: #41B3D3;
+$light-blue: #61D2DC;
+$dark-grey: #444444;
+
+
+.home-banner {
+    background: $light-grey;
+}
+
+.home-banner h2 {
+    padding-top: 143px;
+}
+
+.home-banner h3 {
+    letter-spacing: 2px;
+    color: $dark-grey;
+}
+
+.home-banner img {
+    height: 150px; /*52px line height*/
+}
+
+.g-header .g-nav>ul>li>a {
+    color: $dark-grey;
+}
