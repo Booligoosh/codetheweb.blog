@@ -6,24 +6,17 @@ $blue: #41B3D3;
 $light-blue: #61D2DC;
 $dark-grey: #444444;
 
-
-.home-banner {
-    background: $light-grey;
-}
-
 .home-banner h2 {
     padding-top: 143px;
 }
 
 .home-banner h3 {
-    letter-spacing: 2px;
-    color: $dark-grey;
+    letter-spacing: 7px;
 }
 
 .home-banner img {
-    height: 150px; /*52px line height*/
-}
-
-.g-header .g-nav>ul>li>a {
-    color: $dark-grey;
+    height: 150px;
+    /* This is a band-aid fix while I don't have a monochrome svg of the logo yet... */
+    filter: brightness(10);
+    -webkit-filter: brightness(10);
 }
