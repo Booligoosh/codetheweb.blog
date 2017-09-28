@@ -1,8 +1,8 @@
 var gulp = require('gulp'),
-    uglify = require('gulp-uglify'), // 压缩js文件
-    sass = require('gulp-sass'), // 编译sass
-    cleanCSS = require('gulp-clean-css'), // 压缩css文件
-    rename = require('gulp-rename'); // 文件重命名
+    uglify = require('gulp-uglify'),
+    sass = require('gulp-sass'),
+    cleanCSS = require('gulp-clean-css'),
+    rename = require('gulp-rename');
 
 gulp.task('scripts', function(){
     gulp.src('dev/js/index.js')

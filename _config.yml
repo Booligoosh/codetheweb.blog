@@ -28,7 +28,7 @@ disqus_url: 'https://liaokeyu.disqus.com/embed.js'
 
 # Share
 social-share: true
-social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+social-share-items: ['facebook', 'twitter', 'google']
 
 # theme color
 theme-color: 'default'  # pink or default
