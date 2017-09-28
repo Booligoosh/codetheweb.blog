@@ -33,7 +33,7 @@ social-share-items: ['facebook', 'twitter', 'google']
 # theme color
 theme-color: 'default'  # pink or default
 
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+# Post header background patterns (when the post has no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
 
 # SNS settings url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
