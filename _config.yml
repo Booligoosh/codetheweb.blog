@@ -4,7 +4,6 @@ description: 'Web development explained for normal people.'
 keyword: 'web, web development, development, programming, internet, blog, website, html, css, javascript, learn, code, coding, learn to code'
 url: 'http://codetheweb.blog' # your host
 baseurl: '/'
-baseurlreal: '/'
 
 # Navigation links
 nav:
