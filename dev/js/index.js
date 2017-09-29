@@ -45,10 +45,7 @@ $(document).ready(function(){
                     'background-color': 'rgba(255, 255, 255, .98)',
                     'box-shadow': '0 1px 12px rgba(0, 0, 0, .08)'
                 });
-                appLogo.css({
-                    'background': 'url(/assets/icons/logo_' + themeColorFlag + '.svg) no-repeat center',
-                    'background-size': '100% 100%'
-                });
+                appLogo.addClass('colorful');
                 navText.css('color', '#666');
                 $('.g-nav').addClass('nav-' + themeColorFlag);
 
@@ -59,10 +56,7 @@ $(document).ready(function(){
                     'background-color': 'transparent',
                     'box-shadow': 'none'
                 });
-                appLogo.css({
-                    'background': 'url(/assets/icons/logo.svg) no-repeat center',
-                    'background-size': '100% 100%'
-                });
+                appLogo.removeClass('colorful');
                 navText.css('color', '#fff');
                 $('.g-nav').removeClass('nav-' + themeColorFlag);
 
