@@ -23,8 +23,8 @@ search: true
 nightMode: true
 
 # Comments
-disqus: false
-disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+disqus: true
+disqus_url: 'https://codetheweb-blog.disqus.com/embed.js'
 
 # Share
 social-share: true
@@ -38,7 +38,8 @@ postPatterns: 'circuitBoard'
 
 # SNS settings url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  github: '//github.com/Booligoosh'
+  github: 'https://github.com/Booligoosh'
+  website: 'https://booligoosh.github.io/'
 
 # Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar
