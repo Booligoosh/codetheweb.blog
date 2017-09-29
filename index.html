@@ -7,7 +7,7 @@ description: Web development explained for normal people.
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
-    <h2><!--{{ page.home-title }}--><img src="/assets/img/codetheweb-transparent-clipped.png" alt="{{ page.home-title }}"></h2>
+    <h2><!--{{ page.home-title }}-->{% include_relative assets/img/codetheweb-transparent-clipped.svg %}</h2>
     <h3>{{ page.description }}</h3>
     {% if page.header-img %}
     <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt="">
