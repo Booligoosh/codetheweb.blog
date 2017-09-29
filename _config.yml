@@ -31,7 +31,7 @@ social-share: true
 social-share-items: ['facebook', 'twitter', 'google']
 
 # theme color
-theme-color: 'default'  # pink or default
+theme-color: 'pink'  # pink or default
 
 # Post header background patterns (when the post has no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'circuitBoard'
