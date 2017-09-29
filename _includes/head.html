@@ -9,7 +9,7 @@
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-    <meta property="og:image" content="{{ page.cover }}">
+    <meta property="og:image" content="{% if page.cover %}{{ page.cover }}{% else %}/assets/img/icon1.png{% endif %}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <!-- Real Favicon Generator -->
