@@ -93,7 +93,7 @@
         </div>
         {% endif %}
     </section>
-    {% if site.disqus %}
+    {% if site.disqus and jekyll.environment == "production" %}
     <section class="post-footer-item comment">
         <div id="disqus_thread"></div>
     </section>
