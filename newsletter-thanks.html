@@ -1,0 +1,32 @@
+---
+layout: default
+header-img: "assets/img/hero.jpg"
+title: "Thanks!"
+description: "Sign up to the newsletter"
+---
+
+{% include header.html %}
+
+<header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }} newsletter-banner" data-theme="{{ site.theme-color }}">
+    <div class="post-wrapper">
+        <h1 id="main">Thanks!</h1>
+        <span class="subheading" id="alt">You will recieve a confirmation email shortly.</span>
+        <a href="{{ site.nav.home }}" class="btn">Back to home</a>
+    </div>
+</header>
+
+<script>
+    if(window.location.search != '') {
+        document.getElementById('main').innerHTML = 'Processing...'
+        document.getElementById('alt').innerHTML = 'Hang on while we contact some hypothetical servers in an undisclosed location within the ever-changing fabric of space-time...';
+        var webhook = 'https://hooks.zapier.com/hooks/catch/1610912/ib3mn6/';
+        var sendUrl = webhook + window.location.search;
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', sendUrl, true);
+        xhr.send();
+        xhr.addEventListener("readystatechange", processRequest, false);
+        function processRequest(e) {
+            window.location = window.location.pathname;
+        }
+    }
+</script>

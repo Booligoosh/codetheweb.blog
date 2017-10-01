@@ -1,0 +1,19 @@
+---
+layout: default
+header-img: "assets/img/hero.jpg"
+Title: "Newsletter"
+description: "Sign up to the newsletter"
+---
+
+{% include header.html %}
+
+<header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }} newsletter-banner" data-theme="{{ site.theme-color }}">
+    <div class="post-wrapper">
+        <h1>Stay up to date.</h1>
+        <span class="subheading">Get new posts straight to your inbox.</span>
+        <form action="newsletter-thanks">
+            <input type="email" name="email" placeholder="Email">
+            <input type="submit" class="btn" value="Subscribe now">
+        </form>
+    </div>
+</header>
