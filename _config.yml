@@ -65,3 +65,5 @@ plugins: [jekyll-paginate, jekyll-feed, github-pages, jekyll-sitemap]
 # ME
 sass:
   style: compressed
+  
+newsletter: '#'
