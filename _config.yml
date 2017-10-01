@@ -67,3 +67,4 @@ sass:
   style: compressed
   
 newsletter: /newsletter
+share: '#share'
