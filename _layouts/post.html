@@ -3,17 +3,22 @@
 {% include head.html %}
 <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
-      "@type": "BlogPosting",
-      "url": "codetheweb.blog",
-      "datePublished": "{{page.date}}",
-      "author": {
-        "type": "Person",
-        "name": "Booligoosh",
-        "url": "https://booligoosh.github.io/"
-       },
-       "headline": "{{page.title}}",
-       "image": "{% if page.cover %}{{ site.url }}{{ page.cover }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "url": "codetheweb.blog",
+        "datePublished": "{{page.date}}",
+        "author": {
+            "type": "Person",
+            "name": "Booligoosh",
+            "url": "https://booligoosh.github.io/"
+        },
+        "publisher": {
+            "type": "Person",
+            "name": "Booligoosh",
+            "url": "https://booligoosh.github.io/"
+        },
+        "headline": "{{page.title}}",
+        "image": "{% if page.cover %}{{ site.url }}{{ page.cover }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
     }
 </script>
 <body>
