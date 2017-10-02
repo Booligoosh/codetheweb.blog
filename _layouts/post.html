@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "url": "codetheweb.blog",
+      "datePublished": "{{page.date}}",
+      "author": {
+        "type": "Person",
+        "name": "Booligoosh",
+        "url": "https://booligoosh.github.io/"
+       },
+       "headline": "{{page.title}}",
+       "image": "{% if page.cover %}{{ site.url }}{{ page.cover }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
+    }
+</script>
 <body>
     <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">You are using an older browser - please upgrade to a newer browser.！<a target="_blank" class="alert-link" href="http://browsehappy.com">Upgrade now</a></div>
@@ -20,7 +35,7 @@
         </div>
         <h1>{{ page.title }}</h1>
         <div class="post-meta">
-            <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></></span>
+            <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></span>
             <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
         </div>
     </div>
@@ -34,7 +49,7 @@
     {% if page.subtitle %}
     <h2 class="post-subtitle">{{ page.subtitle }}</h2>
     {% endif %}
-    <article class="markdown-body">
+    <article class="markdown-body" itemprop="articleBody">
         {{ page.content }}
     </article>
     <a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe</a>
