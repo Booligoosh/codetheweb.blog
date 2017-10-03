@@ -106,9 +106,10 @@ $dark-grey: #444444;
 
 .subscribe-btn {
     color: black;
-    border-color: black;
+    border: none;
     margin-top: 10px;
     margin-bottom: 32px;
+    transition: opacity, 1s;
 }
 
 .subscribe-btn:hover {
