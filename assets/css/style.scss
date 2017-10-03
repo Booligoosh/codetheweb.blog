@@ -116,6 +116,11 @@ $dark-grey: #444444;
     opacity: 1;
 }
 
+.night-mode .subscribe-btn {
+    -webkit-filter: brightness(.6);
+    filter: brightness(.6);
+}
+
 .g-sidebar-wrapper .subscribe-btn {
     width: 100%;
     box-shadow: 0 1px 3px rgba(0,37,55,.06);
