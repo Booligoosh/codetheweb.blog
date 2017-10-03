@@ -68,7 +68,7 @@ $dark-grey: #444444;
     text-align: left;
 }
 
-.night-mode .newsletter-banner, .night-mode #share {
+.night-mode .newsletter-banner, .night-mode #share, .night-mode .home-banner {
     -webkit-filter: brightness(.6);
     filter: brightness(.6);
     color: white;
