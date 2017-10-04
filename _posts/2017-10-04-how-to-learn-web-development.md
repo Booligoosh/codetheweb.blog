@@ -56,7 +56,7 @@ As you can see, it has some normal text but then also some other bits of code. T
 
 ### CSS
 CSS stands for Cascading Style Sheet, and controls what a webpage looks like. Without CSS, the entire web would look something like this:
-![A Code The Web article without CSS][no-css]
+![This article without CSS][no-css]
 Here is a snippet of CSS:
 ```CSS
 #where-to-start {
