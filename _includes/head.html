@@ -1,11 +1,4 @@
 <head>
-    <script>
-        var path = window.location.pathname.split('');
-        var res = path.splice(path.length - 5, path.length).join('');
-        if (res == '.html') {
-            window.location = path.join('');
-        }
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>

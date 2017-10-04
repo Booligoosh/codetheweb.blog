@@ -70,3 +70,4 @@ newsletter: /newsletter
 share: '#share'
 comments: '#comments'
 repo: https://github.com/CodeTheWebBlog/CodeTheWebBlog.github.io/
+permalink: pretty
