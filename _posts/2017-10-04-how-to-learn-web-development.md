@@ -95,7 +95,7 @@ Now here's the biggie: How much time do you need to spend on coding to learn it?
 ## Conclusion
 Congrats on starting your journey to becoming a web developer! There will be times when you want to give up, but keep going and you will enjoy it. To get started with web development, [look out for my next post, where I'll be talking about how to get your computer set up for web development][newsletter].
 
-So, what did you think of that? Don't hesistate to [tell me in the comments][comments] or [share it with your friends][share] if you liked it.
+So, what did you think of that article? Don't hesistate to [tell me in the comments][comments] or [share it with your friends][share] if you liked it.
 
 [dont-code]: https://simpleprogrammer.com/2016/02/22/please-dont-learn-to-code-unless/
 [StackOverflow]: https://stackoverflow.com/
