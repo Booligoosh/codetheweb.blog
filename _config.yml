@@ -59,7 +59,7 @@ kramdown:
 RSS: false
 
 # Plugins
-plugins: [jekyll-paginate, jekyll-feed, github-pages, jekyll-sitemap]
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sitemap]
 
 
 # ME
