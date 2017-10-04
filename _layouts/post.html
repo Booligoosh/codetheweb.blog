@@ -60,9 +60,7 @@
     </article>
     <a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe</a>
     {% if site.social-share %}
-    <div class="social-share-wrapper">
-        <div class="social-share"></div>
-    </div>
+    {% include share.html %}
     {% endif %}
 </div>
 
@@ -157,6 +155,5 @@ s.setAttribute('data-timestamp', +new Date());
 <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 <script src="/assets/js/prism.js"></script>
 <script src="/assets/js/index.min.js"></script>
-{% include share-overlay.html %}
 </body>
 </html>
