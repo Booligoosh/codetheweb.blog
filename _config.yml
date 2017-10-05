@@ -8,7 +8,7 @@ baseurl: '/'
 # Navigation links
 nav:
   home: '/'
-  tags: '/tags.html'
+  tags: '/tags'
 
 # Author
 author: 'Booligoosh'
