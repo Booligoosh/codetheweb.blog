@@ -148,7 +148,7 @@ $dark-grey: #444444;
         float: none;
         width: auto;
     }
-    .g-sidebar-wrapper .subscribe-btn, .social-share-home {
+    .g-sidebar-wrapper .subscribe-btn, .social-share-home, .sp-badge-home {
         max-width: 695px;
         width: auto !important;
         float: none;
@@ -224,7 +224,7 @@ body.stop-scrolling {
     font-size: 17px;
 }
 
-.social-share-home {
+.social-share-home, .sp-badge-home {
     text-align: center;
     border: 1px solid #e7eaf1;
     border-radius: 3px;
@@ -261,6 +261,15 @@ body.stop-scrolling {
      white-space: -o-pre-wrap !important;
     /* Internet Explorer 5.5+ */
      word-wrap: break-word !important;
+}
+
+.sp-badge-home {
+    margin-top: 16px;
+    display: block;
+}
+
+.sp-badge-home img {
+    max-width: calc(100% - 12px - 24px);
 }
 
 .home-banner.post-pattern-circuitBoard, .newsletter-banner.post-pattern-circuitBoard, .subscribe-btn, #share {
