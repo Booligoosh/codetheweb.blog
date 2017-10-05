@@ -23,10 +23,10 @@ description: Web development explained for normal people.
     <div class="article-list">
         {% for post in paginator.posts %}
             <article class="article-item">
-                {% if post.cover %}
+                {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="{{ post.cover }}" alt="">
+                    <img src="{{ post.image }}" alt="">
                 </div>
                 {% endif %}
                 <section class="post-preview">

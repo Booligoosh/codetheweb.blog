@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'How the internet works'
-cover: '/assets/img/posts/how-the-internet-works/cover.png'
+image: '/assets/img/posts/how-the-internet-works/cover.png'
 tags: Back-end HTML CSS JavaScript Other
 ---
 One question that I often get asked is "How does the internet work?" The answer is probably more complex than you think - read on below to find out...

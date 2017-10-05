@@ -19,7 +19,7 @@
             "logo": "{{ site.url }}/assets/img/icon1.png"
         },
         "headline": "{{page.title}}",
-        "image": "{% if page.cover %}{{ site.url }}{{ page.cover }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
+        "image": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
     }
 </script>
 <body>
@@ -30,7 +30,7 @@
 
 {% include header.html %}
 
-<header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.cover %}post-no-cover{% endunless %}{% if page.coveronpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
+<header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
     <div class="post-wrapper">
         <div class="post-tags">
             {% if page.tags.size > 0 %} 
@@ -45,9 +45,9 @@
             <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
         </div>
     </div>
-    {% if page.cover and page.coveronpage != false %}
+    {% if page.image and page.imageonpage != false %}
     <div class="filter"></div>
-    <div class="post-cover" style="background: url('{{ page.cover }}') center no-repeat; background-size: cover;">
+    <div class="post-cover" style="background: url('{{ page.image }}') center no-repeat; background-size: cover;">
     {% endif %}
 </header>
 
@@ -93,9 +93,9 @@
                 <span>{{ page.next.title }}</span>
                 <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
             </section>
-            {% if page.next.cover %}
+            {% if page.next.image %}
             <div class="filter"></div>
-            <img src="{{ page.next.cover }}" alt="">
+            <img src="{{ page.next.image }}" alt="">
             {% endif %}
         </div>
         {% endif %}
@@ -106,9 +106,9 @@
                 <span>{{ page.previous.title }}</span>
                 <p>{{ page.previous.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
             </section>
-            {% if page.previous.cover %}
+            {% if page.previous.image %}
             <div class="filter"></div>
-            <img src="{{ page.previous.cover }}" alt="">
+            <img src="{{ page.previous.image }}" alt="">
             {% endif %}
         </div>
         {% endif %}
