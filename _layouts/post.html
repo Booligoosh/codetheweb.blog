@@ -86,29 +86,31 @@
         {% endif %}
     </section>
     <section class="post-footer-item read-next">
-        {% if page.next.url %}
-        <div class="read-next-item">
-            <a href="{{ page.next.url }}" class="read-next-link"></a>
-            <section>
-                <span>{{ page.next.title }}</span>
-                <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
-            </section>
-            {% if page.next.image %}
-            <div class="filter"></div>
-            <img src="{{ page.next.image }}" alt="">
-            {% endif %}
-        </div>
-        {% endif %}
         {% if page.previous.url %} 
         <div class="read-next-item">
             <a href="{{ page.previous.url }}" class="read-next-link"></a>
             <section>
+               <p>Prev</p>
                 <span>{{ page.previous.title }}</span>
                 <p>{{ page.previous.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
             </section>
             {% if page.previous.image %}
             <div class="filter"></div>
             <img src="{{ page.previous.image }}" alt="">
+            {% endif %}
+        </div>
+        {% endif %}
+        {% if page.next.url %}
+        <div class="read-next-item">
+            <a href="{{ page.next.url }}" class="read-next-link"></a>
+            <section>
+               <p>Next</p>
+                <span>{{ page.next.title }}</span>
+                <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
+            </section>
+            {% if page.next.image %}
+            <div class="filter"></div>
+            <img src="{{ page.next.image }}" alt="">
             {% endif %}
         </div>
         {% endif %}
