@@ -1,15 +1,15 @@
 ---
 layout: post
-title: 'HTML elements and tags'
+title: 'HTML syntax'
 image: '/assets/img/posts/html-elements-and-tags/cover.jpg'
-date: 2017-10-06 02:00:00 +1100
+date: 2017-10-06 02:00:00
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags"
 ---
-HTML elements and tags are the building blocks of any website. Learn what they are and how to use them in this article...
+The syntax of a language is how it works. How to actually write it. Learn HTML syntax in this article...
 
-## What are elements?
-Consider the following HTML:
+## HTML Elements
+Ok, I'm going to show you a bit of code. *WHAT???* Don't panic. You don't have to understand what it all means, I will explain below:
 ```HTML
 <h1>Blog Posts.</h1>
 <div class="controls">
@@ -35,7 +35,9 @@ Consider the following HTML:
 </table>
 <br>
 ```
-Don't worry about what any of this means - we are only worrying about the structure at the moment. An element is basically bit of content (text), surrounded by *HTML tags* (I will go into this more later). The tags tell the browser information about what is inside it. For example, `<h1>Blog Posts.</h1>` is telling the browser that "Blog Posts." is an `h1` element - a type of heading. You don't need to remember that, I will go into it more in a [later article][newsletter].
+See? You survived (I hope). For starters, don't worry about what any of this means - we are only worrying about the structure at the moment.
+
+An element is basically bit of content (text), surrounded by *HTML tags* (I will go into this more later). The tags tell the browser information about what is inside it. For example, `<h1>Blog Posts.</h1>` is telling the browser that "Blog Posts." is an `h1` element - a type of heading. You don't need to remember that, I will go into it more in a [later article][newsletter].
 
 An *element* refers to the content as well as the two tags. This is an example of an element:
 ```HTML
@@ -53,7 +55,7 @@ table > tbody > tr > th
 ```
 Note that this is _**not code**_. It is simply an easy way of visualizing how the elements are nested within each other.
 
-## What are tags?
+## HTML Tags
 As I mentioned earlier, tags are the bits of code surrounding the content, such as:
 ```HTML
 <p class="test"> ... </p>
