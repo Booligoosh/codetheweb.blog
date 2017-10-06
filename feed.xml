@@ -41,11 +41,7 @@
       <published>{{ post.date | date_to_xmlschema }}</published>
       <updated>{{ post.last_modified_at | default: post.date | date_to_xmlschema }}</updated>
       <id>{{ post.id | absolute_url | xml_escape }}</id>
-      {% assign post_image = post.image.path | default: post.image %}
-      {% unless post_image contains "://" %}
-        {% assign post_image = post_image | absolute_url | xml_escape  %}
-      {% endunless %}
-      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">&lt;img src=&quot;{{ post_image }}&quot;&gt;{{ post.content | strip | xml_escape }}</content>
+      <content type="html" xml:base="{{ post.url | absolute_url | xml_escape }}">{{ post.content | strip | xml_escape }}</content>
 
       {% assign post_author = post.author | default: post.authors[0] | default: site.author %}
       {% assign post_author = site.data.authors[post_author] | default: post_author %}
@@ -75,7 +71,11 @@
         <summary type="html">{{ post.excerpt | strip_html | normalize_whitespace | xml_escape }}</summary>
       {% endif %}
 
+      {% assign post_image = post.image.path | default: post.image %}
       {% if post_image %}
+        {% unless post_image contains "://" %}
+          {% assign post_image = post_image | absolute_url | xml_escape  %}
+        {% endunless %}
         <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="{{ post_image }}" />
         <media:content url="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=600&amp;url={{ post_image }}" medium="image" />
       {% endif %}
