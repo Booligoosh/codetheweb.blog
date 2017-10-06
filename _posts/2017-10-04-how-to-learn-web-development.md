@@ -2,7 +2,7 @@
 layout: post
 title: 'How to learn web development'
 image: '/assets/img/posts/how-to-learn-web-development/cover.jpg'
-tags: Other
+tags: Other HTML CSS JavaScript
 ---
 So you want to learn web development. But how do you actually go about learning it? Read on to find out...
 
