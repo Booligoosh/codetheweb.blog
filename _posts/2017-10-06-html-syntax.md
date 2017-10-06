@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HTML syntax'
-image: '/assets/img/posts/html-elements-and-tags/cover.jpg'
+image: '/assets/img/posts/html-syntax/cover.jpg'
 date: 2017-10-06 02:00:00
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags"
@@ -100,8 +100,8 @@ Phew. That might have been a bit confusing, but eventually you'll get the hang o
 
 
 [learn-web-development]: /2017/10/04/how-to-learn-web-development/
-[tag-structure-1]: /assets/img/posts/html-elements-and-tags/tag-structure-1.png
-[tag-structure-2]: /assets/img/posts/html-elements-and-tags/tag-structure-2.png
+[tag-structure-1]: /assets/img/posts/html-syntax/tag-structure-1.png
+[tag-structure-2]: /assets/img/posts/html-syntax/tag-structure-2.png
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
