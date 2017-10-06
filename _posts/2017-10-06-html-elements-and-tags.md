@@ -2,8 +2,8 @@
 layout: post
 title: 'HTML elements and tags'
 image: '/assets/img/posts/html-elements-and-tags/cover.jpg'
-date: 2017-10-06 00:00:01 +1100
-tags: Other
+date: 2017-10-06 02:00:00 +1100
+tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags"
 ---
 HTML elements and tags are the building blocks of any website. Learn what they are and how to use them in this article...

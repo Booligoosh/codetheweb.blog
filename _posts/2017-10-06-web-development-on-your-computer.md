@@ -2,6 +2,7 @@
 layout: post
 title: 'Practice web development on your computer'
 image: '/assets/img/posts/web-development-on-your-computer/cover.jpg'
+date: 2017-10-06 01:00:00 +1100
 tags: Other
 ---
 So, you're ready to get started learning web development - but how do you practice it and follow along? One part of learning web development that is commonly overlooked is how to actually do it. Sure, you might know HTML, CSS and JavaScript off the top of your head, but how do you actually run it?
