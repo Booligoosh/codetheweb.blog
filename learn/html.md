@@ -20,11 +20,13 @@ These are optional but recommended. In tutorials, I might build on what's covere
 # Tutorials
 I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing HTML, I will move on to [CSS][css].
 1. [HTML syntax][html-syntax]
+2. [The structure of an HTML document][structure-of-an-html-document]
 
 [welcome]: /2017/09/29/welcome/
 [how-to-learn-web-development]: /2017/10/04/how-to-learn-web-development/
 [how-the-internet-works]: /2017/10/05/how-the-internet-works/
 [web-development-on-your-computer]: /2017/10/06/web-development-on-your-computer/
 [html-syntax]: /2017/10/06/html-syntax/
+[structure-of-an-html-document]: /2017/10/07/structure-of-an-html-document/
 
 [css]: /learn/css
