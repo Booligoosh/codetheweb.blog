@@ -16,6 +16,7 @@ I've written many tutorials on HTML. As I want to make them easy to learn from, 
 [Practice web development on your computer][web-development-on-your-computer]
 
 # Tutorials
+I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing HTML, I will move on to [CSS][css].
 1. [HTML syntax][html-syntax]
 
 [welcome]: /2017/09/29/welcome/
@@ -23,3 +24,5 @@ I've written many tutorials on HTML. As I want to make them easy to learn from, 
 [how-the-internet-works]: /2017/10/05/how-the-internet-works/
 [web-development-on-your-computer]: /2017/10/06/web-development-on-your-computer/
 [html-syntax]: /2017/10/06/html-syntax/
+
+[css]: /learn/css
