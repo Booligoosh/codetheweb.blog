@@ -6,13 +6,15 @@ purpose: building websites
 ---
 I've written many tutorials on HTML. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn HTML. If you want to know more about Code The Web, check out the [welcome post][welcome].
 
-# How to learn HTML
+# Prerequisites
+These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so we are on the same page.
+## How to learn a programming language
 [How to learn web development][how-to-learn-web-development]
 
-# Background
+## Background knowledge
 [How the internet works][how-the-internet-works]
 
-# Set-up
+## Set-up
 [Practice web development on your computer][web-development-on-your-computer]
 
 # Tutorials
