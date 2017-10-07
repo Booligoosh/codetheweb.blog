@@ -28,7 +28,7 @@ description: Web development explained for normal people.
                 {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
+                    <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
                 </div>
                 {% endif %}
                 <section class="post-preview">
