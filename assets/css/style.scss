@@ -377,6 +377,7 @@ body.stop-scrolling {
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0,38,55,.16);
+    background-attachment: fixed;
 }
 
 .learn-lang-banner .learn-lang-banner-inner {
@@ -452,15 +453,28 @@ body.stop-scrolling {
     }
 }
 
-.learn-link-home {
+.learn-link-home, .learn-lang-banner, .learn-index-banner {
     margin-bottom: 16px;
     padding: 24px;
-    //color: white;
+    color: white;
     
+    background-image: url(/assets/img/learn-home-link.jpg) !important;
+    //background-attachment: fixed;
+    background-position: -250px -220px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+
+.learn-lang-banner, .learn-index-banner {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .learn-link-home a {
     text-decoration: underline;
+    color: white;
+    opacity: .8;
 }
 
 .learn-link-home .learn-link-home-title {
@@ -476,9 +490,25 @@ body.stop-scrolling {
     -webkit-background-clip: text;*/
 }
 
+@media screen and (max-width: 695px) {
+    .learn-link-home {
+        border: none;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
+}
+
 .recent-posts-title {
     margin-bottom: 16px;
     font-size: 1.5rem
+}
+
+.codetheweb-learn, .codetheweb-learn .iconfont.icon-logo {
+    font-size: 2rem;
+}
+
+.codetheweb-learn a {
+    text-decoration: none;
 }
 
 .home-banner.post-pattern-circuitBoard, .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {

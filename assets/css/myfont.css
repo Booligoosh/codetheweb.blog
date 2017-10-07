@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'myfont';
+  src:  url('/assets/fonts/myfont.eot?hceyah');
+  src:  url('/assets/fonts/myfont.eot?hceyah#iefix') format('embedded-opentype'),
+    url('/assets/fonts/myfont.ttf?hceyah') format('truetype'),
+    url('/assets/fonts/myfont.woff?hceyah') format('woff'),
+    url('/assets/fonts/myfont.svg?hceyah#myfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.icon-logo, i.icon-website {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'myfont' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-logo:before {
+  content: "\e900";
+}
+.icon-website:before {
+  content: "\f0ac";
+}
