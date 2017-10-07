@@ -1,0 +1,129 @@
+---
+layout: default
+sitemap: false
+---
+<aside>Came here by accident? This is the page that I use to look at my blog post word counts! It is not officially part of my blog.</aside>
+<h1>Blog Posts.</h1>
+<div class="controls">
+    <input type="number" id="first" placeholder="First" oninput="inputsChanged()">
+    <input type="number" id="last" placeholder="Last" oninput="inputsChanged()">
+</div>
+<span class="total-word-count"><b>Total Word Count:</b> <span id="word-count">0000</span></span>
+<table>
+    <tbody>
+        <tr>
+            <th>Post number</th>
+            <th>Post Date</th>
+            <th>Post Name</th>
+            <th>Word count</th>
+        </tr>
+        {% assign posts = site.posts | reverse %}
+        {% for post in posts %}
+        {% assign post_words = post.content | number_of_words %}
+        <tr>
+            <td class="post-num">#{{forloop.index}}</td>
+            <td class="post-date">{{post.date | date: "%A %-d %B %Y"}}</td>
+            <td class="post-title"><a href="{{post.url}}" target="_blank">{{post.title}}</a></td>
+            <td class="post-words">{{post_words}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<br>
+
+<script type="text/javascript">
+    document.onload = init();
+    
+    function init() {
+        var rows = document.getElementsByTagName('tr');
+        var wordCount = 0;
+        for(var i = 1; i < rows.length; i++) {
+            wordCount += Number(rows[i].getElementsByClassName("post-words")[0].innerText);
+        }
+        document.getElementById('word-count').innerHTML = wordCount;
+    }
+    function tableRange(first,last) {
+        var rows = document.getElementsByTagName('tr');
+        var wordCount = 0;
+        for(var i = 1; i < rows.length; i++) {
+            if(i >= first && i <= last) {
+                rows[i].style.display = 'table-row';
+                wordCount += Number(rows[i].getElementsByClassName("post-words")[0].innerText);
+            } else {
+                rows[i].style.display = 'none';
+            }
+        }
+        document.getElementById('word-count').innerHTML = wordCount;
+    }
+    function inputsChanged() {
+        console.log("hey");
+        var first = Number(document.getElementById("first").value);
+        var last = Number(document.getElementById("last").value);
+        if(first == NaN || first == 0) {
+            first = 1;
+        }
+        if(last == NaN || last == 0) {
+            last = document.getElementsByTagName('tr').length - 1;
+        }
+        tableRange(first,last);
+    }
+</script>
+
+<style>
+    /* I'm doing the styling here because this page is sort of 'unofficial'. */
+    html, body {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        overflow: auto;
+        margin: 2rem;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    table, th, td {
+        border: 1px solid black;
+        padding: 1rem;
+        width: -webkit-fill-available;
+        text-align: left;
+    }
+    a {
+        text-decoration: underline;
+    }
+    .total-word-count {
+        display: block;
+        background-color: #656565;
+        color: white;
+        width: -webkit-fill-available;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    #first, #last {
+        width: calc(48% - 1rem);
+        margin: 0;
+        border: none;
+        height: 2rem;
+        font-size: 1rem;
+        padding: 0;
+        padding-left: 1rem;
+    }
+    
+    #first {
+        margin-right: 2%;
+    }
+    .controls, .total-word-count {
+        margin-bottom: 1rem;
+    }
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    aside {
+        display: block;
+        margin-bottom: 1rem;
+        font-size: 0.7rem;
+    }
+</style>
