@@ -293,6 +293,10 @@ body.stop-scrolling {
     overflow-x: hidden;
 }
 
+.learn-index-banner .post-wrapper {
+    margin-top: calc(160px - 1.5rem - 1rem);
+}
+
 .learn-index-banner h1 {
     /* from https://kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/ */
     /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
@@ -307,6 +311,7 @@ body.stop-scrolling {
     //-ms-hyphens: auto;
     //hyphens: auto;
     font-family: "Merriweather";
+    padding-top: 0;
 }
 
 @media screen and (max-width: 500px) {
@@ -509,6 +514,13 @@ body.stop-scrolling {
 
 .codetheweb-learn a {
     text-decoration: none;
+}
+
+.learn-index-banner .codetheweb-learn {
+    color: white;
+    font-family: "Merriweather-Light";
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .home-banner.post-pattern-circuitBoard, .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
