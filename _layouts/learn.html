@@ -1,0 +1,25 @@
+---
+layout: default
+header-img: "/assets/img/hero.jpg"
+description: "Sign up to the newsletter"
+---
+
+{% include header.html %}
+
+<div id="learn-{{page.language}}-banner" class="g-banner home-banner learn-lang-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
+   <div class="learn-lang-banner-inner">
+    <h1>Learn {{page.language}}</h1><h2>The language for {{ page.purpose }}</h2>
+    </div>
+    {% if page.header-img %}
+    <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt="">
+    {% endif %}
+</div>
+<div class="post-content learn-lang-content">
+    <div class="markdown-body">
+        <!--<a href=".." class="back" target="_self">&lt; Back to learn</a>-->
+        {{content}}
+    </div>
+</div>
+
+
+{% include footer.html %}

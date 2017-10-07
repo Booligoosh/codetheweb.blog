@@ -21,6 +21,8 @@ description: Web development explained for normal people.
 
 <main class="g-container home-content">
     <div class="article-list">
+       <div class="learn-link-home card-style"><span class="learn-link-home-title">Looking to <a href="/learn/html">Learn HTML</a>?</span></div>
+       <!--<h3 class="recent-posts-title">Recent Posts:</h3>-->
         {% for post in paginator.posts %}
             <article class="article-item">
                 {% if post.image %}
@@ -102,7 +104,7 @@ description: Web development explained for normal people.
         </div>
         {% endif %}
         <a href="{{site.newsletter}}" class="btn subscribe-btn search-card">Subscribe</a>
-        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home" target="_blank"><img src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
+        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
     </aside>
     
 </main>
