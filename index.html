@@ -21,7 +21,6 @@ description: Web development explained for normal people.
 
 <main class="g-container home-content">
     <div class="article-list">
-       <div class="learn-link-home card-style"><span class="learn-link-home-title">Looking to <a href="/learn/html">Learn HTML</a>?</span></div>
        <!--<h3 class="recent-posts-title">Recent Posts:</h3>-->
         {% for post in paginator.posts %}
             <article class="article-item">
@@ -52,6 +51,10 @@ description: Web development explained for normal people.
                     <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
                 </footer>
             </article>
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+              {% if thecycle == 'odd' %}
+                {% include in-post-stream.html %}
+              {% endif %}
         {% endfor %}
 
         {% if paginator.total_pages > 1 %}

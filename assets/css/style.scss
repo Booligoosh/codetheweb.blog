@@ -476,10 +476,18 @@ body.stop-scrolling {
     background-size: cover;
 }
 
+.learn-link-home {
+    //border: 1rem solid white; /* note that this removes the border set by .card-style - not ideal. */
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    //opacity: .85;
+}
+
 .learn-link-home a {
     text-decoration: underline;
     color: white;
-    opacity: .8;
+    //opacity: .8;
 }
 
 .learn-link-home .learn-link-home-title {
@@ -493,6 +501,7 @@ body.stop-scrolling {
     background-repeat: repeat;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;*/
+    //color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (max-width: 695px) {
