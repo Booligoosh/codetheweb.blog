@@ -63,7 +63,7 @@ Now save (`File > Save`) the file as `index.html` in your `website` folder. Next
 
 Open the index.html file. It should open in your browser, but if it doesn't then right-click, select Open With and then choose your browser. Once it's in your browser, you should see something like this:
 
-[! A web-page with the HTML from above][html-in-browser]
+![A web-page with the HTML from above][html-in-browser]
 
 You will see that your url looks something like:
 ```
