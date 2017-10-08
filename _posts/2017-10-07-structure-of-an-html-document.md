@@ -3,7 +3,7 @@ layout: post
 title: 'The structure of an HTML document'
 image: '/assets/img/posts/structure-of-an-html-document/cover.png'
 tags: HTML
-keywords: "learn HTML, how to learn HTML, HTML tags"
+keywords: "learn HTML, how to learn HTML, HTML tags, HTML structure"
 ---
 In this article I will show you the overall structure of an HTML page. Now that you know the [HTML syntax][last-post], it's time to know how to use it.
 
