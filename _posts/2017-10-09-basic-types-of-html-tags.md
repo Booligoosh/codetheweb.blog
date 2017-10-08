@@ -9,11 +9,12 @@ Now we know how HTML tags work, what actually are they? What do they do? Learn a
 
 If don't have any knowledge of how HTML tags work yet, I recommed that you look over [this article][syntax].
 
-Today, we are going to be learning about four types of HTML tags, as well as how to comment your code:
+Today, we are going to be learning about five types of HTML tags:
 1. `h1` - `h6`
 2. `p`
 3. `br`
 4. `hr`
+5. Comments
 
 Let's get going!
 
@@ -179,8 +180,60 @@ Try separating our three `<p>`'s from before with horizontal rules. See if you c
 Did you get it right? Let's see what it looks like when we preview it:
 ![A page with horizontal lines between paragraphs][hr]
 
+## Comments
+Comments in programming are very important. They are not seen by the user of the website, but they can be seen by people editing the code, such as you or other people you are collaborating with. Even if what you are doing at the time seems obvious, it might not be in a few months' time. This is where comments come in. They let you document your code and write what you did, meaning that if you or someone else comes back to the code later, they will know what's going on.
+
+Comments are not normal HTML tags. They have an opening and closing part, but it's very different to the syntax of normal HTML tags. A comment is started with `<!--`. Then, after that comes whatever you have to say. You end the comment with `-->`. Here's an example:
+```HTML
+<!-- I am a comment, you will not see me on the actual page. -->
+```
+Comments can also span multiple lines:
+```HTML
+<!-- I am a comment
+That goes over multiple lines. -->
+```
+I find it easier to write multi-line like this, but you don't have to do it this way:
+```HTML
+<!--
+I am a comment
+That goes over multiple lines.
+-->
+```
+
+All of these methods are valid, choose the one that you like best and fits the situation best.
+
+Now, let's try comments out! You've (hopefully) learn a lot in this lesson - why don't you comment it all so you remember? See my example below:
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My awesome website</title>
+    </head>
+    <body>
+        <!-- All the types of headings from <h1> - <h6>. <h1> is biggest, <h6> is smallest. -->
+        <h1>Title</h1>
+        <h1>Subheading</h1>
+        <h3>Sub-subheading</h3>
+        <h4>Okay, this is getting crazy</h4>
+        <h5>I sure have a lot of headings</h5>
+        <h6>Wow, this one is so small that it barely looks like a heading</h6>
+        <!-- Three paragraphs (<p>'s) separated by horizontal rules (<hr>'s) -->
+        <p>Content, content content. Yay I like content.</p>
+        <hr>
+        <p>This is a new paragraph, you will notice the line break above. This second paragraph here even has... Multiple sentences!</p>
+        <hr>
+        <p>Wow, it's really hard to think of dummy content for three paragraphs. So here's some latin dummy text: Curabitur aliquet varius odio et volutpat. Aenean sagittis quam vitae eros ultrices tempor. Fusce et dolor vel lorem lobortis rhoncus non et ex. Nulla at ex suscipit, mollis neque a, egestas arcu. Praesent porttitor aliquet leo, ac elementum lorem ullamcorper nec. Integer ut sollicitudin est. Ut et erat ornare, ultricies risus ut, iaculis purus. Duis vulputate lorem eu augue ullamcorper porta. Aliquam a placerat nunc, id rutrum orci.</p>
+        <hr>
+        <!-- A heading that is broken onto two lines using the <br> tag -->
+        <h1>I am a heading that is bro<br>ken.</h1>
+        <!-- That was fun! -->
+    </body>
+</html>
+```
+This is my interpretation, but comment it in a way that makes sense to you. Preview your code - you will see that nothing has changed. This is because the comments are meant to be for people reading the code, as the end user doesn't want to see all your comments about confusing code stuff!
+
 ## Conclusion
-Well done! You made it, and you learnt about your first four HTML tags. As I said earlier, in the [next article][newsletter] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
+Well done! You made it, and you learnt about your first four/five HTML tags. As I said earlier, in the [next article][newsletter] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
 
 If you liked this article then don't forget to [share][share] and [subscribe][newsletter].
 
