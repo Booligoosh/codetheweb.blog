@@ -467,7 +467,7 @@ body.stop-scrolling {
     padding: 24px;
     color: white;
     
-    background-image: url(/assets/img/learn-home-link.jpg) !important;
+    background-image: url({% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}/assets/img/learn-home-link.jpg) !important;
     //background-attachment: fixed;
     background-position: -250px -220px;
     background-repeat: no-repeat;
