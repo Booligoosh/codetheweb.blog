@@ -124,15 +124,6 @@
 </section>
 
 {% include footer.html %}
-
-<script src="/assets/js/social-share.min.js"></script>
-<script>
-    socialShare('.social-share', {
-        sites: [{% for i in site.social-share-items %}'{{ i }}'{% if forloop.last == false %},{% endif %}{% endfor %}],
-        wechatQrcodeTitle: "分享到微信朋友圈",
-        wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
-    });
-</script>
 {% if jekyll.environment == "production" %}
 <script>
 /**
@@ -160,8 +151,8 @@ s.setAttribute('data-timestamp', +new Date());
         $(this).removeClass("reveal");
     })
 </script>
-<script src="/assets/js/prism.js"></script>
-<script src="/assets/js/index.min.js"></script>
+<script>{% include js/prism.js %}</script>
+<script>{% include js/index.min.js %}</script>
 <script>
     console.log("Number of words: {{content | number_of_words}}");
 </script>
