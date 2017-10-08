@@ -1,4 +1,4 @@
-{% if page.url == '/' %}{% assign home = true %}{% endif %}
+{% assign home = page.home %}
 <style>@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');</style>
 {% unless home %}<div class="social-share-wrapper">{% endunless %}
     <div class="social-share{% if home %} social-share-home card-style{% endif %}">

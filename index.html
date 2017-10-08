@@ -3,6 +3,7 @@ layout: default
 home-title: Code The Web
 title: Code The Web Blog
 description: Web development explained for normal people.
+home: true
 ---
 
 {% include header.html %}
@@ -68,7 +69,7 @@ description: Web development explained for normal people.
         <div class="g-sidebar">
             <section class="author-card">
                 <div class="avatar">
-                    <img src="{{ site.baseurl }}{{ site.avatar }}" alt="">
+                    <img src="/{{ site.avatar }}" alt="">
                 </div>
                 <div class="author-name" rel="author">{{ site.author }}</div>
                 <div class="bio">
