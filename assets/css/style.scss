@@ -159,13 +159,16 @@ $dark-grey: #444444;
         float: none;
         width: auto;
     }
-    .g-sidebar-wrapper .subscribe-btn, .social-share-home, .sp-badge-home {
+    .g-sidebar-wrapper .subscribe-btn, .card-style {
         max-width: 695px;
         width: auto !important;
         float: none;
         margin: 16px auto !important;
         left: 0;
         display: block;
+    }
+    #sponsors {
+        text-align: center;
     }
 }
 
@@ -543,8 +546,10 @@ body.stop-scrolling {
 }
 
 .sponsors li img {
-    margin-bottom: 5px;
+    margin: auto auto 5px;
     max-width: 100%;
+    max-height: 250px;
+    display: block;
 }
 
 .sponsors li a a, .sponsors li a span {
