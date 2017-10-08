@@ -12,7 +12,6 @@ All HTML documents start with a *`DOCTYPE`* tag. This tells the web browser that
 ```HTML
 <!DOCTYPE html>
 ```
-</code></pre>
 Oh! I almost forgot to tell you: you should follow along with me. If you're not set up to write and test your code, check out [this article][set-up] first.
 
 So, pop open your [code editor][code-editor] and make a new file called `structure.html`. Once that's all done, type the code snippet from above into it. Note that*`DOCTYPE`* is all uppercase, while `html` is all lowercase (a bit counter-intuitive).
