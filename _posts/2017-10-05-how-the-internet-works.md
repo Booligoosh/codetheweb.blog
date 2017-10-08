@@ -53,7 +53,7 @@ CSS can control the position, color and behaviour of HTML elements as well as si
 [Click here if you want to see examples of what these languages look like.][languages-explained]
 
 ## Viewing websites created on your own computer
-Remember I said that all URL's do is tell your computer where it download the website from so it can display it? Well guess what... browsers can also display files on your own computer! Don't forget, websites are simply folders with files in them like you would find on your computer, and servers are actually just computers. I'll go into this in more depth [in my next article, where I'll be discussing how to practice web development on your own computer - for free!][newsletter]
+Remember I said that all URL's do is tell your computer where it download the website from so it can display it? Well guess what... browsers can also display files on your own computer! Don't forget, websites are simply folders with files in them like you would find on your computer, and servers are actually just computers. I'll go into this in more depth [in my next article, where I'll be discussing how to practice web development on your own computer - for free!][set-up]
 
 If you liked this article, don't forget to [share with your friends][share] or [leave a comment below][comments] to say hi (feedback is always welcome)!
 
@@ -63,6 +63,7 @@ If you liked this article, don't forget to [share with your friends][share] or [
 [languages-explained]: /2017/10/04/how-to-learn-web-development/#html
 [prime-generator]: https://booligoosh.github.io/technetiumprime
 [nodejs]: https://nodejs.org/
+[next-post]: /2017/10/04/how-to-learn-web-development/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

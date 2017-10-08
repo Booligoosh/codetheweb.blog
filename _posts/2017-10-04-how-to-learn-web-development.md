@@ -93,13 +93,14 @@ This order goes from easiest to most difficult, and also most essential to least
 Now here's the biggie: How much time do you need to spend on coding to learn it? Even if you are short on time, you can still learn to code - you will just learn at a slower pace. You shouldn't really be aiming to do a certain amount of coding each week - just set some time aside, and code for as long as you want (or until your brain hurts). Ideally, you will enjoy coding and it won't be a matter of trying to sit down for a certain amount of time. That said, there will be times along the way when something isn't working as expected and you have no idea what to do, but keep persevering. In terms of frequency, I would recommend at least once a week, but do it as often as you want if you have the time.
 
 ## Conclusion
-Congrats on starting your journey to becoming a web developer! There will be times when you want to give up, but keep going and you will enjoy it. To get started with web development, [look out for my next post, where I'll be talking about how to get your computer set up for web development][newsletter].
+Congrats on starting your journey to becoming a web developer! There will be times when you want to give up, but keep going and you will enjoy it. To get started with web development, [look out for my next post, where I'll be talking about how to get your computer set up for web development][set-up].
 
 So, what did you think of that article? Don't hesistate to [tell me in the comments][comments] or [share it with your friends][share] if you liked it.
 
 [dont-code]: https://simpleprogrammer.com/2016/02/22/please-dont-learn-to-code-unless/
 [StackOverflow]: https://stackoverflow.com/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
+[set-up]: /2017/10/04/how-to-learn-web-development/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
