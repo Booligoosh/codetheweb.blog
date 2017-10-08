@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Basic types of HTML tags'
-image: '/assets/img/posts/basic-types-of-html-tags/cover.png'
+image: '/assets/img/posts/basic-types-of-html-tags/cover.jpg'
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags, types of HTML tags"
 ---
