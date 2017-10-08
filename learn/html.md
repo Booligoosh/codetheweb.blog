@@ -21,6 +21,7 @@ These are optional but recommended. In tutorials, I might build on what's covere
 I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing HTML, I will move on to [CSS][css].
 1. [HTML syntax][html-syntax]
 2. [The structure of an HTML document][structure-of-an-html-document]
+3. [Basic types of HTML tags][basic-types-of-html-tags]
 
 [welcome]: /2017/09/29/welcome/
 [how-to-learn-web-development]: /2017/10/04/how-to-learn-web-development/
@@ -28,5 +29,6 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [web-development-on-your-computer]: /2017/10/06/web-development-on-your-computer/
 [html-syntax]: /2017/10/06/html-syntax/
 [structure-of-an-html-document]: /2017/10/07/structure-of-an-html-document/
+[basic-types-of-html-tags]: /2017/10/09/basic-types-of-html-tags/
 
 [css]: /learn/css
