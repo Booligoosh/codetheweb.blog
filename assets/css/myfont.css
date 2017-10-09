@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-i.icon-logo, i.icon-website {
+i.icon-logo, i.icon-website, .icon-email {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'myfont' !important;
   speak: none;
@@ -29,4 +29,7 @@ i.icon-logo, i.icon-website {
 }
 .icon-website:before {
   content: "\f0ac";
+}
+.icon-email:before {
+  content: "\f0e0";
 }
