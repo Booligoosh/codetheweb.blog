@@ -28,7 +28,7 @@ home: true
                 {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
+                    <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
                 </div>
                 {% endif %}
                 <section class="post-preview">
@@ -108,13 +108,13 @@ home: true
         </div>
         {% endif %}
         <a href="{{site.newsletter}}" class="btn subscribe-btn search-card">Subscribe</a>
-        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
+        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="/assets/img/loading.svg" data-src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
         <h3 id="sponsors">Sponsors:</h3>
         <div class="sponsors card-style">
             <ul>
                 <li>
                     <a href="{{ site.sponsor }}" target="_blank">
-                        <img src="/assets/img/your-logo-here.png">
+                        <img src="/assets/img/loading.svg" data-src="/assets/img/your-logo-here.png">
                         In return for a link on your site. <span href="{{ site.sponsor }}">Learn more.</span>
                     </a>
                 </li>
