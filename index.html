@@ -69,7 +69,7 @@ home: true
         <div class="g-sidebar">
             <section class="author-card">
                 <div class="avatar">
-                    <img src="/{{ site.avatar }}" alt="">
+                    <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=70&amp;url={% endif %}{{ site.url }}/{{ site.avatar }}" alt="{{site.author}}">
                 </div>
                 <div class="author-name" rel="author">{{ site.author }}</div>
                 <div class="bio">
