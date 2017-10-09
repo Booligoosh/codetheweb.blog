@@ -1,5 +1,3 @@
----
----
 // make all links open in new tab
 var links = document.getElementsByClassName('markdown-body')[0].getElementsByTagName('a');
 for (var i = 0; i < links.length; i++){

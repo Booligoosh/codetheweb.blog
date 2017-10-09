@@ -145,14 +145,12 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
-<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+{% include end.html %}
 <script>
     $("pre.reveal").click(function(){
         $(this).removeClass("reveal");
     })
 </script>
-<script>{% include js/prism.js %}</script>
-<script>{% include js/index.min.js %}</script>
 <script>
     console.log("Number of words: {{content | number_of_words}}");
 </script>
