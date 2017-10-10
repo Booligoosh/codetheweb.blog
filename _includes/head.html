@@ -3,14 +3,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% unless page.home-title %} - {{ site.title }}{% endunless %}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 126}}{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{{ site.keyword }}{% if page.tags.size > 0 %}, {% for tag in page.tags  %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}">
     <!-- Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 126}}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
     <!-- Real Favicon Generator -->
     <!-- From https://realfavicongenerator.net/favicon_result?file_id=p1br6ah5so7lk102b1dnr1eh516fe6#.Wc4AtBOCx8c (modified - icon directory has been changed -->
