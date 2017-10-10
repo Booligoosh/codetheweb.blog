@@ -96,7 +96,7 @@
             </section>
             {% if page.previous.image %}
             <div class="filter"></div>
-            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{ page.previous.image }}" alt="">
+            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.previous.image }}" alt="">
             {% endif %}
         </div>
         {% endif %}
@@ -110,7 +110,7 @@
             </section>
             {% if page.next.image %}
             <div class="filter"></div>
-            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{ page.next.image }}" alt="">
+            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.next.image }}" alt="">
             {% endif %}
         </div>
         {% endif %}
