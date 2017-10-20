@@ -98,7 +98,7 @@ Remember that the `<p>`'s have stuff inside them, so make sure to add a closing 
 Hopefully your page should look similar, but with different content. Next up, we'll take a look at line breaks.
 
 ## First,<br>A note about links (a) and images (img)
-Links and images are two of the most common HTML elements. I haven't included them in this article, as they require knowledge about file paths. I will be writing about them in my [next article][newsletter].
+Links and images are two of the most common HTML elements. I haven't included them in this article, as they require knowledge about file paths. I will be writing about them in my [next article][links-and-images].
 
 ## Line breaks (br)
 Wait, what? I thought we just learnt about line breaks! All you need to do is start a new `<p>`!
@@ -233,7 +233,7 @@ Now, let's try comments out! You've (hopefully) learn a lot in this lesson - why
 This is my interpretation, but comment it in a way that makes sense to you. Preview your code - you will see that nothing has changed. This is because the comments are meant to be for people reading the code, as the end user doesn't want to see all your comments about confusing code stuff!
 
 ## Conclusion
-Well done! You made it, and you learnt about your first four/five HTML tags. As I said earlier, in the [next article][newsletter] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
+Well done! You made it, and you learnt about your first four/five HTML tags. As I said earlier, in the [next article][links-and-images] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
 
 If you liked this article then don't forget to [share][share] and [subscribe][newsletter].
 
@@ -248,6 +248,7 @@ If there's anything you want to ask / tell me, do so in the [comments below][com
 [paragraphs]: /assets/img/posts/basic-types-of-html-tags/paragraphs.png
 [br]: /assets/img/posts/basic-types-of-html-tags/br.png
 [hr]: /assets/img/posts/basic-types-of-html-tags/hr.png
+[links-and-images]: /2017/10/14/links-images-about-file-paths/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

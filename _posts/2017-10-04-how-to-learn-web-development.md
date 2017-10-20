@@ -6,6 +6,8 @@ tags: Other HTML CSS JavaScript
 ---
 So you want to learn web development. But how do you actually go about learning it? Read on to find out...
 
+> **Looking to jump right in and learn a language? [Do so here.][learn]**
+
 ## What is web development?
 You've probably heard of coding, or programming (actually I'm sure you have!). Well, web development is just a type of coding - specifically, coding websites or web applications (websites that do stuff). It is one of the most common forms of programming in this day and age, and a great place to start for beginner programmers.
 
@@ -97,10 +99,16 @@ Congrats on starting your journey to becoming a web developer! There will be tim
 
 So, what did you think of that article? Don't hesistate to [tell me in the comments][comments] or [share it with your friends][share] if you liked it.
 
+> UPDATE:<br>
+> **Interested in learning any of the three languages I talked about in this article?**<br>
+> I have made pages for HTML, CSS and JavaScript with all of my posts you should read to learn that language *in order*.<br><br>
+> [You can get going right away here!][learn]
+
 [dont-code]: https://simpleprogrammer.com/2016/02/22/please-dont-learn-to-code-unless/
 [StackOverflow]: https://stackoverflow.com/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
 [set-up]: /2017/10/04/how-to-learn-web-development/
+[learn]: {{site.learn}}
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

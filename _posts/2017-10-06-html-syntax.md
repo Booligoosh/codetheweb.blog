@@ -39,7 +39,7 @@ Ok, I'm going to show you a bit of code. *WHAT???* Don't panic. You don't have t
 ```
 See? You survived (I hope). For starters, don't worry about what any of this means - we are only worrying about the structure at the moment.
 
-An element is basically bit of content (text), surrounded by *HTML tags* (I will go into this more later). The tags tell the browser information about what is inside it. For example, `<h1>Blog Posts.</h1>` is telling the browser that "Blog Posts." is an `h1` element - a type of heading. You don't need to remember that, I will go into it more in a [later article][newsletter].
+An element is basically bit of content (text), surrounded by *HTML tags* (I will go into this more later). The tags tell the browser information about what is inside it. For example, `<h1>Blog Posts.</h1>` is telling the browser that "Blog Posts." is an `h1` element - a type of heading. You don't need to remember that, I will go into it more in a [later article][types-of-html-tags].
 
 An *element* refers to the content as well as the two tags. This is an example of an element:
 ```HTML
@@ -96,12 +96,14 @@ The quotation marks are very important, so don't forget them! Also note that the
 ## Conclusion
 Let's consolidate what we know about HTML tags and elements into this diagram:
 ![A diagram of the sections of and HTML element][tag-structure-2]
-Phew. That might have been a bit confusing, but eventually you'll get the hang of it. If there's anything you don't get you can go back over this article or [ask me in the comments][comments]. If you liked the article, don't forget to [share with your friends][share] and [subscribe to the newsletter][newsletter]. Have fun and I'll see you next time, where I'll be talking about [the general structure of HTML websites][newsletter].
+Phew. That might have been a bit confusing, but eventually you'll get the hang of it. If there's anything you don't get you can go back over this article or [ask me in the comments][comments]. If you liked the article, don't forget to [share with your friends][share] and [subscribe to the newsletter][newsletter]. Have fun and I'll see you next time, where I'll be talking about [the general structure of HTML websites][html-document-structure].
 
 
 [learn-web-development]: /2017/10/04/how-to-learn-web-development/
 [tag-structure-1]: /assets/img/posts/html-syntax/tag-structure-1.png
 [tag-structure-2]: /assets/img/posts/html-syntax/tag-structure-2.png
+[types-of-html-tags]: /2017/10/09/basic-types-of-html-tags/
+[html-document-structure]: /2017/10/07/structure-of-an-html-document/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
