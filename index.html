@@ -54,7 +54,9 @@ home: true
             </article>
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
               {% if thecycle == 'odd' %}
-                {% include in-post-stream.html %}
+                {% include in-post-stream-odd.html %}
+              {% else if forloop.index > 0 %}
+                {% include in-post-stream-even.html %}
               {% endif %}
         {% endfor %}
 

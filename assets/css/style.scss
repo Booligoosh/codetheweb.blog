@@ -465,7 +465,9 @@ body.stop-scrolling {
     margin-bottom: 16px;
     padding: 24px;
     color: white;
-    
+}
+
+.learn-link-home.lang, .learn-lang-banner, .learn-index-banner {
     background-image: url({% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=700&url={% endif %}{{ site.url }}/assets/img/learn-home-link.jpg) !important;
     //background-attachment: fixed;
     background-position: -250px -220px;
@@ -485,6 +487,10 @@ body.stop-scrolling {
     //margin-right: 20px;
     width: auto;
     //opacity: .85;
+}
+
+.learn-link-home.facebook {
+    background-color: #3b5998;
 }
 
 .learn-link-home a {
