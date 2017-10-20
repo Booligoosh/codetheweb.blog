@@ -12,14 +12,15 @@ sitemap: false
     <div class="post-wrapper">
         <h1 id="main">Thanks!</h1>
         <span class="subheading" id="alt">You will recieve a confirmation email shortly. It is very important that you open it, otherwise you won't be signed up &#128561;<!-- http://graphemica.com/%F0%9F%98%B1 --></span>
-        <a href="{{ site.nav.home }}" class="btn">Back to home</a>
+        <a href="{{ site.nav.home }}" class="btn" id="back-to-home">Back to home</a>
     </div>
 </header>
 
 <script>
     if(window.location.search != '') {
         document.getElementById('main').innerHTML = 'Processing...'
-        document.getElementById('alt').innerHTML = 'Hang on while we contact some hypothetical servers in an undisclosed location within the ever-changing fabric of space-time...';
+        document.getElementById('alt').innerHTML = 'Hang on while we contact some hypothetical servers in an undisclosed location within the ever-changing fabric of space-time...<br><br>This could take up to 10 seconds :(';
+        document.getElementById('back-to-home').style.display = 'none';
         var webhook = 'https://hooks.zapier.com/hooks/catch/1610912/ib3mn6/';
         var sendUrl = webhook + window.location.search;
         var xhr = new XMLHttpRequest();
