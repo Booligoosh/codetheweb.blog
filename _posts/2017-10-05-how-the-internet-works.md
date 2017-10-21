@@ -64,6 +64,7 @@ If you liked this article, don't forget to [share with your friends][share] or [
 [prime-generator]: https://booligoosh.github.io/technetiumprime
 [nodejs]: https://nodejs.org/
 [next-post]: /2017/10/04/how-to-learn-web-development/
+[set-up]: /2017/10/06/web-development-on-your-computer/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
