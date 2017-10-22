@@ -11,11 +11,13 @@ sitemap: false
 <span class="total-word-count"><b>Total Word Count:</b> <span id="word-count">0000</span></span>
 <table>
     <tbody>
+       {% assign wpm = 150 %}
         <tr>
             <th>Post number</th>
             <th>Post Date</th>
             <th>Post Name</th>
             <th>Word count</th>
+            <th>Read time ({{wpm}} WPM)</th>
         </tr>
         {% assign posts = site.posts | reverse %}
         {% for post in posts %}
@@ -25,6 +27,7 @@ sitemap: false
             <td class="post-date">{{post.date | date: "%A %-d %B %Y"}}</td>
             <td class="post-title"><a href="{{post.url}}" target="_blank">{{post.title}}</a></td>
             <td class="post-words">{{post_words}}</td>
+            <td class="post-read-time">{{post_words | divided_by: wpm}} mins</td>
         </tr>
         {% endfor %}
     </tbody>
