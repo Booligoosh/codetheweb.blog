@@ -52,12 +52,14 @@ home: true
                     <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
                 </footer>
             </article>
+            {% if forloop.index < paginator.posts.size %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
               {% if thecycle == 'odd' %}
                 {% include in-post-stream-odd.html %}
               {% else if forloop.index > 0 %}
                 {% include in-post-stream-even.html %}
               {% endif %}
+            {% endif %}
         {% endfor %}
 
         {% if paginator.total_pages > 1 %}
