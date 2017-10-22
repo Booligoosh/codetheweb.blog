@@ -74,5 +74,7 @@ repo: https://github.com/CodeTheWebBlog/CodeTheWebBlog.github.io/
 permalink: pretty
 sponsor: /sponsor
 
+email: '<span class="email"></span>'
+
 social:
   facebook: 'https://www.facebook.com/Code-The-Web-1698381666901290/'
