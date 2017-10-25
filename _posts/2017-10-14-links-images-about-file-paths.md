@@ -7,7 +7,7 @@ keywords: "learn HTML, how to learn HTML, HTML tags, links, images, files, file 
 ---
 Links and images are two of the most common elements in HTML. Learn how to use them along with file paths in this article...
 
-In my last article, I talked about some [common HTML elements][last-post]. Two elements that I left out were images and links. But why? Images and links both require and understanding of file paths.
+In my last article, I talked about some [common HTML elements][last-post]. Two elements that I left out were images and links. But why? Images and links both require an understanding of file paths.
 
 > **NOTE:** I highly reccomend reading [How the internet works][how-the-internet-works] first, as it will help you understand file paths better. Also, to follow along with the previews in this article it would be helpful to have read [Practice web development on your computer][set-up].
 
