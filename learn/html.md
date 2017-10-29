@@ -36,7 +36,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [t3]: /2017/10/09/basic-types-of-html-tags/
 [t4]: /2017/10/14/links-images-about-file-paths/
 [t5]: /2017/10/22/wrapping-and-grouping-elements/
-[t6]: /2017/10/29/list-and-navigation/
+[t6]: /2017/10/29/lists-and-navigation/
 
 
 [css]: /learn/css
