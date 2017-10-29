@@ -24,6 +24,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 3. [Basic types of HTML tags][t3]
 4. [Links, images and about file paths][t4]
 5. [Wrapping and grouping HTML elements][t5]
+6. [Lists and navigation in HTML][t6]
 
 [welcome]: /2017/09/29/welcome/
 [p1]: /2017/10/04/how-to-learn-web-development/
@@ -35,6 +36,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [t3]: /2017/10/09/basic-types-of-html-tags/
 [t4]: /2017/10/14/links-images-about-file-paths/
 [t5]: /2017/10/22/wrapping-and-grouping-elements/
+[t6]: /2017/10/29/list-and-navigation/
 
 
 [css]: /learn/css
