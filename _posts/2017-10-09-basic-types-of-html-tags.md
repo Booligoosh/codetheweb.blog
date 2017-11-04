@@ -103,7 +103,7 @@ Links and images are two of the most common HTML elements. I haven't included th
 ## Line breaks (br)
 Wait, what? I thought we just learnt about line breaks! All you need to do is start a new `<p>`!
 
-This is the case most of the time, but sometimes you will want to add a line break part-way through a heading or paragraph. In fact, that's what I did with the heading about links and images! The code for that heading looks like this:
+This is the case most of the time, but sometimes you will want to add a line break part-way through a heading or paragraph. In fact, that's what I did with the heading about links and images - scroll up and take a look! The code for that heading with a line break looks like this:
 ```HTML
 <h1>First,<br>A note about links (a) and images (img)</h1>
 ```
@@ -116,7 +116,7 @@ Try and work out why we wouldn't just write this:
 ```
 The reason is because that would imply that there are two headings, one saying "First," and one saying "A note about links (a) and images (img)". This is not what we want, as they are not two separate headings but one heading broken onto two lines. Also, most browsers would make the line break in between the two lines larger if we went with the second option (normally you don't want two titles to look like they're connected).
 
-Add an `<h1>` with a line break in it to your HTML page. You have the approximate from above, see if you can get it right:
+Add an `<h1>` with a line break in it to your HTML page. You have the syntax from above, see if you can get it right:
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -177,6 +177,8 @@ Try separating our three `<p>`'s from before with horizontal rules. See if you c
     </body>
 </html>
 ```
+{:class="reveal"}
+
 Did you get it right? Let's see what it looks like when we preview it:
 ![A page with horizontal lines between paragraphs][hr]
 
