@@ -68,7 +68,7 @@ sass:
   
 newsletter: /newsletter
 share: '#share'
-comments: '#comments'
+comments: '#disqus_thread'
 learn: '/learn'
 repo: https://github.com/CodeTheWebBlog/CodeTheWebBlog.github.io/
 permalink: pretty
