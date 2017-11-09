@@ -22,7 +22,7 @@ $dark-grey: #444444;
 }
 
 .home-banner.post-pattern-circuitBoard {
-    background-image: /*url("{% include circuit-board-pattern %}"),*/ linear-gradient(100deg, rgba(255, 206, 105, 0.95), rgba(250, 112, 154, 0.95)), url("{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1000&amp;url={% endif %}{{site.url}}/assets/img/header-img.jpg");
+    background-image: /*url("{% include circuit-board-pattern %}"),*/ linear-gradient(100deg, rgba(255, 206, 105, 0.95), rgba(250, 112, 154, 0.95)), url("{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1000&url={% endif %}{{site.url}}/assets/img/header-img.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
