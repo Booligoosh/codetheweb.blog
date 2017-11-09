@@ -1,0 +1,54 @@
+---
+layout: default
+home-title: Code The Web
+title: Code The Web Blog
+description: Web development explained for normal people.
+---
+<div class="large g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
+    <div class="actual-headings">
+        <h1>{{ page.home-title }}</h1>
+        <h2>{{ pag.description }}</h2>
+    </div>
+    <h2><!--{{ page.home-title }}-->{% include svg/logo-trans-clipped.svg %}</h2>
+    <h3>{{ page.description }}</h3> {% if page.header-img %}
+    <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt=""> {% endif %}
+</div>
+
+
+<main class="g-container landing-content">
+   <section class="landing-intro">
+       <p>&ldquo;Code The Web is a blog I made with one goal - to share my knowledge and inspire other people. Join me on a journey where I will guide you right through from getting your computer set up to making dynamic and interactive websites that look amazing.&rdquo;</p>
+   </section>
+   <!--<section class="landing-view-langs">
+       <h2>View my tutorials:</h2>
+   </section>-->
+    <section class="landing-lang">
+        <div class="landing-lang-img" style="background-image: url('/assets/img/landing-imgs/html.jpg')"></div>
+        <div class="landing-lang-content">
+            <h1>HTML</h1>
+            <p>HTML is the language used to create websites. On Code The Web, I show you how to create your very own websites with HTML and give you a good understanding into the workings of HTML and the web.</p>
+        </div>
+    </section>
+    <section class="landing-lang odd">
+       <div class="landing-lang-img" style="background-image: url('/assets/img/landing-imgs/css.jpg')"></div>
+        <div class="landing-lang-content">
+            <h1>CSS</h1>
+            <p>CSS is the language used to style websites and make them look super-awesome and hipster. On Code The Web, I also teach you how to learn this cool language.</p>
+        </div>
+    </section>
+    <section class="landing-lang">
+       <div class="landing-lang-img" style="background-image: url('/assets/img/landing-imgs/js.jpg')"></div>
+        <div class="landing-lang-content">
+            <h1>JavaScript</h1>
+            <p>JavaScript it the language used to make websites do cool stuff. Without it, you wouldn't be able to do anything on the internet other than click on links. Learn how to make websites that do when I teach you JavaScript on Code The Web.</p>
+        </div>
+    </section>
+    <!--
+    <section class="landing-lang odd">
+       <div class="landing-lang-img" style="background-image: url('/assets/img/landing-imgs/jekyll.jpg')"></div>
+        <div class="landing-lang-content">
+            <h1>Jekyll</h1>
+        </div>
+    </section>
+    -->
+</main>

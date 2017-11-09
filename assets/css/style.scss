@@ -651,6 +651,76 @@ span.email.guestpost:before {
     line-height: 1.5em;
 }
 
+.landing-content {
+    margin: 0 !important;
+}
+
+section.landing-intro {
+    width: calc(100vw - 8rem);
+    padding: 15vh 4rem;
+    background-color: #656565;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Merriweather;
+    line-height: 1.4em;
+}
+
+section.landing-view-langs {
+    width: calc(100vw - 8rem);
+    padding: 8vh 4rem;
+    background-color: #95f0ff;
+    text-align: center;
+    font-size: 2rem;
+    font-family: Merriweather;
+}
+
+section.landing-lang {
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+}
+
+.landing-lang-content, .landing-lang-img {
+    width: 50vw;
+    display: inline-block;
+    grid-row: 1;
+}
+
+.landing-lang-img {
+    grid-column: 1;
+    height: inherit;
+    background-image: url('/assets/img/loading.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.landing-lang-content {
+    grid-column: 2;
+    padding: 4rem;
+    padding-top: 10rem;
+    width: calc(50vw - 8rem);
+}
+
+.landing-lang-content h1 {
+    font-family: Merriweather;
+    font-size: 3.5rem;
+}
+
+.landing-lang-content p {
+    font-family: "Merriweather-Light";
+    font-size: 1.2rem;
+}
+
+section.landing-lang.odd .landing-lang-content {
+    grid-column: 1;
+    //text-align: right;
+}
+section.landing-lang.odd .landing-lang-img {
+    grid-column: 2;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
