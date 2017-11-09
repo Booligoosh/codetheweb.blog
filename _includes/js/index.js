@@ -227,7 +227,8 @@ $(document).ready(function(){
             hour = date.getHours();
 
         if((hour >= 0 && hour <= 6) || hour === 23) {
-            el.addClass(className);
+            /* MAY ADD IN LATER */
+            //el.addClass(className);
         }
     }
     
