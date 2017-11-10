@@ -98,7 +98,7 @@ home: true
                     {% if forloop.index > site.recommend-condition-size %}
                         {% break %}
                     {% endif %}
-                <a href="{{ site.baseurl }}tags.html#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+                <a href="{{ site.baseurl }}tags/#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
                 {% endfor %}
             </section>
             {% endif %}
