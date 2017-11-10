@@ -10,13 +10,13 @@ description: Web development explained for normal people.
         <h2>{{ pag.description }}</h2>
     </div>
     <h2><!--{{ page.home-title }}-->{% include svg/logo-trans-clipped.svg %}</h2>
-    <h3>{{ page.description }}</h3> {% if page.header-img %}
-    <img class="header-img" src="{{ site.baseurl }}{{ page.header-img }}" alt=""> {% endif %}
+    <h3>{{ page.description }}</h3>
+    <a href="#intro">{% include svg/entypo-chevron-with-circle-down.svg %}</a>
 </div>
 
 
 <main class="g-container landing-content">
-   <section class="landing-intro">
+   <section class="landing-intro" id="intro">
        <p>&ldquo;Code The Web is a blog I made with one goal - to share my knowledge and inspire other people. Join me on a journey where I will guide you right through from getting your computer set up to making dynamic and interactive websites that look amazing.&rdquo;</p>
    </section>
    <!--<section class="landing-view-langs">
