@@ -736,6 +736,32 @@ section.landing-lang.odd .landing-lang-img {
     opacity: 1;
 }
 
+@media screen and (max-width: 780px) {
+    section.landing-lang {
+        margin-top: 75vh;
+    }
+    section.landing-lang:nth-child(2) {
+        margin-top: 0;
+    }
+    .landing-lang-img, .landing-lang-content {
+        grid-column: 1 !important;
+    }
+    .landing-lang-img {
+        width: 100vw;
+        grid-row: 1;
+    }
+    .landing-lang-content  {
+        width: calc(100vw - 8rem);
+        grid-row: 2;
+        
+        justify-content: center;
+        text-align: center;
+    }
+    section.landing-intro {
+        font-size: 1.5rem;
+    }
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
