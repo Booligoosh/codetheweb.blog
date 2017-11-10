@@ -666,6 +666,11 @@ section.landing-intro {
     line-height: 1.4em;
 }
 
+section.landing-intro a {
+    color: white;
+    text-decoration: underline;
+}
+
 section.landing-view-langs {
     width: calc(100vw - 8rem);
     padding: 8vh 4rem;
@@ -734,6 +739,24 @@ section.landing-lang.odd .landing-lang-img {
 
 .home-banner svg#Chevron_circled_down:hover {
     opacity: 1;
+}
+
+.landing-lang-link:before {
+    content: "Get Started!";
+}
+
+.landing-lang-link {
+    background-color: #03A9F4;
+    color: white;
+    padding: 16px;
+    border-radius: 32px;
+    margin-top: 15px;
+    font-family: Merriweather;
+    transition: all, 1s;
+}
+
+.landing-lang-link:hover {
+    background-color: #0288D1;
 }
 
 @media screen and (max-width: 780px) {
