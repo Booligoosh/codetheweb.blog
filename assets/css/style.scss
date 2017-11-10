@@ -699,8 +699,12 @@ section.landing-lang {
 .landing-lang-content {
     grid-column: 2;
     padding: 4rem;
-    padding-top: 10rem;
     width: calc(50vw - 8rem);
+    height: calc(75vh - 8rem);
+    
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .landing-lang-content h1 {
