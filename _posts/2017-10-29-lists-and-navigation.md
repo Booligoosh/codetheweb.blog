@@ -146,7 +146,7 @@ Have fun, and I'll see you all next week where I'll be writing [my first CSS tut
 [seo]: {{site.newsletter}}
 [seo-1]: {{site.newsletter}}
 [nav-bar-css]: {{site.newsletter}}
-[css-syntax]: {{site.newsletter}}
+[css-syntax]: /2017/11/11/css-syntax/
 [first-post]: /2017/09/29/welcome/
 [my-nav]: /assets/img/posts/lists-and-navigation/my-nav.png
 [other-nav]: /assets/img/posts/lists-and-navigation/froala-nav.png
