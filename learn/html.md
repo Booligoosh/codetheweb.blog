@@ -18,7 +18,7 @@ These are optional but recommended. In tutorials, I might build on what's covere
 [Practice web development on your computer][p3]
 
 # Tutorials
-I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing HTML, I will move on to [CSS][css].
+I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning HTML, you can move on to [CSS][css].
 1. [HTML syntax][t1]
 2. [The structure of an HTML document][t2]
 3. [Basic types of HTML tags][t3]

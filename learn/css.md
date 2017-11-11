@@ -4,13 +4,10 @@ language: CSS
 title: Learn CSS
 purpose: making websites look good
 ---
-<br>
-> ## I haven't written any actual CSS tutorials yet, but it's on my list. [Check back later!][newsletter]{:target="_self"}
-
-I have written some of the prerequisites, though:
+I've written many tutorials on HTML. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn HTML. If you want to know more about Code The Web, check out the [welcome post][welcome].
 
 # Prerequisites
-These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so you are writing and running our code in the same way as I am.
+These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so you are writing and running your code in the same way as I am.
 ## How to learn a programming language
 [How to learn web development][p1]
 
@@ -20,9 +17,18 @@ These are optional but recommended. In tutorials, I might build on what's covere
 ## Set-up
 [Practice web development on your computer][p3]
 
+# Tutorials
+I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing CSS, I will move on to [JavaScript][js].
+1. [CSS syntax][t1]
+
+
 [newsletter]: {{site.newsletter}}
 
 [welcome]: /2017/09/29/welcome/
 [p1]: /2017/10/04/how-to-learn-web-development/
 [p2]: /2017/10/05/how-the-internet-works/
 [p3]: /2017/10/06/web-development-on-your-computer/
+
+[t1]: /2017/11/11/css-syntax/
+
+[js]: /learn/javascript
