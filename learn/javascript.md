@@ -10,7 +10,7 @@ purpose: creating interactive websites
 I have written some of the prerequisites, though:
 
 # Prerequisites
-These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so you are writing and running our code in the same way as I am.
+These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so you are writing and running your code in the same way as I am.
 ## How to learn a programming language
 [How to learn web development][p1]
 
