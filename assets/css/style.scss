@@ -785,6 +785,12 @@ section.landing-lang.odd .landing-lang-img {
     }
 }
 
+.learn-lang-content .markdown-body blockquote.newsletter {
+    background-color: #ffd78e;
+    padding: 1rem;
+    border-left: none;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
