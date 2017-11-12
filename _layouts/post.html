@@ -30,99 +30,100 @@
 <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
 
 {% include header.html %}
+<main>
+    <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
+        <div class="post-wrapper">
+            <div class="post-tags">
+                {% if page.tags.size > 0 %} 
+                {% for tag in page.tags  %}
+                <a href="/tags#{{ tag }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+                {% endif %}
+            </div>
+            <h1>{{ page.title }}</h1>
+            <div class="post-meta">
+                <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></span>
+                <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
+            </div>
+        </div>
+        {% if page.image and page.imageonpage != false %}
+        <div class="filter"></div>
+        <div class="post-cover" style="background: url('{{ page.image }}') center no-repeat; background-size: cover;">
+        {% endif %}
+    </header>
 
-<header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
-    <div class="post-wrapper">
-        <div class="post-tags">
-            {% if page.tags.size > 0 %} 
-            {% for tag in page.tags  %}
-            <a href="/tags#{{ tag }}" class="post-tag">{{ tag }}</a>
-            {% endfor %}
-            {% endif %}
-        </div>
-        <h1>{{ page.title }}</h1>
-        <div class="post-meta">
-            <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></span>
-            <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
-        </div>
+    <div class="post-content">
+        {% if page.subtitle %}
+        <h2 class="post-subtitle">{{ page.subtitle }}</h2>
+        {% endif %}
+        <article class="markdown-body" itemprop="articleBody">
+            {{ page.content }}
+        </article>
+        <a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe</a>
+        {% if site.social-share %}
+        {% include share.html %}
+        {% endif %}
     </div>
-    {% if page.image and page.imageonpage != false %}
-    <div class="filter"></div>
-    <div class="post-cover" style="background: url('{{ page.image }}') center no-repeat; background-size: cover;">
-    {% endif %}
-</header>
 
-<div class="post-content">
-    {% if page.subtitle %}
-    <h2 class="post-subtitle">{{ page.subtitle }}</h2>
-    {% endif %}
-    <article class="markdown-body" itemprop="articleBody">
-        {{ page.content }}
-    </article>
-    <a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe</a>
-    {% if site.social-share %}
-    {% include share.html %}
-    {% endif %}
-</div>
-
-<section class="author-detail">
-    <section class="post-footer-item author-card">
-        <div class="avatar">
-            <img src="/{{ site.avatar }}" alt="">
-        </div>
-        <div class="author-name" rel="author">{{ site.author }}</div>
-        <div class="bio">
-            <p>{{ site.bio }}</p>
-        </div>
-        {% if site.sns.size > 0 %}
-        <ul class="sns-links">
-            {% for s in site.sns %}
-            <li>
-                <a href="{{ s[1] }}" target="_blank">
-                    <i class="iconfont icon-{{ s[0] }}"></i>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    </section>
-    <section class="post-footer-item read-next">
-        {% if page.previous.url %} 
-        <div class="read-next-item">
-            <a href="{{ page.previous.url }}" class="read-next-link"></a>
-            <section>
-               <p>Prev</p>
-                <span>{{ page.previous.title }}</span>
-                <p>{{ page.previous.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
-            </section>
-            {% if page.previous.image %}
-            <div class="filter"></div>
-            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.previous.image }}" alt="">
+    <section class="author-detail">
+        <section class="post-footer-item author-card">
+            <div class="avatar">
+                <img src="/{{ site.avatar }}" alt="">
+            </div>
+            <div class="author-name" rel="author">{{ site.author }}</div>
+            <div class="bio">
+                <p>{{ site.bio }}</p>
+            </div>
+            {% if site.sns.size > 0 %}
+            <ul class="sns-links">
+                {% for s in site.sns %}
+                <li>
+                    <a href="{{ s[1] }}" target="_blank">
+                        <i class="iconfont icon-{{ s[0] }}"></i>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
             {% endif %}
-        </div>
-        {% endif %}
-        {% if page.next.url %}
-        <div class="read-next-item">
-            <a href="{{ page.next.url }}" class="read-next-link"></a>
-            <section>
-               <p>Next</p>
-                <span>{{ page.next.title }}</span>
-                <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
-            </section>
-            {% if page.next.image %}
-            <div class="filter"></div>
-            <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.next.image }}" alt="">
+        </section>
+        <section class="post-footer-item read-next">
+            {% if page.previous.url %} 
+            <div class="read-next-item">
+                <a href="{{ page.previous.url }}" class="read-next-link"></a>
+                <section>
+                   <p>Prev</p>
+                    <span>{{ page.previous.title }}</span>
+                    <p>{{ page.previous.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
+                </section>
+                {% if page.previous.image %}
+                <div class="filter"></div>
+                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.previous.image }}" alt="">
+                {% endif %}
+            </div>
             {% endif %}
-        </div>
+            {% if page.next.url %}
+            <div class="read-next-item">
+                <a href="{{ page.next.url }}" class="read-next-link"></a>
+                <section>
+                   <p>Next</p>
+                    <span>{{ page.next.title }}</span>
+                    <p>{{ page.next.excerpt | strip_html | strip_newlines | truncate: 60}}</p>
+                </section>
+                {% if page.next.image %}
+                <div class="filter"></div>
+                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.next.image }}" alt="">
+                {% endif %}
+            </div>
+            {% endif %}
+        </section>
+        {% if site.disqus and jekyll.environment == "production" %}
+        <a name="comments"></a>
+        <section class="post-footer-item comment">
+            <div id="disqus_thread"></div>
+        </section>
         {% endif %}
     </section>
-    {% if site.disqus and jekyll.environment == "production" %}
-    <a name="comments"></a>
-    <section class="post-footer-item comment">
-        <div id="disqus_thread"></div>
-    </section>
-    {% endif %}
-</section>
+</main>
 
 {% include footer.html %}
 {% if jekyll.environment == "production" %}
