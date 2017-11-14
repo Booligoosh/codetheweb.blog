@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CSS Syntax'
+title: 'CSS syntax'
 image: '/assets/img/posts/css-syntax/cover.jpg'
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
