@@ -771,7 +771,7 @@ section.landing-lang.odd .landing-lang-img {
     content: "Get Started!";
 }
 
-.landing-lang-link {
+.landing-lang-link, .landing-intro-cta {
     background-color: #03A9F4;
     color: white;
     padding: 16px;
@@ -782,11 +782,23 @@ section.landing-lang.odd .landing-lang-img {
     transition: all, 1s;
 }
 
-.landing-lang-link:hover {
+.landing-lang-link:hover, .landing-intro-cta:hover {
     background-color: #0288D1;
 }
 
+.landing-intro-cta {
+    font-size: initial;
+    text-decoration: none !important;
+    margin-top: 7.5vh;
+    margin-bottom: -5.5vh;
+    display: block;
+}
+
 @media screen and (max-width: 780px) {
+    section.landing-intro {
+        width: calc(100vw - 4rem);
+        padding: 15vh 2rem;
+    }
     section.landing-lang {
         margin-top: 75vh;
     }
