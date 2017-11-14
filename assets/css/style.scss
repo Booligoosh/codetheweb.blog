@@ -801,6 +801,9 @@ section.landing-lang.odd .landing-lang-img {
     font-size: 13px;
     font-weight: 400;
     font-family: "Open Sans";
+    width: fit-content; // This is so that the hyperlink doesn't span 100% being invisible
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 780px) {
