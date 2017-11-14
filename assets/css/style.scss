@@ -818,6 +818,15 @@ section.landing-lang.odd .landing-lang-img {
     border-left: none;
 }
 
+.np-banner {
+    overflow-y: scroll;
+}
+
+.np-banner .btn {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
