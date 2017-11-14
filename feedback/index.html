@@ -1,0 +1,56 @@
+---
+layout: default
+title: "Feedback"
+description: "I really appreciate feedback of any sort on my blog. If you have something you liked, something you didn't, any things that were unclear or anything else then please tell me here."
+---
+
+{% include header.html %}
+
+<header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }} feedback-banner" data-theme="{{ site.theme-color }}">
+    <div class="post-wrapper">
+        <h1>Feedback</h1>
+        <span class="subheading">I really appreciate feedback of any sort on my blog. If you have something you liked, something you didn't, any things that were unclear or anything else then please tell me here.</span>
+        <form action="thanks" onsubmit="event.preventDefault(); validateForm();" id="form">
+            <input type="text" name="name" placeholder="Name (optional)" id="name" oninput="removeWarning()">
+            <input type="email" name="email" placeholder="Email (so I can reply to you)" id="email" oninput="removeWarning()">
+            <span style="color: rebeccapurple;display: none;margin-top: 15px;" id="warning">Please enter a valid email address.</span>
+            <textarea type="text" name="feedback" placeholder="Write your feedback here..." id="feedback" oninput="removeWarning()"></textarea>
+            <label class="newsletter-checkbox"><input type="checkbox" name="newsletter" id="newsletter" checked> Sign up to the newsletter as well - recieve new posts in your inbox</label>
+            <input type="submit" class="btn" value="Submit" id="submitButton" name="submitButton">
+        </form>
+    </div>
+</header>
+
+<script>
+    // from https://stackoverflow.com/questions/46155/how-to-validate-email-address-in-javascript
+    function validateEmail(email) {
+      var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(email);
+    }
+    
+    function validateForm(){
+        var email = document.getElementById('email').value;
+        if(/*validateEmail(email)*/true) {
+            console.log('valid');
+            document.getElementById('form').submit();
+            return(true);
+        }/* else {
+            document.getElementById('warning').style.display = 'block';
+            console.log('invalid');
+            return(false);
+        }*/
+    }
+    // based on https://stackoverflow.com/questions/5272433/html5-form-required-attribute-set-custom-validation-message
+    document.getElementById('email').oninvalid = function(e) {
+            var email = document.getElementById('email').value;
+            if (!validateEmail(email)) {
+                document.getElementById('warning').style.display = 'block';
+                e.target.setCustomValidity("");
+            }
+    }
+    
+    function removeWarning() {
+        console.log('rmoed');
+        document.getElementById('warning').style.display = 'none';
+    }
+</script>

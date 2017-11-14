@@ -97,17 +97,17 @@ $dark-grey: #444444;
   content: "\f0ac";
 }
 
-.newsletter-banner {
+.newsletter-banner, .feedback-banner {
     text-align: left;
 }
 
-.night-mode .newsletter-banner, .night-mode #share, .night-mode .home-banner {
+.night-mode .newsletter-banner, .night-mode .feedback-banner, .night-mode #share, .night-mode .home-banner {
     -webkit-filter: brightness(.6);
     filter: brightness(.6);
     color: white;
 }
 
-.newsletter-banner input {
+.newsletter-banner input, .feedback-banner input, .feedback-banner textarea {
     margin: 50px auto 0 !important;
 }
 
@@ -116,12 +116,14 @@ $dark-grey: #444444;
     line-height: initial;
 }
 
-.np-banner input[type="email"] {
+.np-banner input[type="text"], .np-banner input[type="email"], .np-banner textarea {
     display: block;
     font-size: 16px;
     color: black;
     padding-left: 11px;
-    line-height: 38px;
+    //line-height: 38px;
+    padding-top: 11px;    // these two values
+    padding-bottom: 11px; // are to mimic the old line-height
     border-radius: 3px;
     border: 1px solid #fff;
     opacity: .8;
@@ -642,12 +644,12 @@ span.email.guestpost:before {
     content: none !important;
 }
 
-.newsletter-banner .subheading a {
+.newsletter-banner .subheading a, .feedback-banner .subheading a {
     color: white;
     text-decoration: underline;
 }
 
-.newsletter-banner .subheading {
+.newsletter-banner .subheading, .feedback-banner .subheading {
     line-height: 1.5em;
 }
 
@@ -772,6 +774,7 @@ section.landing-lang.odd .landing-lang-img {
 }
 
 .landing-lang-link, .landing-intro-cta {
+    height: fit-content;
     background-color: #03A9F4;
     color: white;
     padding: 16px;
@@ -842,6 +845,41 @@ section.landing-lang.odd .landing-lang-img {
     border-left: none;
 }
 
+.feedback-banner input:first-of-type {
+    margin-top: 50px !important;
+}
+
+.feedback-banner input, .feedback-banner textarea {
+    margin-top: 10px !important;
+}
+
+.feedback-banner textarea {
+    resize: none;
+    line-height: normal;
+}
+
+.feedback-banner .newsletter-checkbox {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.feedback-banner .newsletter-checkbox input[type="checkbox"] {
+    margin-top: 0 !important;
+}
+
+.feedback-banner .btn {
+    margin-top: 15px !important;
+}
+
+@media screen and (max-width: 450px) {
+    .feedback-banner h1 {
+        font-size: 59px;
+    }
+}
+
 .np-banner {
     overflow-y: scroll;
 }
@@ -850,6 +888,6 @@ section.landing-lang.odd .landing-lang-img {
     margin-bottom: 15px !important;
 }
 
-/*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
+/*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .feedback-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
