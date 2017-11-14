@@ -794,6 +794,15 @@ section.landing-lang.odd .landing-lang-img {
     display: block;
 }
 
+.landing-intro-cta-read-on {
+    display: block;
+    margin-top: 7vh;
+    margin-bottom: -13vh;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
 @media screen and (max-width: 780px) {
     section.landing-intro {
         width: calc(100vw - 4rem);
