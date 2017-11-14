@@ -178,9 +178,25 @@ $dark-grey: #444444;
 }
 
 @media screen and (max-width: 960px) {
+    .g-sidebar, .search-card, .sp-badge-home, #sponsors, .sponsors {
+        display: none !important;
+    }
     .g-sidebar-wrapper {
         float: none;
         width: auto;
+    }
+    .g-sidebar-wrapper a.btn.subscribe-btn { // a.btn. required to be most specific selector
+        position: absolute;
+        top: calc(460px + 40px);
+        width: 695px !important;
+        margin-left: calc( (100vw - 695px ) / 2) !important;
+        margin-right: calc( (100vw - 695px ) / 2) !important;
+    }
+    .home-content {
+        margin-top: 0;
+    }
+    .article-list {
+        margin-top: calc(70px + 16px * 2 + 40px );
     }
     .g-sidebar-wrapper .subscribe-btn, .card-style {
         max-width: 695px;
@@ -192,6 +208,23 @@ $dark-grey: #444444;
     }
     #sponsors {
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .g-sidebar-wrapper a.btn.subscribe-btn { // a.btn. required to be most specific selector
+        width: 100% !important;
+        margin-left: calc( (100vw - 100% ) / 2) !important;
+        margin-right: calc( (100vw - 100% ) / 2) !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .g-sidebar-wrapper a.btn.subscribe-btn { // a.btn. required to be most specific selector
+        top: 400px;
+    }
+    .article-list {
+        margin-top: calc(70px + 16px * 2 );
     }
 }
 
