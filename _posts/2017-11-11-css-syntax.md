@@ -275,7 +275,7 @@ Have fun and I'll see you [next time, where I'll be talking about some basic CSS
 [final-page]: /assets/img/posts/css-syntax/final-page.png
 [advanced-css-selectors]: {{site.newsletter}}
 [freecodecamp-reference]: https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/
-[css-properties]: {{site.newsletter}}
+[css-properties]: /2017/11/15/basic-css-properties/
 
 [share]: {{site.share}}
 [comments]: {{site.comments}}
