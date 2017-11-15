@@ -40,7 +40,7 @@ h1 {
 
 If you don't understand the layout of this code, you might want to go back to my [CSS syntax tutorial][syntax] for a quick reminder. Basically, we are styling the `<h1>` with our `color` property, which has a value of `red`.
 
-> **IMPORTANT NOTE** - `color` is spelt *the American way*. Just deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, just think of all the Terabytes saved worldwide by removing that one letter &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
+> **IMPORTANT NOTE** - `color` is spelt *the American way*. Just deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, just think of all the terabytes saved worldwide by removing that one letter &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
 
 When you [preview] your code, you should see this:
 
