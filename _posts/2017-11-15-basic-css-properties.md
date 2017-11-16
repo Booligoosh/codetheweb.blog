@@ -164,7 +164,7 @@ You can also align it to the right (with `text-align: right;`):
 ## Conclusion
 Okay, that's it for today! I hope you enjoyed it ;)
 
-If you have any questions, feedback or need help then [let me know below in the comments][comments]. Also, if you liked this article then I'd love it if you [shared it with your friends][share] and/or [signed up to my newsletter to recieve posts as I write them][newsletter].
+If you have any questions, feedback or need help then [let me know below in the comments][comments]. Also, if you liked this article then I'd love it if you [shared it with your friends][share] and [signed up to my newsletter to recieve posts as I write them][newsletter].
 
 Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][next-post]. See you then!
 
