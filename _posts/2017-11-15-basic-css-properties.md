@@ -5,10 +5,10 @@ image: '/assets/img/posts/basic-css-properties/cover.jpg'
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
 ---
-So, what can CSS actually do? Learn about basic CSS properties in this tutorial including `color`, `background-color`, `font-size` and more...
+So, what can CSS actually do? Learn about basic CSS properties such as `color`, `background-color`, `font-size` and more...
 
 ## Getting started
-First of all, if you don't already know the syntax and structure of CSS, [check out my last article first][syntax], where I talk about that. If you  know the CSS syntax already, let's continue!
+If you don’t already know the syntax and structure of CSS, [check out my last article][syntax] before reading this. If you  know the CSS syntax already, let's continue!
 
 For this tutorial, we're going to have some very basic HTML - we will be focusing on the actual CSS. Make a new project folder with `index.html` and `style.css` files in it. Add the following code to your `index.html`:
 
@@ -28,7 +28,7 @@ For this tutorial, we're going to have some very basic HTML - we will be focusin
 In this tutorial, we will be testing our styles on that `<h1>` element above. Now you're ready go dive in!
 
 ## The `color` property
-The first propert that I want to cover today is the `color` attribute, and it does exactly what you'd think - changes the text color of an element. Open up your CSS code and type the following:
+The first property that I want to cover today is the `color` attribute. It does exactly what you'd think - changes the text color of an element. Open up your CSS code and type the following:
 
 ```CSS
 h1 {
@@ -36,9 +36,9 @@ h1 {
 }
 ```
 
-If you don't understand the layout of this code, you might want to go back to my [CSS syntax tutorial][syntax] for a quick reminder. Basically, we are styling the `<h1>` with our `color` property, which has a value of `red`.
+If you don't understand the layout of this code, you might want to go back to my [CSS syntax tutorial][syntax] for a quick reminder. Here, we are styling the `<h1>` with our `color` property, which has a value of `red`.
 
-> **IMPORTANT NOTE** - `color` is spelt *the American way*. Just deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, just think of all the terabytes saved worldwide by removing that one letter &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
+> **IMPORTANT NOTE** - `color` is spelt *the American way*. Deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, think of all the terabytes saved worldwide by removing that one letter &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
 
 When you [preview] your code, you should see this:
 
@@ -47,7 +47,7 @@ When you [preview] your code, you should see this:
 So here we are giving `color` a value of `red`, but what values can we even give `color`?
 
 ### Color names
-This is like the example above, where we used the color name `red`. They range from common colors like `yellow` and `blue` to less common ones like `MediumSpringGreen` or `BlanchedAlmond`.
+Color names are like in the example above, where we used the color name `red`. There are common colors (such as `yellow` and `blue`) as well as less common ones (such as `MediumSpringGreen` or `BlanchedAlmond`).
 
 [You can see the full list of color names here.][color-names]
 
@@ -55,7 +55,7 @@ This is like the example above, where we used the color name `red`. They range f
 
 
 ## RGB values
-RGB stands for Red, Green and Blue. Basically, the three colors are addded together to produce many colors. The values for R,G and B range from 0-255. Here is an example of an RGB color:
+RGB stands for Red, Green and Blue, which are addded together to produce many colors. The values for R,G and B range from 0-255. Here is an example of an RGB color:
 ```CSS
 h1 {
     color: rgb(244, 188, 66);
@@ -76,9 +76,13 @@ Update your CSS file and see what effect it has on the text:
 ![A pink heading with a 50% opacity][rgba-screenshot]{:class='screenshot-white'}
 
 ### Hex values
-Hex values are simply another way of writing RGB values (they do not support RGBA). Hex uses characters 0-f, in hexadecimal (base 16). Hex codes in CSS are made up of a `#`, followed by six characters - for example, `#37e22b`. The first two characters are for R, the middle two are for G, an the last two are for G. These are the RGB values converted into hexadecimal.
+Hex values are another way of writing RGB values (they do not support RGBA). Hex uses characters 0-f, in hexadecimal (base 16). Hex codes in CSS are made up of a `#`, followed by six characters - for example, `#37e22b`. Hex colors are made up of two-character pairs: 
+- `#37e22b`
+    - `37` - Red
+    - `e2` - Green
+    - `2b` - Blue
 
-Sound confusing? Don't worry - all that you really need to remember is that they are another way of writing RGB and how to write them. Try replacing your CSS color value with the hex code from above:
+Sound confusing? Don't worry - all that you need to remember is that they are another way of writing RGB and how to write them. Try replacing your CSS color value with the hex code from above:
 ```CSS
 h1 {
     color: #37e22b;
@@ -89,10 +93,10 @@ Now, preview your code and see what happens:
 
 ![A green heading with a hex value of #37e22b][hex-screenshot]{:class='screenshot-white'}
 
-Hex values are one of the most commonly used ways of representing colors in CSS.
+Hex values are the most used way of representing colors in CSS.
 
 ### Other types of colors
-There are a few less commonly used color types allowed in CSS including [HSL] and [CMYK].
+There are a few less common color types allowed in CSS such as [HSL] and [CMYK].
 
 ### Color converter
 If you need help converting colors, check out [this handy tool][color-converter].
@@ -101,7 +105,7 @@ If you need help converting colors, check out [this handy tool][color-converter]
 If you need help finding the RGB or HEX value of a particular color that you have in mind, check out this [color picker][color-picker].
 
 ## The `background-color` property
-The `background-color` property takes the same types of colors as the `color` property, and - you guessed it - changes the background color of an element. Remove your existing `color` property, and replace it with this:
+The `background-color` property changes the background color of an element. It takes the same values as the `color` property (the types I discussed above). Remove your existing `color` property, and replace it with this:
 ```CSS
 h1 {
     background-color: lightskyblue;
@@ -112,21 +116,21 @@ Reload the page to see how the `background-color` property works:
 
 In the [next tutorial][next-post], I'll be teaching you how to make this look better with  `padding`, `width` and `height` properties.
 
-> By the way - the stuff that we're making at the moment looks __*TERRIBLE*__. But don't lose hope. It all starts somewhere, and we need to know the actual CSS properties and how they work before we can make complex stuff that looks good. That's my inspiring pep-talk done for the moment &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
+> By the way - the stuff that we're making at the moment looks __*TERRIBLE*__. But don’t lose hope - it all starts somewhere. You need to know the actual CSS properties and how they work before you can make complex stuff that looks good. That's my inspiring pep-talk done for the moment &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
 
 ## The `background-image` property
-Here is where things start to get fun - let's play with some images! Just like in [HTML][html], images are linked from URLs (see [this article][images]). The same thing applies in CSS! Here is how you declare a background image in CSS:
+Here is where things start to get fun - let's play with some images! Like in [HTML][html], images are linked from URLs (see [this article][images]). The same thing applies in CSS! Here is how you declare a background image in CSS:
 ```CSS
 h1 {
     background-image: url('https://codetheweb.blog/assets/img/header-img.jpg');
 }
 ```
-As you can see, it follows this syntax: `url('https://example.com/example.jpg')`. The single quotes are not nessecary, but it is good practice to put them in as there are some situations where you might need them.
+The single quotes are not necessary, but it is good practice to put them in.
 
-Try replacing the `background-color` in your CSS with the `background-image` from above (not the example.com one!) See what happens:
+Try replacing the `background-color` in your CSS with the `background-image` url from above. See what happens:
 ![A black heading with an image as a background][bg-img-screenshot]{:class='screenshot-white'}
 
-It cuts off some of the image, but at least there is an image there! In my [Advanced background images post][advanced-bg-images], I'll be going talking about more cool ways to manipulate the background image including `background-attachment`, `background-position`, `background-repeat` (for tiling) and `background-size`.
+It cuts off some of the image, but at least there is an image there! In [this post][advanced-bg-images], I’ll be talking about more cool ways to manipulate the background image.
 
 OOOKAY. Now we're done with colors and backgrounds!
 
@@ -139,13 +143,13 @@ h1 {
 ```
 {:class='reveal'}
 
-Remove your `background-image` property (so we are focusing on the `font-size`), and replace it with a `font-size` of 100px like above. Reload the page and see what happens:
+Remove your `background-image` property and replace it with a `font-size` of `100px`. Reload the page and see what happens:
 ![A large black heading][font-size-screenshot]{:class='screenshot-white'}
 
-WOAAH! Now its really large! That's the beauty of `font-size` - you can set any text to any size that you want (you can play around with the values and see what you want).
+WOAAH! Now it's huge! Play around with the values and see what you think looks good.
 
 ## The `text-align` property
-This is the last property I'll be covering in this tutorial, and also styles the text. You know on Microsoft Word when you click the left, right or center align button? Well this is exactly the same but in CSS. The `text-align` property accepts four values `left`, `right`, `center` and `justify` (although we'll only be covering the first three in this article). By default, text is aligned to the left in CSS. See if you can work out how to center it:
+This is the last property I'll be covering in this tutorial. The `text-align` property is used to, well, align text. It accepts four values: `left`,`right`, `center` and `justify`. By default, text is aligned to the left in CSS. See if you can work out how to center it:
 ```CSS
 h1 {
     text-align: center;
@@ -162,7 +166,7 @@ You can also align it to the right (with `text-align: right;`):
 ## Conclusion
 Okay, that's it for today! I hope you enjoyed it ;)
 
-If you have any questions, feedback or need help then [let me know below in the comments][comments]. Also, if you liked this article then I'd love it if you [shared it with your friends][share] and [signed up to my newsletter to recieve posts as I write them][newsletter].
+If you have any questions, feedback or need help then [let me know below in the comments][comments]. If you liked this article, I'd love it if you [shared it with your friends][share] and [joined the newsletter for new posts][newsletter].
 
 Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][next-post]. See you then!
 
