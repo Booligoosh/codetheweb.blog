@@ -5,9 +5,7 @@ image: '/assets/img/posts/basic-css-properties/cover.jpg'
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
 ---
-So, what can CSS actually do? Learn about basic CSS properties in this tutorial including color, background-color, font-size and more...
-
-> This is the second post in my [Learn CSS series][css]. You can view all of my CSS tutorials, __*in order*__, [here][css] - to help you along your coding journey.
+So, what can CSS actually do? Learn about basic CSS properties in this tutorial including `color`, `background-color`, `font-size` and more...
 
 ## Getting started
 First of all, if you don't already know the syntax and structure of CSS, [check out my last article first][syntax], where I talk about that. If you  know the CSS syntax already, let's continue!
@@ -168,9 +166,7 @@ If you have any questions, feedback or need help then [let me know below in the 
 
 Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][next-post]. See you then!
 
-
-
-
+> This article is the second post in my [Learn CSS series][css]. You can view all my CSS tutorials __*in order*__ [here][css] - to help you along your coding journey.
 
 [syntax]: /2017/11/11/css-syntax/
 [preview]: /2017/10/06/web-development-on-your-computer/#running-your-code
