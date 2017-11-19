@@ -114,7 +114,7 @@ h1 {
 Reload the page to see how the `background-color` property works:
 ![A black heading with a light blue background][bg-color-screenshot]{:class='screenshot-white'}
 
-In the [next tutorial][next-post], I'll be teaching you how to make this look better with  `padding`, `width` and `height` properties.
+In the [next tutorial][sizing-and-positioning], I'll be teaching you how to make this look a lot better with the `padding`, `width` and `height` properties.
 
 > By the way - the stuff that we're making at the moment looks __*TERRIBLE*__. But don’t lose hope - it all starts somewhere. You need to know the actual CSS properties and how they work before you can make complex stuff that looks good. That's my inspiring pep-talk done for the moment &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
 
@@ -168,7 +168,7 @@ Okay, that's it for today! I hope you enjoyed it ;)
 
 If you have any questions, feedback or need help then [let me know below in the comments][comments]. If you liked this article, I'd love it if you [shared it with your friends][share] and [joined the newsletter for new posts][newsletter].
 
-Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][next-post]. See you then!
+Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][sizing-and-positioning]. See you then!
 
 > This article is the second post in my [Learn CSS series][css]. You can view all my CSS tutorials __*in order*__ [here][css] - to help you along your coding journey.
 
@@ -180,7 +180,7 @@ Have fun, and I'll see you next time where I'll be talking about [CSS sizing and
 [CMYK]: https://www.w3schools.com/colors/colors_cmyk.asp
 [color-converter]: https://www.w3schools.com/colors/colors_converter.asp
 [color-picker]: http://htmlcolorcodes.com/color-picker/
-[next-post]: {{site.newsletter}}
+[sizing-and-positioning]: /2017/11/17/css-sizing-and-positioning/
 [images]: /2017/10/14/links-images-about-file-paths/
 [advanced-bg-images]: {{site.newsletter}}
 

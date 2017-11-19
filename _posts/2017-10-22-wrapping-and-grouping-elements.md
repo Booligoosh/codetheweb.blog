@@ -130,7 +130,7 @@ Anyway, that's it for today! Feel free to tell me what you thought or ask me any
 Next week, I'll be talking about [lists and navigation in HTML][lists-and-nav]. See you then!
 
 [lists-and-nav]: /2017/10/29/lists-and-navigation/
-[positioning]: {{site.newsletter}}
+[positioning]: /2017/11/17/css-sizing-and-positioning/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
