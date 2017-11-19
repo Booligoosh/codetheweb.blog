@@ -9,6 +9,7 @@ baseurl: '/'
 nav:
   home: '/'
   tags: '/tags'
+  newsletter: '/newsletter'
 
 # Author
 author: 'Booligoosh'
