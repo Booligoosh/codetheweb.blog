@@ -878,6 +878,10 @@ blockquote.newsletter {
     border-left: none;
 }
 
+.markdown-body > blockquote.newsletter:last-child {
+    margin-top: 32px;
+}
+
 .feedback-banner input:first-of-type {
     margin-top: 50px !important;
 }
