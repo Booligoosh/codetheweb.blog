@@ -24,6 +24,8 @@ These are optional but recommended. In tutorials, I might build on what's covere
 # Tutorials
 I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing CSS, I will move on to [JavaScript][js].
 1. [CSS syntax][t1]
+2. [Basic CSS properties][t2]
+3. [CSS sizing and positioning][t3]
 
 
 [newsletter]: {{site.newsletter}}
@@ -34,6 +36,8 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [p3]: /2017/10/06/web-development-on-your-computer/
 
 [t1]: /2017/11/11/css-syntax/
+[t2]: /2017/11/15/basic-css-properties/
+[t3]: /2017/11/17/css-sizing-and-positioning/
 
 [js]: /learn/javascript
 
