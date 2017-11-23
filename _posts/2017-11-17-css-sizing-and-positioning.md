@@ -158,7 +158,7 @@ Have fun and I'll see you next time, where I'll be talking about [more advanced 
 
 [bg-color]: /2017/11/15/basic-css-properties/#the-background-color-property
 [units]: {{site.newsletter}}
-[advanced-positioning]: {{site.newsletter}}
+[advanced-positioning]: /2017/11/21/css-position-property/
 
 [initial-code]: /assets/img/posts/css-sizing-and-positioning/initial-code.png
 [width-img]: /assets/img/posts/css-sizing-and-positioning/width.png
