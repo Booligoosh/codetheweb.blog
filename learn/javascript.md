@@ -20,6 +20,10 @@ These are optional but recommended. In tutorials, I might build on what's covere
 ## Set-up
 [Practice web development on your computer][p3]
 
+# Other resources you may find useful
+These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
+1. [Why you should join DevChat][r1]
+
 [newsletter]: {{site.newsletter}}
 
 [welcome]: /2017/09/29/welcome/
