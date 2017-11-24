@@ -124,7 +124,8 @@ $(document).ready(function(){
     function pagination() {
         var total = parseInt($('#total_pages').val()),
             current = parseInt($('#current_pages').val()),
-            baseUrl = $('#base_url').val(),
+            //baseUrl = $('#base_url').val(),
+            baseUrl = '/',
             limit = 3;
 
         var link_html = '';
