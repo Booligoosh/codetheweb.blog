@@ -219,7 +219,7 @@ If you liked this article, I'd really appreciate if you [shared it][share] and [
 
 If you have any questions, feedback or just want to say hi then you can do so [in the comments below][comments].
 
-Have fun and I'll see you next time, where I'll be talking about something a little different... See you then!
+Have fun and I'll see you next time, where I'll be talking about [something a little different][devchat]... See you then!
 
 
 [base-code-img]: /assets/img/posts/css-position-property/base-code.png
@@ -234,6 +234,7 @@ Have fun and I'll see you next time, where I'll be talking about something a lit
 [z-index-gif]: /assets/img/posts/css-position-property/z-index.gif
 
 [units]: {{site.newsletter}}
+[devchat]: /2017/11/24/devchat/
 
 [html]: /learn/html
 [css]: /learn/css
