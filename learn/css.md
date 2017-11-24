@@ -26,7 +26,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 1. [CSS syntax][t1]
 2. [Basic CSS properties][t2]
 3. [CSS sizing and positioning][t3]
-
+4. [Advanced CSS positioning using the position property][t4]
 
 [newsletter]: {{site.newsletter}}
 
@@ -38,6 +38,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [t1]: /2017/11/11/css-syntax/
 [t2]: /2017/11/15/basic-css-properties/
 [t3]: /2017/11/17/css-sizing-and-positioning/
+[t4]: /2017/11/21/css-position-property/
 
 [js]: /learn/javascript
 
