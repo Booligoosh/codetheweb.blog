@@ -30,6 +30,10 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 5. [Wrapping and grouping HTML elements][t5]
 6. [Lists and navigation in HTML][t6]
 
+# Other resources you may find useful
+These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
+1. [Why you should join DevChat][r1]
+
 [welcome]: /2017/09/29/welcome/
 [p1]: /2017/10/04/how-to-learn-web-development/
 [p2]: /2017/10/05/how-the-internet-works/
@@ -42,6 +46,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [t5]: /2017/10/22/wrapping-and-grouping-elements/
 [t6]: /2017/10/29/lists-and-navigation/
 
+[r1]: /2017/11/24/devchat/
 
 [css]: /learn/css
 

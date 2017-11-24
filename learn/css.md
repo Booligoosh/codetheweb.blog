@@ -28,6 +28,10 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 3. [CSS sizing and positioning][t3]
 4. [Advanced CSS positioning using the position property][t4]
 
+# Other resources you may find useful
+These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
+1. [Why you should join DevChat][r1]
+
 [newsletter]: {{site.newsletter}}
 
 [welcome]: /2017/09/29/welcome/
@@ -39,6 +43,8 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [t2]: /2017/11/15/basic-css-properties/
 [t3]: /2017/11/17/css-sizing-and-positioning/
 [t4]: /2017/11/21/css-position-property/
+
+[r1]: /2017/11/24/devchat/
 
 [js]: /learn/javascript
 

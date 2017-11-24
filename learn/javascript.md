@@ -26,3 +26,7 @@ These are optional but recommended. In tutorials, I might build on what's covere
 [p1]: /2017/10/04/how-to-learn-web-development/
 [p2]: /2017/10/05/how-the-internet-works/
 [p3]: /2017/10/06/web-development-on-your-computer/
+
+
+
+[r1]: /2017/11/24/devchat/
