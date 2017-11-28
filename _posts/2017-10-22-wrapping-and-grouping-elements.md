@@ -35,7 +35,7 @@ First of all, why would you actually want to do this in the first place? Well, t
 ### 1. Make your code logical and readable - `<div>`
 By putting parts of your code into groups. Take this example:
 ```HTML
-<h2>Want more articles? <a href="/login>Log in here.</a></h2>
+<h2>Want more articles? <a href="/login">Log in here.</a></h2>
 Or, you can <a href="/signup">sign up for a new account</a>.
 <h1>Article name</h1>
 <p>Article article yeah yeah yeah etc.</p>
@@ -47,7 +47,7 @@ You can click on them and give me MONEY <a href="https://company.com">here</a>.
 If you were looking at this code, it would be very confusing to work out what was the content and what was other stuff. If we did this, it would make the code much more clear:
 ```HTML
 <div class="login">
-    <h2>Want more articles? <a href="/login>Log in here.</a></h2>
+    <h2>Want more articles? <a href="/login">Log in here.</a></h2>
     Or, you can <a href="/signup">sign up for a new account</a>.
 </div>
 
