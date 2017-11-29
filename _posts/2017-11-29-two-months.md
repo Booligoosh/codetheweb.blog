@@ -6,7 +6,7 @@ date: 2017-11-29 02:00:00
 tags: Other Meta
 keywords: ""
 ---
-Today marks to two-month anniversary of the [first post on Code The Web][first-post]. Since then, a lot has happened - I will go into it in this article, and give some stats and analysis about how this blog is going and How I'm going to improve.
+Today marks the two-month anniversary of the [first post on Code The Web][first-post]. Since then, a lot has happened - I will go into it in this article, and give some stats and analysis about how this blog is going and How I'm going to improve.
 
 > **NOTE:** Okay, yes this post is about the blog and not about programming. You don't have to read it if you don't want, but its here if you're interested. It's a way for me to keep track of my progress and write it all down. So, if this article sounds like its gonna be boring, go [find another article](/).
 
