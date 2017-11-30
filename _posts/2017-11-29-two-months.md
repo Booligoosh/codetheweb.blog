@@ -2,6 +2,7 @@
 layout: post
 title: "It's been 2 months since I started Code The Web!"
 image: '/assets/img/posts/two-months/cover.jpg'
+photoCred: [Pineapple Supply Co.,qWlkCwBnwOE]
 date: 2017-11-29 02:00:00
 tags: Other Meta
 keywords: ""

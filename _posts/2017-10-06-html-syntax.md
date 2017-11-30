@@ -2,6 +2,7 @@
 layout: post
 title: 'HTML syntax'
 image: '/assets/img/posts/html-syntax/cover.jpg'
+photoCred: [Sai Kiran Anagani,5Ntkpxqt54Y]
 date: 2017-10-06 02:00:00
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags"

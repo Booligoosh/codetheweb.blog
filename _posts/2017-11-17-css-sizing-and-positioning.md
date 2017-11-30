@@ -2,6 +2,7 @@
 layout: post
 title: 'CSS sizing and positioning'
 image: '/assets/img/posts/css-sizing-and-positioning/cover.jpg'
+photoCred: [Émile Perron,xrVDYZRGdw4]
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
 ---

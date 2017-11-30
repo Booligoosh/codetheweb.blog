@@ -2,6 +2,7 @@
 layout: post
 title: 'Advanced CSS positioning using the position property'
 image: '/assets/img/posts/css-position-property/cover.jpg'
+photoCred: [Luca Bravo,I4ywJmImdPM]
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: 'Links, images and about file paths'
 image: '/assets/img/posts/links-images-about-file-paths/cover.jpg'
+photoCred: [Fré Sonneveld,K8iHtzoIKQ4]
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags, links, images, files, file paths"
 ---

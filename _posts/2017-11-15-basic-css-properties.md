@@ -2,6 +2,7 @@
 layout: post
 title: 'Basic CSS properties'
 image: '/assets/img/posts/basic-css-properties/cover.jpg'
+photoCred: [Pineapple Supply Co.,VHpDp_GkGgc]
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
 ---

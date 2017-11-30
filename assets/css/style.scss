@@ -929,6 +929,10 @@ img.screenshot-white {
     border: 1px solid black !important;
 }
 
+.photo-cred {
+    opacity: .4;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .feedback-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }

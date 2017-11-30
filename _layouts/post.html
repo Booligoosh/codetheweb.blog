@@ -57,6 +57,10 @@
         <h2 class="post-subtitle">{{ page.subtitle }}</h2>
         {% endif %}
         <article class="markdown-body" itemprop="articleBody">
+            {% if page.photoCred %}
+            <aside class="photo-cred">Photo by <a href="https://unsplash.com/photos/{{page.photoCred[1]}}?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">{{page.photoCred[0]}}</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></aside>
+            <br>
+            {% endif %}
             {{ page.content }}
             <blockquote class="newsletter">
                 <h3 id="want-to-get-new-posts-in-your-inbox-sign-up-to-my-newsletter">Want to get new posts in your inbox? <a href="/newsletter">Sign up to my newsletter</a>.</h3>
