@@ -220,7 +220,7 @@ Have fun and I'll see you next time, where I'll be talking about [the different 
 [position-fixed]: /2017/11/21/css-position-property/#position-fixed
 [units]: {{site.newsletter}}
 
-[bg-img]: /assets/img/posts/css-advanced-background-images/mountains.jpg
+[bg-img]: /assets/img/posts/css-advanced-background-images/cover.jpg
 [base-code]: /assets/img/posts/css-advanced-background-images/base-code.png
 [bg-size-cover]: /assets/img/posts/css-advanced-background-images/bg-size-cover.png
 [bg-size-2000px]: /assets/img/posts/css-advanced-background-images/bg-size-2000px.png
