@@ -166,7 +166,7 @@ Have fun and I'll see you next time, where I'll be talking about some [cool stuf
 [grid]: {{site.newsletter}}
 [span]: /2017/10/22/wrapping-and-grouping-elements/#syntax---span
 [first-article]: /2017/09/29/welcome
-[advanced-bg-images]: {{site.newsletter}}
+[advanced-bg-images]: /2017/12/02/css-advanced-background-images/
 [2-months-post]: /2017/11/29/two-months/
 
 [initial-code]: /assets/img/posts/css-display-property/initial-code.png

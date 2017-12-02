@@ -125,7 +125,7 @@ See you next time, where I'll be talking about [Advanced background images][adva
 [hemingway]: http://www.hemingwayapp.com/
 [front-end-checklist]: https://frontendchecklist.io/
 [seo]: {{site.newsletter}}
-[advanced-background-images]: {{site.newsletter}}
+[advanced-background-images]: /2017/12/02/css-advanced-background-images/
 
 [intro-email]: /assets/img/posts/two-months/intro-email.png
 [hw-1]: /assets/img/posts/two-months/hw-1.png

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced background image manipulation in CSS"
+title: "Advanced background image manipulation using CSS"
 image: '/assets/img/posts/css-advanced-background-images/cover.jpg'
 photoCred: [Alessandro Sacchi,NUFnfYd09iI]
 tags: CSS

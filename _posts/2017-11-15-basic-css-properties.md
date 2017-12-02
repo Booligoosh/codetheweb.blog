@@ -183,7 +183,7 @@ Have fun, and I'll see you next time where I'll be talking about [CSS sizing and
 [color-picker]: http://htmlcolorcodes.com/color-picker/
 [sizing-and-positioning]: /2017/11/17/css-sizing-and-positioning/
 [images]: /2017/10/14/links-images-about-file-paths/
-[advanced-bg-images]: {{site.newsletter}}
+[advanced-bg-images]: /2017/12/02/css-advanced-background-images/
 
 [color-screenshot]: /assets/img/posts/basic-css-properties/color-screenshot.png
 [rgb-screenshot]: /assets/img/posts/basic-css-properties/rgb-screenshot.png

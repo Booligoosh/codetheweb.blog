@@ -28,6 +28,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 3. [CSS sizing and positioning][t3]
 4. [Advanced CSS positioning using the position property][t4]
 5. [CSS display types][t5]
+6. [Advanced background image manipulation using CSS][t6]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -45,6 +46,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t3]: /2017/11/17/css-sizing-and-positioning/
 [t4]: /2017/11/21/css-position-property/
 [t5]: /2017/11/29/css-display-property/
+[t6]: /2017/12/02/css-advanced-background-images/
 
 [r1]: /2017/11/24/devchat/
 
