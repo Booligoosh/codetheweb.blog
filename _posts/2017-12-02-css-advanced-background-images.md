@@ -218,7 +218,7 @@ Have fun and I'll see you next time, where I'll be talking about [the different 
 [background-image]: /2017/11/15/basic-css-properties/#the-background-image-property
 [units-vh]: {{site.newsletter}}
 [position-fixed]: /2017/11/21/css-position-property/#position-fixed
-[units]: {{site.newsletter}}
+[units]: /2017/12/04/css-units/
 
 [bg-img]: /assets/img/posts/css-advanced-background-images/cover.jpg
 [base-code]: /assets/img/posts/css-advanced-background-images/base-code.png
