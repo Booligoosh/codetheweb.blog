@@ -354,6 +354,8 @@ You can play around with the order a bit more now if you want.
 ## Game Time! &#128377;&#128377;&#128377;<!--http://graphemica.com/%F0%9F%95%B9--> &#128056;<!--http://graphemica.com/%F0%9F%90%B8-->
 If you want to re-inforce what you've learnt today and have a bit of geeky fun, I highly recommend you go and play [Flexbox Froggy][flexbox-froggy]. There are 24 levels where you have to position frogs onto their correct lilypads using CSS flexboxes. It was actually one of the first places that I found out about flexboxes when I was learning, and it was really helpful.
 
+Also, if you want to see some things that are possible with flexboxes, take a look [here][examples].
+
 But don't go yet! We still need to do the conclusion bit where I ask you to be nice and [share this][share] and congratulate you even though I probably don't actually know you!
 
 ## Conclusion
@@ -372,6 +374,7 @@ Keep coding, have an awesome day, and see you then!
 [vw-vh]: /2017/12/04/css-units/#vw--vh
 [responsive]: {{site.newsletter}}
 [flexbox-froggy]: http://flexboxfroggy.com/
+[examples]: http://flexible-grid.com/examples
 [full-page-image-header]: {{site.newsletter}}
 
 [base-code]: /assets/img/posts/css-flexboxes/base-code.png
