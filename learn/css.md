@@ -29,6 +29,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 4. [Advanced CSS positioning using the position property][t4]
 5. [CSS display types][t5]
 6. [Advanced background image manipulation using CSS][t6]
+7. [CSS units — there are more than you think... 🤔][t7]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -47,6 +48,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t4]: /2017/11/21/css-position-property/
 [t5]: /2017/11/29/css-display-property/
 [t6]: /2017/12/02/css-advanced-background-images/
+[t7]: /2017/12/04/css-units/
 
 [r1]: /2017/11/24/devchat/
 
