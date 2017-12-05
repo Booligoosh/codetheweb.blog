@@ -30,6 +30,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 5. [CSS display types][t5]
 6. [Advanced background image manipulation using CSS][t6]
 7. [CSS units — there are more than you think... 🤔][t7]
+8. [The comprehensive guide to CSS flexboxes][t8]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -49,6 +50,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t5]: /2017/11/29/css-display-property/
 [t6]: /2017/12/02/css-advanced-background-images/
 [t7]: /2017/12/04/css-units/
+[t8]: /2017/12/05/css-flexboxes/
 
 [r1]: /2017/11/24/devchat/
 

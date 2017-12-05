@@ -162,7 +162,7 @@ If you are having any trouble with the concepts I've talked about in this articl
 
 Have fun and I'll see you next time, where I'll be talking about some [cool stuff you can do with background images][advanced-bg-images].
 
-[flex]: {{site.newsletter}}
+[flex]: /2017/12/05/css-flexboxes/
 [grid]: {{site.newsletter}}
 [span]: /2017/10/22/wrapping-and-grouping-elements/#syntax---span
 [first-article]: /2017/09/29/welcome
