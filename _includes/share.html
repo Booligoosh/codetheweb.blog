@@ -1,11 +1,12 @@
 {% assign home = page.home %}
 {% unless home %}<div class="social-share-wrapper">{% endunless %}
-    <div class="social-share{% if home %} social-share-home card-style{% endif %}">
-       {% if home %}<span>Feeling nice?</span>{% endif %}
-        {% include email-link.html %}
+    <div class="social-share share-component{% if home %} social-share-home card-style{% endif %}">
+        {% if home %}<span>Feeling nice?</span>{% endif %}
+        {% include actual-share-icons.html %}
     </div>
 {% unless home %}</div>{% endunless %}
 {% include share-overlay.html %}
+<!--
 <script>{% include js/social-share.min.js %}</script>
 <script>
     socialShare('.social-share', {
@@ -14,3 +15,4 @@
         wechatQrcodeHelper: '<p>扫码后点击右上角</p><p>将本文分享至朋友圈</p>'
     });
 </script>
+-->
