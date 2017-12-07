@@ -1,0 +1,27 @@
+/* DIV 1 */
+/*
+.div1 {
+    background-color: salmon;
+}
+
+.div1 {
+    background-color: salmon;
+    display: inline;
+}
+
+.div1 {
+    background-color: salmon;
+    display: none;
+}
+*/
+.div1 {
+    background-color: salmon;
+    display: inline;
+    visibility: hidden;
+}
+
+/* DIV 2 */
+.span1 {
+    background-color: aquamarine;
+    display: block;
+}

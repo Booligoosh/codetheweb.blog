@@ -1,0 +1,134 @@
+/* BODY */
+
+body {
+    margin: 0;
+}
+
+/* WRAPPER */
+/*
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+*/
+#wrapper {
+    background-color: deepskyblue;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/*
+
+/* INNER DIV */
+
+.inner_div {
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+}
+/*
+.inner_div {
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 2px solid black;
+    width: 600px;
+    height: 50px;
+}
+*/
+
+/* INDIVIUDAL DIVS */
+#div1 {
+    order: 1;
+}
+#div2 {
+    order: 0;
+}
+#div3 {
+    order: 2;
+}

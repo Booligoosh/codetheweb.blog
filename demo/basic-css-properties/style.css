@@ -1,0 +1,36 @@
+/*
+h1 {
+    color: red;
+}
+
+h1 {
+    color: rgb(244, 188, 66);
+}
+
+h1 {
+    color: rgba(244, 188, 66, 0.5);
+}
+
+h1 {
+    color: #37e22b;
+}
+
+h1 {
+    background-color: lightskyblue;
+}
+
+h1 {
+    background-image: url('https://codetheweb.blog/assets/img/header-img.jpg');
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+*/
+h1 {
+    text-align: right;
+}

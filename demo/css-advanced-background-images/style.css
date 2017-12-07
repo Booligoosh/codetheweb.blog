@@ -1,0 +1,55 @@
+/*
+body {
+    height: 5000px;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: cover;
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 2000px;
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 2000px;
+    background-attachment: fixed;
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 2000px;
+    background-position: center center;
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 500px;
+    background-position: center center;
+}
+
+body {
+    height: 150vh;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+*/
+body {
+    height: 150vh;
+    background-color: orange;
+    background-image: url('/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: 500px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

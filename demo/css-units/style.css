@@ -1,0 +1,55 @@
+/* BODY */
+
+/*
+body {
+    margin: 0;
+}
+*/
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+/* #DEMO */
+
+/*
+#demo {
+    background-color: cyan;
+}
+
+#demo {
+    background-color: cyan;
+    height: 6cm;
+}
+
+#demo {
+    background-color: cyan;
+    height: 2em;
+}
+
+#demo {
+    background-color: cyan;
+    height: 2em;
+    font-size: 2em;
+}
+
+#demo {
+    background-color: cyan;
+    height: 75vh;
+    width: 50vw;
+    font-size: 2em;
+}
+
+#demo {
+    background-color: cyan;
+    height: 100vh;
+    width: 100vw;
+    font-size: 2em;
+}
+*/
+#demo {
+    background-color: cyan;
+    height: 100%;
+    width: 100%;
+    font-size: 2em;
+}
