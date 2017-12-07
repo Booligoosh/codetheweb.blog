@@ -31,6 +31,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 6. [Advanced background image manipulation using CSS][t6]
 7. [CSS units — there are more than you think... 🤔][t7]
 8. [The comprehensive guide to CSS flexboxes][t8]
+9. [How to create a full-page hero image (HTML & CSS)][t9]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -51,6 +52,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t6]: /2017/12/02/css-advanced-background-images/
 [t7]: /2017/12/04/css-units/
 [t8]: /2017/12/05/css-flexboxes/
+[t9]: /2017/12/07/fullscreen-image-hero/
 
 [r1]: /2017/11/24/devchat/
 

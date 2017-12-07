@@ -365,7 +365,7 @@ Well done! This was a long article today, because there was a lot to cover. Hope
 
 If you have any feedback, questions, need help or just want to say hi, do so [in the comments below][comments] and I'll reply to you!
 
-See you next time, where I'll be doing a special article on [how to make a full-page image header][full-page-image-header], using some of the things that we learnt today (hint hint perfect centering &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)
+See you next time, where I'll be doing a special article on [how to make a full-page hero image][full-page-image-hero], using some of the things that we learnt today (hint hint perfect centering &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)
 
 Keep coding, have an awesome day, and see you then!
 
@@ -375,7 +375,7 @@ Keep coding, have an awesome day, and see you then!
 [responsive]: {{site.newsletter}}
 [flexbox-froggy]: http://flexboxfroggy.com/
 [examples]: http://flexible-grid.com/examples
-[full-page-image-header]: {{site.newsletter}}
+[full-page-image-hero]: /2017/12/07/fullscreen-image-hero/
 
 [base-code]: /assets/img/posts/css-flexboxes/base-code.png
 [flexbox-structure]: /assets/img/posts/css-flexboxes/flexbox-structure.png
