@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "How to create a full-screen image header / hero image using HTML and CSS"
-image: '/assets/img/posts/full-image-hero/cover.jpg'
+title: "How to create a full-page hero image (HTML & CSS)"
+image: '/assets/img/posts/full-image-hero/cover.png'
 photoCred: [ben o'bro,wpU4veNGnHg]
-tags: HTML CSS Extra
+tags: HTML CSS
 keywords: ""
 wordsAdjust: 496
 ---
-Follow along as I teach you how to make a full-page background image header with HTML and CSS, similar to ones used by websites all over the internet.
+Hero images are used by websites all over the internet, and look awesome. Learn how to code one in this article...
 
 ## What we'll be making
 Here's what we'll be making today:
