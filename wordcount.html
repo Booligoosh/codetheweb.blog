@@ -20,7 +20,7 @@ sitemap: false
         </tr>
         {% assign posts = site.posts | reverse %}
         {% for post in posts %}
-        {% assign post_words = post.content | number_of_words %}
+        {% assign post_words = post.content | number_of_words | minus: post.wordsAdjust %}
         <tr>
             <td class="post-num">#{{forloop.index}}</td>
             <td class="post-date">{{post.date | date: "%A %-d %B %Y"}}</td>
