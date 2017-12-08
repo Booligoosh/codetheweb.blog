@@ -198,7 +198,7 @@ Result:
 ![The items are now centered vertically!][align-items-center]{:.screenshot-white}
 
 And here is what `flex-start` and `flex-end` look like:
-![align-items: flex-start and align-items: flex-end][align-items-flex-start-flex-end]{:.screenshot-white]}
+![align-items: flex-start and align-items: flex-end][align-items-flex-start-flex-end]{:.screenshot-white}
 
 Just keep in mind that you cannot use `space-around`, `space-between` and `space-evenly` as values for the `align-items` property.
 
@@ -399,7 +399,7 @@ Keep coding, have an awesome day, and see you then!
 [order-213]: /assets/img/posts/css-flexboxes/order-213.png
 
 [html]: /learn/html
-[css]: /learn/css`
+[css]: /learn/css
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
