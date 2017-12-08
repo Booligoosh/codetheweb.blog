@@ -103,7 +103,7 @@ Here's what I plan to do from now on:
 ## Conclusion
 So, Code The Web is now two months old!
 ![Happy Birthday!][happy-birthday]
-Well okay, technically its' not a birthday but why waste a chance to celebrate? Actually I suppose it's like a month-birthday, if that's a thing &#128514;<!--http://graphemica.com/%F0%9F%98%82-->
+Well okay, technically its' not a birthday but why waste a chance to celebrate? Actually I suppose it's like a month-birthday, if that's a thing &#128514;
 
 If you liked this post I'd love it if you helped out and [shared it with your friends][share], or joined 50 other awesome people and [signed up to the newsletter][newsletter].
 

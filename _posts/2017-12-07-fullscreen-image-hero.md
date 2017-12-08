@@ -133,7 +133,7 @@ body {
     font-family: sans-serif;
 }
 ```
-The body has a default margin, which we do not want intefering without image header, which is why we have set it to 0. The reason that we have set the `font-family` to `sans-serif` is so that you're not stuck with Times New Roman &#128540;<!--http://graphemica.com/%F0%9F%98%9C-->
+The body has a default margin, which we do not want intefering without image header, which is why we have set it to 0. The reason that we have set the `font-family` to `sans-serif` is so that you're not stuck with Times New Roman &#128540;
 
 You can actually set text to be in any font you want, but it gets a little more complicated - I will go into that in a [later article][fonts].
 
@@ -514,11 +514,11 @@ Result:
 
 ## Conclusion
 
-Awesome, you've made it! Now your website should look just like the [demo] - congrats &#128512;<!--http://graphemica.com/%F0%9F%98%80--> - Hopefully it wasn't *too* confusing &#128540;<!--http://graphemica.com/%F0%9F%98%9C-->
+Awesome, you've made it! Now your website should look just like the [demo] - congrats &#128512; - Hopefully it wasn't *too* confusing &#128540;
 
 As always, if you need any help or have any feedback then just say so in the [comments below][comments] and I'll get back to you!
 
-If you found this article helpful, I'd really love it if you [shared it][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do either/both of these things, you're officialy awesome and deserve a taco &#127790; &#127790;<!--http://graphemica.com/%F0%9F%8C%AE--> &#128640;<!--http://graphemica.com/%F0%9F%9A%80-->
+If you found this article helpful, I'd really love it if you [shared it][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do either/both of these things, you're officialy awesome and deserve a taco &#127790; &#127790; &#128640;
 
 Okay! Have fun, keep coding and I'll see you next time, where I'll be talking about [how to make and style a navigation bar using HTML & CSS][style-nav-bar]. See you then!
 

@@ -39,7 +39,7 @@ h1 {
 
 If you don't understand the layout of this code, you might want to go back to my [CSS syntax tutorial][syntax] for a quick reminder. Here, we are styling the `<h1>` with our `color` property, which has a value of `red`.
 
-> **IMPORTANT NOTE** - `color` is spelt *the American way*. Deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, think of all the terabytes saved worldwide by removing that one letter &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
+> **IMPORTANT NOTE** - `color` is spelt *the American way*. Deal with it. If you spell it "colour", CSS will have no idea what you are going on about. If you are getting annoyed right now, think of all the terabytes saved worldwide by removing that one letter &#128539;
 
 When you [preview] your code, you should see this:
 
@@ -117,7 +117,7 @@ Reload the page to see how the `background-color` property works:
 
 In the [next tutorial][sizing-and-positioning], I'll be teaching you how to make this look a lot better with the `padding`, `width` and `height` properties.
 
-> By the way - the stuff that we're making at the moment looks __*TERRIBLE*__. But don’t lose hope - it all starts somewhere. You need to know the actual CSS properties and how they work before you can make complex stuff that looks good. That's my inspiring pep-talk done for the moment &#128539;<!--http://graphemica.com/%F0%9F%98%9B-->
+> By the way - the stuff that we're making at the moment looks __*TERRIBLE*__. But don’t lose hope - it all starts somewhere. You need to know the actual CSS properties and how they work before you can make complex stuff that looks good. That's my inspiring pep-talk done for the moment &#128539;
 
 ## The `background-image` property
 Here is where things start to get fun - let's play with some images! Like in [HTML][html], images are linked from URLs (see [this article][images]). The same thing applies in CSS! Here is how you declare a background image in CSS:

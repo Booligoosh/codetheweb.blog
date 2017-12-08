@@ -7,7 +7,7 @@ keywords: "learn CSS, CSS syntax, CSS, flexbox, flexboxes, CSS flexbox, CSS flex
 ---
 Flexboxes are something that every web developer should know. They let you align, position and even re-order elements, using CSS alone! It is revolutionary, and lets us do some really cool stuff...
 
-> Yup, that's right. Another punny cover image for today &#128540;<!--http://graphemica.com/%F0%9F%98%9C-->
+> Yup, that's right. Another punny cover image for today &#128540;
 
 ## Getting started
 By following along, you will end up grasping this topic much better (and can also experiment!). To follow along, start by making a new project folder with `index.html` and `style.css` files in it. Add the following code to your `index.html`:
@@ -208,7 +208,7 @@ Just keep in mind that you cannot use `space-around`, `space-between` and `space
 ## Perfect centering!
 In the dark old days before flexboxes, centering something both vertically and horizontally was a pain, and required ugly hacks. Luckily, now its as simple as giving the parent three lines of CSS!
 
-**(don't add this to your current CSS file, but you can play around later if you want &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)**
+**(don't add this to your current CSS file, but you can play around later if you want &#128521;)**
 ```CSS
 #parent {
     display: flex;
@@ -351,7 +351,7 @@ Yay! Now our order has been changed! This is the beauty of the `order` property 
 
 You can play around with the order a bit more now if you want.
 
-## Game Time! &#128377;&#128377;&#128377;<!--http://graphemica.com/%F0%9F%95%B9--> &#128056;<!--http://graphemica.com/%F0%9F%90%B8-->
+## Game Time! &#128377;&#128377;&#128377; &#128056;
 If you want to re-inforce what you've learnt today and have a bit of geeky fun, I highly recommend you go and play [Flexbox Froggy][flexbox-froggy]. There are 24 levels where you have to position frogs onto their correct lilypads using CSS flexboxes. It was actually one of the first places that I found out about flexboxes when I was learning, and it was really helpful.
 
 Also, if you want to see some things that are possible with flexboxes, take a look [here][examples].
@@ -359,17 +359,17 @@ Also, if you want to see some things that are possible with flexboxes, take a lo
 But don't go yet! We still need to do the conclusion bit where I ask you to be nice and [share this][share] and congratulate you even though I probably don't actually know you!
 
 ## Conclusion
-Well done! This was a long article today, because there was a lot to cover. Hopefully you found it useful! If you did, I'd really love it if you [shared the article][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do any of these things, you're officialy awesome and deserve a taco &#127790; &#127790;<!--http://graphemica.com/%F0%9F%8C%AE--> &#128640;<!--http://graphemica.com/%F0%9F%9A%80-->
+Well done! This was a long article today, because there was a lot to cover. Hopefully you found it useful! If you did, I'd really love it if you [shared the article][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do any of these things, you're officialy awesome and deserve a taco &#127790; &#127790; &#128640;
 
-> **IMPORTANT NOTE: Don't forget that all of the properties we learn today _only work with flexboxes_.** So don't try going and using them anywhere else &#128521;<!--http://graphemica.com/%F0%9F%98%89-->
+> **IMPORTANT NOTE: Don't forget that all of the properties we learn today _only work with flexboxes_.** So don't try going and using them anywhere else &#128521;
 
 If you have any feedback, questions, need help or just want to say hi, do so [in the comments below][comments] and I'll reply to you!
 
-See you next time, where I'll be doing a special article on [how to make a full-page hero image][full-page-image-hero], using some of the things that we learnt today (hint hint perfect centering &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)
+See you next time, where I'll be doing a special article on [how to make a full-page hero image][full-page-image-hero], using some of the things that we learnt today (hint hint perfect centering &#128521;)
 
 Keep coding, have an awesome day, and see you then!
 
-> and don't forget about [Flexbox Froggy][flexbox-froggy] &#128056;<!--http://graphemica.com/%F0%9F%90%B8--> &#128521;<!--http://graphemica.com/%F0%9F%98%89-->
+> and don't forget about [Flexbox Froggy][flexbox-froggy] &#128056; &#128521;
 
 [vw-vh]: /2017/12/04/css-units/#vw--vh
 [responsive]: {{site.newsletter}}

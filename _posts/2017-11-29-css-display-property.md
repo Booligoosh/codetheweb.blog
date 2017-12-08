@@ -156,8 +156,8 @@ If you liked this article, I'd really appreciate if you [shared it][share] or [s
 
 If you are having any trouble with the concepts I've talked about in this article (or any, really!) then you can ask me in the [comments below][comments] or contact me via email. On that note, if you have any feedback or suggestions I'd also appreciate if you left a [comment][comments] - I'm always trying to improve!
 
-> ### HAPPY BIRTHDAY TO ME &#127881;<!--http://graphemica.com/%F0%9F%8E%89-->
-> By the way, it has been 2 months since I wrote my [first article on Code The Web][first-article]! During that time I have had many great experiences, conversations with the community, had > 4K users on my site and 50 awesome [newsletter subscribers][newsletter] (just in time, as of this morning &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)
+> ### HAPPY BIRTHDAY TO ME &#127881;
+> By the way, it has been 2 months since I wrote my [first article on Code The Web][first-article]! During that time I have had many great experiences, conversations with the community, had > 4K users on my site and 50 awesome [newsletter subscribers][newsletter] (just in time, as of this morning &#128521;)
 > <br>**[EDIT: I wrote a bit about my first 2 months here to celebrate.][2-months-post]**
 
 Have fun and I'll see you next time, where I'll be talking about some [cool stuff you can do with background images][advanced-bg-images].

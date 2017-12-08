@@ -43,7 +43,7 @@ body {
     height: 300px;
 }
 ```
-The reason for the `body` height is so that we can scroll on our page - you will see why this is relevant later in the tutorial. If you have a screen height that is larger than `5000px` and can't scroll, then seriously your screen is waaaaaaay too big &#128541;<!--http://graphemica.com/%F0%9F%98%9D-->.
+The reason for the `body` height is so that we can scroll on our page - you will see why this is relevant later in the tutorial. If you have a screen height that is larger than `5000px` and can't scroll, then seriously your screen is waaaaaaay too big &#128541;.
 
 Cool! Now you're ready to go! Open your `index.html` in a web browser - it should look like this so far:
 ![A paragraph, a cyan portrait rectangle named Div 1 and a magenta square name Div 2][base-code-img]{:.screenshot-white}

@@ -148,7 +148,7 @@ And for `background-position-y`:
 
 In addition, both accept numerical values eg `200px`. They are calculated from the top-right corner. So for example, a `background-position-x` of `500px` would be `500px` from the left, and a `background-position-y` of `300px` would be `300px` from the top.
 
-For the moment, let's leave both as `center`... (although you can play around if you want &#128521;<!--http://graphemica.com/%F0%9F%98%89-->)
+For the moment, let's leave both as `center`... (although you can play around if you want &#128521;)
 
 ## background-repeat
 

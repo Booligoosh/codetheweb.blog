@@ -18,7 +18,7 @@ There are three types of lists in HTML:
 - Unordered lists
 - Definition lists
 
-(see what I did there? I used a list &#128540;<!-- from http://graphemica.com/%F0%9F%98%9C -->) Let's go into what each one is for and how to code them...
+(see what I did there? I used a list &#128540;) Let's go into what each one is for and how to code them...
 
 ## Ordered lists
 Ordered lists are lists with numbers, and look like so:
