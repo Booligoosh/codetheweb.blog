@@ -98,7 +98,7 @@ Here's what I plan to do from now on:
 - **Edit my work as I go** using [Hemingway][hemingway], after each paragraph
 - Go back and **edit posts before now** when I have the time
 - Find more things to post about on Reddit and around the internet, such as **hosting mini-contests, making a tool or creating a checklist (similar to [this][front-end-checklist]?)**.
-- Get more backlinks from sites to improve [SEO][seo] (Search Engine Optimizations)
+- Get more backlinks from sites to improve [SEO][seo] (Search Engine Optimization)
 
 ## Conclusion
 So, Code The Web is now two months old!
