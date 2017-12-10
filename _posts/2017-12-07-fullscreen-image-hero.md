@@ -453,6 +453,8 @@ Hmm, it still doesn't work. However, if we darken the background image then it m
 
 I'm going to tell you something cool - believe it or not, you can have multiple background-images for the same element! All you need to do is separate them with commas. So if we have our photo background image and then a semi-transparent black background-image on top, we will be able to see through - but it will have been darkened.
 
+<a id="bg-gradient-overlay"></a>
+
 The thing is that `background-image` doesn't take colors. But it does take [gradients][gradients]! So, we can make a gradient between two colors that are the same, and effectively use a 'color' as a `background-image`. Here is the CSS:
 ```CSS
 .hero {
