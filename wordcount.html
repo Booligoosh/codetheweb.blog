@@ -17,6 +17,7 @@ sitemap: false
             <th>Post Name</th>
             <th>Word count</th>
             <th>Read time ({{site.wpm}} WPM)</th>
+            <th>Proofread</th>
         </tr>
         {% assign posts = site.posts | reverse %}
         {% for post in posts %}
@@ -27,6 +28,7 @@ sitemap: false
             <td class="post-title"><a href="{{post.url}}" target="_blank">{{post.title}}</a></td>
             <td class="post-words">{{post_words}}</td>
             <td class="post-read-time">{{post_words | divided_by: site.wpm}} mins</td>
+            <td class="post-checked">{% if post.checked == 'grammarly' %}<img src="/assets/img/grammarly.png" title="Grammarly">{% elsif post.checked == 'hemingway' %}<img src="/assets/img/hemingway.png" title="Hemingway">{% else %}<img src="/assets/img/x-emoji.png" title="None">{% endif %}</td>
         </tr>
         {% endfor %}
     </tbody>
@@ -128,5 +130,11 @@ sitemap: false
         display: block;
         margin-bottom: 1rem;
         font-size: 0.7rem;
+    }
+    .post-checked img {
+        width: 2em;
+        height: 2em;
+        margin: 0 auto;
+        display: block;
     }
 </style>
