@@ -75,7 +75,7 @@ In terms of popular articles, my [How To Learn Web Development][how-to-learn-web
 I'm not really sure about the order of the other articles in the top 10, it seems kinda random (although you can tell me your hypotheses [in the comments][comments]).
 
 ### Newsletter subscribers
-Since my blog has started, I've got 50 subscribers on my mailing list - the majority of these people found me on Reddit
+Since my blog has started, I've got 50 subscribers on my mailing list - the majority of these people found me on Reddit.
 
 Ok, that's it for statistics! [Tell me what you thought][comments] :)
 
