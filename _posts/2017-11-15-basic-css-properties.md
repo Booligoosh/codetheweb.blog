@@ -5,7 +5,7 @@ image: '/assets/img/posts/basic-css-properties/cover.jpg'
 photoCred: [Pineapple Supply Co.,VHpDp_GkGgc]
 tags: CSS
 keywords: "learn CSS, how to learn CSS, CSS syntax, CSS"
-checked: hemingway
+checked: [hemingway]
 ---
 So, what can CSS actually do? Learn about basic CSS properties such as `color`, `background-color`, `font-size` and more...
 
