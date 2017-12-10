@@ -97,17 +97,17 @@ $dark-grey: #444444;
   content: "\f0ac";
 }
 
-.newsletter-banner, .feedback-banner {
+.colorful-banner {
     text-align: left;
 }
 
-.night-mode .newsletter-banner, .night-mode .feedback-banner, .night-mode #share, .night-mode .home-banner {
+.night-mode .colorful-banner, .night-mode #share, .night-mode .home-banner {
     -webkit-filter: brightness(.6);
     filter: brightness(.6);
     color: white;
 }
 
-.newsletter-banner input, .feedback-banner input, .feedback-banner textarea {
+.colorful-banner input, .feedback-banner textarea {
     margin: 50px auto 0 !important;
 }
 
@@ -677,12 +677,12 @@ span.email.guestpost:before {
     content: none !important;
 }
 
-.newsletter-banner .subheading a, .feedback-banner .subheading a {
+.colorful-banner .subheading a {
     color: white;
     text-decoration: underline;
 }
 
-.newsletter-banner .subheading, .feedback-banner .subheading {
+.colorful-banner .subheading {
     line-height: 1.5em;
 }
 
@@ -933,6 +933,6 @@ img.screenshot-white {
     opacity: .4;
 }
 
-/*.home-banner.post-pattern-circuitBoard,*/ .newsletter-banner.post-pattern-circuitBoard, .feedback-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
+/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
