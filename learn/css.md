@@ -35,7 +35,8 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
-1. [Why you should join DevChat][r1]
+- [The steps to creating a website][r-steps-to-creating-a-website]
+- [Why you should join DevChat][r-devchat]
 
 [newsletter]: {{site.newsletter}}
 
@@ -54,7 +55,8 @@ These are just other articles I have written about stuff that isn't programming,
 [t8]: /2017/12/05/css-flexboxes/
 [t9]: /2017/12/07/fullscreen-image-hero/
 
-[r1]: /2017/11/24/devchat/
+[r-devchat]: /2017/11/24/devchat/
+[r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/
 
 [js]: /learn/javascript
 

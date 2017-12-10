@@ -22,7 +22,7 @@ These are optional but recommended. In tutorials, I might build on what's covere
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
-1. [Why you should join DevChat][r1]
+- [Why you should join DevChat][r-devchat]
 
 [newsletter]: {{site.newsletter}}
 
@@ -32,5 +32,4 @@ These are just other articles I have written about stuff that isn't programming,
 [p3]: /2017/10/06/web-development-on-your-computer/
 
 
-
-[r1]: /2017/11/24/devchat/
+[r-devchat]: /2017/11/24/devchat/
