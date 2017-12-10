@@ -71,6 +71,7 @@ newsletter: /newsletter
 share: '#share'
 comments: '#disqus_thread'
 learn: '/learn'
+contact: /contact
 repo: https://github.com/CodeTheWebBlog/CodeTheWebBlog.github.io/
 permalink: pretty
 sponsor: /sponsor
