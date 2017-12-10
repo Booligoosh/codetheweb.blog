@@ -4,6 +4,7 @@ title: "The comprehensive guide to CSS flexboxes"
 image: '/assets/img/posts/css-flexboxes/cover.jpg'
 tags: CSS
 keywords: "learn CSS, CSS syntax, CSS, flexbox, flexboxes, CSS flexbox, CSS flexboxes, display: flex, display: flex CSS, CSS flex"
+checked: [grammarly]
 ---
 Flexboxes are something that every web developer should know. They let you align, position and even re-order elements, using CSS alone! It is revolutionary, and lets us do some really cool stuff...
 
@@ -326,11 +327,11 @@ This is very confusing! However, you will just have to get used to it - just rem
 
 Okay, let's get going... This is our final property for today!
 
-Remember at the start of the article how I mentioned that you can actuall *re-order HTML elements* using CSS flexboxes? Well this is how. It is revolutionary to be able to re-order elements - previously, you had to do some ugly `position` hacks that could break easily under certain conditions. So, how do we do it?
+Remember at the start of the article how I mentioned that you can actually *re-order HTML elements* using CSS flexboxes? Well, this is how. It is revolutionary to be able to re-order elements - previously, you had to do some ugly `position` hacks that could break easily under certain conditions. So, how do we do it?
 
 Unlike the other properties so far, the `order` property applies to the actual *items*, instead of the parent wrapper. The `order` property takes any integer as a value.
 
-When ordering items in a flexbox, each item has *position*. The first item is at position `0`, the second is at position `1` etc. (most lists in programming start at `0` instead of `1`)
+When ordering items in a flexbox, each item has a *position*. The first item is at position `0`, the second is at position `1` etc. (most lists in programming start at `0` instead of `1`)
 
 Let's try and make the order become Div 2, Div 1, Div 3. Here's how we can do this:
 ```CSS
@@ -347,25 +348,25 @@ Let's try and make the order become Div 2, Div 1, Div 3. Here's how we can do th
 Result:
 ![The order is now Div 2, Div 1, Div 3][order-213]{:.screenshot-white}
 
-Yay! Now our order has been changed! This is the beauty of the `order` property - it can change the order of the elements on screen, using only CSS!
+Yay! Now our order has been changed! This is the beauty of the `order` property - it can change the order of the elements on the screen, using only CSS!
 
 You can play around with the order a bit more now if you want.
 
 ## Game Time! &#128377;&#128377;&#128377; &#128056;
-If you want to re-inforce what you've learnt today and have a bit of geeky fun, I highly recommend you go and play [Flexbox Froggy][flexbox-froggy]. There are 24 levels where you have to position frogs onto their correct lilypads using CSS flexboxes. It was actually one of the first places that I found out about flexboxes when I was learning, and it was really helpful.
+If you want to reinforce what you've learned today and have a bit of geeky fun, I highly recommend you go and play [Flexbox Froggy][flexbox-froggy]. There are 24 levels where you have to position frogs onto their correct lilypads using CSS flexboxes. It was actually one of the first places that I found out about flexboxes when I was learning, and it was really helpful.
 
 Also, if you want to see some things that are possible with flexboxes, take a look [here][examples].
 
 But don't go yet! We still need to do the conclusion bit where I ask you to be nice and [share this][share] and congratulate you even though I probably don't actually know you!
 
 ## Conclusion
-Well done! This was a long article today, because there was a lot to cover. Hopefully you found it useful! If you did, I'd really love it if you [shared the article][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do any of these things, you're officialy awesome and deserve a taco &#127790; &#127790; &#128640;
+Well done! This was a long article today because there was a lot to cover. Hopefully, you found it useful! If you did, I'd really love it if you [shared the article][share] or [signed up to the newsletter][newsletter] to receive new posts in your inbox. If you do any of these things, you're officially awesome and deserve a taco &#127790; &#127790; &#128640;
 
 > **IMPORTANT NOTE: Don't forget that all of the properties we learn today _only work with flexboxes_.** So don't try going and using them anywhere else &#128521;
 
 If you have any feedback, questions, need help or just want to say hi, do so [in the comments below][comments] and I'll reply to you!
 
-See you next time, where I'll be doing a special article on [how to make a full-page hero image][full-page-image-hero], using some of the things that we learnt today (hint hint perfect centering &#128521;)
+See you next time, where I'll be doing a special article on [how to make a full-page hero image][full-page-image-hero], using some of the things that we learned today (hint hint perfect centering &#128521;)
 
 Keep coding, have an awesome day, and see you then!
 

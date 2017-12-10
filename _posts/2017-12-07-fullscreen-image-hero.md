@@ -6,8 +6,9 @@ photoCred: [ben o'bro,wpU4veNGnHg]
 tags: HTML CSS
 keywords: ""
 wordsAdjust: 496
+checked: [grammarly]
 ---
-Hero images are used by websites all over the internet, and look awesome. Learn how to code one in this article...
+Hero images are used by websites all over the internet and look awesome. Learn how to code one in this article...
 
 ## What we'll be making
 Here's what we'll be making today:
@@ -133,9 +134,9 @@ body {
     font-family: sans-serif;
 }
 ```
-The body has a default margin, which we do not want intefering without image header, which is why we have set it to 0. The reason that we have set the `font-family` to `sans-serif` is so that you're not stuck with Times New Roman &#128540;
+The body has a default margin, which we do not want interfering without image header, which is why we have set it to 0. The reason that we have set the `font-family` to `sans-serif` is so that you're not stuck with Times New Roman &#128540;
 
-You can actually set text to be in any font you want, but it gets a little more complicated - I will go into that in a [later article][fonts].
+You can actually set the text to be in any font you want, but it gets a little more complicated - I will go into that in a [later article][fonts].
 
 ## Hero positioning and sizing
 
@@ -211,7 +212,7 @@ Now, let's make our main title larger so that we know it's the title:
 Result:
 ![The title is now larger!][large-title]{:.screenshot-white}
 
-However, now there is an oddly large space between our title and subtitle. This is because by default for header elements, as its `font-size` increases then so does its margins. So, let's tweak them a bit:
+However, now there is an oddly large space between our title and subtitle. This is because by default for header elements, as its `font-size` increases then so do its margins. So, let's tweak them a bit:
 ```CSS
 .hero h1 {
     /* Text styles */
@@ -229,7 +230,7 @@ Now that our title and subtitle look good, let's style our button!
 
 ## Button styling
 
-First of all, we need to give the button a `display` type of `block` (`<a>` elements are `inline` by default) so that it will behave like other elements. We also need to give it a `width`, otherwise it will take up the full width of the scren. To help visualize what's going on, let's also add a border:
+First of all, we need to give the button a `display` type of `block` (`<a>` elements are `inline` by default) so that it will behave like other elements. We also need to give it a `width` - otherwise, it will take up the full width of the screen. To help visualize what's going on, let's also add a border:
 ```CSS
 .hero .btn {
     /* Positioning and sizing */
@@ -282,7 +283,7 @@ Let's try it out:
 Result:
 ![The button is now centered!][btn-centered]{:.screenshot-white}
 
-Next, let's add some styling to our button text, to override the default link styles and also make the text bigger. This is one big rule of web design, which is that **people are more likely to click on bigger things**. In this case we want people to click on our button ("Call to action"), so we will make the text bigger. So, let's add the CSS:
+Next, let's add some styling to our button text, to override the default link styles and also make the text bigger. This is one big rule of web design, which is that **people are more likely to click on bigger things**. In this case, we want people to click on our button (call to action), so we will make the text bigger. So, let's add the CSS:
 ```CSS
 .hero .btn {
     /* Positioning and sizing */
@@ -383,7 +384,7 @@ Save, reload and take a look at the result:
 ![The results of the background-image property][bg-img-gif]
 
 Awesome! However, it is very hard to see the text now. What if we tried making everything white?
-Here's the lines of our CSS file to add / change:
+Here are the lines of our CSS file to add/change:
 ```CSS
 body {
     margin: 0;
@@ -518,7 +519,7 @@ Awesome, you've made it! Now your website should look just like the [demo] - con
 
 As always, if you need any help or have any feedback then just say so in the [comments below][comments] and I'll get back to you!
 
-If you found this article helpful, I'd really love it if you [shared it][share] or [signed up to the newsletter][newsletter] to recieve new posts in your inbox. If you do either/both of these things, you're officialy awesome and deserve a taco &#127790; &#127790; &#128640;
+If you found this article helpful, I'd really love it if you [shared it][share] or [signed up to the newsletter][newsletter] to receive new posts in your inbox. If you do either/both of these things, you're officially awesome and deserve a taco &#127790; &#127790; &#128640;
 
 Okay! Have fun, keep coding and I'll see you next time, where I'll be talking about [how to make and style a navigation bar using HTML & CSS][style-nav-bar]. See you then!
 
