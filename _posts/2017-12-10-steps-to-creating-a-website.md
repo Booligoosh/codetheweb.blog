@@ -2,7 +2,6 @@
 layout: post
 title: "The steps to creating a website (HTML &  CSS)"
 image: '/assets/img/posts/steps-to-creating-a-website/cover.png'
-photoCred: [Igor Miske,JVSgcV8_vb4]
 tags: Other HTML CSS
 keywords: ""
 checked: [grammarly]
