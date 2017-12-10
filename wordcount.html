@@ -28,7 +28,7 @@ sitemap: false
             <td class="post-title"><a href="{{post.url}}" target="_blank">{{post.title}}</a></td>
             <td class="post-words">{{post_words}}</td>
             <td class="post-read-time">{{post_words | divided_by: site.wpm}} mins</td>
-            <td class="post-checked">{% if post.checked contains 'grammarly' %}<img src="/assets/img/grammarly.png" title="Grammarly">{% endif %}{% if post.checked contains 'hemingway' %}<img src="/assets/img/hemingway.png" title="Hemingway">{% endif %}{% if post.checked == [] %}<img src="/assets/img/x-emoji.png" title="None">{% endif %}</td>
+            <td class="post-checked">{% if post.checked contains 'grammarly' %}<img src="/assets/img/grammarly.png" title="Grammarly">{% endif %}{% if post.checked contains 'hemingway' %}<img src="/assets/img/hemingway.png" title="Hemingway">{% endif %}{% if post.checked == false %}<img src="/assets/img/x-emoji.png" title="None">{% endif %}</td>
         </tr>
         {% endfor %}
     </tbody>
