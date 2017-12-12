@@ -403,7 +403,7 @@ Woo! You're finally done your website! Now, go show it off to your friends, fami
 ## Further reading
 If you want to know more about a specific section of what I was showing today, check out:
 1. [How to create a full-page hero image][fullscreen-hero-image]
-2. [How to style a navigation bar using CSS][style-header] (coming soon)
+2. [How to style a navigation bar using CSS][style-header]
 
 ## Conclusion
 So, I hope you enjoyed this article and hopefully you learned something along the way!
@@ -423,7 +423,7 @@ Have fun, keep coding, and I'll see you next time, where' I'll be talking about 
 [dummy-text]: https://lipsum.com/feed/html
 [vh]: /2017/12/04/css-units/#vw--vh
 [position-fixed]: /2017/11/21/css-position-property/#position-fixed
-[style-header]: {{site.newsletter}}
+[style-header]: /2017/12/12/style-a-navigation-bar-css/
 [flexboxes]: /2017/12/05/css-flexboxes/
 [advanced-bg-imgs]: /2017/11/29/advanced-background-images/
 [bg-gradient-overlay]: /2017/12/07/fullscreen-image-hero/#bg-gradient-overlay

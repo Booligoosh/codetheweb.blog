@@ -32,6 +32,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 7. [CSS units — there are more than you think... 🤔][t7]
 8. [The comprehensive guide to CSS flexboxes][t8]
 9. [How to create a full-page hero image (HTML & CSS)][t9]
+10. [Styling a navigation bar using CSS][t10]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -54,6 +55,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t7]: /2017/12/04/css-units/
 [t8]: /2017/12/05/css-flexboxes/
 [t9]: /2017/12/07/fullscreen-image-hero/
+[t10]: /2017/12/12/style-a-navigation-bar-css/
 
 [r-devchat]: /2017/11/24/devchat/
 [r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/

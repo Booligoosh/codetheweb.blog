@@ -536,7 +536,7 @@ Okay! Have fun, keep coding and I'll see you next time, where I'll be talking ab
 [advanced-bg-images]: /2017/12/02/css-advanced-background-images/
 [bg-image-link]: /assets/img/posts/full-image-hero/image.jpg
 [gradients]: {{site.newsletter}}
-[style-nav-bar]: {{site.newsletter}}
+[style-nav-bar]: /2017/12/12/style-a-navigation-bar-css/
 
 [final-product]: /assets/img/posts/full-image-hero/final-product.png
 [final-product-gif]: /assets/img/posts/full-image-hero/final-product.gif
