@@ -14,7 +14,7 @@ Often when making a website, it can be overwhelming. I'll show you how to approa
 This article is less about me showing you the actual technical parts of creating a website, but more about guiding you through the though-process of creating a website. Just letting you know...
 
 ## The final product
-[Here's the final product of the site I'll be building today.][demo] Take a look at it, and keep it in mind as we go through the tutorial.
+[Here's the final product of the site I'll be building today.][demo]{:target='_blank'} Take a look at it, and keep it in mind as we go through the tutorial.
 
 ![The final product!][final-product]
 
