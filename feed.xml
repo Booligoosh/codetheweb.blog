@@ -33,13 +33,7 @@
     </author>
   {% endif %}
   
-  <image>
-    <url>{{ site.url }}/assets/img/icon1.png</url>
-    <title>{% if site.title %}{{ site.title | smartify | xml_escape }}{% elsif site.name %}{{ site.name | smartify | xml_escape }}{% endif %}</title>
-    <link>{{site.url}}</link>
-    <width>1667</width>
-    <height>1667</height>
-  </image> 
+  <icon>{{ site.url }}/assets/img/icon1_80px.png</icon> 
 
   {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
   {% for post in posts limit: 10 %}
