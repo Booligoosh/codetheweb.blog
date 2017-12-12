@@ -3,7 +3,7 @@ layout: post
 title: "How to create a full-page hero image (HTML & CSS)"
 image: '/assets/img/posts/full-image-hero/cover.png'
 photoCred: [ben o'bro,wpU4veNGnHg]
-tags: HTML CSS
+tags: CSS
 keywords: ""
 wordsAdjust: 496
 checked: [grammarly]
