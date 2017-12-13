@@ -64,7 +64,7 @@ Did you get it right? If so then great job, if not then you may need a [little r
 
 Once thats all done and saved, [preview your page][preview]. Do you see the result? It should look something like this:
 ![A page similar to the headings demo above][headings]
-Cool! You've learnt about your first ever actual HTML tag(s)! Let's continue:
+Cool! You've learned about your first ever actual HTML tag(s)! Let's continue:
 
 # Paragraphs (p)
 Paragraphs are the main content of your HTML page. They don't have to be paragraphs as in what you'd do in an essay - it just means chunks of content. When you have a new paragraph, just start a new `<p>`. Here is an example of two `<p>`'s in succession:
@@ -101,7 +101,7 @@ Hopefully your page should look similar, but with different content. Next up, we
 Links and images are two of the most common HTML elements. I haven't included them in this article, as they require knowledge about file paths. I will be writing about them in my [next article][links-and-images].
 
 ## Line breaks (br)
-Wait, what? I thought we just learnt about line breaks! All you need to do is start a new `<p>`!
+Wait, what? I thought we just learned about line breaks! All you need to do is start a new `<p>`!
 
 This is the case most of the time, but sometimes you will want to add a line break part-way through a heading or paragraph. In fact, that's what I did with the heading about links and images - scroll up and take a look! The code for that heading with a line break looks like this:
 ```HTML
@@ -235,7 +235,7 @@ Now, let's try comments out! You've (hopefully) learn a lot in this lesson - why
 This is my interpretation, but comment it in a way that makes sense to you. Preview your code - you will see that nothing has changed. This is because the comments are meant to be for people reading the code, as the end user doesn't want to see all your comments about confusing code stuff!
 
 ## Conclusion
-Well done! You made it, and you learnt about your first four/five HTML tags. As I said earlier, in the [next article][links-and-images] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
+Well done! You made it, and you learned about your first four/five HTML tags. As I said earlier, in the [next article][links-and-images] I will be talking about images and links, which are possibly the two most common elements after headings and paragraphs.
 
 If you liked this article then don't forget to [share][share] and [subscribe][newsletter].
 

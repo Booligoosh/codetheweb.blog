@@ -264,7 +264,7 @@ And your final web-page should look something like this:
 ![The result of the CSS file above][final-page]{:.screenshot-white}
 
 ## Conclusion
-So, I hope you learnt a lot today and I congratulate you on your journey of learning CSS! If you ever need help, feel free to contact me and I will respond to you personally (unless my website ends up on the frontpage of Reddit &#128540;). You can also ask for help, chat and give feedback in the [comments below][comments]. If you liked this you can also [share it with your friends][share] or [subsribe to my newsletter to get new posts.][newsletter]. This way, when I make my next CSS tutorials you can get notified so you can stay motivated on your learning path. As I write my [CSS tutorials][css], I will be posting them [here][css] so that you can follow along.
+So, I hope you learned a lot today and I congratulate you on your journey of learning CSS! If you ever need help, feel free to contact me and I will respond to you personally (unless my website ends up on the frontpage of Reddit &#128540;). You can also ask for help, chat and give feedback in the [comments below][comments]. If you liked this you can also [share it with your friends][share] or [subsribe to my newsletter to get new posts.][newsletter]. This way, when I make my next CSS tutorials you can get notified so you can stay motivated on your learning path. As I write my [CSS tutorials][css], I will be posting them [here][css] so that you can follow along.
 
 Have fun and I'll see you [next time, where I'll be talking about some basic CSS properties][css-properties] such as `background-color`, `background-image`, `font-size` and `text-align`. See you then!
 

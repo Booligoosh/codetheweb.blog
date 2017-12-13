@@ -209,7 +209,7 @@ Result:
 ![Now the white background has been replaced with orange][color-and-img]
 
 ## Conclusion
-Okay, there we go! You've just learnt a bunch of cool stuff that you can do with background images, and these properties come in handy very often. If you have any feedback or need any help, [hit me up in the comments][comments].
+Okay, there we go! You've just learned a bunch of cool stuff that you can do with background images, and these properties come in handy very often. If you have any feedback or need any help, [hit me up in the comments][comments].
 
 Also if you liked this article, I'd love it if you [shared it][share] or signed up [to the newsletter][newsletter]. It takes a lot of time and effort to make a blog (25,000 words and counting), and I'd really appreciate if you did one (or both!) of those things.
 

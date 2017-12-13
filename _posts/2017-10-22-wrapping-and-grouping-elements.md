@@ -65,7 +65,7 @@ If you were looking at this code, it would be very confusing to work out what wa
 ```
 
 ### 2. Style multiple elements at once - `<div>`
-Chances are, you probably haven't learnt CSS yet but down the track this will be a big benefit.
+Chances are, you probably haven't learned CSS yet but down the track this will be a big benefit.
 Let's say you have a bunch of random elements:
 ```HTML
 <h1>Hello!</h1>

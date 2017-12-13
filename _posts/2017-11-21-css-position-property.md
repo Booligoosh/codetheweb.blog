@@ -214,7 +214,7 @@ Save, reload, scroll down a bit so the `<div>`s are overlapping and take a look:
 You will see that now Div 2 overlaps Div 1!
 
 ## Conclusion
-Ok, that's it for today. I hope that you learnt something!
+Ok, that's it for today. I hope that you learned something!
 
 If you liked this article, I'd really appreciate if you [shared it][share] and [signed up to the newsletter][newsletter].
 
