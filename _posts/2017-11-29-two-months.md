@@ -6,6 +6,7 @@ photoCred: [Pineapple Supply Co.,qWlkCwBnwOE]
 date: 2017-11-29 02:00:00
 tags: Other Meta
 keywords: ""
+checked: [grammarly]
 ---
 Today marks the two-month anniversary of the [first post on Code The Web][first-post]. Since then, a lot has happened - I will go into it in this article, and give some stats and analysis about how this blog is going and How I'm going to improve.
 
@@ -15,11 +16,11 @@ Today marks the two-month anniversary of the [first post on Code The Web][first-
 On the 18th of September 2017, an email appeared in my inbox.
 ![John Sonmez (Simple Programmer): [Lesson 0] A blog that boosts your career][intro-email]{:.screenshot-white}
 
-Oh yeah! I had been chatting to this person on [DevChat][devchat] called [@Nythiennzo][nythiennzo]. We had been talking about programming blogs - something that I had been thinking of for ages. Nythiennzo had just started [his blog][nythiennzo], and he recommended this course to me - [How to Create a Blog That Boosts Your Software Development Career][blog-course], by this awesome YouTuber called [Simple Programmer][sp].
+Oh yeah! I had been chatting with this person on [DevChat][devchat] called [@Nythiennzo][nythiennzo]. We had been talking about programming blogs - something that I had been thinking of for ages. Nythiennzo had just started [his blog][nythiennzo], and he recommended this course to me - [How to Create a Blog That Boosts Your Software Development Career][blog-course], by this awesome YouTuber called [Simple Programmer][sp].
 
 I had signed up for the course, thinking I would see what it was and look at the information later and then quite frankly forgot about it. However, when this email appeared in my inbox, I was reminded of it. And by the end of the email, I was hooked.
 
-The email course sends each Tuesday and Thursday. I was excited for the course, but I wasn't actually planning on making a blog *as the course came* until I read the first actual course email.
+The email course sends each Tuesday and Thursday. I was excited about the course, but I wasn't actually planning on making a blog *as the course came* until I read the first actual course email.
 
 ![Homework from the first email][hw-1]{:.screenshot-white}
 
@@ -30,14 +31,14 @@ So, I did:
 And then:
 ![My second reply to the email][hw-1-reply-2]{:.screenshot-white}
 
-Unfortunately John didn't reply (which is understandable considering he has so many emails), so I decided to wait. That was all fine, until the next email came along - telling me that this was when I needed to create my actual blog and buy a domain name. But I hadn't chosen a theme yet, so couldn't come up with a name, so couldn't make the website. I had to make a decision, and I went with beginner web development as that's where I think I can provide the most value.
+Unfortunately, John didn't reply (which is understandable considering he has so many emails), so I decided to wait. That was all fine until the next email came along - telling me that this was when I needed to create my actual blog and buy a domain name. But I hadn't chosen a theme yet, so couldn't come up with a name, so couldn't make the website. I had to make a decision, and I went with beginner web development as that's where I think I can provide the most value.
 
 On the 28th of September, I bought the domain name `codetheweb.blog` and put up a basic site from a Jekyll template (which I have since made many modifications to). Here is a screenshot of Code The Web from that same day:
 ![A screenshot of Code The Web from the 28th of September 2017][first-day]
 
 The next day I put up [my first blog post][first-post], which was exactly two months ago from today!
 
-That's it for how it all started, if you want to read more of the process then you can check out [that first post][first-post], where I wrote about it.
+That's it for how it all started, if you want to read more about the process then you can check out [that first post][first-post], where I wrote about it.
 
 ## Stats
 In this section, I'm going to give a few stats about how my blog has performed over the last two months, collected from my [Google Analytics][ga].
@@ -50,12 +51,12 @@ Since starting my blog, I have had 4.1K users and 5.8K sessions. Considering tha
 
 The problem is, _**over half of those users all came in one day!!**_
 
-Initially that might sound like a good thing, but that means that my users other than that one spike in traffic would be a lot less.
+Initially, that might sound like a good thing, but that means that my users other than that one spike in traffic would be a lot less.
 
 ### Demographics
 Here are the top 20 nationalities of users:
 ![My top 20 nationalities of users][ga-geo]{:.screenshot-white}
-A large portion of my page-views come from America, with Australia as the runner up. I live in Australia, so that probably biases the data, but other than that it is mostly accurate.
+A large portion of my page-views come from America, with Australia as the runner-up. I live in Australia so that probably biases the data, but other than that it is mostly accurate.
 
 ### Acquisition
 Here's how I gain my users:
@@ -83,17 +84,17 @@ Ok, that's it for statistics! [Tell me what you thought][comments] :)
 These are the things that I think I did well at:
 - _**Consistency:**_ I managed to post at least once a week for the two months (except for one week, which I caught up). I have written 17 posts in two months (~10 weeks), which means an average of about 1.7 posts per week!
 - _**Motivation:**_ During the two months, I barely ever felt de-motivated - and when I did, I was always able to push through. One of the most motivational parts of the process has been interacting with readers.
-- _**Community:**_ While I have only interacted with a very small percentage of my users, the ones I have interacted with have been grateful, liked my writing style and been really enthusiastic. It is really cool when I'm able to help someone along their coding journey.
-- _**Writing style:**_ While it's natural to feel that my writing is not good enough, I have recieved multiple comments about my good writing style. I definitely didn't expect this so early, as I was expecting I would have to improve a lot more first. I still think that my writing is far from perfect and this is something that I want to further improve.
+- _**Community:**_ While I have only interacted with a very small percentage of my users, the ones I have interacted with have been grateful, liked my writing style and been really enthusiastic. It is really cool when I'm able to help someone through their coding journey.
+- _**Writing style:**_ While it's natural to feel that my writing is not good enough, I have received multiple comments about my good writing style. I definitely didn't expect this so early, as I was expecting I would have to improve a lot more first. I still think that my writing is far from perfect and this is something that I want to further improve.
 - _**Programming Bloggers:**_ A week or so ago, I started a Slack community called [Programming Bloggers][programming-bloggers]. I made it because of frustration at how hard it was to communicate with other tech bloggers, so I created it. The community is really friendly, they are happy that I have organized it and I'm happy because I have learned a lot from them.
 
 ## What didn't go well
-- _**Newsletter subscribers:**_ While I got 4.1K users to the site, only 50 people signed up for the newsletter. That means that only *1.2%* of people signed up to the newsletter - this is TERRIBLE! I'm going to improve this in future by offering a lead magnet - an incentive to make people sign up. I will be creating a cheat-sheet on HTML (and CSS and JavaScript once I'm done those series), and then offer it if you sign up to the newsletter. Hopefully this will increase sign-ups - when one of the people in Programming Bloggers did that, they got 3K subscribers in less than a year! I really don't want to resolve to pop-ups if possible, they make people dislike you :(
+- _**Newsletter subscribers:**_ While I got 4.1K users to the site, only 50 people signed up for the newsletter. That means that only *1.2%* of people signed up to the newsletter - this is TERRIBLE! I'm going to improve this in future by offering a lead magnet - an incentive to make people sign up. I will be creating a cheat-sheet for HTML (and CSS, and JavaScript once I'm done those series), and then offer it if you sign up to the newsletter. Hopefully, this will increase sign-ups - when one of the people in Programming Bloggers did that, they got 3K subscribers in less than a year! I really don't want to resort to pop-ups if possible, they make people dislike you :(
 - _**Typos and grammar:**_ Even though some people seem to like my writing style, often while writing these I make typos. Because I write my tutorials in Markdown in a code editor and I haven't worked out how to install spellcheck on it, I often don't pick up on these typos and find them weeks later when I happen to be reading an article. Another thing that I have tried to improve my language and wording is an awesome website called [Hemingway][hemingway]. It assesses a bunch of fancy things like adverbs, passive voice and how easy sentences are to read. I tried doing this on one of my articles, but it took over an hour to fully edit it using Hemingway. This means I could have written a whole new article in that time! A solution could be to write the post straight in Hemingway and edit as I go, but then I don't know what I'd do about the Markdown - maybe I could just copy in the result after finishing each paragraph.
 
 ## Action plan
 Here's what I plan to do from now on:
-- **Create lead magnets** (Cheat-sheets for HTML, CSS and JavaScript) to get more newsletter subscribers
+- **Create lead magnets** (Cheat-sheets for HTML, CSS, and JavaScript) to get more newsletter subscribers
 - Based on the success of Programming Bloggers, I'm considering **creating a Code The Web fans community** where readers can chat, help each other out etc. - I probably won't do this right away but will keep it in mind.
 - **Edit my work as I go** using [Hemingway][hemingway], after each paragraph
 - Go back and **edit posts before now** when I have the time
@@ -103,7 +104,7 @@ Here's what I plan to do from now on:
 ## Conclusion
 So, Code The Web is now two months old!
 ![Happy Birthday!][happy-birthday]
-Well okay, technically its' not a birthday but why waste a chance to celebrate? Actually I suppose it's like a month-birthday, if that's a thing &#128514;
+Well okay, technically it's not a birthday but why waste a chance to celebrate? Actually, I suppose it's like a month-birthday if that's a thing &#128514;
 
 If you liked this post I'd love it if you helped out and [shared it with your friends][share], or joined 50 other awesome people and [signed up to the newsletter][newsletter].
 

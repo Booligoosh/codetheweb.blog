@@ -5,6 +5,7 @@ image: '/assets/img/posts/css-advanced-background-images/cover.jpg'
 photoCred: [Alessandro Sacchi,NUFnfYd09iI]
 tags: CSS
 keywords: "learn CSS, CSS syntax, CSS, background images, background, images, CSS background images, CSS background image property, background image property"
+checked: [grammarly]
 ---
 Background images can do more than you think - learn about cool ways to manipulate background images using CSS...
 
@@ -57,7 +58,7 @@ Remember our original image?
 ![An image of mountains][bg-img]
 However on our page, it is super-zoomed in on the sky!
 ![Text on top of the mountains background image][base-code]
-This is because by default, the `background-image` is set to the actual dimensions of the image (`4272px` by `2848px`)
+This is because, by default, the `background-image` is set to the actual dimensions of the image (`4272px` by `2848px`)
 
 Let's fix this up!
 
@@ -152,7 +153,7 @@ For the moment, let's leave both as `center`... (although you can play around if
 
 ## background-repeat
 
-You know those tiled backgrounds? Often this looks ugly, but can work well with repeating textures. For this article we're just going to use our mountatin image, so the tiling is more obvious. Let's see what happens when we tile an image:
+You know those tiled backgrounds? Often this looks ugly but can work well with repeating textures. In this case, we're just going to use our mountain image so that the tiling is more obvious. Let's see what happens when we tile an image:
 ```CSS
 body {
     height: 150vh;
@@ -167,7 +168,7 @@ Result:
 
 Wait, what? But this is a rip-off! We didn't even use `background-repeat`!
 
-This is because a background has `background-repeat` turned on by default. The only reason that it didn't happen before was because our image was so large that it didn't need tiling.
+This is because a background has `background-repeat` turned on by default. The only reason that it didn't happen before was that our image was so large that it didn't need tiling.
 
 The `background-repeat` property has two main values: `repeat` and `no-repeat`. It's as simple as that!
 
@@ -191,7 +192,7 @@ There we go! That's how the `background-repeat` property works in CSS!
 ## Multiple backgrounds
 You will notice that now there is ugly white around our image. What if we wanted to make that, let's say, orange for example? Believe it or not, you can actually specify multiple backgrounds in CSS!
 
-First background will be put on the screen, and other backgrounds after will be layered on top.
+The first background will be put on the screen, and other backgrounds after will be layered on top.
 
 So, let's try it out! Remember, the `background-color: orange` comes first because we want it *below* the image:
 ```CSS
