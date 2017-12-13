@@ -271,7 +271,6 @@ body {
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
-    display: flex;
 }
 
 main {
@@ -285,6 +284,7 @@ header {
     left: 0;
     right: 0;
     height: 80px;
+    display: flex;
 }
 
 header * {
@@ -377,7 +377,6 @@ That looks better! Now that our nav-bar items are positioned, it's time to give 
 ```CSS
 header img {
     height: 80px;
-    /*margin-left: 40px;*/
 }
 body {
     height: 125vh;
@@ -401,7 +400,6 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    /*box-shadow: 0 0 24px -5px black;*/
 }
 
 header * {
