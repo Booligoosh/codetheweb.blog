@@ -544,7 +544,7 @@ Have fun, keep coding and I'll see you next time, where I'll be talking about [w
 [flex]: /2017/12/05/css-flexboxes/
 [shadows]: {{site.newsletter}}
 [responsive-nav]: {{site.newsletter}}
-[html-icons]: {{site.newsletter}}
+[html-icons]: /2017/12/14/html-icons/
 
 
 [final-product]: /assets/img/posts/style-a-navigation-bar-css/final-product.png

@@ -29,6 +29,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 4. [Links, images and about file paths][t4]
 5. [Wrapping and grouping HTML elements][t5]
 6. [Lists and navigation in HTML][t6]
+7. [The complete guide to HTML icons][t7]
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
@@ -46,6 +47,7 @@ These are just other articles I have written about stuff that isn't programming,
 [t4]: /2017/10/14/links-images-about-file-paths/
 [t5]: /2017/10/22/wrapping-and-grouping-elements/
 [t6]: /2017/10/29/lists-and-navigation/
+[t7]: /2017/12/14/html-icons/
 
 [r-devchat]: /2017/11/24/devchat/
 [r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/
