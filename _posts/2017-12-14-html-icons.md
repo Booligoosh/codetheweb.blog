@@ -102,8 +102,8 @@ Here is the HTML - add it below your Safari icon and favicon in the `<head>`:
 ```HTML
 <meta name="msapplication-square70x70logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon70.png">
 <meta name="msapplication-square150x150logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon150.png">
-<meta name="msapplication-wide310x150logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon310.png">
-<meta name="msapplication-square310x310logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon-rect-310.png">
+<meta name="msapplication-square310x310logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon310.png">
+<meta name="msapplication-wide310x150logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon-rect-310.png">
 ```
 
 These are slightly different to the icon types we've discussed so far, because they use `<meta>` tags instead of `<link>` tags.
