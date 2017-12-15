@@ -87,7 +87,7 @@ On Windows, if you don't know already, there are these things called tiles:
 They are also used on Windows phones:
 ![Windows phone tiles][windows-phone-tiles]
 
-As you can see in the photos above, we also need to create a rectangular version of our logo, for if the tile is rectangular. Here is a rectangular version of the waffle that I made:
+As you can see in the photos above, we also need to create a rectangular version of our logo, for when the tile is rectangular. Here is a rectangular version of the waffle that I made:
 ![Rectangular waffle icon][icon-rect-2480]
 
 In our HTML, we need to define this icon as well as three square icon sizes: `70px` by `70px`, `150px` by `150px` and `310px` by `310px`. Our rectangular icon needs to be `310px` wide by `150px` high.
