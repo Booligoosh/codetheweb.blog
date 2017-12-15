@@ -117,6 +117,31 @@ Here, the map icon would be the image (with a transparent background), and then 
 
 Here is the result of the icons and tile color meta tags:
 ![The square and rectangular icons as Windows tiles][custom-windows-tiles]
+## The final HTML
+After all of that, here is what our final HTML should look like (with comments added for clarity):
+```HTML
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Icons</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="64x64" href="https://codetheweb.blog/assets/img/posts/html-icons/icon64.png">
+        <!-- Apple/Safari icon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://codetheweb.blog/assets/img/posts/html-icons/icon180.png">
+        <!-- Square Windows tiles -->
+        <meta name="msapplication-square70x70logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon70.png">
+        <meta name="msapplication-square150x150logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon150.png">
+        <meta name="msapplication-square310x310logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon310.png">
+        <!-- Rectangular Windows tile -->
+        <meta name="msapplication-wide310x150logo" content="https://codetheweb.blog/assets/img/posts/html-icons/icon-rect-310.png">
+        <!-- Windows tile theme color -->
+        <meta name="msapplication-TileColor" content="#2e2e2e">
+    </head>
+    <body>
+        <h1>HTML icons!</h1>
+    </body>
+</html>
+```
 
 ## If you're too lazy... &#128564;
 There is this awesome website called [Real Favicon Generator][real-favicon-generator] which generates favicons, Safari icons, Windows icons and more for you. **However, I recommend that you don't use this until you are quite confident with doing it yourself** - otherwise, you will never learn. That said, you can always look it up if you need. So it's up to you.
