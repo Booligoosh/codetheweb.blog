@@ -108,7 +108,7 @@ Here is a quick recap of the websites I talked about today:
 | freeCodeCamp Guides   | [HTML][fcc-html], [CSS][fcc-css], [JavaScript][fcc-js]             |
 | MDN Web Docs          | [HTML][mdn-html], [CSS][mdn-css], [JavaScript][mdn-js]             |
 | Codrops CSS Reference | [CSS][codrops]                                                     |
-| Stack Overflow        | [Homepage][stackoverflow], [Tour page][stackoverflow-tour]        |
+| Stack Overflow        | [Homepage][stackoverflow], [Tour page][stackoverflow-tour]         |
 
 If you liked this article and want to inspire some fellow coders or soon-to-be coders, I'd really appreciate it if you [shared this article][share]. Thanks! Also, if you want to receive new posts I'd be stoked if you [signed up to the newsletter][newsletter]! If you do, you're officially awesome in my eyes &#128526; and deserve a taco &#127790;
 
