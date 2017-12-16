@@ -35,6 +35,7 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
 - [The steps to creating a website][r-steps-to-creating-a-website]
 - [Why you should join DevChat][r-devchat]
+- [6 Reference sites to help you learn web development in 2018 and beyond... 🚀][r-reference-sites]
 
 [welcome]: /2017/09/29/welcome/
 [p1]: /2017/10/04/how-to-learn-web-development/
@@ -51,6 +52,7 @@ These are just other articles I have written about stuff that isn't programming,
 
 [r-devchat]: /2017/11/24/devchat/
 [r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/
+[r-reference-sites]: /2017/12/16/web-development-reference-sites/
 
 [css]: /learn/css
 

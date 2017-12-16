@@ -160,7 +160,7 @@ Next time, I'll be doing a special post on [Quick-reference sites to help you al
 [ios-add-to-home-screen]: https://www.wikihow.com/Add-a-Link-Button-to-the-Home-Screen-of-an-iPhone
 [hex]: /2017/11/15/basic-css-properties/#hex-values
 [real-favicon-generator]: https://realfavicongenerator.net/
-[reference-sites-to-help-you-learn-coding]: {{site.newsletter}}
+[reference-sites-to-help-you-learn-coding]: /2017/12/14/html-icons/
 
 [base-code]: /assets/img/posts/html-icons/base-code.png
 [waffle-1200px]: /assets/img/posts/html-icons/icon1200.png

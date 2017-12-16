@@ -32,6 +32,8 @@ Next, instead of learning *every single minute feature* of the language, just ge
 
 [StackOverflow] is a programming help forum website. Nine times out of ten, when you look something up on there someone has already answered it - and if not, you can post a question. There is a massive community so you will usually get an answer to your question only a few minutes after posting it (unless it's really obscure). The people on there are really generous, nice and also very smart. Okay, enough ranting about StackOverflow.
 
+> **EDIT:** [I have wrote an article about 5 other quick-reference sites that you can go to look things up on.][reference-sites-to-help-you-learn-coding]{:target='_blank'}
+
 Also, there will be some things that you'll want to memorize, and the best way to do this is by using them for real projects over and over again. Don't worry though, these days your memory doesn't even matter that much - you can look up whatever it is that you don't remember. 
 
 So now you hopefully know how you're going to learn web development, but *what is it that you actually need to learn?*
@@ -105,11 +107,14 @@ So, what did you think of that article? Don't hesitate to [tell me in the commen
 > I have made pages for HTML, CSS, and JavaScript with all of my posts you should read to learn that language *in order*.<br><br>
 > [You can get going right away here!][learn]
 
+
 [dont-code]: https://simpleprogrammer.com/2016/02/22/please-dont-learn-to-code-unless/
 [StackOverflow]: https://stackoverflow.com/
+[reference-sites-to-help-you-learn-coding]: /2017/12/16/web-development-reference-sites/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
 [set-up]: /2017/10/04/how-to-learn-web-development/
 [learn]: {{site.learn}}
+
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
