@@ -4,19 +4,20 @@ title: 'The structure of an HTML document'
 image: '/assets/img/posts/structure-of-an-html-document/cover.png'
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags, HTML structure"
+checked: [grammarly]
 ---
-In this article I will show you the overall structure of an HTML page. Now that you know the [HTML syntax][last-post], it's time to know how to use it.
+In this article, I will show you the overall structure of an HTML page. Now that you know the [HTML syntax][last-post], it's time to know how to use it.
 
 ## Declaring the DOCTYPE
-All HTML documents start with a *`DOCTYPE`* tag. This tells the web browser that the file is an HTML page. A*`DOCTYPE`* tag looks like this:
+All HTML documents start with a *`DOCTYPE`* tag. This tells the web browser that the file is an HTML page. A *`DOCTYPE`* tag looks like this:
 ```HTML
 <!DOCTYPE html>
 ```
 Oh! I almost forgot to tell you: you should follow along with me. If you're not set up to write and test your code, check out [this article][set-up] first.
 
-So, pop open your [code editor][code-editor] and make a new file called `structure.html`. Once that's all done, type the code snippet from above into it. Note that*`DOCTYPE`* is all uppercase, while `html` is all lowercase (a bit counter-intuitive).
+So, pop open your [code editor][code-editor] and make a new file called `structure.html`. Once that's all done, type the code snippet from above into it. Note that *`DOCTYPE`* is all uppercase, while `html` is all lowercase (a bit counter-intuitive).
 
-The*`DOCTYPE`* tag is not a normal HTML tag - it is an exception. Normally, you are not allowed to have an `!` at the start of the opnening tag. The*`DOCTYPE`* does not have a closing tag (other HTML elements don't have closing tags either though).
+The *`DOCTYPE`* tag is not a normal HTML tag - it is an exception. Normally, you are not allowed to have an `!` at the start of the opening tag. The*`DOCTYPE`* does not have a closing tag (other HTML elements don't have closing tags either though).
 
 ## The &lt;html&gt; element
 We need to wrap our entire code in a `<html>` element to tell the browser that what's inside is our HTML (wait what? didn't we just do that? idk, the internet is weird). We are going to be putting code *inside* the HTML tag, so we also need to give it a closing tag. Based on my [last post] [last-post] on HTML syntax, try and guess what our code should look like now...
@@ -53,7 +54,7 @@ But **what actually is the `<head>` element and what goes inside it?** The `<hea
 We will cover other things that you can put in the `<head>` much later, as some of them are quite complex and none of them are essential.
 
 ## The &lt;body&gt; element
-Let's pause while you preview you code (see [this article][run-code]{:target="_blank"} if you don't know how). What? I tricked you? That's right, because there's *nothing there.* But what about all this stuff we've been coding? I mean, there's nothing *visible* there. The `DOCTYPE`, `<html>` and `<head>` tags are invisible. The `<body>` tag is where all the visible content goes, including all your HTML elements and tags. Try adding the `<body>` tag underneath the `<head>` and see if you got it correct:
+Let's pause while you preview your code (see [this article][run-code]{:target="_blank"} if you don't know how). What? I tricked you? That's right - because there's *nothing there.* But what about all this stuff we've been coding? I mean, there's nothing *visible* there. The `DOCTYPE`, `<html>` and `<head>` tags are invisible. The `<body>` tag is where all the visible content goes, including all your HTML elements and tags. Try adding the `<body>` tag underneath the `<head>` and see if you got it correct:
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -66,7 +67,7 @@ Let's pause while you preview you code (see [this article][run-code]{:target="_b
 </html>
 ```
 {:.reveal}
-In my next tutorial I will be going into all the different types of HTML tags and what they do, but for the purposes of this demo add the following content so your HTML looks like this:
+In my next tutorial I will be going into all the different types of HTML tags and what they do, but for the purposes of this demo add the following content so that your HTML looks like this:
 ```HTML
 <!DOCTYPE html>
 <html>

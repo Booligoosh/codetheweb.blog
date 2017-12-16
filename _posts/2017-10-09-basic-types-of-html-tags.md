@@ -4,10 +4,11 @@ title: 'Basic types of HTML tags'
 image: '/assets/img/posts/basic-types-of-html-tags/cover.jpg'
 tags: HTML
 keywords: "learn HTML, how to learn HTML, HTML tags, types of HTML tags"
+checked: [grammarly]
 ---
 Now we know how HTML tags work, what actually are they? What do they do? Learn about some of the most common HTML tags in this article.
 
-If don't have any knowledge of how HTML tags work yet, I recommed that you look over [this article][syntax].
+If you don't have any knowledge of how HTML tags work yet, I recommend that you take a look at [this article][syntax].
 
 Today, we are going to be learning about five types of HTML tags:
 1. `h1` - `h6`
@@ -21,7 +22,7 @@ Let's get going!
 ## Headings (h1-h6)
 The `<h1>` to `<h6>` tags in HTML specify headings / titles. They are numbered from one to six, in order of level. Take this page for example - there are various levels of headings. The title of this post is the main heading, the `<h1>`, and the heading above would be a secondary heading, an `<h2>`. If I had more levels, I could go all the way up to `<h6>`. Here is an example of what that would look like:
 > # Title
-> # Subheading
+> ## Subheading
 > ### Sub-subheading
 > #### Okay, this is getting crazy
 > ##### I sure have a lot of headings
@@ -62,12 +63,12 @@ Now, let's add some headings! It doesn't matter what they say. Try and see if yo
 
 Did you get it right? If so then great job, if not then you may need a [little reminder of the syntax][syntax].
 
-Once thats all done and saved, [preview your page][preview]. Do you see the result? It should look something like this:
-![A page similar to the headings demo above][headings]
+Once that's all done and saved, [preview your page][preview]. Do you see the result? It should look something like this:
+![A page similar to the headings demo above][headings]{:.screenshot-white}
 Cool! You've learned about your first ever actual HTML tag(s)! Let's continue:
 
 # Paragraphs (p)
-Paragraphs are the main content of your HTML page. They don't have to be paragraphs as in what you'd do in an essay - it just means chunks of content. When you have a new paragraph, just start a new `<p>`. Here is an example of two `<p>`'s in succession:
+Paragraphs are the main content of your HTML page. They don't have to be paragraphs like what you'd write in an essay - it just means chunks of content. When you have a new paragraph, just start a new `<p>`. Here is an example of two `<p>`'s in succession:
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales velit nibh. Fusce tincidunt purus vitae iaculis malesuada. In tellus ipsum, tempor egestas cursus a, tincidunt imperdiet urna. Quisque quis risus ac sem rutrum commodo sit amet sed velit. Maecenas tincidunt fringilla libero nec tincidunt. Aliquam erat volutpat. Cras sit amet mi cursus purus dapibus pharetra. Nunc pulvinar orci est, pellentesque pulvinar libero vehicula nec. Aenean cursus, dolor ac fringilla vehicula, velit neque lobortis eros, nec ornare velit diam eu tellus. Nunc posuere molestie ligula vel egestas. Mauris eget suscipit dolor, ut pellentesque magna. Nulla facilisi.
 > 
 > Curabitur aliquet varius odio et volutpat. Aenean sagittis quam vitae eros ultrices tempor. Fusce et dolor vel lorem lobortis rhoncus non et ex. Nulla at ex suscipit, mollis neque a, egestas arcu. Praesent porttitor aliquet leo, ac elementum lorem ullamcorper nec. Integer ut sollicitudin est. Ut et erat ornare, ultricies risus ut, iaculis purus. Duis vulputate lorem eu augue ullamcorper porta. Aliquam a placerat nunc, id rutrum orci.
@@ -94,7 +95,7 @@ Now try adding three `<p>`'s to your document. Try and work out what the code wi
 ```
 {:.reveal}
 Remember that the `<p>`'s have stuff inside them, so make sure to add a closing tag to the end of them (`</p>`). Preview your code again... Now it should look like this:
-![A page similar to the paragraphs demo above][paragraphs]
+![A page similar to the paragraphs demo above][paragraphs]{:.screenshot-white}
 Hopefully your page should look similar, but with different content. Next up, we'll take a look at line breaks.
 
 ## First,<br>A note about links (a) and images (img)
@@ -114,7 +115,7 @@ Try and work out why we wouldn't just write this:
 <h1>First,</h1>
 <h1>A note about links (a) and images (img)</h1>
 ```
-The reason is because that would imply that there are two headings, one saying "First," and one saying "A note about links (a) and images (img)". This is not what we want, as they are not two separate headings but one heading broken onto two lines. Also, most browsers would make the line break in between the two lines larger if we went with the second option (normally you don't want two titles to look like they're connected).
+The reason is, that would imply that there are two headings, one saying "First," and one saying "A note about links (a) and images (img)". This is not what we want, as they are not two separate headings but one heading broken onto two lines. Also, most browsers would make the line break in between the two lines larger if we went with the second option (normally you don't want two titles to look like they're connected).
 
 Add an `<h1>` with a line break in it to your HTML page. You have the syntax from above, see if you can get it right:
 ```HTML
@@ -140,7 +141,7 @@ Add an `<h1>` with a line break in it to your HTML page. You have the syntax fro
 {:.reveal}
 
 When you preview your page, it should look something like this:
-![A page with a heading broken up onto two lines][br]
+![A page with a heading broken up onto two lines][br]{:.screenshot-white}
 Let's look at our final element for today - horizontal rules.
 
 ## Horizontal rules (hr)
@@ -151,7 +152,7 @@ Don't worry, horizontal rules are just lines that separate the content. See this
 > <hr>
 > Curabitur aliquet varius odio et volutpat. Aenean sagittis quam vitae eros ultrices tempor. Fusce et dolor vel lorem lobortis rhoncus non et ex. Nulla at ex suscipit, mollis neque a, egestas arcu. Praesent porttitor aliquet leo, ac elementum lorem ullamcorper nec. Integer ut sollicitudin est. Ut et erat ornare, ultricies risus ut, iaculis purus. Duis vulputate lorem eu augue ullamcorper porta. Aliquam a placerat nunc, id rutrum orci.
 
-The `<hr>` tag is very similar to the `<br>` tag in that it doesn't require a closing tag (and there's only one letter difference). `<hr>` tags can be placed *inside* an element (like the `<br>` inside an `<h1>`) or it can be placed *between* elements. Generally if we are separating the elements instead of their content, we would put the `<hr>` between them.
+The `<hr>` tag is very similar to the `<br>` tag in that it doesn't require a closing tag (and there's only one letter difference). `<hr>` tags can be placed *inside* an element (like the `<br>` inside an `<h1>`) or it can be placed *between* elements. Generally, if we are separating the elements instead of their content, we would put the `<hr>` between them.
 
 Try separating our three `<p>`'s from before with horizontal rules. See if you can work out the code:
 ```HTML
@@ -180,7 +181,7 @@ Try separating our three `<p>`'s from before with horizontal rules. See if you c
 {:.reveal}
 
 Did you get it right? Let's see what it looks like when we preview it:
-![A page with horizontal lines between paragraphs][hr]
+![A page with horizontal lines between paragraphs][hr]{:.screenshot-white}
 
 ## Comments
 Comments in programming are very important. They are not seen by the user of the website, but they can be seen by people editing the code, such as you or other people you are collaborating with. Even if what you are doing at the time seems obvious, it might not be in a few months' time. This is where comments come in. They let you document your code and write what you did, meaning that if you or someone else comes back to the code later, they will know what's going on.
@@ -239,7 +240,7 @@ Well done! You made it, and you learned about your first four/five HTML tags. As
 
 If you liked this article then don't forget to [share][share] and [subscribe][newsletter].
 
-If there's anything you want to ask / tell me, do so in the [comments below][comments]. Have fun, and I'll see you next time!
+If there's anything you want to ask/tell me, do so in the [comments below][comments]. Have fun, and I'll see you next time!
 
 
 
