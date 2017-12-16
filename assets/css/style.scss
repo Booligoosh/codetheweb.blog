@@ -529,7 +529,7 @@ body.stop-scrolling {
     }
 }
 
-.learn-link-home, .learn-lang-banner, .learn-index-banner {
+.learn-link-home, .learn-link-post, .learn-lang-banner, .learn-index-banner {
     margin-bottom: 16px;
     padding: 24px;
     color: white;
@@ -579,6 +579,11 @@ body.stop-scrolling {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;*/
     //color: rgba(255, 255, 255, 0.8);
+}
+
+.learn-link-post {
+    color: black;
+    text-align: center;
 }
 
 @media screen and (max-width: 695px) {
