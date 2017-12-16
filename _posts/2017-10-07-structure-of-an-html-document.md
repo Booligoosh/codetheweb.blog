@@ -26,7 +26,7 @@ We need to wrap our entire code in a `<html>` element to tell the browser that w
     
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Did you get it correct? If so, great! If not, don't worry - you'll get used to HTML after a while. Next, we will have a look at what goes inside the `<html>` element.
 
 ## The &lt;head&gt; element
@@ -39,7 +39,7 @@ Within the `<html>` element are two elements: the `<head>` and the `<body>`. The
     </head>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 But **what actually is the `<head>` element and what goes inside it?** The `<head>` element basically stores data about the HTML page as well as links to resources ([CSS][css], [JavaScript][javascript], icons etc.) Nothing within the `<head>` is actually displayed on the page. Some data about the page that it can store it the *title* of the page. This shows up as the tab name in your browser. Try adding a title tag to your `<head>` now. Try and work out how it will look (you can add whatever title you want):
 ```HTML
 <!DOCTYPE html>
@@ -49,7 +49,7 @@ But **what actually is the `<head>` element and what goes inside it?** The `<hea
     </head>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 We will cover other things that you can put in the `<head>` much later, as some of them are quite complex and none of them are essential.
 
 ## The &lt;body&gt; element
@@ -65,7 +65,7 @@ Let's pause while you preview you code (see [this article][run-code]{:target="_b
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 In my next tutorial I will be going into all the different types of HTML tags and what they do, but for the purposes of this demo add the following content so your HTML looks like this:
 ```HTML
 <!DOCTYPE html>

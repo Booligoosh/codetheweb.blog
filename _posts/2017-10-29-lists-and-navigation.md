@@ -90,7 +90,7 @@ Using the information I've given you, try and work out what the code for the exa
     <dd>Lists used to define things</dd>
 </dl>
 ```
-{:class="reveal"}
+{:.reveal}
 
 There we go! Now you know all three types of lists in HTML!
 
@@ -129,7 +129,7 @@ See if you got it right below:
     </ul>
 </nav>
 ```
-{:class="reveal"}
+{:.reveal}
 
 Note that the default styling for the navigation code above looks really bad - in a later article, I will show you [how to make a navigation bar that actually looks good, all while keeping the exact same HTML][nav-bar-css].
 

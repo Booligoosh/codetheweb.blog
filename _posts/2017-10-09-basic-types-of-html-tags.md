@@ -58,7 +58,7 @@ Now, let's add some headings! It doesn't matter what they say. Try and see if yo
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 
 Did you get it right? If so then great job, if not then you may need a [little reminder of the syntax][syntax].
 
@@ -92,7 +92,7 @@ Now try adding three `<p>`'s to your document. Try and work out what the code wi
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Remember that the `<p>`'s have stuff inside them, so make sure to add a closing tag to the end of them (`</p>`). Preview your code again... Now it should look like this:
 ![A page similar to the paragraphs demo above][paragraphs]
 Hopefully your page should look similar, but with different content. Next up, we'll take a look at line breaks.
@@ -137,7 +137,7 @@ Add an `<h1>` with a line break in it to your HTML page. You have the syntax fro
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 
 When you preview your page, it should look something like this:
 ![A page with a heading broken up onto two lines][br]
@@ -177,7 +177,7 @@ Try separating our three `<p>`'s from before with horizontal rules. See if you c
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 
 Did you get it right? Let's see what it looks like when we preview it:
 ![A page with horizontal lines between paragraphs][hr]

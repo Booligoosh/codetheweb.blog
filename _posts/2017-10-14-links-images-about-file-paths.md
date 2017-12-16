@@ -49,7 +49,7 @@ Try adding the Code The Web logo image to your web page. Using the information f
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 
 [Preview your page][run-code]. You should see an image! Yay! The only problem is, it looks a bit large. Add `width` and `height` attributes to your image element equal to `300px` (300 pixels). See if you got it right:
 ```HTML
@@ -63,7 +63,7 @@ Try adding the Code The Web logo image to your web page. Using the information f
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 
 Preview it again - you will see that the image has been scaled down to a nice size - 300px by 300px.
 
@@ -89,7 +89,7 @@ The `href` attribute specifies the link URL, and stands for *Hypertext Reference
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Try previewing your code - Oops! It's on the same line! Let's quickly add a [`<br>`][br]{:target="_blank"} to fix that:
 ```HTML
 <!DOCTYPE html>
@@ -104,7 +104,7 @@ Try previewing your code - Oops! It's on the same line! Let's quickly add a [`<b
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Try previewing your code again and click on the link. (note - the reason I made that second code snippet hidden was so you didn't see it above)
 
 ### Open links in new tab
@@ -127,7 +127,7 @@ Try making your link open in a new tab - see if you can guess the code:
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Once you are done, preview your code and click on the link. You will see that it automatically pops up in a new tab. How cool is that!
 
 What your code is doing here is it is specifying the target tab for the link to open in - which we've set to `_blank`, meaning that it will open in a new blank tab. Other options for the `target` attribute are `_parent`, `_self` and `_top`.
@@ -149,7 +149,7 @@ The content of the link doesn't always have to be text - it can be HTML. For exa
     </body>
 </html>
 ```
-{:class="reveal"}
+{:.reveal}
 Now, when you click on your image it will send you to Google.
 
 All this is fine and well, but what if you want to link to pages within your site or use your own images? Read on below to find out:
