@@ -7,7 +7,7 @@ tags: Other HTML CSS JavaScript
 keywords: "reference sites, web development, web development reference sites, reference sites for web development, reference sites to learn web development"
 checked: [grammarly]
 ---
-As a person learning web development, you should always be looking things up that you don't know. Because, let's face it - in today's world, it's silly to know *every single* feature of a coding language. Instead, we as developers look things up! Today, I'm going to show you five of the best web development reference sites for those moments when you can't quite remember how that specific thing works.
+As a person learning web development, you should always be looking things up that you don't know. Because, let's face it - in today's world, it's silly to know *every single* feature of a coding language. Instead, we as developers look things up! Today, I'm going to show you six of the best web development reference sites for those moments when you can't quite remember how that specific thing works.
 
 ## What is a reference site?
 A reference site is where you go if you need to know a specific thing - let's say what values the `margin` property takes in CSS or how to find the square root of a number in JavaScript. It is an easy way to get an answer to a very specific question.
