@@ -23,7 +23,7 @@ As you can see, this is much more succinct and is good if you need a quick refer
 
 ## 1. W3Schools
 [![W3Schools][w3-logo]][w3]
-[W3Schools][w3] is run by the World Wide Web Consortium (W3C). The W3C is basically the people who are in charge of web development standards and agree on new features for those languages. In other words, they make sure that all browsers interpret HTML, CSS, and JavaScript in the same way. So, it goes without saying that they have good information! Their format is also very good. For each language reference, they have a sidebar with a list of pages, so it is very easy to find what you are looking for - I never even need to use the search bar! The reference is also very succinct and to-the-point which is good for when you need a quick reminder of something. I would say that W3Schools has the best explanations by far.
+[W3Schools][w3] is a tutorials website, but they are more brief and reference-like. They also have dedicated reference pages for most web development languages. Their format is very good. For each language reference, they have a sidebar with a list of pages, so it is very easy to find what you are looking for - I never even need to use the search bar! The reference is also very succinct and to-the-point which is good for when you need a quick reminder of something. I would say that W3Schools has the best explanations by far.
 
 ### Reference links:
 - [HTML Reference][w3-html]
