@@ -419,6 +419,18 @@ body.stop-scrolling {
     display:block;
 }
 
+.learn-index-banner .btn.hover-btn:hover span {
+    display: none !important;
+}
+
+.learn-index-banner .btn.hover-btn .on-hover {
+    display: none !important;
+}
+
+.learn-index-banner .btn.hover-btn:hover .on-hover {
+    display: block !important;
+}
+
 .learn-index-banner .btn:first-of-type {
     margin-left: 0;
 }
