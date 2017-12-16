@@ -3,7 +3,7 @@ layout: post
 title: "6 Reference sites to help you learn web development in 2018 and beyond... 🚀"
 image: '/assets/img/posts/web-development-reference-sites/cover.jpg'
 photoCred: [Aleksi Tappura,mCg0ZgD7BgU]
-tags: HTML
+tags: Other HTML CSS JavaScript
 keywords: "reference sites, web development, web development reference sites, reference sites for web development, reference sites to learn web development"
 checked: [grammarly]
 ---
