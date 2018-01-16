@@ -62,7 +62,7 @@ Open up your `index.html` file in a browser - at this point, it should look like
 
 ![The basic HTML viewed in our browser][base-html]{:.screenshot-white}
 
-Not that you will probably have to scroll down unless you are reeeaaaally zoomed out because our image is massive!
+Note that you will probably have to scroll down unless you are reeeaaaally zoomed out because our image is massive!
 
 Time for our CSS...
 
