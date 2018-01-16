@@ -408,7 +408,7 @@ If you want to know more about a specific section of what I was showing today, c
 ## Conclusion
 So, I hope you enjoyed this article and hopefully you learned something along the way!
 
-I did something a little different from usual today, so [tell me your thoughts][comments]. Remember, this article is less about me showing you the actual technical parts of creating a website, but more about guiding you through the though-process of creating a website.
+I did something a little different from usual today, so [tell me your thoughts][comments]. Remember, this article is less about me showing you the actual technical parts of creating a website, but more about guiding you through the thought-process of creating a website.
 
 Thanks again to [Alisa Dubik-Wilson][alisa-dubik-wilson] for suggesting this article, and don't forget that [you can too!][contact]
 
