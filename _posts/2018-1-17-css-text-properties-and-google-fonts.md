@@ -133,7 +133,7 @@ But you may be wondering - how does the line *height* create more space *between
 
 ![Each line has a line-height of 200px, but the text itself is not that high][line-height-200px-annotated]{:.screenshot-white}
 
-`line-height` works well when using [`em` units][em] because it means you can set the `line-height` relative to the `font-size`. For example, `line-height: 2em` would make the `line-height` double to size of the text.
+`line-height` works well when using [`em` units][em] because it means you can set the `line-height` relative to the `font-size`. For example, `line-height: 2em` would make the `line-height` double the size of the text.
 
 ## letter-spacing
 `letter-spacing` determines the amount of space in between each letter and takes any types of units. Let's jump right in and try it out!
