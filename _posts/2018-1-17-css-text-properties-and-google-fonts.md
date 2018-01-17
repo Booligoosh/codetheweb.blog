@@ -136,7 +136,7 @@ But you may be wondering - how does the line *height* create more space *between
 `line-height` works well when using [`em` units][em] because it means you can set the `line-height` relative to the `font-size`. For example, `line-height: 2em` would make the `line-height` double the size of the text.
 
 ## letter-spacing
-`letter-spacing` determines the amount of space in between each letter and takes any types of units. Let's jump right in and try it out!
+`letter-spacing` determines the amount of space in between each letter and takes a value in any CSS unit. Let's jump right in and try it out!
 
 Try giving the text a `letter-spacing` of `5px`...
 ```CSS
