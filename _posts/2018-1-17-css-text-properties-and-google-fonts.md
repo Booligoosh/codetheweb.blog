@@ -259,7 +259,7 @@ Now our text is in the font Ribeye Marrow!
 
 Woo! That's it for today! Hopefully, this article was useful and helped you along your coding journey. As always, if there was anything that you didn't get or if you have any feedback, [tell me in the comments][comments].
 
-Also, these articles don't come out of thin air! Looking at my Pomodoro Timer, so far I've spent 3 hours and 15 minutes on this article.
+Also, these articles don't come out of thin air! Looking at my [Pomodoro Timer][pomodoro], so far I've spent 3 hours and 20 minutes on this article, and have just passed to 40,000 word mark on this blog!
 
 While your nice comments and knowing that I am helping you all make it worthwhile, I'd really appreciate it if you [shared this][share] or [this blog](/#share) with your friends or [signed up to the newsletter][newsletter] to get the latest articles in your inbox.
 
@@ -271,6 +271,7 @@ See you next time, where I'll be talking about [using custom font files][custom-
 [em]: /2017/12/04/css-units/#em
 [ribeye-marrow]: https://fonts.google.com/specimen/Ribeye+Marrow
 [imports]: {{site.newsletter}}
+[pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique
 
 [new-year-1]: /assets/img/posts/css-text-properties-and-google-fonts/new-year-1.jpg
 [base-code]: /assets/img/posts/css-text-properties-and-google-fonts/base-code.png
