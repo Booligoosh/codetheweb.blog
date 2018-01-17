@@ -136,7 +136,7 @@ body {
 ```
 The body has a default margin, which we do not want interfering without image header, which is why we have set it to 0. The reason that we have set the `font-family` to `sans-serif` is so that you're not stuck with Times New Roman &#128540;
 
-You can actually set the text to be in any font you want, but it gets a little more complicated - I will go into that in a [later article][fonts].
+You can actually set the text to be in any font you want, but it gets a little more complicated - I will go into that in a [later article][font-family].
 
 ## Hero positioning and sizing
 
@@ -530,7 +530,7 @@ Okay! Have fun, keep coding and I'll see you next time, where I'll be talking ab
 [demo]: /demo/full-image-hero/
 [document-structure]: /2017/10/07/structure-of-an-html-document/
 [flexbox]: /2017/12/05/css-flexboxes/
-[fonts]: {{site.newsletter}}
+[font-family]: /2018/01/17/css-text-properties-and-google-fonts/#font-family
 [vw-vh]: /2017/12/04/css-units/#vw--vh
 [perfect-centering]: /2017/12/05/css-flexboxes/#perfect-centering
 [advanced-bg-images]: /2017/12/02/css-advanced-background-images/
