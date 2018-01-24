@@ -102,7 +102,7 @@ body > section {
     line-height: 1.5em;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 645px), screen and (max-height: 625px) {
     #newsletter {
         display: none;
     }
