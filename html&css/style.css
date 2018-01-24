@@ -34,12 +34,21 @@ body > section {
     justify-content: center;
 }
 
-#hero .inner * {
+#hero * {
     width: auto;
     border: none;
     padding-bottom: 0;
     border-bottom: 0;
     margin-bottom: 0;
+}
+
+#hero .inner-linked {
+    display: none;
+}
+
+#hero .inner-linked a {
+    color: white !important;
+    text-decoration: none !important;
 }
 
 #hero .scroll-down {
@@ -75,4 +84,19 @@ body > section {
 
 #tutorials li {
     line-height: 1.5em;
+}
+
+@media screen and (max-width: 645px) {
+    #newsletter {
+        display: none;
+    }
+    .scroll-down {
+        display: none;
+    }
+    #hero .inner {
+        display: none;
+    }
+    #hero .inner-linked {
+        display: block !important;
+    }
 }
