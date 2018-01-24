@@ -22,8 +22,15 @@ These are optional but recommended. In tutorials, I might build on what's covere
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
-- [Why you should join DevChat][r-devchat]
-- [6 Reference sites to help you learn web development in 2018 and beyond... 🚀][r-reference-sites]
+
+<ul>
+{% assign posts = site.posts | reverse %}
+{% for post in posts %}
+{% if site.learn.javascript.other contains post.url %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
 
 [newsletter]: {{site.newsletter}}
 
@@ -31,7 +38,3 @@ These are just other articles I have written about stuff that isn't programming,
 [p1]: /2017/10/04/how-to-learn-web-development/
 [p2]: /2017/10/05/how-the-internet-works/
 [p3]: /2017/10/06/web-development-on-your-computer/
-
-
-[r-devchat]: /2017/11/24/devchat/
-[r-reference-sites]: /2017/12/16/web-development-reference-sites/

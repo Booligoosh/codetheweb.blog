@@ -23,36 +23,31 @@ These are optional but recommended. In tutorials, I might build on what's covere
 
 # Tutorials
 I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning HTML, you can move on to [CSS][css].
-1. [HTML syntax][t1]
-2. [The structure of an HTML document][t2]
-3. [Basic types of HTML tags][t3]
-4. [Links, images and about file paths][t4]
-5. [Wrapping and grouping HTML elements][t5]
-6. [Lists and navigation in HTML][t6]
-7. [The complete guide to HTML icons][t7]
+
+<ol>
+{% assign posts = site.posts | reverse %}
+{% for post in posts %}
+{% if site.learn.html.tutorials contains post.url %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ol>
 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
-- [The steps to creating a website][r-steps-to-creating-a-website]
-- [Why you should join DevChat][r-devchat]
-- [6 Reference sites to help you learn web development in 2018 and beyond... 🚀][r-reference-sites]
 
-[welcome]: /2017/09/29/welcome/
+<ul>
+{% assign posts = site.posts | reverse %}
+{% for post in posts %}
+{% if site.learn.html.other contains post.url %}
+<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% endif %}
+{% endfor %}
+</ul>
+
 [p1]: /2017/10/04/how-to-learn-web-development/
 [p2]: /2017/10/05/how-the-internet-works/
 [p3]: /2017/10/06/web-development-on-your-computer/
-
-[t1]: /2017/10/06/html-syntax/
-[t2]: /2017/10/07/structure-of-an-html-document/
-[t3]: /2017/10/09/basic-types-of-html-tags/
-[t4]: /2017/10/14/links-images-about-file-paths/
-[t5]: /2017/10/22/wrapping-and-grouping-elements/
-[t6]: /2017/10/29/lists-and-navigation/
-[t7]: /2017/12/14/html-icons/
-
-[r-devchat]: /2017/11/24/devchat/
-[r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/
-[r-reference-sites]: /2017/12/16/web-development-reference-sites/
 
 [css]: /learn/css
 
