@@ -1,0 +1,58 @@
+---
+layout: default
+title: HTML & CSS explained for normal people
+---
+<!-- <link rel="stylesheet" href="/assets/css/myfont.css">
+ -->
+<link rel="stylesheet" href="style.css">
+<section id="hero">
+    <div class="inner">
+        <h1><i class="iconfont icon-logo"></i><br>HTML & CSS explained <br>for normal people</h1>
+    </div>
+    <a class="scroll-down" href="#newsletter">Scroll down for the tutorials!</a>
+</section>
+<h3 id="newsletter">Want to get new posts in your inbox? <a href="/newsletter">Sign up to my newsletter</a>.</h3>
+<section id="tutorials">
+    <div class="inner">
+        <h2>Tutorials</h2>
+        <p>I started Code The Web with a goal of helping more people get into coding, and explaining what can often seem like confusing technical jargon in simple and easy-to-understand ways. I really want to help more people, so thanks for coming to this page!</p>
+        <br>
+        <p>If you ever need help with coding or while going through the tutorials, you can email me at <span class="email link"></span>. Enjoy!</p>
+        <br>
+        <p>Take care,</p>
+        <p style="font-family: 'Homemade Apple'">Booligoosh</p>
+        <p style="font-size: 0.8em;margin-top: 5px;opacity: 0.8">Founder of Code The Web</p>
+        <section id="general-webdev-tutorials">
+            <h3>Web development in general:</h3>
+            <ol>
+                <li><a href="/2017/10/05/how-the-internet-works/">How the internet works</a></li>
+                <li><a href="/2017/10/04/how-to-learn-web-development/">How to learn web development</a></li>
+                <li><a href="/2017/10/06/web-development-on-your-computer/">Practice web development on your computer</a></li>
+                <li><a href="/2017/12/10/steps-to-creating-a-website/">The steps to creating a website (HTML & CSS)</a></li><li><a href="/2017/12/16/web-development-reference-sites/">6 Reference sites to help you learn web development in 2018 and beyond... 🚀</a></li>
+                <li><a href="/2017/11/24/devchat/">Why you should join DevChat</a></li>
+            </ol>
+        </section>
+        <section id="html-tutorials">
+            <h3>HTML:</h3>
+            <ol>
+            {% assign posts = site.posts | reverse %}
+            {% for post in posts %}
+            {% if site.learn.html.tutorials contains post.url %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+            </ol>
+        </section>
+        <section id="css-tutorials">
+            <h3>CSS:</h3>
+            <ol>
+            {% assign posts = site.posts | reverse %}
+            {% for post in posts %}
+            {% if site.learn.css.tutorials contains post.url %}
+            <li><a href="{{post.url}}">{{post.title}}</a></li>
+            {% endif %}
+            {% endfor %}
+            </ol>
+        </section>
+    </div>
+</section>
