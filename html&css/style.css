@@ -8,6 +8,8 @@ body {
     background: linear-gradient(100deg,#ffce69,#fa709a);
     -webkit-font-smoothing: initial;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: 'Karla', sans-serif;
 }
 
