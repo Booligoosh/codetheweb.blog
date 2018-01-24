@@ -74,6 +74,11 @@ body > section {
     display: none;
 }
 
+#newsletter-mobile h3 {
+    margin: 0;
+    border: none;
+}
+
 #newsletter-m {
     position: relative;
     top: -1em;
