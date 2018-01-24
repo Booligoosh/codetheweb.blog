@@ -19,11 +19,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h1 *, h2, h2 * {
-    font-size: 4.4vw !important;
+    font-size: 3.75rem !important;
 }
 
 h3, h3 * {
-    font-size: 2.5vw !important;
+    font-size: 2.135rem !important;
 }
 body > section {
     width: auto;
@@ -44,7 +44,7 @@ body > section {
 
 #hero .scroll-down {
     font-family: 'Homemade Apple', 'Annie Use Your Telescope', cursive;
-    font-size: 2vw;
+    font-size: 1.705rem;
     color: white;
     text-decoration: none;
     position: absolute;
@@ -53,7 +53,6 @@ body > section {
 }
 
 #newsletter {
-    font-size: 2.5vw;
     padding-left: 1em;
     padding-top: 0.2em;
     position: sticky;
