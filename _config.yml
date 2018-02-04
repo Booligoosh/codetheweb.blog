@@ -87,14 +87,14 @@ learn:
   html:
     tutorials: ['/2017/10/06/html-syntax/','/2017/10/07/structure-of-an-html-document/','/2017/10/09/basic-types-of-html-tags/','/2017/10/14/links-images-about-file-paths/','/2017/10/22/wrapping-and-grouping-elements/','/2017/10/29/lists-and-navigation/','/2017/12/14/html-icons/']
     
-    other: ['/2017/12/10/steps-to-creating-a-website/','/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/']
+    other: ['/2017/12/10/steps-to-creating-a-website/','/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/','/2018/02/04/github-pages-free-hosting/']
     
   css:
-    tutorials: ['/2017/11/11/css-syntax/','/2017/11/15/basic-css-properties/','/2017/11/17/css-sizing-and-positioning/','/2017/11/21/css-position-property/','/2017/11/29/css-display-property/','/2017/12/02/css-advanced-background-images/','/2017/12/04/css-units/','/2017/12/05/css-flexboxes/','/2017/12/07/fullscreen-image-hero/','/2017/12/12/style-a-navigation-bar-css/','/2018/01/17/css-text-properties-and-google-fonts/','/2018/02/04/github-pages-free-hosting/']
+    tutorials: ['/2017/11/11/css-syntax/','/2017/11/15/basic-css-properties/','/2017/11/17/css-sizing-and-positioning/','/2017/11/21/css-position-property/','/2017/11/29/css-display-property/','/2017/12/02/css-advanced-background-images/','/2017/12/04/css-units/','/2017/12/05/css-flexboxes/','/2017/12/07/fullscreen-image-hero/','/2017/12/12/style-a-navigation-bar-css/','/2018/01/17/css-text-properties-and-google-fonts/']
     
-    other: ['/2017/12/10/steps-to-creating-a-website/','/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/']
+    other: ['/2017/12/10/steps-to-creating-a-website/','/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/','/2018/02/04/github-pages-free-hosting/']
     
   javascript:
     tutorials: []
     
-    other: ['/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/']
+    other: ['/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/','/2018/02/04/github-pages-free-hosting/']
