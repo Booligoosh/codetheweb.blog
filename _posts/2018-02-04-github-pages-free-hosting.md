@@ -85,7 +85,7 @@ Leave all the fields as they are, but **untick "Keep this code private"** (you h
 
 ![Leave all the fields as they are, but UNTICK "Keep this code private"][gh-desktop-publish-repo-dialogue]
 
-Next, we need to configure the settings for our website to be hosted! Go to github.com/yourusername/yourusername.github.io (eg. github.com/Booligoosh/booligoosh.github.io for me) and click on the 'Settings' tab.
+Next, we need to configure the settings for our website to be hosted! Go to `github.com/yourusername/yourusername.github.io` (eg. `github.com/Booligoosh/booligoosh.github.io` for me) and click on the 'Settings' tab.
 
 Scroll down to where it says GitHub Pages, then click on the dropdown. Select "master branch", then click "Save".
 
