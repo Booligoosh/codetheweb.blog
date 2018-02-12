@@ -4,7 +4,7 @@ language: CSS
 title: Learn CSS
 purpose: making websites look good
 ---
-I've written many tutorials on HTML. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn HTML. If you want to know more about Code The Web, check out the [welcome post][welcome].
+I've written many tutorials on CSS. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn CSS. If you want to know more about Code The Web, check out the [welcome post][welcome].
 
 > ### Want to get new posts in your inbox? [Sign up to my newsletter][newsletter].
 > I've worked hard on these tutorials and as of now do not make any money on them, so I'd really appreciate if you signed up ;)
