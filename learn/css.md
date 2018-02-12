@@ -22,7 +22,7 @@ These are optional but recommended. In tutorials, I might build on what's covere
 [Practice web development on your computer][p3]
 
 # Tutorials
-I make a new tutorial at least once a week. Over time, this list will grow. Once I have finished doing CSS, I will move on to [JavaScript][js].
+I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning CSS, you can move on to [JavaScript][js].
 
 <ol>
 {% assign posts = site.posts | reverse %}
