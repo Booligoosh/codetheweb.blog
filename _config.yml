@@ -95,6 +95,6 @@ learn:
     other: ['/2017/12/10/steps-to-creating-a-website/','/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/','/2018/02/04/github-pages-free-hosting/']
     
   javascript:
-    tutorials: []
+    tutorials: ['/2018/02/12/hello-javascript/']
     
     other: ['/2017/11/24/devchat/','/2017/12/16/web-development-reference-sites/','/2018/02/04/github-pages-free-hosting/']
