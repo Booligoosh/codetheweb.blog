@@ -176,7 +176,7 @@ $dark-grey: #444444;
     margin-bottom: 16px;
     font-family: "Merriweather";
 }
-
+/* NO SIDEBAR */
 @media screen and (max-width: 960px) {
     .g-sidebar, .search-card, .sp-badge-home, #sponsors, .sponsors {
         display: none !important;
@@ -208,6 +208,9 @@ $dark-grey: #444444;
     }
     #sponsors {
         text-align: center;
+    }
+    .g-sidebar-wrapper .bmc-button {
+        display: none !important;
     }
 }
 
