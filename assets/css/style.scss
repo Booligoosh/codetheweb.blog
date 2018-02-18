@@ -950,6 +950,62 @@ img.screenshot-white {
     opacity: .4;
 }
 
+/* DEFAULT BMC CODE */
+.bmc-button img {
+    width: 27px !important;
+    margin-bottom: 3px !important;
+    box-shadow: none !important;
+    border: none !important;
+    vertical-align: middle !important;
+}
+
+.bmc-button {
+    line-height: 41px !important;
+    height: 41px !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    color: #ffffff !important;
+    background-color: #FF813F !important;
+    border-radius: 3px !important;
+    border: 1px solid transparent !important;
+    padding: 0px 9.5px !important;
+    font-size: 24px !important;
+    letter-spacing: 0.6px !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    -o-transition: 0.3s all linear !important;
+    -moz-transition: 0.3s all linear !important;
+    -webkit-transition: 0.3s all linear !important;
+    -ms-transition: 0.3s all linear !important;
+    transition: 0.3s all linear !important;
+    margin: 0 auto !important;
+    font-family: "Cookie", sans-serif !important;
+}
+
+.bmc-button:hover,
+.bmc-button:active,
+.bmc-button:focus {
+    -webkit-box-shadow: 0 4px 16px 0 rgba(190, 190, 190, .45) !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 16px 0 rgba(190, 190, 190, .45) !important;
+    opacity: 0.85 !important;
+    color: #ffffff !important;
+}
+/* END DEFAULT BMC CODE */
+
+/* MY BMC CODE */
+.bmc-button {
+    display: block !important;
+    width: max-content;
+    margin: 3rem auto !important;
+}
+.bmc-button img {
+    background-color: unset;
+    display: inline;
+    margin: 0;
+}
+/* END MY BMC CODE */
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
