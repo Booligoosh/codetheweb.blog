@@ -105,7 +105,7 @@ var z = false; /* Boolean */
 
 I'm honoured to be part of your coding journey, and I hope you found this useful! If so, why don't you [join the newsletter][newsletter] and recieve more articles like this in your inbox? Plus, I'll love you in return &lt;3
 
-Also, if you are *really* nice and have $4 to spare, I'd really appreciate it if you [buy me a coffee &#x2615;][coffee]. Thanks!
+Also, if you are *really* nice and have $4 to spare, I'd really appreciate it if you [buy me a coffee &#x2615;][donate]. Thanks!
 
 And if there's anyone who you think this article would really help out, don't forget to [share it with them!][share] Finally, if you wanna chat with me (or other people), head down to the [comments below][comments].
 
