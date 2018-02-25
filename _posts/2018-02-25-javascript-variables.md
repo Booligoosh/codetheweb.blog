@@ -109,7 +109,7 @@ Also, if you are *really* nice and have $4 to spare, I'd really appreciate it if
 
 And if there's anyone who you think this article would really help out, don't forget to [share it with them!][share] Finally, if you wanna chat with me (or other people), head down to the [comments below][comments].
 
-See you next time, when I'll be talking about [some basic interactions in JavaScript][interactions]. See you then!
+See you next time, when I'll be talking about [if statements in JavaScript][if], as well as how we can compare variables to create `true` and `false` values. See you then!
 
 
 [if]: {{site.newsletter}}
