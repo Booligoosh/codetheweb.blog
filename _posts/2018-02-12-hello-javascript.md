@@ -4,7 +4,7 @@ title: Getting started with JavaScript!
 image: '/assets/img/posts/hello-javascript/cover.png'
 photoCred: [Markus Spiske,8OyKWQgBsKQ]
 tags: JavaScript
-keywords: ""
+keywords: "JavaScript, Learn JavaScript"
 checked: [grammarly]
 ---
 JavaScript is a programming language that makes websites *do stuff*. It can store variables, do certain actions based on logic and more. You can even change the HTML of a page and add CSS using JavaScript! It is a language that every web developer must learn at some point because it is just so *useful*.

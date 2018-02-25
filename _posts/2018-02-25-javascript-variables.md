@@ -4,8 +4,8 @@ title: Variables in JavaScript
 image: '/assets/img/posts/javascript-variables/cover.jpg'
 photoCred: [Markus Spiske,Skf7HxARcoc]
 tags: JavaScript
-keywords: ""
-checked: []
+keywords: "Variables, JavaScript, Learn JavaScript"
+checked: [grammarly]
 ---
 Variables are a core part of JavaScript - in fact, they are a core part of almost any programming language. They let you store information, and are the basis of what makes JavaScript so powerful. Learn all about them in this article...
 
