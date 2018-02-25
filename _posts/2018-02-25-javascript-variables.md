@@ -21,7 +21,7 @@ But what about doing this using a variable? Here's how:
 var x = 25;
 alert(x);
 ```
-Let's take a look at what's going on here- first of all, we're *creating* (aka *declaring*) our variable called `x` by saying `var x`. On this same line, we're also giving the variable an inital value to store by saying `= 25`.
+Let's take a look at what's going on here- first of all, we're *creating* (aka *declaring*) our variable called `x` by saying `var x`. On this same line, we're also giving the variable an initial value to store by saying `= 25`.
 
 Now, when we run this code it will alert `25`! This is because `x` is now just a placeholder for the number 25. It is just like if you were editing a document and wanted to replace all instances of the word "banana" - in this case, the browser goes through our code and replaces all instances of the variable `x` with `25`.
 
@@ -54,10 +54,10 @@ As you can see, setting a variable that had already been declared is as simple a
 Now, we can alert `85` without even changing the line where it says `alert`! This might seem weird now, but variables are one of the core parts of JavaScript and will come in handy more as you write more complicated code.
 
 ## Types of variables
-In JavaScript, there are different variable *types*. This is because it needs to know what type of data we are giving the variable, because, well, computers are dumber than you are. Note that **you can change a variable to a different type after it has been declared, it doesn't need to stay as the same type.** Here are some of the basic data types in JavaScript:
+In JavaScript, there are different variable *types*. This is because it needs to know what type of data we are giving the variable, because, well, computers are dumber than you are. Note that **you can change a variable to a different type after it has been declared, it doesn't need to stay the same type.** Here are some of the basic data types in JavaScript:
 
 ### Strings
-A *string* is another way of saying some text. We have to surround it in quotes, because otherwise it would be considered a variable. Here is an example:
+A *string* is another way of saying some text. We have to surround it in quotes because otherwise it would be considered a variable. Here is an example:
 ```javascript
 var x = "I am a string!";
 ```
@@ -103,7 +103,7 @@ var y = 'I <3 JavaScript!'; /* String */
 var z = false; /* Boolean */
 ```
 
-I'm honoured to be part of your coding journey, and I hope you found this useful! If so, why don't you [join the newsletter][newsletter] and recieve more articles like this in your inbox? Plus, I'll love you in return &lt;3
+I'm honored to be part of your coding journey, and I hope you found this useful! If so, why don't you [join the newsletter][newsletter] and receive more articles like this in your inbox? Plus, I'll love you in return &lt;3
 
 Also, if you are *really* nice and have $4 to spare, I'd really appreciate it if you [buy me a coffee &#x2615;][donate]. Thanks!
 
