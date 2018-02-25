@@ -7,6 +7,7 @@ tags: JavaScript
 keywords: ""
 checked: []
 ---
+Variables are a core part of JavaScript - in fact, they are a core part of almost any programming language. They let you store information, and are the basis of what makes JavaScript so powerful. Learn all about them in this article...
 
 ## What is a variable?
 A variable is simply a place to store something. In fact, you can think of a variable like a cupboard. First, we need to *create* the cupboard to store stuff in. Next, we'll want to put something in the cupboard. Then later, we'll want to retrieve the item and use it. We might also want to replace the item with another item.
