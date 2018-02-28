@@ -74,7 +74,7 @@ Here is a snippet of CSS:
 ### JavaScript
 JavaScript is what makes web pages do stuff. It has stuff like if/else statements and functions (which you will learn about later). Here is a snippet of JavaScript:
 
-```javascript
+```JavaScript
 var x = 5;
 
 if(x < 10) {

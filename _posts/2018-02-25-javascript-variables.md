@@ -13,11 +13,11 @@ Variables are a core part of JavaScript - in fact, they are a core part of almos
 A variable is simply a place to store something. In fact, you can think of a variable like a cupboard. First, we need to *create* the cupboard to store stuff in. Next, we'll want to put something in the cupboard. Then later, we'll want to retrieve the item and use it. We might also want to replace the item with another item.
 
 Time to see it in use! Let's say we wanted to alert the number `25`. Normally, we'd do it like so:
-```javascript
+```JavaScript
 alert(25);
 ```
 But what about doing this using a variable? Here's how:
-```javascript
+```JavaScript
 var x = 25;
 alert(x);
 ```
@@ -44,7 +44,7 @@ Now, when we run this code it will alert `25`! This is because `x` is now just a
 > You can now put all of your JavaScript inside the `<script>` tag! &#x1F389;
 
 But why does any of this matter? Well, the true power of variables is the fact that you can *change* them. For example:
-```javascript
+```JavaScript
 var x = 25;
 x = 85;
 alert(x);
@@ -58,27 +58,27 @@ In JavaScript, there are different variable *types*. This is because it needs to
 
 ### Strings
 A *string* is another way of saying some text. We have to surround it in quotes because otherwise it would be considered a variable. Here is an example:
-```javascript
+```JavaScript
 var x = "I am a string!";
 ```
 It doesn't matter if you have single or double quotes:
-```javascript
+```JavaScript
 var x = 'I am a string!';
 ```
 
 ### Numbers
 Obviously, we can also set a variable to a *number* - like we did before! It can be a whole number:
-```javascript
+```JavaScript
 var x = 16;
 ```
 Or a decimal:
-```javascript
+```JavaScript
 var x = 3.14;
 ```
 
 ### Booleans
 *Booleans* are simply `true` or `false` values:
-```javascript
+```JavaScript
 var x = true;
 var y = false;
 ```
@@ -88,14 +88,14 @@ This may sound very simple, but they can come in handy when using [`if` statemen
 Yay! You now know all about variables! Let's go through what we've learned today.
 
 First of all, we learned how to declare, set and change variables:
-```javascript
+```JavaScript
 var x = 12; /* Declared and set a variable */
 
 x = "Helloooo!"; /* Change a variable (you can change it to a different type) */
 ```
 
 We also learned about some of the basic types of data:
-```javascript
+```JavaScript
 var x = 2.71; /* Number */
 
 var y = 'I <3 JavaScript!'; /* String */

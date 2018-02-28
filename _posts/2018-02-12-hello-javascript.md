@@ -24,7 +24,7 @@ The first way is to stick our JavaScript inside a script tag. Here's an example:
 ```
 
 You might be wondering about the second line:
-```javascript
+```JavaScript
 // Your JavaScript code here!
 ```
 
@@ -69,7 +69,7 @@ Get ready for it - you're just about to write your very first line of JavaScript
 We're going to be creating a popup saying "Hello World!" - This is a classic message that programmers often use when they first try using a new technology or language.
 
 Here's the code:
-```javascript
+```JavaScript
 alert('Hello World!');
 ```
 
@@ -119,7 +119,7 @@ You know how you can link `.css` files for your CSS? Well, you can do a similar 
 <script src="script.js"></script>
 ```
 As you can see, we use the same `<script>` tag as before but leave it empty. Instead, we give the opening tag and `src` attribute with the URL of the JavaScript file. Let's try it out! In the folder with your `index.html`, create a `script.js` file. Inside the file, add our JavaScript from earlier on:
-```javascript
+```JavaScript
 // Your JavaScript code here!
 alert('Hello World!');
 ```
