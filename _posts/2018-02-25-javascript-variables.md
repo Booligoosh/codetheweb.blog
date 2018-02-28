@@ -112,7 +112,7 @@ And if there's anyone who you think this article would really help out, don't fo
 See you next time, when I'll be talking about [if statements in JavaScript][if], as well as how we can compare variables to create `true` and `false` values. See you then!
 
 
-[if]: {{site.newsletter}}
+[if]: /2018/02/28/if-statements-boolean-operators/
 
 [contact]: {{site.contact}}
 [html]: /learn/html
