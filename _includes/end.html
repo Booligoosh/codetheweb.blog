@@ -7,10 +7,28 @@
 <script>{% include js/my-lazyload.js %}</script>
 <script>{% include js/emailguard.js %}</script>
 <!-- CSS -->
+<script>
+    var stylesheets = ['//cdn.staticfile.org/normalize/6.0.0/normalize.min.css',
+                      '//at.alicdn.com/t/font_roc50gemkxpw4s4i.css',
+                      '/assets/css/theme_styles_combined.css',
+                      '/assets/css/style.css?{{site.time | date: '%s%N'}}'
+                      ]; /* Reverse because inserting *before* */
+    
+    var html = '';
+    for (var i = 0; i < stylesheets.length; i++) {
+        html += '<link rel="stylesheet" href="'+ stylesheets[i] + '">';
+    }
+    document.head.innerHTML += html;
+    /*document.body.style.display = 'block';
+    document.body.style.backgroundImage = 'none';*/
+    
+</script>
+<!--
 <link rel="stylesheet" href="//cdn.staticfile.org/normalize/6.0.0/normalize.min.css">
 <link rel="stylesheet" href="//at.alicdn.com/t/font_roc50gemkxpw4s4i.css">
 <link rel="stylesheet" href="/assets/css/theme_styles_combined.css">
 <link rel="stylesheet" href="/assets/css/style.css?{{site.time | date: '%s%N'}}">
+-->
 
 <div id="backlinks">
     <a href="https://simpleprogrammer.com/blogging-course-graduates/">Simple Programmer Blogging Course Graduates</a>

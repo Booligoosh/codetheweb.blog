@@ -5,3 +5,7 @@
 {% include_relative share.min.css %}
 {% include_relative app.min.css %}
 {% include_relative myfont.css %}
+body {
+    display: block !important;
+    background-image: none !important;
+}
