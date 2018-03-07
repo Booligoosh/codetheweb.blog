@@ -6,6 +6,12 @@ $blue: #41B3D3;
 $light-blue: #61D2DC;
 $dark-grey: #444444;
 
+
+body {
+    display: block !important;
+    background-image: none !important;
+}
+
 .card-style {
     border: 1px solid #e7eaf1;
     border-radius: 3px;
