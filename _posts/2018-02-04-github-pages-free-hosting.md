@@ -4,7 +4,7 @@ title: A beginner's guide to getting your website online with GitHub Pages
 image: '/assets/img/posts/github-pages-free-hosting/cover.png'
 tags: Other
 keywords: "GitHub Pages,GitHub Desktop,free hosting,hosting,GitHub"
-checked: 
+checked: [grammarly]
 ---
 
 Do you have an awesome website that is finally ready to share with the world? Are you finally ready to stop running it on your local server or opening up your files in the browser, and ready to launch it onto the great and powerful *internet*?
@@ -26,10 +26,10 @@ See all those things on racks? They're all servers. Google needs this many serve
 
 Obviously you won't have as many users as Google, but my point is that the more people view your site, the better your server needs to be. Also, bad servers can make your page load reeaaaally slowly.
 
-The final and most scary problem with hosting your own site is security. You will have to connect your server up to your Wi-Fi router, meaning that people from anywhere in the world will be able to access your home network. While there are security measures in place, it does leave you very vulnerable to hacking.
+The final and scariest problem with hosting your own site is security. You will have to connect your server up to your Wi-Fi router, meaning that people from anywhere in the world will be able to access your home network. While there are security measures in place, it does leave you very vulnerable to hacking.
 
 ## The alternative?
-Because of all these complications, people usually don't host their websites themselves - instead they pay for hosting. This means that you pay to put your HTML files on a server somewhere in the world in a data center similar to the one above, and they will take care and maintain the servers for you.
+Because of all these complications, people usually don't host their websites themselves - instead, they pay for *hosting*. This means that you pay to put your HTML files on a server somewhere in the world in a data center similar to the one above, and they will take care and maintain the servers for you.
 
 This can cost anywhere from about $4 a month to about $100 a month, depending on the speed and features of the server. (According to this [great infographic][website-cost])
 
@@ -41,7 +41,7 @@ Let me introduce you to something called [GitHub Pages][gh-pages].
 
 GitHub Pages hosts your website *100% for free*. The single drawback is that other people can view all the files in your site, although often this can be a good thing. It means that anyone visiting your page on GitHub can see the work that went into making your site. In fact, often employers even select people due to their projects on GitHub (don't worry, you can always delete them later if you feel they're not your best work).
 
-> **NOTE:** I know that it sounds like I'm paid to promote GitHub or something, but I'm really not. I just really like using GitHub pages, and think that you should too &#128521;
+> **NOTE:** I know that it sounds like I'm paid to promote GitHub or something, but I'm really not. I just really like using GitHub pages and think that you should too &#128521;
 
 In this tutorial, I'm going to show you how to host your site on GitHub pages and sync GitHub to your computer so that you can make edits easily!
 
@@ -65,9 +65,9 @@ Okay, let's create our repository now! Click the left option (Create new reposit
 
 ![Click the left option - Create new repository][gh-desktop-create-new-repo-button]
 
-When you click it, a dialogue will come up. Enter in your repository name (`whateveryourusernameis.github.io`) and choose where to save the repository folder on your computer. Leave all the other options as they are, then click "Create Repository":
+When you click it, a dialogue will come up. Enter your repository name (`whateveryourusernameis.github.io`) and choose where to save the repository folder on your computer. Leave all the other options as they are, then click "Create Repository":
 
-![Enter in your repository name (`whateveryourusernameis.github.io`) and choose where to save the repository folder on your computer. Leave all the other options as they are, then click "Create Repository"][gh-desktop-create-new-repo-dialogue]
+![Enter your repository name (`whateveryourusernameis.github.io`) and choose where to save the repository folder on your computer. Leave all the other options as they are, then click "Create Repository"][gh-desktop-create-new-repo-dialogue]
 
 ## Adding your code
 Now, it's time to add our code! Move all of your website files into the repository folder on your computer, then go back to GitHub Desktop - it should now look something along the lines of this: 
@@ -110,7 +110,7 @@ Now, click "Push origin" in the top right-hand corner (where the publish button 
 
 ![Click "Push origin" in the top right-hand corner][gh-desktop-push-origin]
 
-Now, wait for a few minutes. The time may vary, but often your site could take ~5mins to update (keep reloading the page to check). Eventually the changes will load!
+Now, wait for a few minutes. The time may vary, but often your site could take ~5mins to update (keep reloading the page to check). Eventually, the changes will load!
 
 ![The updated website!][site-2]{:.screenshot-white}
 
