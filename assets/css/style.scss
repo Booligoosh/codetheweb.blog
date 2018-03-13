@@ -201,22 +201,22 @@ $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 
 /* NAV BAR COLLAPSES INTO BUTTON */
 @media screen and (max-width: 695px) {
-    .home-header {
+    body.home .g-header {
         background-image: linear-gradient(100deg,#ffce69,#fa709a);
         box-shadow: $banner-shadow;
     }
-    .home-header .g-logo {
+    body.home .g-logo {
         width: 100% !important;
         opacity: 1 !important;
     }
-    .home-header .g-logo svg {
+    body.home .g-logo svg {
         -webkit-filter: none;
         filter: none;
     }
     .home-banner {
         display: none;
     }
-    body {
+    body.home {
         margin-top: 82px;
     }
 }
