@@ -4,6 +4,10 @@
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
 
+body, html {
+    min-height: 100%;
+}
+
 .card-style {
     border: 1px solid #e7eaf1;
     border-radius: 3px;
