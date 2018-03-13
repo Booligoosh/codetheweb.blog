@@ -1,10 +1,7 @@
 ---
 ---
 
-$light-grey: #E4E4E4;
-$blue: #41B3D3;
-$light-blue: #61D2DC;
-$dark-grey: #444444;
+$banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 
 .card-style {
     border: 1px solid #e7eaf1;
@@ -26,7 +23,7 @@ $dark-grey: #444444;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
+    box-shadow: $banner-shadow;
 }
 
 .home-banner.post-pattern-circuitBoard {
@@ -206,6 +203,7 @@ $dark-grey: #444444;
 @media screen and (max-width: 695px) {
     .g-header {
         background-image: linear-gradient(100deg,#ffce69,#fa709a);
+        box-shadow: $banner-shadow;
     }
     .g-logo {
         width: 100% !important;
