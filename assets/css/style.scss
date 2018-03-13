@@ -223,10 +223,15 @@ $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
         fill: url(#pink-theme) !important;
     }
     
-    #menu-toggle:not(body.home #menu-toggle) {
-          background: -webkit-linear-gradient(100deg,#ffce69,#fa709a);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    #menu-toggle {
+        background: -webkit-linear-gradient(100deg,#ffce69,#fa709a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    body.home #menu-toggle {
+        background: unset;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
     }
     
     body.home .g-logo svg path {
