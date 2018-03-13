@@ -201,15 +201,15 @@ $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 
 /* NAV BAR COLLAPSES INTO BUTTON */
 @media screen and (max-width: 695px) {
-    .g-header {
+    .home-header {
         background-image: linear-gradient(100deg,#ffce69,#fa709a);
         box-shadow: $banner-shadow;
     }
-    .g-logo {
+    .home-header .g-logo {
         width: 100% !important;
         opacity: 1 !important;
     }
-    .g-logo svg {
+    .home-header .g-logo svg {
         -webkit-filter: none;
         filter: none;
     }
