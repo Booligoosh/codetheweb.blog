@@ -113,7 +113,7 @@ So, what did you think of that article? Don't hesitate to [tell me in the commen
 [reference-sites-to-help-you-learn-coding]: /2017/12/16/web-development-reference-sites/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
 [set-up]: /2017/10/04/how-to-learn-web-development/
-[learn]: {{site.learn}}
+[learn]: /learn
 
 [share]: {{site.share}}
 [comments]: {{site.comments}}
