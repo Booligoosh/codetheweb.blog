@@ -186,7 +186,7 @@ body, html {
     }
     .g-sidebar-wrapper .subscribe-btn, .bmc-wrapper, .card-style {
         max-width: 695px;
-        width: auto !important;
+        width: auto;
         float: none;
         margin: 16px auto !important;
         left: 0;
@@ -262,7 +262,26 @@ body, html {
         width: 100% !important;
         margin: 5px 0;
     }
+    .in-post-stream {
+        text-align: center;
+    }
     
+    .in-post-stream.newsletter input {
+        display: block !important;
+        width: 100% !important;
+    }
+    
+    .in-post-stream.newsletter input:first-child {
+        margin-bottom: .5em !important;
+    }
+    
+    .in-post-stream.social .explainer {
+        display: block !important;
+    }
+    
+    .in-post-stream.social .network .username {
+        display: none;
+    }
 }
 
 .np-baner h1 {
@@ -567,13 +586,13 @@ body.stop-scrolling {
     }
 }
 
-.learn-link-home, .learn-link-post, .learn-lang-banner, .learn-index-banner {
+.learn-link-post, .learn-lang-banner, .learn-index-banner {
     margin-bottom: 16px;
     padding: 24px;
     color: white;
 }
 
-.learn-link-home.lang, .learn-lang-banner, .learn-index-banner {
+.learn-lang-banner, .learn-index-banner {
     background-image: url({% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=700&url={% endif %}{{ site.url }}/assets/img/learn-home-link.jpg) !important;
     //background-attachment: fixed;
     background-position: -250px -220px;
@@ -587,36 +606,77 @@ body.stop-scrolling {
     background-size: cover;
 }
 
-.learn-link-home {
-    //border: 1rem solid white; /* note that this removes the border set by .card-style - not ideal. */
-    //margin-left: 20px;
-    //margin-right: 20px;
+.in-post-stream {
     width: auto;
-    //opacity: .85;
+    margin-bottom: 16px;
+    padding: 24px;
+    color: white;
 }
 
-.learn-link-home.facebook {
+.in-post-stream.newsletter {
+    background-color: $theme-color-single;
+    font-weight: bold;
+}
+
+.in-post-stream.newsletter *:first-child, .in-post-stream.social *:first-child {
+    margin-bottom: 1em;
+}
+
+.in-post-stream.newsletter input {
+    font-family: inherit;
+    border: none;
+    font-size: 1em;
+    padding: .5em;
+    margin: 0 !important;
+    display: inline;
+}
+
+.in-post-stream.newsletter input[type="email"] {
+    width: 80%;
+}
+
+.in-post-stream.newsletter input[type="submit"] {
+    width: 19%;
+}
+
+.in-post-stream.social {
+    background-color: white;
+    color: #656565;
+}
+
+.in-post-stream.social .explainer {
+    display: none;
+    font-family: "Merriweather";
+}
+
+.in-post-stream.social .networks-wrapper {
+    display: flex;
+}
+
+.in-post-stream.social .network {
+    margin: 0 !important;
+    padding: 1em;
+    width: calc(50% - .5em);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.in-post-stream.social .network:first-child {
+    margin-right: 1em !important;
+}
+
+.in-post-stream.social .network.facebook {
     background-color: #3b5998;
 }
 
-.learn-link-home a {
-    text-decoration: underline;
-    color: white;
-    //opacity: .8;
+.in-post-stream.social .network.twitter {
+    background-color: #1da1f2;
 }
 
-.learn-link-home .learn-link-home-title {
-    /*font-size: 30px;
-    letter-spacing: 2px;
-    font-weight: 400;
-    padding: 160px 0 20px;
-    
-    background: {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
-    background-position: -20px -20px;
-    background-repeat: repeat;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
-    //color: rgba(255, 255, 255, 0.8);
+.in-post-stream a {
+    text-decoration: underline;
+    color: white;
 }
 
 .learn-link-post {
@@ -625,7 +685,7 @@ body.stop-scrolling {
 }
 
 @media screen and (max-width: 695px) {
-    .learn-link-home {
+    .in-post-stream {
         border: none;
         border-radius: 0;
         margin-bottom: 0;

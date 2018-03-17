@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-i.icon-logo, i.icon-website, .icon-email {
+i.icon-logo, i.icon-website, .icon-email, .network i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'myfont' !important;
   speak: none;
@@ -32,4 +32,14 @@ i.icon-logo, i.icon-website, .icon-email {
 }
 .icon-email:before {
   content: "\f0e0";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+.icon-facebook:before {
+  content: "\e902";
+}
+
+.social-share-icon.icon-email {
+    font-family: 'myfont' !important;
 }
