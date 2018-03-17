@@ -4,7 +4,7 @@
 
 {% capture keywords %}{{ site.keyword }}{% if page.tags.size > 0 %}, {% for tag in page.tags  %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endcapture %}
 
-{% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}{% endcapture %}
+{% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/banner.png{% endif %}{% endcapture %}
 
 <head>
     <meta charset="UTF-8">
