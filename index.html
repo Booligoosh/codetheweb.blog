@@ -16,7 +16,15 @@ home: true
 </div>
 
 <main class="g-container home-content">
-    <h2 class="tagline">Web development explained for normal people! <!-- &#x1F389; -->&#x1F5A5; &#x1F680;</h2>
+    <div class="before-article-list">
+        <h2 class="tagline">Web development explained for normal people! <!-- &#x1F389; -->&#x1F5A5; &#x1F680;</h2>
+        <div class="learn-cta-wrapper">
+            <a href="/learn/html">Learn HTML</a>
+            <a href="/learn/css">Learn CSS</a>
+            <a href="/learn/javascript">Learn JavaScript</a>
+        </div>
+        <a href="/2017/10/04/how-to-learn-web-development/" class="learn-cta-what-to-learn">Don't know which to learn first?</a>
+    </div>
     <div class="article-list">
      {% if site.homepage-message %}
       <div class="learn-link-home card-style" style="
@@ -25,7 +33,7 @@ home: true
           text-align:  center;
       "><span class="learn-link-home-title">{{site.homepage-message}}</span></div>
       {% endif %}
-       <!--<h3 class="recent-posts-title">Recent Posts:</h3>-->
+        <h2 class="recent-articles-title">Recent Articles:</h2>
         {% for post in paginator.posts %}
             <article class="article-item">
                 {% if post.image %}

@@ -199,8 +199,12 @@ body, html {
         grid-template-columns: auto !important;
         padding: 0 2em;
     }
-    .tagline {
+    .before-article-list {
         grid-column: unset !important;
+    }
+    .recent-articles-title {
+        text-align: center;
+        margin-top: 1rem;
     }
 }
 
@@ -251,6 +255,14 @@ body, html {
     body {
         margin-top: 82px;
     }
+    .before-article-list {
+        padding-bottom: 0 !important;
+    }
+    .learn-cta-wrapper a {
+        width: 100% !important;
+        margin: 5px 0;
+    }
+    
 }
 
 .np-baner h1 {
@@ -617,11 +629,6 @@ body.stop-scrolling {
         border-radius: 0;
         margin-bottom: 0;
     }
-}
-
-.recent-posts-title {
-    margin-bottom: 16px;
-    font-size: 1.5rem
 }
 
 .codetheweb-learn, .codetheweb-learn .iconfont.icon-logo {
@@ -1036,12 +1043,48 @@ img.screenshot-white {
 }
 /* END MY BMC CODE */
 
-.tagline {
-    text-align: center;
+.before-article-list {
+    grid-column: 1 / span 2;
     padding: 2em 0;
+}
+
+.tagline {
     font-size: 1.5em;
     font-weight: normal;
-    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+.learn-cta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.learn-cta-wrapper a {
+    border: 1px solid #e7eaf1;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0,37,55,0.06);
+    padding: 1em;
+    width: calc((100% - 2rem) / 3);
+    /* background-image: linear-gradient(100deg,#ffce69,#fa709a); */
+    background-color: $theme-color-single;
+    color: white;
+    font-weight: bold;
+}
+
+a.learn-cta-what-to-learn {
+    display: block;
+    text-align: center;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 0.75em;
+    text-decoration: underline;
+    opacity: .6;
 }
 
 .home-content {
@@ -1050,6 +1093,11 @@ img.screenshot-white {
     grid-template-rows: auto auto;
     grid-gap: 1em;
     margin-top: 0;
+}
+
+.recent-articles-title {
+    margin-bottom: 1rem;
+    font-family: "Merriweather";
 }
 
 a[title=Sumo], a[title=Sumo] * {
@@ -1063,3 +1111,5 @@ a[title=Sumo], a[title=Sumo] * {
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
+
+
