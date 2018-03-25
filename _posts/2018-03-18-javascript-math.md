@@ -199,7 +199,7 @@ That's it for today! Next time, I'll be writing about [for loops and while loops
 [objects]: {{site.newsletter}}
 [returning-functions]: {{site.newsletter}}
 [math-object-ref]: https://www.w3schools.com/js/js_math.asp
-[js-loops]: {{site.newsletter}}
+[js-loops]: /2018/03/25/for-and-while-loops-javascript/
 
 [contact]: {{site.contact}}
 [html]: /learn/html
