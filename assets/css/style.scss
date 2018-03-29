@@ -1112,7 +1112,11 @@ img.screenshot-white {
 .bmc-button {
     display: block !important;
     width: max-content;
-    margin: 3rem auto !important;
+    margin: 1em auto !important;
+    width: 100%;
+    text-align: center;
+    height: 3em !important;
+    line-height: 3em !important;
 }
 .bmc-button img {
     background-color: unset;
