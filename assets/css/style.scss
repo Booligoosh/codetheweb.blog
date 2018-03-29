@@ -437,6 +437,9 @@ body.stop-scrolling {
     .learn-index-banner h1 {
         font-size: 70px;
     }
+    .markdown-body blockquote p {
+        letter-spacing: 0; /* 1px by default theme styles, idk why because it looks terrible... */
+    }
 }
 
 @media screen and (max-width: 415px) {
@@ -1185,6 +1188,15 @@ a[title=Sumo], a[title=Sumo] * {
     opacity: 0 !important;
     width: 0 !important;
     height: 0 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .markdown-body, .post-wrapper, .read-next {
+        width: 80%; /* Originally 92% by default theme styles */
+    }
+    .markdown-body p {
+        text-align: left;
+    }
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
