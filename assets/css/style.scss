@@ -439,6 +439,7 @@ body.stop-scrolling {
     }
     .markdown-body blockquote p {
         letter-spacing: 0; /* 1px by default theme styles, idk why because it looks terrible... */
+        word-break: unset; /* break-all by default theme styles, idk why because it looks terrible... */
     }
 }
 
