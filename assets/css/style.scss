@@ -269,10 +269,15 @@ body, html {
     .in-post-stream.newsletter input {
         display: block !important;
         width: 100% !important;
+        text-align: center;
     }
     
     .in-post-stream.newsletter input:first-child {
         margin-bottom: .5em !important;
+    }
+    
+    .in-post-stream.newsletter .note {
+        text-align: center !important;
     }
     
     .in-post-stream.social .explainer {
@@ -626,17 +631,30 @@ body.stop-scrolling {
     font-family: inherit;
     border: none;
     font-size: 1em;
-    padding: .5em;
+    padding: .8em;
     margin: 0 !important;
     display: inline;
+    vertical-align: top;
 }
 
 .in-post-stream.newsletter input[type="email"] {
-    width: 80%;
+    width: 70%;
 }
 
 .in-post-stream.newsletter input[type="submit"] {
-    width: 19%;
+    width: 29%;
+    font-family: 'Merriweather';
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+    background: gold;
+}
+
+.in-post-stream.newsletter .note {
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 0.75em;
+    font-weight: normal;
 }
 
 .in-post-stream.social {
