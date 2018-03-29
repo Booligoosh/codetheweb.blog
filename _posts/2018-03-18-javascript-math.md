@@ -189,7 +189,7 @@ If you want to give me a little thanks and make my entire day feel awesome, I'd 
 If you need any help with the topics covered in this article or want to give feedback (I love myself some scrumptious feedback), please do so in the [comments below][comments] or via the cool live chat widget that is probably in the bottom-right corner of your screen right now.
 
 Also, if you want the latest web development articles from Code The Web and around the internet in your inbox about once a week, enter your email below! You can unsubscribe at any time.
-{% include in-post-stream-odd.html %}
+{% include newsletter.html %}
 That's it for today! Next time, I'll be writing about [for loops and while loops in JavaScript][js-loops] - they are really cool, because you can tell the browser to repeat bits of your code over and over again (even with different values each time)! See you then &#x1F680;
 
 

@@ -172,7 +172,7 @@ If you got something out of this article, I'd really appreciate if you [shared i
 If I'd spent the time on Code The Web working at the minimum wage instead, I would have earned $1,770 by now! But instead I've dedicated my time to you guys and to helping people learn, and only earned $16. So it would be great if you could [give a little thanks in return][donate], I'd really appreciate it! &#x1F618;
 
 If you want to receive more articles like this on web development as well as awesome web development articles from around the web, [be sure to sign up for the weekly newsletter!][newsletter] I only send an email once a week with a roundup of awesome articles. I'll leave this handy little form below...
-{% include in-post-stream-odd.html %}
+{% include newsletter.html %}
 See you next time, where I'll be talking about [functions in JavaScript!][functions] They are one of the most integral parts of JavaScript (I know I've been saying that for like 4 articles now, but it's true &#x1F609;). [See you then!][functions]
 
 > **P.S. In this post, I officially passed 50,000 words! &#x1F389;&#x1F601;** It's been an awesome time writing this blog (nearly 6 months!), and I will definitely continue into the future! I want to thank all the fans, [newsletter subscribers][newsletter] and readers for actually coming and reading what I have to say. I really didn't think that Code The Web would have so many visitors, and really appreciate every single one of you all. &#x1F496;
