@@ -132,18 +132,10 @@ a {
   text-align: center;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 38, 55, 0.16); }
-  .home-banner h2, .home-banner h3 {
+  .home-banner h3 {
     position: relative;
     z-index: 1;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); }
-  .home-banner h2 {
-    padding-top: 190px;
-    line-height: 38px;
-    font-size: 42px;
-    font-family: 'Arial', 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 52px; }
   .home-banner h3 {
     font-size: 20px;
     font-weight: normal;
@@ -866,9 +858,6 @@ a {
 @media screen and (min-width: 1920px) {
   .home-banner {
     height: 600px; }
-    .home-banner h2 {
-      padding-top: 260px;
-      font-size: 42px; }
     .home-banner h3 {
       font-size: 22px; } }
 
@@ -969,10 +958,6 @@ a {
 @media screen and (max-width: 500px) {
   .home-banner {
     height: 400px; }
-    .home-banner h2 {
-      padding-top: 180px;
-      font-size: 28px;
-      line-height: 48px; }
     .home-banner h3 {
       margin-top: 2px;
       font-size: 18px;
@@ -1044,9 +1029,6 @@ a {
     word-break: break-all; } }
 
 @media screen and (max-width: 376px) {
-  .home-banner h2 {
-    font-size: 26px;
-    line-height: 38px; }
   .home-banner h3 {
     margin-top: 4px;
     font-size: 16px; }
