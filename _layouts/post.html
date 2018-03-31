@@ -48,7 +48,7 @@
         </div>
         {% if page.image and page.imageonpage != false %}
         <div class="filter"></div>
-        <div class="post-cover" style="background: url('{{ page.image }}') center no-repeat; background-size: cover;">
+        <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
         {% endif %}
     </header>
 
