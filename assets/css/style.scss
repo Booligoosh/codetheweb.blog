@@ -1027,6 +1027,8 @@ a.learn-cta-what-to-learn {
 
 .article-list {
     grid-column-start: 1;
+    width: 100%;
+    max-width: 695px;
 }
 
 .recent-articles-title {
@@ -1108,6 +1110,18 @@ header .top-index-content {
     align-items: center;
     text-align: center;
 }
+    
+body.home .freebie-hero {
+    padding: 1rem 0;
+    margin-bottom: 32px !important;
+    height: auto !important;
+}
+body.home .freebie-hero > *:first-child {
+    width: calc(695px * 0.8);
+}
+body.home .freebie-hero img {
+    height: 20rem;
+}
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
@@ -1160,10 +1174,10 @@ header .top-index-content {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        padding: 4rem;
+        padding: 4rem !important;
     }
     .freebie-hero > *:first-child {
-        width: auto;
+        width: auto !important;
         padding-left: 0;
         margin-top: 4rem;
         text-align: center;
@@ -1357,7 +1371,7 @@ header .top-index-content {
     }
     /* Freebie page */
     .freebie-hero {
-        padding: 4rem 1rem;
+        padding: 4rem 1rem !important;
     }
     .freebie-explanation {
         padding: 2rem 1rem;

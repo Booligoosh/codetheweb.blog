@@ -27,6 +27,9 @@ home: true
           text-align:  center;
       "><span class="learn-link-home-title">{{site.homepage-message}}</span></div>
       {% endif %}
+        <section class="freebie-hero card-style">
+            {% include guide-to-learning-html-freebie-hero.html %}
+        </section>
         <h2 class="recent-articles-title">Recent Articles:</h2>
         {% for post in paginator.posts %}
             <article class="article-item">
