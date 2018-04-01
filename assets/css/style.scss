@@ -945,6 +945,7 @@ img.screenshot-white {
 /* MY BMC CODE */
 .bmc-button {
     display: block !important;
+    box-sizing: border-box;
     width: max-content;
     margin: 1em auto !important;
     width: 100%;
@@ -1111,16 +1112,22 @@ header .top-index-content {
     text-align: center;
 }
     
-body.home .freebie-hero {
+.freebie-hero.promo {
     padding: 1rem 0;
     margin-bottom: 32px !important;
     height: auto !important;
 }
-body.home .freebie-hero > *:first-child {
+.freebie-hero.promo > *:first-child {
     width: calc(695px * 0.8);
 }
-body.home .freebie-hero img {
+.freebie-hero.promo img {
     height: 20rem;
+}
+/* End freebie stuff */
+
+.after-post {
+    width: 720px;
+    margin: 0 auto;
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
@@ -1240,7 +1247,7 @@ body.home .freebie-hero img {
 }
 
 @media screen and (max-width: 768px) {
-    .markdown-body, .post-wrapper, .read-next {
+    .markdown-body, .post-wrapper, .read-next, .after-post {
         width: 80%; /* Originally 92% by default theme styles */
     }
     .markdown-body p {
