@@ -1196,22 +1196,22 @@ header .top-index-content {
     body {
         margin-top: 82px;
     }
-    header {
+    body.home header {
         height: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem) !important;
     }
-    .article-list {
+    body.home .article-list {
         margin-top: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem);
     }
-    header .top-index-content {
+    body.home header .top-index-content {
         DISPLAY: BLOCK;
         padding: 2em;
         margin-top: 56px;
         color: white;
     }
-    header .learn-cta-wrapper a {
+    body.home header .learn-cta-wrapper a {
         text-transform: unset;
     }
-    header .learn-cta-what-to-learn {
+    body.home header .learn-cta-what-to-learn {
         color: white;
         font-weight: bold;
     }
