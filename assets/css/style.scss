@@ -1198,6 +1198,14 @@ header .top-index-content {
     }
     body.home header {
         height: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem) !important;
+        /*
+        82px                       = orig header
+        (3.75 * 24px)              = slogan (line-height of 1.25em for 3 lines with a 24px font-size)
+        2rem                       = margin-top of .learn-cta-wrapper
+        (36px + 1.2em + 10px) * 3  = 3 cta buttons (36px = 2*2px border + 2*16px padding)
+        1.75rem                    = don't know which to learn first link (1rem margin-top, 0.75rem font-size)
+        2rem                       = padding-bottom of header
+        */
     }
     body.home .article-list {
         margin-top: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem);
