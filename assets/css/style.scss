@@ -61,7 +61,7 @@ body, html {
     margin-top: 0;
 }
 
-.home-banner .learn-cta-wrapper a {
+.home-banner .learn-cta-wrapper a, header .learn-cta-wrapper a {
     background-color: white;
     color: $theme-color-single;
     border: 2px solid white;
@@ -70,7 +70,7 @@ body, html {
     transition: all, .5s;
 }
 
-.home-banner .learn-cta-wrapper a:hover {
+.home-banner .learn-cta-wrapper a:hover, header .learn-cta-wrapper a:hover {
     background-color: transparent;
     color: white;
 }
@@ -970,9 +970,13 @@ img.screenshot-white {
     padding: 2em 0;
 }
 
-.before-article-list * {
-    /* INFO IS NOW IN BANNER EXCEPT ON MOBILE */
+.before-article-list {
+    /* INFO IS NOW IN BANNER OR HEADER ON MOBILE */
     DISPLAY: NONE !IMPORTANT;
+}
+
+.article-list, .g-sidebar-wrapper {
+    margin-top: 4rem;
 }
 
 .tagline {
@@ -1037,6 +1041,10 @@ a[title=Sumo], a[title=Sumo] * {
     opacity: 0 !important;
     width: 0 !important;
     height: 0 !important;
+}
+
+header .top-index-content {
+    display: none;
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
@@ -1188,11 +1196,30 @@ a[title=Sumo], a[title=Sumo] * {
     body {
         margin-top: 82px;
     }
+    header {
+        height: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem) !important;
+    }
+    .article-list {
+        margin-top: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem);
+    }
+    header .top-index-content {
+        DISPLAY: BLOCK;
+        padding: 2em;
+        margin-top: 56px;
+        color: white;
+    }
+    header .learn-cta-wrapper a {
+        text-transform: unset;
+    }
+    header .learn-cta-what-to-learn {
+        color: white;
+        font-weight: bold;
+    }
     .before-article-list {
         padding-bottom: 0 !important;
     }
-    .before-article-list * {
-        DISPLAY: BLOCK !IMPORTANT;
+    .before-article-list {
+        /* DISPLAY: BLOCK !IMPORTANT; */
     }
     .learn-cta-wrapper a {
         width: 100% !important;

@@ -11,25 +11,13 @@ home: true
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
     <div>
         <h1><!--{{ page.home-title }}-->{% include svg/logo-trans-clipped.svg %}<span>Code The Web</span></h1>
-        <h2 class="tagline">Web development explained for normal people! <!-- &#x1F389; -->&#x1F5A5; &#x1F680;</h2>
-        <div class="learn-cta-wrapper">
-            <a href="/learn/html">Learn HTML</a>
-            <a href="/learn/css">Learn CSS</a>
-            <a href="/learn/javascript">Learn JavaScript</a>
-        </div>
-        <a href="/2017/10/04/how-to-learn-web-development/" class="learn-cta-what-to-learn">Don't know which to learn first?</a>
+        {% include top-index-content.html %}
     </div>
 </div>
 
 <main class="g-container home-content">
     <div class="before-article-list">
-        <h2 class="tagline">Web development explained for normal people! <!-- &#x1F389; -->&#x1F5A5; &#x1F680;</h2>
-        <div class="learn-cta-wrapper">
-            <a href="/learn/html">Learn HTML</a>
-            <a href="/learn/css">Learn CSS</a>
-            <a href="/learn/javascript">Learn JavaScript</a>
-        </div>
-        <a href="/2017/10/04/how-to-learn-web-development/" class="learn-cta-what-to-learn">Don't know which to learn first?</a>
+        {% include top-index-content.html %}
     </div>
     <div class="article-list">
      {% if site.homepage-message %}
