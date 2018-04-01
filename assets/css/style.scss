@@ -510,7 +510,7 @@ body.stop-scrolling {
     margin-bottom: 1em;
 }
 
-.in-post-stream.newsletter input {
+.in-post-stream.newsletter input, .freebie-hero .newsletter-form input {
     font-family: inherit;
     border: none;
     font-size: 1em;
@@ -520,11 +520,11 @@ body.stop-scrolling {
     vertical-align: top;
 }
 
-.in-post-stream.newsletter input[type="email"] {
+.in-post-stream.newsletter input[type="email"], .freebie-hero .newsletter-form input[type="email"] {
     width: 70%;
 }
 
-.in-post-stream.newsletter input[type="submit"] {
+.in-post-stream.newsletter input[type="submit"], .freebie-hero .newsletter-form input[type="submit"] {
     width: 29%;
     font-family: 'Merriweather';
     font-weight: bold;
@@ -533,8 +533,7 @@ body.stop-scrolling {
     background: gold;
 }
 
-.in-post-stream.newsletter .note {
-    text-align: left;
+.in-post-stream.newsletter .note, .freebie-hero .newsletter-form .note {
     margin-top: 1rem;
     font-size: 0.75em;
     font-weight: normal;
@@ -1047,6 +1046,69 @@ header .top-index-content {
     display: none;
 }
 
+/* Freebie page */
+
+.freebie-hero {
+    background-color: $theme-color-single;
+    color: white;
+    box-sizing: border-box;
+    height: 80vh;
+    padding-top: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 4rem;
+    align-items: center;
+    overflow: hidden;
+}
+
+.freebie-hero > *:first-child {
+    box-sizing: border-box;
+    width: 50vw;
+    padding-left: 4rem;
+    text-align: right;
+}
+
+.freebie-hero h1, .freebie-hero .newsletter-form .note {
+    font-family: Montserrat;
+}
+
+.freebie-hero h1 {
+    font-size: 3em;
+}
+
+.freebie-hero h2 {
+    font-size: 1.5em;
+    font-family: Merriweather-Light;
+    margin: 1rem 0;
+}
+
+.freebie-hero .newsletter-form {
+    margin-left: auto;
+}
+
+.freebie-hero .newsletter-form input[type="email"] {
+    width: 69%;
+    /* text-align: right; */
+}
+
+.freebie-hero img.teaser {
+    height: 60vh;
+    box-shadow: 0 0 6em rgba(0,0,0,0.42);
+    filter: blur(2px);
+}
+
+.freebie-explanation {
+    box-sizing: border-box;
+    height: 20vh;
+    padding: 0 20%;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
@@ -1090,6 +1152,30 @@ header .top-index-content {
     .recent-articles-title {
         text-align: center;
         margin-top: 1rem;
+    }
+    /* Freebie page */
+    .freebie-hero {
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+    }
+    .freebie-hero > *:first-child {
+        width: auto;
+        padding-left: 0;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .freebie-hero img {
+        width: 80%;
+        height: auto !important;
+    }
+    .freebie-explanation {
+        padding: 2rem 4rem;
+        height: auto;
+        text-align: justify;
     }
 }
 
@@ -1269,12 +1355,27 @@ header .top-index-content {
     .in-post-stream.social .network .username {
         display: none;
     }
+    /* Freebie page */
+    .freebie-hero {
+        padding: 4rem 1rem;
+    }
+    .freebie-explanation {
+        padding: 2rem 1rem;
+    }
 }
 
 @media screen and (max-width: 530px) {
     .learn-lang-banner h1 {
         font-size: 70px;
         line-height: 70px;
+    }
+    .freebie-hero .newsletter-form input {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+    }
+    .freebie-hero .newsletter-form input:first-child {
+        margin-bottom: .5em !important;
     }
 }
 
