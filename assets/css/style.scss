@@ -1190,6 +1190,14 @@ header .top-index-content {
         fill: white !important;
     }
     
+    .g-nav {
+        position: absolute !important;
+        top: 102px !important; /* 48px orig + 28px padding-top of header + 26px height of header */
+    }
+    body.home .g-nav {
+        top: 82px !important; /* Visible header edge is lower so the nav doesn't hit it, and the vertical alignment is better */
+    }
+    
     .home-banner {
         display: none;
     }
