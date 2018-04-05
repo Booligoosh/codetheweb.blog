@@ -257,7 +257,7 @@ function alertMultiplied(num1, num2) {
 {:.reveal}
 Save, reload and see what happens! It should alert `15` followed by `168`.
 
-## Functions without an output (functions that 'return' something)
+## Functions with an output (functions that 'return' something)
 As well as having inputs, functions can also have outputs! However, a function can only have one output (unlike inputs).
 
 Let's make a function called `triple`. However, unlike `alertDouble`, it won't alert the result. It will output it!
