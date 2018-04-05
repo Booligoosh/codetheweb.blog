@@ -197,7 +197,7 @@ That's it for today! Next time, I'll be writing about [for loops and while loops
 [divided-by-0]: https://math.stackexchange.com/questions/1399099/why-is-any-number-divided-by-0-is-infinite/1399100
 [infinity-infinity]: https://stackoverflow.com/questions/27074158/infinity-infinity-nan
 [objects]: {{site.newsletter}}
-[returning-functions]: {{site.newsletter}}
+[returning-functions]: /2018/04/05/javascript-functions/#functions-with-an-output-functions-that-return-something
 [math-object-ref]: https://www.w3schools.com/js/js_math.asp
 [js-loops]: /2018/03/25/for-and-while-loops-javascript/
 

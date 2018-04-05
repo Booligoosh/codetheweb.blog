@@ -179,7 +179,7 @@ See you next time, where I'll be talking about [functions in JavaScript!][functi
 
 [arrays]: {{site.newsletter}}
 [booleans]: /2018/02/28/if-statements-boolean-operators/
-[functions]: {{site.newsletter}}
+[functions]: /2018/04/05/javascript-functions/
 [wordcount]: /wordcount/
 
 [contact]: {{site.contact}}
