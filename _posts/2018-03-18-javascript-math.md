@@ -15,7 +15,7 @@ Welcome to another post on Code The Web! First of all, I want to encourage you t
 <!DOCTYPE html>
 <html>
     <head>
-        <title>If statements are awesome!</title>
+        <title>JavaScript Math</title>
     </head>
     <body>
         <h1>JavaScript :)</h1>

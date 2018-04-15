@@ -15,7 +15,7 @@ First of all, I encourage you to follow along in this article. It will help you 
 <!DOCTYPE html>
 <html>
     <head>
-        <title>If statements are awesome!</title>
+        <title>JavaScript Functions</title>
     </head>
     <body>
         <h1>JavaScript :)</h1>
