@@ -6,6 +6,7 @@ $theme-color-single: #F0957E;
 
 body, html {
     min-height: 100%;
+    height: auto;
 }
 
 .card-style {
@@ -537,6 +538,29 @@ body.stop-scrolling {
     margin-top: 1rem;
     font-size: 0.75em;
     font-weight: normal;
+}
+
+.in-post-stream.newsletter .extra {
+    height: 0;
+    overflow: hidden;
+    transition: height, 1s;
+}
+
+.in-post-stream.newsletter .extra input {
+    margin-top: .5em !important;
+}
+
+.in-post-stream.newsletter .extra input[name="fname"], .in-post-stream.newsletter .extra input[name="lname"], .in-post-stream.newsletter .extra input[name="url"] {
+    width: auto;
+}
+
+.in-post-stream.newsletter .extra input[name="url"] {
+    width: 32%;
+}
+
+
+.in-post-stream.newsletter .extra input:not([required]) {
+    opacity: .7;
 }
 
 .in-post-stream.social {
@@ -1130,7 +1154,72 @@ header .top-index-content {
     margin: 0 auto;
 }
 
-/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner {
+/* Newsletter page */
+.newsletter-page {
+    background-color: white;
+    height: 100%;
+}
+.newsletter-page .newsletter-header {
+    min-height: 50vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+    padding: 5% 0;
+}
+
+.newsletter-page .newsletter-header > div {
+    width: 695px;
+    max-width: 90%;
+}
+
+.newsletter-page .newsletter-header .subheading {
+    margin-top: .5em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.newsletter-page main {
+    width: 695px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.newsletter-page .newsletter:first-child {
+    margin-top: -2em;
+    border-color: transparent;
+}
+
+.newsletter-page .preview {
+    background-color: #f7f7f7;
+    height: 100vh; /* Before JS */;
+    width: 100%;
+    padding: 0;
+    /* margin-bottom: 2em; */
+}
+
+.newsletter-page .leading-text {
+    text-align: center;
+    margin: 2em;
+}
+
+.newsletter-page .example-newsletter-title {
+    text-align: center;
+    margin: 1em;
+}
+/* End newsletter page */
+
+.newsletter-thanks .bmc-wrapper {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.newsletter-thanks .bmc-button {
+    box-shadow: 0 0 1em white !important;
+}
+
+/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
 
@@ -1382,6 +1471,10 @@ header .top-index-content {
     }
     .freebie-explanation {
         padding: 2rem 1rem;
+    }
+    /* End freebie page */
+    .newsletter-page .newsletter-header {
+        font-size: 1.6em;
     }
 }
 
