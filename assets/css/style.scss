@@ -1088,6 +1088,11 @@ header .top-index-content {
     overflow: hidden;
 }
 
+.freebie-hero a {
+    color: white;
+    text-decoration: underline;
+}
+
 .freebie-hero > *:first-child {
     box-sizing: border-box;
     width: 50vw;
@@ -1134,6 +1139,10 @@ header .top-index-content {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.freebie-explanation > a {
+    cursor: help;
 }
     
 .freebie-hero.promo {
