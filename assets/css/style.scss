@@ -1511,6 +1511,9 @@ header .top-index-content {
         letter-spacing: 0; /* 1px by default theme styles, idk why because it looks terrible... */
         word-break: unset; /* break-all by default theme styles, idk why because it looks terrible... */
     }
+    .in-post-stream.newsletter .row, .newsletter-form .row {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 480px) {
