@@ -1,11 +1,33 @@
 <div class="left">
     <h1>Your FREE guide to learning HTML! &#x1F381;</h1>
     <h2>Get it when you sign up for the weekly newsletter:</h2>
-    <form class="newsletter-form" action="https://docs.google.com/forms/d/e/1FAIpQLSeDK3GjtHIGm-eE6mESyo02WM_z185o7FQdVTB-LpfQxNzslA/viewform#i.desc.931605569">
-        <input type="email" placeholder="Enter your email" name="entry.24047540" class="card-style" required>
+    <form accept-charset="UTF-8" action="https://usebasin.com/f/01ede12f14de" method="POST"  oninput="input(this)" onblur="blurred(this)" class="newsletter-form">
+        <input name="email" type="email" placeholder="Enter your email address" class="card-style" required>
         <input type="submit" value="Send it to me!" class="card-style">
+        <div class="extra">
+            <div class="measurer">
+                <input name="found-out" type="text" placeholder="How did you find out about Code The Web?" class="card-style" required>
+                <div class="row">
+                    <input name="fname" type="text" placeholder="(First name)" class="card-style">
+                    <input name="lname" type="text" placeholder="(Last name)" class="card-style">
+                    <input name="url" type="text" placeholder="(Your URL)" class="card-style">
+                </div>
+                <input name="extra-comments" type="text" placeholder="(Anything else you want to tell me?)" class="card-style">
+            </div>
+        </div>
         <div class="note">I'll never share your email with anyone, and hate spam as much as you do.</div>
     </form>
 </div>
 
 <img src="/assets/img/guide-to-learning-html-teaser.png" class="teaser">
+   
+<script>
+    function input(elem) {
+        elem.querySelector('.extra').style.height = elem.querySelector('.extra .measurer').getBoundingClientRect().height + 'px';
+    }
+
+    function blurred(elem) {
+        elem.querySelector('.extra').style.height = '0px';
+        console.log('BLURRed')
+    }
+</script>

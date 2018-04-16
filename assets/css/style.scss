@@ -540,26 +540,26 @@ body.stop-scrolling {
     font-weight: normal;
 }
 
-.in-post-stream.newsletter .extra {
+.in-post-stream.newsletter .extra, .newsletter-form .extra {
     height: 0;
     overflow: hidden;
     transition: height, 1s;
 }
 
-.in-post-stream.newsletter .extra input {
+.in-post-stream.newsletter .extra input, .newsletter-form .extra input {
+    margin: .25em !important;
+}
+
+.in-post-stream.newsletter .extra .measurer > input:first-child, .newsletter-form .extra .measurer > input:first-child {
     margin-top: .5em !important;
 }
 
-.in-post-stream.newsletter .extra input[name="fname"], .in-post-stream.newsletter .extra input[name="lname"], .in-post-stream.newsletter .extra input[name="url"] {
-    width: auto;
-}
-
-.in-post-stream.newsletter .extra input[name="url"] {
-    width: 32%;
+.in-post-stream.newsletter .row, .newsletter-form .row {
+    display: flex;
 }
 
 
-.in-post-stream.newsletter .extra input:not([required]) {
+.in-post-stream.newsletter .extra input:not([required]), .newsletter-form .extra input:not([required]) {
     opacity: .7;
 }
 
@@ -1079,7 +1079,7 @@ header .top-index-content {
     background-color: $theme-color-single;
     color: white;
     box-sizing: border-box;
-    height: 80vh;
+    min-height: 80vh;
     padding-top: 58px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1139,7 +1139,7 @@ header .top-index-content {
 .freebie-hero.promo {
     padding: 1rem 0;
     margin-bottom: 32px !important;
-    height: auto !important;
+    min-height: auto !important;
 }
 .freebie-hero.promo > *:first-child {
     width: calc(695px * 0.8);
@@ -1275,7 +1275,7 @@ header .top-index-content {
     }
     /* Freebie page */
     .freebie-hero {
-        height: auto;
+        min-height: auto;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
