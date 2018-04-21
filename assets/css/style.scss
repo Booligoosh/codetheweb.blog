@@ -1241,15 +1241,29 @@ header .top-index-content {
 
 /* Product Hunt Upcoming Widget */
 #ph-upcoming-widget img {
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background-image: url(https://ph-files.imgix.net/f575efd5-0435-440f-8ead-85a654a2fdc7);
-    background-size: cover;
-    background-position: center center;
-    padding-left: 74px !important;
+    object-fit: cover;
 }
-#ph-upcoming-widget > div:nth-child(2) > div { /* 'M' badge */
-    display: none !important;
+#ph-upcoming-widget > a:before {
+    content: "HTML EBOOK 25% OFF";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .25em;
+    box-sizing: border-box;
+    transition: opacity, .2s;
+}
+#ph-upcoming-widget > a:hover:before {
+    opacity: 0;
 }
 /* End Product Hunt Upcoming Widget */
 
