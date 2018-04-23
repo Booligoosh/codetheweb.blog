@@ -1,4 +1,4 @@
-{% capture title %}{% if page.title %}{{ page.title }}{% unless page.home-title %} - {{ site.title }}{% endunless %}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture title %}{% if page.title %}{{ page.title }}{% unless page.home-title %}{% unless page.removeTitleSuffix %} - {{ site.title }}{% endunless %}{% endunless %}{% else %}{{ site.title }}{% endif %}{% endcapture %}
 
 {% capture description %}{% if page.home %}{{ site.description }}{% elsif page.layout == "learn" %}Learn {{page.language}}, the language for {{page.purpose}} at Code The Web{% elsif page.description %}{{page.description}}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 
