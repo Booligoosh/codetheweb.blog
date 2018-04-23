@@ -1288,6 +1288,7 @@ header .top-index-content {
     margin-top: 0;
     margin-bottom: 16px;
     display: block;
+    max-width: calc(100vw - 4em);
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
