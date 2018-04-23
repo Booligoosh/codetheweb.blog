@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="book-page">
+    <img class="book-img" src="/assets/img/learn-html-book-mockup.png" alt="">
+    <div class="post-content book-page-content" id="content">
+        <div class="markdown-body">
+            <h1>Learn HTML &mdash; A book from Code The Web</h1>
+            <p>Hey there! I've decided to write my first ever book! Currently, the only way I earn money for the hundreds of hours I've put into Code The Web is from <a href="{{site.donate}}">donations</a>. However, I'm not earning enough from that!</p>
+            <p>So, I've decided to make this Ebook &mdash; not just for the money though, it's been on my bucket list for a while and furthers my goal of helping people learn web development!</p>
+            <p><b><a href="https://www.producthunt.com/upcoming/learn-html-a-book-by-code-the-web">To get 25% off when it launches, enter your email here...</a></b></p>
+            <h2 id="progress">My progress</h2>
+            <p>I'm being very open as I write this book. Each day, I post a tweet with my progress &mdash; here they are in order!</p>
+            <form onchange="document.querySelector('.tweets').classList.toggle('oldest-first')">
+                <label><input type="radio" name="tweets-order" checked> Newest first</label>
+                <br>
+                <label><input type="radio" name="tweets-order"> Oldest first</label>
+            </form>
+            <div class="tweets">
+                <!-- Chapter 3 -->
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/progress?src=hash&amp;ref_src=twsrc%5Etfw">#progress</a> on the <a href="https://twitter.com/hashtag/html?src=hash&amp;ref_src=twsrc%5Etfw">#html</a> book for today: Chapter 3 done, 3235 words &amp; 23 pages in! I&#39;m still keeping up with my goal of 1 chapter per day 😅🤓🤘 <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a><br><br>P.S. Keep up to date with my progress and get a 25% off discount for when it&#39;s done here: <a href="https://t.co/nv3Z9HD9ek">https://t.co/nv3Z9HD9ek</a> <a href="https://t.co/Gc9ISDbmOE">pic.twitter.com/Gc9ISDbmOE</a></p>&mdash; Code The Web (@CodeTheWebBlog) <a href="https://twitter.com/CodeTheWebBlog/status/987960661698199553?ref_src=twsrc%5Etfw">April 22, 2018</a></blockquote>
+                <!-- Chapter 2 -->
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/progress?src=hash&amp;ref_src=twsrc%5Etfw">#progress</a> on the <a href="https://twitter.com/hashtag/html?src=hash&amp;ref_src=twsrc%5Etfw">#html</a> book for today: Chapter 2 done, 2082 words &amp; 15 pages into the book! I&#39;m managing to keep up my goal of a chapter a day 🤓🤘 <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a><br><br>P.S. Keep up to date with my progress and get a 25% off discount for when it&#39;s done here: <a href="https://t.co/nv3Z9HD9ek">https://t.co/nv3Z9HD9ek</a> <a href="https://t.co/RVyCItf2KF">pic.twitter.com/RVyCItf2KF</a></p>&mdash; Code The Web (@CodeTheWebBlog) <a href="https://twitter.com/CodeTheWebBlog/status/987636958326222848?ref_src=twsrc%5Etfw">April 21, 2018</a></blockquote>
+                <!-- Chapter 1 -->
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/progress?src=hash&amp;ref_src=twsrc%5Etfw">#progress</a> on the <a href="https://twitter.com/hashtag/html?src=hash&amp;ref_src=twsrc%5Etfw">#html</a> book for today: Chapter 1 done (still needs editing), 1260 words in! My goal is to keep this up for the next week 🤓🤘 <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> <a href="https://t.co/bsaM6RcaCD">pic.twitter.com/bsaM6RcaCD</a></p>&mdash; Code The Web (@CodeTheWebBlog) <a href="https://twitter.com/CodeTheWebBlog/status/987285913855131648?ref_src=twsrc%5Etfw">April 20, 2018</a></blockquote>
+                <!-- Starting Tweet / Contents -->
+                <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today is the day that I start on my first ever Ebook...  Wish me luck! 🚀🙏 <a href="https://t.co/wj7KdjsTuc">pic.twitter.com/wj7KdjsTuc</a></p>&mdash; Code The Web (@CodeTheWebBlog) <a href="https://twitter.com/CodeTheWebBlog/status/986895312768741376?ref_src=twsrc%5Etfw">April 19, 2018</a></blockquote>
+                <!-- TWITTER SCRIPT -->
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
