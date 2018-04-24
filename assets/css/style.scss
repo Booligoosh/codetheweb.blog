@@ -1303,6 +1303,33 @@ header .top-index-content {
     max-width: calc(100vw - 4em);
 }
 
+body.has-ph-banner {
+    margin-top: 3rem;
+}
+body.has-ph-banner header.g-header {
+    top: 3rem;
+    position: absolute;
+}
+aside.ph-banner {
+    display: none;
+}
+body.has-ph-banner aside.ph-banner {
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 3rem;
+    box-sizing: border-box;
+    background: #da552f;
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
@@ -1597,17 +1624,20 @@ header .top-index-content {
     }
 }
 
+@media screen and (max-width: 450px) {
+    .feedback-banner h1 {
+        font-size: 59px;
+    }
+    body.has-ph-banner aside.ph-banner {
+        font-size: 1.2em;
+    }
+}
+
 @media screen and (max-width: 440px) {
     .learn-lang-banner h1 {
         font-size: 50px;
         line-height: 50px;
         letter-spacing: 1px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .feedback-banner h1 {
-        font-size: 59px;
     }
 }
 
