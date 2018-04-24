@@ -1234,8 +1234,20 @@ header .top-index-content {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
-.newsletter-thanks .bmc-button {
+.newsletter-thanks .bmc-button, .newsletter-thanks .ph-button {
     box-shadow: 0 0 1em white !important;
+}
+
+.newsletter-thanks .ph-button {
+    background: #da552f;
+    color: white;
+    border: none;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 2em !important;
+    display: block;
+    padding: 1em;
+    text-align: center;
 }
 
 
