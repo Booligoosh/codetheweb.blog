@@ -1371,12 +1371,22 @@ body.has-ph-banner aside.ph-banner {
     content: initial;
 }
 
-.patron-page .patron-grid section.sponsor {
+.patron-page .patron-grid h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.patron-page .patron-grid section.sponsor, .patron-page .patron-grid h1 {
     grid-column-start: 1;
     grid-column-end: 3;
+}
+    
+
+.patron-page .patron-grid section.sponsor {
     text-align: center;
     background-color: #ffd78e;
 }
+
 .patron-page .patron-grid section.sponsor * {
     margin-left: auto;
     margin-right: auto;
@@ -1396,13 +1406,6 @@ body.has-ph-banner aside.ph-banner {
 
 .patron-page .patron-grid section.patreon-promo a img {
     width: 90%;
-    margin: 0;
-}
-
-.patron-page .patron-grid h1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    text-align: center;
     margin: 0;
 }
 
@@ -1528,6 +1531,18 @@ body.has-ph-banner aside.ph-banner {
     }
     .markdown-body p {
         text-align: left;
+    }
+    .patron-page .patron-grid {
+        grid-template-columns: 1fr;
+    }
+    .patron-page .patron-grid section.sponsor, .patron-page .patron-grid h1 {
+        grid-column-start: initial;
+        grid-column-end: initial;
+    }
+    .patron-page .patron-grid section * {
+        text-align: center;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 }
 
