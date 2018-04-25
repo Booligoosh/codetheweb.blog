@@ -1330,6 +1330,82 @@ body.has-ph-banner aside.ph-banner {
     text-align: center;
 }
 
+.patron-page ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.patron-page ul li:before {
+    content: '🙏 ';
+}
+
+.patron-page ul li.add {
+    background: limegreen;
+    text-indent: 0;
+    padding: .5em;
+    margin-left: -1.2em;
+    margin-top: 1.5em;
+    width: max-content;
+    border-radius: .25em;
+    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 0.8em;
+    line-height: 1em;
+}
+
+.patron-page ul li.add a {
+    text-decoration: none;
+}
+
+.patron-page .patron-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2em;
+}
+
+.patron-page .patron-grid::before {
+    content: initial;
+}
+
+.patron-page .patron-grid section.sponsor {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    background-color: #ffd78e;
+}
+.patron-page .patron-grid section.sponsor * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.patron-page .patron-grid section.patreon-promo {
+    background-color: #F96854;
+}
+
+.patron-page .patron-grid section.patreon-promo a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.patron-page .patron-grid section.patreon-promo a img {
+    width: 90%;
+    margin: 0;
+}
+
+.patron-page .patron-grid h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    margin: 0;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
