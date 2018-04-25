@@ -1602,6 +1602,9 @@ body.has-ph-banner aside.ph-banner {
     body {
         margin-top: 82px;
     }
+    body.has-ph-banner {
+        margin-top: calc(82px + 3rem);
+    }
     body.home header {
         height: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem) !important;
         /*
