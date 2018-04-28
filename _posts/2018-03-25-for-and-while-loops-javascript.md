@@ -177,7 +177,7 @@ See you next time, where I'll be talking about [functions in JavaScript!][functi
 
 > **P.S. In this post, I officially passed 50,000 words! &#x1F389;&#x1F601;** It's been an awesome time writing this blog (nearly 6 months!), and I will definitely continue into the future! I want to thank all the fans, [newsletter subscribers][newsletter] and readers for actually coming and reading what I have to say. I really didn't think that Code The Web would have so many visitors, and really appreciate every single one of you all. &#x1F496;
 
-[arrays]: {{site.newsletter}}
+[arrays]: /2018/04/28/javascript-arrays/
 [booleans]: /2018/02/28/if-statements-boolean-operators/
 [functions]: /2018/04/05/javascript-functions/
 [wordcount]: /wordcount/
