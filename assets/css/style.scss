@@ -1519,6 +1519,24 @@ body.has-ph-banner aside.ph-banner {
     color: white;
 }
 
+.thin-newsletter .in-post-stream.newsletter input {
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    
+.thin-newsletter .in-post-stream.newsletter input:first-child {
+    margin-bottom: .5em !important;
+}
+
+.thin-newsletter .in-post-stream.newsletter .note {
+    text-align: center !important;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
