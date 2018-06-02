@@ -940,12 +940,12 @@ img.screenshot-white {
     color: #ffffff !important;
     background-color: #FF813F !important;
     border-radius: 3px !important;
-    border: 1px solid transparent !important;
+    border: 1px solid transparent;
     padding: 0px 9.5px !important;
     font-size: 24px !important;
     letter-spacing: 0.6px !important;
-    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
-    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
+    box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5);
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5);
     -o-transition: 0.3s all linear !important;
     -moz-transition: 0.3s all linear !important;
     -webkit-transition: 0.3s all linear !important;
@@ -1761,4 +1761,11 @@ body.has-ph-banner aside.ph-banner {
         font-size: 50px;
         letter-spacing: 1px;
     }
+}
+
+
+/* __FLAT__ */
+body.flat * {
+    box-shadow: none !important;
+    border: none !important;
 }
