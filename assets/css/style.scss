@@ -1056,9 +1056,26 @@ a.learn-cta-what-to-learn {
     max-width: 695px;
 }
 
+.article-list .large-message {
+    margin: 1em;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
+}
+
+.article-list .large-message .sub {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 1em;
+}
+
+
 .recent-articles-title {
     margin-bottom: 1rem;
     font-family: "Merriweather";
+    text-align: center;
+    font-size: 2em;
 }
 
 a[title=Sumo], a[title=Sumo] * {
@@ -1298,9 +1315,13 @@ header .top-index-content {
 
 .search-card {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 2em;
     display: block;
     max-width: calc(100vw - 4em);
+}
+
+.search-card, .search-card input {
+    text-align: center;
 }
 
 body.has-ph-banner {

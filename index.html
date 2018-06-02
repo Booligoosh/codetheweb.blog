@@ -27,17 +27,23 @@ home: true
           text-align:  center;
       "><span class="learn-link-home-title">{{site.homepage-message}}</span></div>
       {% endif %}
+        <div class="large-message">
+            I am a real human here to help you learn web development.
+            <div class="sub">My name's Ethan, nice to meet you 👋</div>
+        </div>
         {% if site.search %}
         <div class="search-card">
-            <input id="search_input" type="text" placeholder="Search Code The Web...">
+            <input id="search_input" type="text" placeholder="I want to learn about...">
             <i class="iconfont icon-search"></i>
             <div class="search_result"></div>
         </div>
         {% endif %}
+        {% comment %}
         <section class="freebie-hero promo card-style">
             {% include guide-to-learning-html-freebie-hero.html %}
         </section>
-        <h2 class="recent-articles-title">Recent Articles:</h2>
+        {% endcomment %}
+        <h2 class="recent-articles-title">Recent Articles</h2>
         {% for post in paginator.posts %}
             <article class="article-item">
                 {% if post.image %}
