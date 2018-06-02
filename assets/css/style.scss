@@ -1738,8 +1738,8 @@ body.has-ph-banner aside.ph-banner {
     .home-banner {
         display: none;
     }
-    body {
-        /* margin-top: 82px; */
+    body:not(.home) {
+        margin-top: 82px;
     }
     body.has-ph-banner {
         margin-top: calc(82px + 3rem);
