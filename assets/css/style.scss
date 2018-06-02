@@ -3,10 +3,17 @@
 
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
+$sans-serif: 'Montserrat';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body, html {
     min-height: 100%;
     height: auto;
+}
+
+body {
+    font-family: $sans-serif;
 }
 
 .card-style {
@@ -292,7 +299,7 @@ body.stop-scrolling {
 
 .social-share-home span {
     display: block;
-    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif !important;
+    font-family: $sans-serif !important;
     margin-bottom: 4px;
 }
 
@@ -472,7 +479,7 @@ body.stop-scrolling {
     margin-bottom: 15px;
     display: block;
     color: #757575;
-    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
+    font-family: $sans-serif;
 }
 
 .learn-link-post, .learn-lang-banner, .learn-index-banner {
@@ -1370,7 +1377,7 @@ body.has-ph-banner aside.ph-banner {
     margin-top: 1.5em;
     width: max-content;
     border-radius: .25em;
-    font-family: -apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    font-family: $sans-serif;
     color: white;
     text-transform: uppercase;
     font-weight: 900;
