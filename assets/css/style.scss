@@ -1616,7 +1616,9 @@ body.has-ph-banner aside.ph-banner {
     body.home .g-header {
         background-image: linear-gradient(100deg,#ffce69,#fa709a);
     }
-    
+    .tagline {
+        font-weight: bold;
+    }
     .g-logo {
         width: 100% !important;
         opacity: 1 !important;
