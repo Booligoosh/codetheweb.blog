@@ -114,18 +114,19 @@ home: true
                 </ul>
                 {% endif %}
             </section>
-
-            {% if site.recommend-tags and site.tags.size>0 %}
-            <section class="tags-card">
-                {% for tag in site.tags %}
-                    {% if forloop.index > site.recommend-condition-size %}
-                        {% break %}
-                    {% endif %}
-                <a href="{{ site.baseurl }}tags/#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
-                {% endfor %}
-            </section>
-            {% endif %}
         </div>
+        
+        {% if site.recommend-tags and site.tags.size>0 %}
+        <section class="tags-card card-style">
+            {% for tag in site.tags %}
+                {% if forloop.index > site.recommend-condition-size %}
+                    {% break %}
+                {% endif %}
+            <a href="{{ site.baseurl }}tags/#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+            {% endfor %}
+        </section>
+        {% endif %}
+        
         <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="/assets/img/loading.svg" data-src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
         <!-- <h3 id="sponsors">Sponsors:</h3>
         <div class="sponsors card-style">

@@ -5,7 +5,7 @@ $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
 $sans-serif: 'Montserrat';
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700');
 
 body, html {
     min-height: 100%;
@@ -87,6 +87,7 @@ body {
 .home-banner a.learn-cta-what-to-learn {
     color: white;
     font-weight: bold;
+    text-decoration: none;
     transition: all, .5s;
 }
 
@@ -222,7 +223,6 @@ body {
     color: white;
     text-shadow: 0 0px 3px rgba(0,0,0,0.5);
     margin-top: 0;
-    margin-bottom: 16px;
     font-family: "Merriweather";
 }
 
@@ -294,7 +294,6 @@ body.stop-scrolling {
 .social-share-home, .sp-badge-home {
     text-align: center;
     margin: 0;
-    margin-bottom: 16px;
 }
 
 .social-share-home span {
@@ -323,7 +322,6 @@ body.stop-scrolling {
 }
 
 .sp-badge-home {
-    margin-top: 16px;
     display: block;
 }
 
@@ -1441,6 +1439,33 @@ body.has-ph-banner aside.ph-banner {
     opacity: .8;
 }
 
+.g-sidebar-wrapper > * {
+    margin-bottom: 16px;
+}
+
+.author-card {
+    text-align: left;
+}
+
+.author-card .avatar {
+    display: none;
+}
+
+.author-card .author-name {
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+}
+
+.tags-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags-card .tag {
+    margin: 3px;
+}
+
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
@@ -1783,6 +1808,9 @@ body.has-ph-banner aside.ph-banner {
 body.flat * {
     box-shadow: none !important;
     border: none !important;
+}
+body.flat .g-sidebar-wrapper .subscribe-btn {
+    text-shadow: none;
 }
 /* body.flat .search-card input {
     box-shadow: 0 0 0em 0.3em #F0957E !important;
