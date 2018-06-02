@@ -987,6 +987,9 @@ img.screenshot-white {
     height: 3em !important;
     line-height: 3em !important;
 }
+#.bmc-button:hover span:before {
+    content: '$4 = 1 coffee ☕️ __________________________________'; /* Underscores end up on next line */
+}
 .bmc-button img {
     background-color: unset;
     display: inline;
