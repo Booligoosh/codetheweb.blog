@@ -41,7 +41,6 @@ body {
 
 .home-banner h1 {
     display: flex;
-    font-family: Montserrat;
 }
 
 .home-banner h1 > span {
@@ -1122,10 +1121,6 @@ header .top-index-content {
     text-align: right;
 }
 
-.freebie-hero h1, .freebie-hero .newsletter-form .note {
-    font-family: Montserrat;
-}
-
 .freebie-hero h1 {
     font-size: 3em;
 }
@@ -1327,6 +1322,7 @@ header .top-index-content {
 
 .search-card, .search-card input {
     text-align: center;
+    font-family: $sans-serif;
 }
 
 body.has-ph-banner {
