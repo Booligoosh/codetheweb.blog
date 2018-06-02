@@ -1467,7 +1467,7 @@ body.has-ph-banner aside.ph-banner {
 }
 
 #ph-upcoming-widget {
-    display: none;
+    display: none !important;
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
