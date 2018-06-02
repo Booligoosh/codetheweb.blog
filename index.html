@@ -43,7 +43,7 @@ home: true
             {% include guide-to-learning-html-freebie-hero.html %}
         </section>
         {% endcomment %}
-        <div class="light-newsletter" style="text-align: center">{% include newsletter.html %}</div>
+        {% comment %}<div class="light-newsletter" style="text-align: center">{% include newsletter.html %}</div>{% endcomment %}
         <h2 class="recent-articles-title">Recent Articles</h2>
         {% for post in paginator.posts %}
             <article class="article-item">
@@ -91,7 +91,7 @@ home: true
     </div>
 
     <aside class="g-sidebar-wrapper">
-        <a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe!</a>
+        <a href="{{site.newsletter}}" class="btn subscribe-btn">Resources! &#x1F4E6;</a>
         {% include bmc.html %}
         {% include share.html %}
         <div class="g-sidebar">
