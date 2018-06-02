@@ -72,7 +72,7 @@ I forgot to mention - you can follow along! If you need help on how to run your 
     <body>
         <h1 class="my-class">Title</h1>
         <h1>Another H1</h1>
-        <h2 class="another-class">Subheading</h3>
+        <h2 class="another-class">Subheading</h2>
         <h4 class="two classes">Okay, this is getting crazy</h4>
         <h5 class="multiple classes">I sure have a lot of headings</h5>
         <h5 class="i-have-a-different-class">This is another H5</h5>
@@ -119,7 +119,7 @@ This is like the `h1` example you saw above. Simply type the tag name of the ele
 ### Class selectors
 This selects elements with a certain class attribute. For example, in the HTML that you copied:
 ```HTML
-<h2 class="another-class">Subheading</h3>
+<h2 class="another-class">Subheading</h2>
 ```
 The CSS syntax to select all elements with the `another-class` class would be:
 ```CSS
