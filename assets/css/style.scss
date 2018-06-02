@@ -1364,6 +1364,11 @@ header .top-index-content {
     font-family: $sans-serif;
 }
 
+.search-card .search-result {
+    margin-bottom: 2px;
+    -webkit-margin-collapse: separate;
+}
+
 body.has-ph-banner {
     margin-top: 3rem;
 }
