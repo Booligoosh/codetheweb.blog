@@ -78,6 +78,8 @@ sponsor: /sponsor
 donate: https://buymeacoffee.com/CodeTheWeb
 patreon: https://www.patreon.com/CodeTheWebBlog
 
+ph-banner: false
+
 email: '<span class="email"></span>'
 
 social:
