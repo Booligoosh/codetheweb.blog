@@ -983,6 +983,7 @@ img.screenshot-white {
     width: max-content;
     margin: 1em auto !important;
     width: 100%;
+    max-width: calc(100vw - 4rem);
     text-align: center;
     height: 3em !important;
     line-height: 3em !important;
