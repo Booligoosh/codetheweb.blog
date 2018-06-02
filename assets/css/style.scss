@@ -16,6 +16,10 @@ body {
     font-family: $sans-serif;
 }
 
+a {
+    color: inherit;
+}
+
 .card-style {
     border: 1px solid #e7eaf1;
     border-radius: 3px;
@@ -89,7 +93,6 @@ body {
 .home-banner a.learn-cta-what-to-learn {
     color: white;
     font-weight: bold;
-    text-decoration: none;
     transition: all, .5s;
 }
 
@@ -545,6 +548,7 @@ body.stop-scrolling {
     margin-top: 1rem;
     font-size: 0.75em;
     font-weight: normal;
+    DISPLAY: NONE;
 }
 
 .in-post-stream.newsletter .extra, .newsletter-form .extra {
@@ -607,7 +611,6 @@ body.stop-scrolling {
 
 .in-post-stream a {
     text-decoration: underline;
-    color: white;
 }
 
 .learn-link-post {
@@ -1045,7 +1048,6 @@ a.learn-cta-what-to-learn {
     margin: 0 auto;
     margin-top: 1rem;
     font-size: 0.75em;
-    text-decoration: underline;
     opacity: .6;
 }
 
@@ -1079,6 +1081,7 @@ a.learn-cta-what-to-learn {
 
 
 .recent-articles-title {
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-family: "Merriweather";
     text-align: center;
@@ -1107,7 +1110,7 @@ header .top-index-content {
     display:  none;
 }
 
-.top-index-content .in-post-stream.newsletter > div:first-child {
+.top-index-content .in-post-stream.newsletter .explainer {
     display: none;
 }
 
@@ -1264,6 +1267,8 @@ header .top-index-content {
     width: 100%;
     padding: 0;
     /* margin-bottom: 2em; */
+    
+    border: 2px solid #e7eaf1 !important;
 }
 
 .newsletter-page .leading-text {
@@ -1274,6 +1279,10 @@ header .top-index-content {
 .newsletter-page .example-newsletter-title {
     text-align: center;
     margin: 1em;
+}
+
+.newsletter-page .in-post-stream.newsletter .explainer {
+    display: none;
 }
 /* End newsletter page */
 
@@ -1498,6 +1507,16 @@ body.has-ph-banner aside.ph-banner {
 
 #ph-upcoming-widget {
     display: none !important;
+}
+
+.light-newsletter .in-post-stream.newsletter {
+    color: $theme-color-single;
+    background-color: white;
+}
+
+.light-newsletter .in-post-stream.newsletter input:not([type="submit"]), .light-newsletter .in-post-stream.newsletter input::placeholder {
+    background-color: $theme-color-single;
+    color: white;
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
