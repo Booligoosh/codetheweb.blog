@@ -200,7 +200,7 @@ a {
     text-align: center;
 }
 
-.subscribe-btn {
+.subscribe-btn, .donate-btn {
     color: black;
     border: none;
     margin-top: 10px;
@@ -208,16 +208,16 @@ a {
     transition: opacity, 1s;
 }
 
-.subscribe-btn:hover {
+.subscribe-btn:hover, .donate-btn:hover {
     opacity: 1;
 }
 
-.night-mode .subscribe-btn {
+.night-mode .subscribe-btn, .night-mode .donate-btn {
     -webkit-filter: brightness(.6);
     filter: brightness(.6);
 }
 
-.g-sidebar-wrapper .subscribe-btn {
+.g-sidebar-wrapper .subscribe-btn, .g-sidebar-wrapper .donate-btn {
     width: 100%;
     box-shadow: 0 1px 3px rgba(0,37,55,.06);
     border: 1px solid #e7eaf1;
@@ -229,6 +229,14 @@ a {
     text-shadow: 0 0px 3px rgba(0,0,0,0.5);
     margin-top: 0;
     font-family: "Merriweather";
+}
+
+.donate-btn {
+    background-color: hsl(0, 100%, 70%);
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: inherit !important;
+    text-shadow: none !important;
 }
 
 .np-baner h1 {
