@@ -65,16 +65,14 @@
             {{ page.content }}
         </article>
         <section class="after-post">
-            {% include bmc.html %}
             {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
             {% unless tags_str contains "Other" %}
             {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
-            <a href="/learn/{{lang | downcase}}" style="text-decoration: none"><div class="learn-link-post lang card-style"><span class="learn-link-home-title">Hopefully you enjoyed this article on {{lang}}! &#127881;<br>Click here for all {{lang}} tutorials...</span></div></a>
+            <blockquote style="text-align: center">
+                <a href="/learn/{{lang | downcase}}" style="text-decoration: none">&#x1F449; Click here for all {{lang}} tutorials... &#x1F448;</a>
+            </blockquote>
             {% endunless %}
-            <!-- <blockquote class="newsletter">
-                <h3 id="want-to-get-new-posts-in-your-inbox-sign-up-to-my-newsletter">Want to get new posts in your inbox? <a href="/newsletter">Sign up to my newsletter</a>.</h3>
-                <p>I’ve worked hard on these tutorials and as of now do not make any money on them, so I’d really appreciate if you signed up ;)</p>
-            </blockquote> -->
+            {% include bmc.html %}
             {% if tags_str contains "HTML"  %}
                 <div class="freebie-hero promo">
                     {% include guide-to-learning-html-freebie-hero.html %}
@@ -83,9 +81,9 @@
                 {% include newsletter.html %}
             {% endif %}
         </section>
-        <!--<a href="{{site.newsletter}}" class="btn subscribe-btn">Subscribe</a>-->
         {% if site.social-share %}
-        {% include share.html %}
+            <h3 class="share-title">Share:</h3>
+            {% include share.html %}
         {% endif %}
     </div>
 
