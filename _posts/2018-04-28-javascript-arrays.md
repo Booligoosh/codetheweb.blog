@@ -628,7 +628,7 @@ https://carbon.now.sh/?bg=rgba(0,0,0,1)&t=lucario&wt=none&l=javascript&ds=true&d
 {% endcomment %}
 
 [functions]: /2018/04/05/javascript-functions/
-[objects]: {{site.newsletter}}
+[objects]: /2018/06/09/javascript-objects/
 [or]: /2018/02/28/if-statements-boolean-operators/#multiple-truefalse-statements
 
 [console]: /assets/img/posts/javascript-arrays/console.png
