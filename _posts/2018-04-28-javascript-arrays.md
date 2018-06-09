@@ -418,7 +418,7 @@ function multiply(total, num) {
     return(total * num);
 }
 ```
-{:.reduce}
+{:.reveal}
 
 There we go! Reduce is one of the hardest array concepts, but you'll get the hang of it eventually! Practice is always the key.
 
