@@ -8,7 +8,7 @@ keywords: "JavaScript DOM, Change HTML and CSS with JavaScript, Change HTML with
 checked: [grammarly]
 ---
 <!-- https://carbon.now.sh/?bg=rgba(171,%20184,%20195,%201)&t=base16-light&wt=bw&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=false&wa=true&pv=48px&ph=32px&ln=false&fm=Ubuntu%20Mono&fs=18px&si=false&code=%252F%252F%2520Changing%2520HTML%2520with%2520JavaScript&es=4x&wm=false -->
-
+Part of the entire reason that JavaScript exists is to interact with HTML and CSS. Learn how all three web languages intersect in this article!
 
 ## Getting started
 Create an HTML file with the following code, then open it up in your browser:
