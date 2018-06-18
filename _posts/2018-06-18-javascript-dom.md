@@ -206,7 +206,7 @@ for(var i = 0; i < elements.length; i++) {
 ```
 All your `<h1>`'s will change their font!
 
-This is how you things with multiple elements from the one query selector...
+This is how you select and change multiple elements from the one query selector...
 
 ## Conclusion
 There we go! I hope you learned something today &#x1F601;
