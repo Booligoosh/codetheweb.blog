@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>The DOM :D</title>
+    </head>
+    <body>
+        <h1>An h1</h1>
+        <p id="myId">I'm a paragraph, look at me!</p>
+        <h1 class="title second-h1" id="classesExample">Another h1</h1>
+        <h1>A third h1</h1>
+        <img src="/assets/img/posts/javascript-dom/llama.jpg">
+        <script>
+            document.querySelector('h1').innerHTML = 'Hello World!';
+            document.querySelector('#myId').innerHTML = 'This is <b>bold</b>.';
+            document.querySelector('body').innerHTML += '<h2>I am now on the page!</h2>';
+            document.querySelector('img').getAttribute('src');
+            document.querySelector('img').setAttribute('src', '/assets/img/posts/javascript-dom/llama-changed.jpg');
+            document.querySelector('h1').style.color = 'red';
+            document.querySelector('h1').style.backgroundColor = 'orange';
+        </script>
+    </body>
+</html>
