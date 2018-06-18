@@ -15,7 +15,7 @@ home: true
     </div>
 </div>
 
-<main class="g-container home-content">
+<main class="g-container home-content" id="main">
     <div class="before-article-list">
         {% include top-index-content.html %}
     </div>
@@ -44,7 +44,7 @@ home: true
         </section>
         {% endcomment %}
         {% comment %}<div class="light-newsletter" style="text-align: center">{% include newsletter.html %}</div>{% endcomment %}
-        <h2 class="recent-articles-title">Recent Articles</h2>
+        {% if paginator.page == 1 %}<h2 class="recent-articles-title">Recent Articles</h2>{% endif %}
         {% for post in paginator.posts %}
             <article class="article-item">
                 {% if post.image %}
