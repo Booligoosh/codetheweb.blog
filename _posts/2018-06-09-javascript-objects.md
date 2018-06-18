@@ -321,7 +321,7 @@ See you next time, where I'll be talking all about [how to modify HTML and CSS i
 
 [arrays]: /2018/04/28/javascript-arrays/
 [mutation]: https://alistapart.com/article/why-mutation-can-be-scary
-[dom]: {{site.newsletter}}
+[dom]: /2018/06/18/javascript-dom/
 [json.org]: https://json.org/
 
 [contact]: {{site.contact}}
