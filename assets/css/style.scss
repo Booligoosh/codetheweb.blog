@@ -3,7 +3,7 @@
 
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
-$sans-serif: 'Montserrat';
+$sans-serif: 'Montserrat',-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700|Cookie');
 
@@ -1550,6 +1550,10 @@ body.has-ph-banner aside.ph-banner {
 .share-title {
     margin-bottom: 0.5em;
     text-align: center;
+}
+
+.tag, .post-tag {
+    font-family: $sans-serif !important;
 }
 
 #emojicom-widget-inline iframe {
