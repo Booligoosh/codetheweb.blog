@@ -65,6 +65,7 @@
             {{ page.content }}
         </article>
         <section class="after-post">
+            <div id="emojicom-widget-inline"></div>
             {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
             {% unless tags_str contains "Other" %}
             {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
@@ -178,5 +179,13 @@ s.setAttribute('data-timestamp', +new Date());
 <script>
     console.log("Number of words: {{content | number_of_words}}");
 </script>
+<!-- Start emojicom.io widget -->
+<script>
+window.EMOJICOM_WIDGET = {
+  campaign: "6T9WqFYaarL7LO1xq0la"
+};
+</script>
+<script src="https://cdn.emojicom.io/embed/widget.js" async></script>
+<!-- End emojicom.io widget -->
 </body>
 </html>
