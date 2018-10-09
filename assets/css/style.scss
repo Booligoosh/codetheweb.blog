@@ -1562,13 +1562,19 @@ body.has-ph-banner aside.ph-banner {
 }
 
 /* thembutton.xyz */
-button.likebtn {
+button.likebtn#xLikebtn {
     position: fixed !important;
     left: 24px !important;
     bottom: 20px !important;
     transform: scale(0.67) !important;
     transform-origin: bottom left !important;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1) !important;
+    /* box-shadow: 0px 0px 30px 0px rgba(249, 79, 79, 0.1) !important; */
+}
+button.likebtn#xLikebtn svg path {
+    transform: scale(1.5) !important;
+    transform-origin: center center !important;
+    stroke: none !important;
 }
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
