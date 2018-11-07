@@ -170,7 +170,7 @@ Try it out! You will see the first title turn red...
 
 We can set *any* CSS property &mdash; not just the `color`. Go ahead and try changing another one yourself! It could be `height`, `font-weight`, etc.
 
-You can have dashes as variable names in JavaScript &mdash; so you may be wondering how to change properties such as `background-color`! What we do is we write it in *camelCase*.
+You can't have dashes in variable names in JavaScript &mdash; so you may be wondering how to change properties such as `background-color`! What we do is we write it in *camelCase*.
 
 camelCase is where you stick the words together (without spaces) and capitalize the first letter of every word except the first. For example, `background-color` would become `backgroundColor` and `border-bottom-left-radius` would become `borderBottomLeftRadius`.
 
