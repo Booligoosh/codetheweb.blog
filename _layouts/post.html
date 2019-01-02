@@ -1,3 +1,10 @@
+
+{% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
+{% unless tags_str contains "Other" %}
+{% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
+{% capture lang_downcase %}{{lang | downcase}}{% endcapture %}
+{% endunless %}
+
 <!DOCTYPE html>
 <html>
 {% include head.html %}
@@ -31,7 +38,7 @@
 <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
 
 {% include header.html %}
-<main>
+<main class="{% unless tags_str contains "Other" %}has-sidebar{% endunless %}">
     <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
         <div class="post-wrapper">
             <div class="post-tags">
@@ -52,6 +59,27 @@
         <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
         {% endif %}
     </header>
+    
+    <aside class="post-sidebar-wrapper overlap">
+        <aside class="post-sidebar">
+           
+            <!-- <img src="/assets/img/ad.jpeg" class="t-n-e-m-e-s-i-t-r-e-v-d-a"> --> <!-- 'advertisement'.split('').reverse().join('-') -->
+            
+            {% unless tags_str contains "Other" %}
+            <h1>{{lang}} Tutorials</h1>
+            <ol>
+            {% assign posts = site.posts | reverse %}
+            {% assign listnum = 0 %}
+            {% for post in posts %}
+            {% if site.learn[lang_downcase].tutorials contains post.url %}
+            {% assign listnum = listnum | plus: 1 %}
+            <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
+            {% endif %}
+            {% endfor %}
+            </ol>
+            {% endunless %}
+        </aside>
+    </aside>
 
     <div class="post-content">
         {% if page.subtitle %}
@@ -69,9 +97,10 @@
             {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
             {% unless tags_str contains "Other" %}
             {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
-            <blockquote style="text-align: center">
+            <!-- Now we don't need this because we have a sidebar with all the language tutorials. -->
+            <!-- <blockquote style="text-align: center">
                 <a href="/learn/{{lang | downcase}}" style="text-decoration: none">&#x1F449; Click here for all {{lang}} tutorials... &#x1F448;</a>
-            </blockquote>
+            </blockquote> -->
             {% endunless %}
             {% include bmc.html %}
             {% if tags_str contains "HTML"  %}

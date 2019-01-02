@@ -1561,6 +1561,91 @@ body.has-ph-banner aside.ph-banner {
     margin: 0 !important;
 }
 
+.has-sidebar .post-content, .has-sidebar .author-detail {
+    padding-right: calc((100vw - 720px) / 2);
+    box-sizing: border-box;
+}
+
+.post-sidebar-wrapper {
+    display: none;
+    position: sticky;
+    top: 0;
+    margin-left: auto;
+    width: calc((100vw - 720px) / 2);
+    z-index: 1;
+    height: 100vh;
+    margin-bottom: -100vh;
+    padding: 2em;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.has-sidebar .post-sidebar-wrapper {
+    display: block;
+}
+
+.post-sidebar-wrapper.overlap {
+    background: white;
+    border-radius: 1.5em;
+    margin-top: -3em;
+    margin-bottom: calc(-100vh + 3em);
+}
+
+.post-sidebar {
+    opacity: .75;
+}
+
+.post-sidebar h1 {
+    margin-bottom: 0.5em;
+}
+
+.post-sidebar img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+.post-sidebar ol, .post-sidebar ul {
+    list-style: none;
+    margin-left: -0.5em;
+}
+
+.sidebar-post {
+    margin: 0.25em 0;
+    border-radius: 2em;
+    padding: .5em;
+}
+
+.sidebar-post a {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-post-number {
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5em;
+    flex-shrink: 0;
+    background: linear-gradient(45deg,#ffce69,#fa709a);
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar-post:hover, .sidebar-post.active {
+    background: linear-gradient(45deg,#ffce69,#fa709a);
+    color: white;
+}
+
+.sidebar-post:hover .sidebar-post-number, .sidebar-post.active .sidebar-post-number {
+    background: white;
+    color: #ffce69;
+}
+
+
 /* thembutton.xyz */
 button.likebtn#xLikebtn {
     position: fixed !important;
@@ -1588,6 +1673,15 @@ button.likebtn#xLikebtn svg path {
 */
 
 /* NO SIDEBAR */
+@media screen and (max-width: 1200px) {
+    .post-sidebar-wrapper {
+        display: none !important;
+    }
+    .has-sidebar .post-content, .has-sidebar .author-detail {
+        padding-right: 0;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .g-sidebar, .sp-badge-home, #sponsors, .sponsors {
         display: none !important;
