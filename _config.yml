@@ -5,6 +5,9 @@ keyword: 'code the web, code the web blog, blog, web, web development, developme
 url: 'https://codetheweb.blog' # your host
 baseurl: '/'
 
+# Hide future posts
+future: false
+
 # Navigation links
 nav:
   home: '/'
