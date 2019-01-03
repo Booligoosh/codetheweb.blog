@@ -5,6 +5,12 @@ description: "Sorry, Page Not Found :("
 permalink: /404.html
 ---
 
+<script>
+    if((new Date(window.location.pathname.match(/[0-9][0-9][0-9][0-9]\/[0-9][0-9]\/[0-9][0-9]/)[0]).getTime() > Date.now()) === true) {
+        window.location = '/newsletter';
+    }
+</script>
+
 {% include header.html %}
 
 <header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }}" data-theme="{{ site.theme-color }}">
