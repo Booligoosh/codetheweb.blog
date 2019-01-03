@@ -4,7 +4,7 @@ title: "Advanced background image manipulation using CSS"
 image: '/assets/img/posts/css-advanced-background-images/cover.jpg'
 photoCred: [Alessandro Sacchi,NUFnfYd09iI]
 tags: CSS
-keywords: "learn CSS, CSS syntax, CSS, background images, background, images, CSS background images, CSS background image property, background image property, background-size, background-attachment, background-position, background-repeat, css background image, css background image position, css background image attachment css background image size, css background image repeat"
+keywords: "learn CSS, CSS syntax, CSS, background images, background, images, CSS background images, CSS background image property, background image property, background-size, background-attachment, background-position, background-repeat, css background image, css background position, css background attachment css background size, css background repeat"
 checked: [grammarly]
 ---
 Background images can do more than you think - learn about cool ways to manipulate background images using CSS...
