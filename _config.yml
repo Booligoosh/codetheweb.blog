@@ -65,6 +65,11 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  
+# Image optimization
+jekyll_image_optim:
+  image_optim:
+    allow_lossy: true
 
 RSS: false
 
