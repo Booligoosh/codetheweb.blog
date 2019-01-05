@@ -10,10 +10,32 @@ regenerate: true
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
-    <div>
+    <div style="z-index: 1">
         <h1><!--{{ page.home-title }}-->{% include svg/logo-trans-clipped.svg %}<span>Code The Web</span></h1>
         {% include top-index-content.html %}
     </div>
+    <div class="falling-code-wrapper"></div>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            
+            var tagNames = Array.from(document.querySelectorAll('*')).map(el => el.tagName.toLowerCase()).filter(el => typeof el.closest !== 'function' || el.closest('svg') === null);
+            
+            for(var i = 0; i < tagNames.length; i++) {
+                var bit = document.createElement('div');
+                bit.innerHTML = `&lt;${tagNames[i]}&gt;`; // Number(Math.random() > 0.5)
+                bit.classList.add('falling-code-bit');
+                var layerNum = Math.random();
+                var left = Math.round(Math.random() * window.innerWidth);
+                var top = Math.random() * 100;
+                var animationDuration = Math.max(5, 60 - (layerNum * 60));
+                var animationDelay = (top/100) * animationDuration;
+                bit.setAttribute('style', `left: ${left}px; top: ${top}%; opacity: ${layerNum}; animation: bit-fall ${animationDuration}s infinite linear; animation-delay: ${animationDelay}s`);
+
+                document.querySelector('.falling-code-wrapper').appendChild(bit);
+                //
+            }
+        })
+    </script>
 </div>
 
 <main class="g-container home-content" id="main">
@@ -29,7 +51,7 @@ regenerate: true
       "><span class="learn-link-home-title">{{site.homepage-message}}</span></div>
       {% endif %}
         <div class="large-message">
-            I am a real human here to help you learn web development.
+            <div class="primary">I am a real human here to help you learn web development.</div>
             <div class="sub">My name's Ethan, nice to meet you &#x1F44B;</div>
         </div>
         {% if site.search %}
