@@ -153,10 +153,7 @@ a {
     padding: 0 2%;
     display: flex;
     align-items: center;
-}
-    
-body.post .g-header .g-nav {
-    background: transparent;
+    transition: margin-top, .1s;
 }
 
 .g-header .g-nav > ul > li {
@@ -179,10 +176,10 @@ body.post .g-header .g-nav {
     color: white !important;
 }
 
-/* .g-header.headerDown .g-nav {
+.g-header.has-bg .g-nav, body.post .g-header .g-nav {
     background: transparent;
     margin-top: -16px;
-} */   
+}
 }
 
 

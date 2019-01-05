@@ -45,11 +45,13 @@ $(document).ready(function(){
                     'background-color': 'rgba(255, 255, 255, .98)',
                     'box-shadow': '0 1px 12px rgba(0, 0, 0, .08)'
                 });
+                header.addClass('has-bg'); // ME
                 appLogo.addClass('colorful');
                 navText.css('color', '#666');
                 $('.g-nav').addClass('nav-' + themeColorFlag);
 
             }else{
+                header.removeClass('has-bg'); // ME
 
                 header.removeClass('headerUp');
                 header.css({
