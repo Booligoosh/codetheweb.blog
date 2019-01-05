@@ -271,43 +271,96 @@ a {
     text-align: center;
 }
 
-.subscribe-btn, .donate-btn {
+$sidebar-btn-animation-duration: 0.25s;
+
+.sidebar-btn {
     color: black;
     border: none;
     margin-top: 10px;
     margin-bottom: 32px;
     transition: opacity, 1s;
-}
-
-.subscribe-btn:hover, .donate-btn:hover {
+    
+    box-shadow: none !important;
+    background: #F0957E;
     opacity: 1;
+    border-radius: 2em !important;
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+    padding: calc(70px - 3.5em);
+    border: 0px solid #F0957E;
+    overflow: hidden;
+    transition: all $sidebar-btn-animation-duration ease-in-out;
 }
 
-.night-mode .subscribe-btn, .night-mode .donate-btn {
+.sidebar-btn:hover {
+    color: #F0957E !important;
+    /* border-width: 2px;
+    padding: calc(70px - 3.5em - 2px); */
+}
+
+.sidebar-btn * {
+    z-index: 1;
+}
+
+.sidebar-btn .emoji {
+    background: white;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    position: relative;
+}
+
+.sidebar-btn .animation-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 50%;
+    z-index: 0;
+    transition: all $sidebar-btn-animation-duration ease-in-out;
+}
+
+.sidebar-btn:hover .animation-bg {
+    $offset: -5em;
+    top: $offset;
+    bottom: $offset;
+    left: $offset;
+    right: $offset;
+}
+
+.night-mode .sidebar-btn {
     -webkit-filter: brightness(.6);
     filter: brightness(.6);
 }
 
-.g-sidebar-wrapper .subscribe-btn, .donate-btn {
+.g-sidebar-wrapper .sidebar-btn {
     width: 100%;
-    box-shadow: 0 1px 3px rgba(0,37,55,.06);
-    border: 1px solid #e7eaf1;
+    /* box-shadow: 0 1px 3px rgba(0,37,55,.06); */
+    /* border: 1px solid #e7eaf1; */
     border-radius: 3px;
     box-sizing: border-box;
     height: 70px;
     line-height: 70px;
     color: white;
-    text-shadow: 0 0px 3px rgba(0,0,0,0.5);
     margin-top: 0;
-    font-family: "Merriweather";
 }
 
 .donate-btn {
     background-color: hsl(0, 100%, 70%);
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: inherit !important;
-    text-shadow: none !important;
+}
+
+.donate-btn:hover {
+    color: hsl(0, 100%, 70%) !important;
+    border-color: hsl(0, 100%, 70%);
 }
 
 .np-baner h1 {
@@ -1831,7 +1884,7 @@ button.likebtn#xLikebtn svg path {
     }
 } */
 
-/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, .subscribe-btn, #share, .learn-index-banner, .newsletter-page .newsletter-header {
+/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
 
@@ -1869,7 +1922,7 @@ button.likebtn#xLikebtn svg path {
     .home-content {
         margin-top: 0;
     }
-    .g-sidebar-wrapper .subscribe-btn, .bmc-wrapper, .card-style {
+    .g-sidebar-wrapper .sidebar-btn, .bmc-wrapper, .card-style {
         max-width: 695px;
         width: auto;
         float: none;
@@ -2215,12 +2268,9 @@ button.likebtn#xLikebtn svg path {
 
 
 /* __FLAT__ */
-body.flat *:not(.home-banner) {
+body.flat *:not(.home-banner):not(.sidebar-btn) {
     box-shadow: none !important;
     border: none !important;
-}
-body.flat .g-sidebar-wrapper .subscribe-btn {
-    text-shadow: none;
 }
 /* body.flat .search-card input {
     box-shadow: 0 0 0em 0.3em #F0957E !important;
