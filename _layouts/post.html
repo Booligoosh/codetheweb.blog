@@ -30,7 +30,7 @@
         "image": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
     }
 </script>
-<body class="post {% if site.ph-banner %}has-ph-banner{% endif %}">
+<body class="post {% unless tags_str contains "Other" %}has-sidebar{% endunless %} {% if site.ph-banner %}has-ph-banner{% endif %}">
 {% include ph-banner.html %}
     <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">You are using an older browser - please upgrade to a newer browser.！<a target="_blank" class="alert-link" href="http://browsehappy.com">Upgrade now</a></div>
@@ -38,27 +38,29 @@
 <input id="nm-switch" type="hidden" value="{{ site.nightMode }}">
 
 {% include header.html %}
-<main class="{% unless tags_str contains "Other" %}has-sidebar{% endunless %}">
-    <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
-        <div class="post-wrapper">
-            <div class="post-tags">
-                {% if page.tags.size > 0 %} 
-                {% for tag in page.tags  %}
-                <a href="/tags#{{ tag }}" class="post-tag">{{ tag }}</a>
-                {% endfor %}
-                {% endif %}
+<main>
+    <div class="post-header-wrapper">
+        <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
+            <div class="post-wrapper">
+                <div class="post-tags">
+                    {% if page.tags.size > 0 %} 
+                    {% for tag in page.tags  %}
+                    <a href="/tags#{{ tag }}" class="post-tag">{{ tag }}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+                <h1>{{ page.title }}</h1>
+                <div class="post-meta">
+                    <span class="post-meta-item"><i class="iconfont icon-author"></i><!--<a href="{{ site.url }}" target="_blank" rel="author">-->{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}<!--</a>--></span>
+                    <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
+                </div>
             </div>
-            <h1>{{ page.title }}</h1>
-            <div class="post-meta">
-                <span class="post-meta-item"><i class="iconfont icon-author"></i><!--<a href="{{ site.url }}" target="_blank" rel="author">-->{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}<!--</a>--></span>
-                <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
-            </div>
-        </div>
-        {% if page.image and page.imageonpage != false %}
-        <div class="filter"></div>
-        <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
-        {% endif %}
-    </header>
+            {% if page.image and page.imageonpage != false %}
+            <div class="filter"></div>
+            <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
+            {% endif %}
+        </header>
+    </div>
     
     <aside class="post-sidebar-wrapper overlap">
         <aside class="post-sidebar">

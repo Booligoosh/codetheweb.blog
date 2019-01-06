@@ -181,7 +181,7 @@ a {
     color: white !important;
 }
 
-.g-header.has-bg .g-nav, body.post .g-header .g-nav {
+.g-header.has-bg .g-nav {
     background: transparent;
     margin-top: -16px;
 }
@@ -1287,9 +1287,35 @@ a.learn-cta-what-to-learn {
 .recent-articles-title {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-family: "Merriweather";
-    text-align: center;
-    font-size: 2em;
+    text-align: left;
+    font-family: 'Panton', sans-serif;
+    font-size: 2.5em;
+}
+
+.article-list .article-item {
+    border-radius: 2em;
+    padding: 25px;
+    margin-top: 12em;
+}
+
+.article-list .article-item .post-cover {
+    border-radius: 2em;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+    border-bottom-left-radius: 0;
+    margin-left: -25px;
+    margin-top: -12em;
+}
+
+.article-list .article-item .post-preview .post-title {
+    font-family: 'Panton', sans-serif;
+    background: linear-gradient(100deg,#ffce69,#fa709a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.article-list .article-item .post-preview .post-excerpt {
+    font-family: $sans-serif;
 }
 
 header .top-index-content {
@@ -1671,8 +1697,32 @@ body.has-ph-banner aside.ph-banner {
     margin: 0;
 }
 
+.post-header-wrapper {
+    background: white;
+}
+
+.post-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 11em;
+    box-sizing: border-box;
+    padding-top: 58px; /* Header height */
+}
+
+.post-header .post-tags {
+    margin-top: 0;
+}
+
+.post-header h1 {
+    font-family: 'Panton', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+}
+
 .post-header .filter {
-    opacity: .8;
+    opacity: .9;
+    background: linear-gradient(100deg, rgb(255, 206, 105), rgba(250, 112, 154, 0.9));
 }
 
 .g-sidebar-wrapper > * {
@@ -1752,7 +1802,7 @@ body.has-ph-banner aside.ph-banner {
     margin: 0 !important;
 }
 
-.has-sidebar .post-content, .has-sidebar .author-detail {
+.has-sidebar .post-content, .has-sidebar .author-detail, .has-sidebar .post-header {
     padding-right: calc((100vw - 720px) / 2);
     box-sizing: border-box;
 }
@@ -1778,6 +1828,7 @@ body.has-ph-banner aside.ph-banner {
 .post-sidebar-wrapper.overlap {
     background: white;
     border-radius: 1.5em;
+    border-top-right-radius: 3.3em;
     margin-top: -3em;
     margin-bottom: calc(-100vh + 3em);
 }
@@ -1899,7 +1950,7 @@ button.likebtn#xLikebtn svg path {
     .post-sidebar-wrapper {
         display: none !important;
     }
-    .has-sidebar .post-content, .has-sidebar .author-detail {
+    .has-sidebar .post-content, .has-sidebar .author-detail, .has-sidebar .post-header {
         padding-right: 0;
     }
 }
