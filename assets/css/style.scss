@@ -280,6 +280,17 @@ $sidebar-btn-animation-duration: 0.25s;
     margin-bottom: 32px;
     transition: opacity, 1s;
     
+    /* box-shadow: 0 1px 3px rgba(0,37,55,.06); */
+    /* border: 1px solid #e7eaf1; */
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    margin-top: 0;
+    
+    width: max-content;
+    max-width: 100%;
     box-shadow: none !important;
     background: #F0957E;
     opacity: 1;
@@ -344,14 +355,6 @@ $sidebar-btn-animation-duration: 0.25s;
 
 .g-sidebar-wrapper .sidebar-btn {
     width: 100%;
-    /* box-shadow: 0 1px 3px rgba(0,37,55,.06); */
-    /* border: 1px solid #e7eaf1; */
-    border-radius: 3px;
-    box-sizing: border-box;
-    height: 70px;
-    line-height: 70px;
-    color: white;
-    margin-top: 0;
 }
 
 .donate-btn {
