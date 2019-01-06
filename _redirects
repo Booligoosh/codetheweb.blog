@@ -1,2 +1,5 @@
 # Redirect default Netlify subdomain to primary domain
 https://codetheweb.netlify.com/* https://codetheweb.blog/:splat 301!
+
+# Proxy /suggest to Nolt
+/suggest https://codetheweb.nolt.io/ 200!
