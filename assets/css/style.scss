@@ -2093,7 +2093,7 @@ button.likebtn#xLikebtn svg path {
 }
 
 /* NAV BAR COLLAPSES INTO BUTTON */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 695px) {
     .g-header {
         background-color: white;
         box-shadow: $banner-shadow;
@@ -2143,7 +2143,9 @@ button.likebtn#xLikebtn svg path {
     body.home .g-nav {
         top: 82px !important; /* Visible header edge is lower so the nav doesn't hit it, and the vertical alignment is better */
     }
-    
+    .g-banner {
+        padding: 0 20px !important;
+    }
     .home-banner {
         display: none;
     }
@@ -2245,6 +2247,14 @@ button.likebtn#xLikebtn svg path {
     .in-post-stream.social .network .username {
         display: none;
     }
+    
+    .post-header {
+        border-bottom-left-radius: 0;
+    }
+    .post-header h1 {
+        font-size: 2em;
+    }
+    
     /* Freebie page */
     .freebie-hero {
         padding: 4rem 1rem !important;
