@@ -4,12 +4,12 @@ language: CSS
 title: Learn CSS
 purpose: making websites look good
 ---
-I've written many tutorials on CSS. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn CSS. If you want to know more about Code The Web, check out the [welcome post][welcome].
-
-> ### Want to get new posts in your inbox? [Sign up to my newsletter][newsletter].
+<!-- I've written many tutorials on CSS. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn CSS. If you want to know more about Code The Web, check out the [welcome post][welcome].
+ -->
+<!-- > ### Want to get new posts in your inbox? [Sign up to my newsletter][newsletter].
 > I've worked hard on these tutorials and as of now do not make any money on them, so I'd really appreciate if you signed up ;)
-{:class="newsletter"}
-
+{:class="newsletter"} -->
+<!-- 
 # Prerequisites
 These are optional but recommended. In tutorials, I might build on what's covered here. I'd also recommed the set-up tutorial so you are writing and running your code in the same way as I am. Or, you can just **[skip to the tutorials](#tutorials)**.
 ## How to learn a programming language
@@ -22,28 +22,36 @@ These are optional but recommended. In tutorials, I might build on what's covere
 [Practice web development on your computer][p3]
 
 # Tutorials
-I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning CSS, you can move on to [JavaScript][js].
+I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning CSS, you can move on to [JavaScript][js]. -->
 
-<ol>
+<ol class="learn-post-cards article-list">
 {% assign posts = site.posts | reverse %}
+{% assign listnum = 0 %}
 {% for post in posts %}
 {% if site.learn.css.tutorials contains post.url %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% assign listnum = listnum | plus: 1 %}
+{% include learn-article-item.html %}
 {% endif %}
 {% endfor %}
 </ol>
-
+<!-- 
 # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
 
-<ul>
+<ul class="learn-post-cards">
 {% assign posts = site.posts | reverse %}
 {% for post in posts %}
 {% if site.learn.css.other contains post.url %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
+<li>
+    <a href="{{post.url}}" class="learn-post-card">
+        <h2>{{post.title}}</h2>
+        <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
+    </a>
+</li>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
+<span class="invisible-text">   ‍   </span>
 
 [newsletter]: {{site.newsletter}}
 

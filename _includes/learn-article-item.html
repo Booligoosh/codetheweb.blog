@@ -1,0 +1,29 @@
+<article class="article-item">
+    {% if post.image %}
+    <div class="post-cover">
+        <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
+        <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
+    </div>
+    <div class="post-number">{{listnum}}</div>
+    {% endif %}
+    <section class="post-preview">
+        <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
+        <h2 class="post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+        {% endif %}
+        {% if post.subtitle.size==0 or post.subtitle==nil %} 
+        <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 126}}</p>
+        {% endif %}
+    </section>
+    <footer class="post-meta">
+        <div class="post-tags">
+            {% if post.tags.size > 0 %} 
+                {% for tag in post.tags  %}
+            <a href="{{ site.baseurl }}tags#{{ tag }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+            {% endif %}
+        </div>
+        <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+    </footer>
+</article>

@@ -4,7 +4,7 @@ language: HTML
 title: Learn HTML
 purpose: building websites
 ---
-I've written many tutorials on HTML. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn HTML. If you want to know more about Code The Web, check out the [welcome post][welcome].
+<!-- I've written many tutorials on HTML. As I want to make them easy to learn from, I've complied a list of which posts to check out in what order if you want to learn HTML. If you want to know more about Code The Web, check out the [welcome post][welcome].
 
 <section class="freebie-hero promo">
     {% include guide-to-learning-html-freebie-hero.html %}
@@ -22,18 +22,20 @@ These are optional but recommended. In tutorials, I might build on what's covere
 [Practice web development on your computer][p3]
 
 # Tutorials
-I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning HTML, you can move on to [CSS][css].
+I make a new tutorial at least once a week. Over time, this list will grow. Once you have finished learning HTML, you can move on to [CSS][css]. -->
 
-<ol>
+<ol class="learn-post-cards article-list">
 {% assign posts = site.posts | reverse %}
+{% assign listnum = 0 %}
 {% for post in posts %}
 {% if site.learn.html.tutorials contains post.url %}
-<li><a href="{{post.url}}">{{post.title}}</a></li>
+{% assign listnum = listnum | plus: 1 %}
+{% include learn-article-item.html %}
 {% endif %}
 {% endfor %}
 </ol>
 
-# Other resources you may find useful
+<!-- # Other resources you may find useful
 These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
 
 <ul>
@@ -43,7 +45,8 @@ These are just other articles I have written about stuff that isn't programming,
 <li><a href="{{post.url}}">{{post.title}}</a></li>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
+<span class="invisible-text">   ‍   </span>
 
 [welcome]: /2017/09/29/welcome/
 [p1]: /2017/10/04/how-to-learn-web-development/
