@@ -580,7 +580,7 @@ body.stop-scrolling {
 }
 
 .learn-lang-banner .learn-lang-banner-inner {
-    z-index: 1;
+    margin-top: calc((52px - 1.22em)/-2);
 }
 
 .learn-lang-banner h1 {
@@ -601,7 +601,8 @@ body.stop-scrolling {
     display: block;
     font-size: 1.5rem;
     font-family: $sans-serif;
-    line-height: 52px;
+    line-height: 1.22em;
+    margin-top: calc((52px - 1.22em)/2);
 }
 
 .learn-lang-content {
@@ -2194,6 +2195,10 @@ button.likebtn#xLikebtn svg path {
         margin-left: auto !important;
         margin-right: auto !important;
     }
+    
+    .learn-lang-banner {
+        margin-left: -5em;
+    }
 }
 
 /* NAV BAR COLLAPSES INTO BUTTON */
@@ -2369,6 +2374,20 @@ button.likebtn#xLikebtn svg path {
     /* End freebie page */
     .newsletter-page .newsletter-header {
         font-size: 1.6em;
+    }
+    
+    .learn-lang-banner {
+        margin-left: -20px;
+    }
+    .learn-lang-content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .learn-lang-content .article-list {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 1.1em;
+        box-sizing: border-box;
     }
 }
 
