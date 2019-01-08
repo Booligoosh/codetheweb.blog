@@ -1992,6 +1992,91 @@ body.has-ph-banner aside.ph-banner {
     color: #ffce69;
 }
 
+.post-sidebar .t-n-e-m-e-s-i-t-r-e-v-d-a--wrapper {
+    max-width: 350px; /* https://acceptableads.com/en/about/criteria#size */
+    margin-top: -19.7em;
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.post-sidebar .is-this-an-ad {
+    margin-bottom: 1rem;
+    display: block;
+    font-size: .9em;
+    opacity: .7;
+}
+
+.post-sidebar .is-this-an-ad:hover {
+    opacity: 1;
+}
+
+.pluralsight-native {
+    padding: 1em;
+    margin-right: -2em;
+    background: linear-gradient(45deg, #ffce69, #fa709a);
+    margin-top: 0.8em;
+    border-radius: /* 3.3em */ 5.5em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    color: white;
+    padding-left: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.pluralsight-native h1 {
+    font-size: 1.7em;
+}
+
+.pluralsight-native a.pluralsight-cta {
+    background: white;
+    border-radius: 2em;
+    color: #F0957E;
+    padding: 1em;
+    display: block;
+    margin-right: -1em;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    /* font-family: 'Panton', sans-serif; */
+    transition: padding-right .1s ease-in-out;
+}
+
+.pluralsight-native a.pluralsight-cta:hover {
+    padding-right: 3em;
+}
+
+.pluralsight-native-wrapper .is-this-an-ad {
+    margin-bottom: 2rem;
+    font-size: 0.8em;
+    margin-top: 1rem;
+    text-align: right;
+    margin-right: -2rem;
+    padding-right: 0.5rem;
+}
+
+.pluralsight-native-wrapper {
+    margin-right: calc((100vw - 720px) / -2 + 2em);
+    margin-left: calc((100vw - 720px) / 2 - 2em);
+    opacity: 0;
+}
+
+.pluralsight-native-wrapper, .pluralsight-native-spacer {
+    transition: all 0.3s ease-in-out;
+}
+
+.post-sidebar.has-pluralsight-native .pluralsight-native-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+    opacity: 1;
+}
+
+.post-sidebar.has-pluralsight-native .pluralsight-native-spacer {
+    margin-top: 0 !important;
+}
+
 
 /* thembutton.xyz */
 button.likebtn#xLikebtn {
@@ -2039,6 +2124,77 @@ button.likebtn#xLikebtn svg path {
         top: 100%;
     }
 } */
+
+.popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(100deg, rgba(255, 206, 105, 0.95), rgba(250, 112, 154, 0.95));
+    z-index: 9999999999999999999999999999999999999999999999999999999999999999999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+    box-sizing: border-box;
+    
+    OPACITY: 0;
+    POINTER-EVENTS: NONE;
+    
+    transition: opacity .5s ease-in-out;
+}
+
+.popup:target {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.popup-close-btn {
+    display: block;
+    font-family: 'Panton', sans-serif;
+    background: white;
+    color: $theme-color-single;
+    padding: 0.75rem 1.2rem;
+    border-radius: 1em;
+}
+
+.popup-close-btn:first-child {
+    margin-bottom: -1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.popup-close-btn:last-child {
+    margin-top: -1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.popup-inner {
+    padding: 1em 3em;
+    border-radius: 5px;
+    background: rgba(255,255,255,1);
+    margin: 1.5rem 0;
+}
+
+.popup-inner > * {
+    margin: 1em 0;
+    font-family: 'Merriweather-Light';
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.popup-inner h1 {
+    font-family: 'Panton', sans-serif;
+    font-size: 2em;
+    background: #ffce69;
+    padding: 0 0.25em;
+    width: max-content;
+}
 
 /*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, #share, .learn-index-banner, .newsletter-page .newsletter-header {
     background-image: url("{% include circuit-board-pattern %}"), {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};

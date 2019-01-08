@@ -67,6 +67,44 @@
            
             <!-- <img src="/assets/img/ad.jpeg" class="t-n-e-m-e-s-i-t-r-e-v-d-a"> --> <!-- 'advertisement'.split('').reverse().join('-') -->
             
+            <!-- <div class="t-n-e-m-e-s-i-t-r-e-v-d-a--wrapper">
+                <a href="//pluralsight.pxf.io/c/1354469/480964/7490">
+                    <img src="/assets/img/t-n-e-m-e-s-i-t-r-e-v-d-a.jpeg" border="0" alt="" width="300" height="250" class="t-n-e-m-e-s-i-t-r-e-v-d-a" style="display: block !important" />
+                    Old src: //a.impactradius-go.com/display-ad/7490-480964
+                </a>
+                <img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/480964/7490" style="position:absolute;visibility:hidden;" border="0" />
+                
+                <a href="#whats-with-these-ads-dude" class="is-this-an-ad">Excuse me, is this an ad? (▀̿Ĺ̯▀̿ ̿)</a>
+            </div> -->
+            <div class="pluralsight-native-wrapper">
+                <div class="pluralsight-native">
+                    <h1>Are your dev skills in demand?</h1>
+                    <a class="pluralsight-cta" href="//pluralsight.pxf.io/c/1354469/480964/7490" target="_blank">Check with PluralSight</a>
+                </div>
+                <a href="#whats-with-these-ads-dude" class="is-this-an-ad">Excuse me, is this an ad? (▀̿Ĺ̯▀̿ ̿)</a>
+            </div>
+            
+            <div class="pluralsight-native-spacer"></div>
+            
+            <img src="//a.impactradius-go.com/display-ad/7490-480964" style="display: none" hidden>
+            <img src="//pluralsight.pxf.io/i/1354469/480964/7490" style="display: none" hidden>
+            
+            <script>
+                window.addEventListener('DOMContentLoaded', function() {
+                    document.querySelector('.pluralsight-native-spacer').style.marginTop = '-' + (document.querySelector('.pluralsight-native-wrapper').getBoundingClientRect().height + Number(getComputedStyle(document.querySelector('.is-this-an-ad')).marginBottom.replace('px','')) + Number(getComputedStyle(document.querySelector('.pluralsight-native')).marginTop.replace('px',''))/2) + 'px';
+                });
+                window.addEventListener('scroll', function() {
+                    
+                    console.log(window.scrollY, Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', '')));
+                    
+                    if(window.scrollY > Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', ''))) {
+                        document.querySelector('.post-sidebar').classList.add('has-pluralsight-native');
+                    } else {
+                        document.querySelector('.post-sidebar').classList.remove('has-pluralsight-native');
+                    }
+                });
+            </script>
+            
             {% unless tags_str contains "Other" %}
             <h1>{{lang}} Tutorials</h1>
             <ol>
