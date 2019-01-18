@@ -3,7 +3,7 @@ layout: post
 title: 'CSS display types'
 image: '/assets/img/posts/css-display-property/cover.jpg'
 photoCred: [Fabian Irsara,67l-QujB14w]
-tags: Other
+tags: CSS
 keywords: "learn CSS, CSS syntax, CSS, display, display property, CSS display property, display types"
 ---
 CSS display types tell the browser the way in which elements should be treated. Learn about the most common display types and how to use them in this article...
