@@ -92,7 +92,7 @@ ph-banner: false
 email: '<span class="email"></span>'
 
 social:
-  facebook: 'https://fb.me/CodeTheWebBlog/'
+  reddit: 'https://reddit.com/u/CodeTheWebBlog/'
   twitter: 'https://twitter.com/CodeTheWebBlog/'
 
 wpm: 180

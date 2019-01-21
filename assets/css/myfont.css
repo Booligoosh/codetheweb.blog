@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'myfont';
-  src:  url('/assets/fonts/myfont.eot?hceyah');
-  src:  url('/assets/fonts/myfont.eot?hceyah#iefix') format('embedded-opentype'),
-    url('/assets/fonts/myfont.ttf?hceyah') format('truetype'),
-    url('/assets/fonts/myfont.woff?hceyah') format('woff'),
-    url('/assets/fonts/myfont.svg?hceyah#myfont') format('svg');
+  src:  url('/assets/fonts/myfont.eot?addedredditalien');
+  src:  url('/assets/fonts/myfont.eot?addedredditalien#iefix') format('embedded-opentype'),
+    url('/assets/fonts/myfont.ttf?addedredditalien') format('truetype'),
+    url('/assets/fonts/myfont.woff?addedredditalien') format('woff'),
+    url('/assets/fonts/myfont.svg?addedredditalien#myfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -38,6 +38,9 @@ i.icon-logo, i.icon-website, .icon-email, .network i {
 }
 .icon-facebook:before {
   content: "\e902";
+}
+.icon-reddit:before {
+  content: "\e903";
 }
 
 .social-share-icon.icon-email {
