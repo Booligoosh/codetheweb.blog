@@ -1563,6 +1563,7 @@ header .top-index-content {
 .newsletter-page .newsletter-header > div {
     width: 695px;
     max-width: 90%;
+    text-align: left;
 }
 
 .newsletter-page .newsletter-header .code-the-web-weekly-logo {
@@ -1575,9 +1576,13 @@ header .top-index-content {
     width: max-content;
 }
 
+.newsletter-page .newsletter-header h1 {
+    font-family: 'Panton', sans-serif;
+}
+
 .newsletter-page .newsletter-header .subheading {
     margin-top: .5em;
-    font-size: 1em;
+    font-size: 1.5rem;
     font-weight: normal;
 }
 
