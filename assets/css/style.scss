@@ -1558,6 +1558,9 @@ header .top-index-content {
     text-align: center;
     font-size: 2em;
     padding: 5% 0;
+    border-radius: calc((100vw - 695px) / 2);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }
 
 .newsletter-page .newsletter-header > div {
