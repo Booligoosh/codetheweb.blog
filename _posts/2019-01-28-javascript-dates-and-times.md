@@ -8,7 +8,7 @@ keywords: "Date, Dates, JavaScript Date, JavaScript Dates, time, times, JavaScri
 checked: [grammarly]
 ---
 
-If you're a developer, you're bound to use dates and times at some point. Learn all about them in this article!
+If you're a developer, you're bound to use JavaScript dates and times sooner or later! Learn all about them in this article...
 
 ## Getting started
 I highly recommend following along in this article! It'll help you understand and remember the concepts better. To get started, create this HTML file and then open it up in your browser:
