@@ -136,7 +136,7 @@ true || false /* Returns true */
 false || false /* Returns false */
 ```
 
-It's important to not here that `true || true` is equal to `true`, not `false`. This is because **in JavaScript, _or_ actually means _and or_**. Don't ask me why, programming languages sometimes have weird things like that.
+It's important to note here that `true || true` is equal to `true`, not `false`. This is because **in JavaScript, _or_ actually means _and or_**. Don't ask me why, programming languages sometimes have weird things like that.
 
 Now, let's substitute in a few real statements instead of just `true` and `false`. Here's an example:
 ```JavaScript

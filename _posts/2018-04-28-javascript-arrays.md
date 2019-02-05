@@ -604,7 +604,7 @@ But what are actual uses for nested arrays? Well, `nestedArray[2][1]` looks rema
 Nested arrays are quite advanced stuff, so you will probably only use them much further down the track. However, for the sake of completeness, I've added them in here anyway.
 
 ## Conclusion
-This article is meant as a complete to JavaScript arrays, but you may not need to know it all at the moment. Just start with the basics I discussed near the top, then go further when you're confident and ready.
+This article is meant as a complete guide to JavaScript arrays, but you may not need to know it all at the moment. Just start with the basics I discussed near the top, then go further when you're confident and ready.
 
 Anyway, wow! This is the longest article I've ever written on Code The Web, with close to 5,000 words! It's taken me nearly 5 hours to write this article, and my fingers, eyes, and brain are all hurting! I think I'm definitely in need of a coffee. So if you got something out of this article, I'd really appreciate if you paid whatever you want and bought me a coffee or two or three on my [Buy Me A Coffee page][coffee]. Thanks! &#x1F605;
 

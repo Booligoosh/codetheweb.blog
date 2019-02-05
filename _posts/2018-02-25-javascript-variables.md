@@ -30,7 +30,7 @@ Now, when we run this code it will alert `25`! This is because `x` is now just a
 > <!DOCTYPE html>
 > <html>
 >     <head>
->         <title>Hello world in JavaScript!</title>
+>         <title>Variables in JavaScript!</title>
 >     </head>
 >     <body>
 >         <h1>JavaScript :)</h1>
