@@ -16,7 +16,7 @@ I highly recommend following along in this article! It'll help you understand an
 ```HTML
 <html>
     <head>
-        <title>JavaScript URL parsing</title>
+        <title>Dates and times in JavaScript</title>
     </head>
     <body>
         <script>
