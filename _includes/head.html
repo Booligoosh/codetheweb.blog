@@ -1,4 +1,4 @@
-{% capture title %}{% if page.title %}{{ page.title }}{% unless page.home-title %}{% unless page.removeTitleSuffix %} - {{ site.title }}{% endunless %}{% endunless %}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture title %}{% if page.title %}{{ page.title }}{% unless page.home-title %}{% unless page.removeTitleSuffix %} – {{ site.title }}{% endunless %}{% endunless %}{% else %}{{ site.title }}{% endif %}{% endcapture %}
 
 {% capture description %}{% if page.home %}{{ site.description }}{% elsif page.layout == "learn" %}These beginner-friendly, easy-to-understand and jargon-free tutorials will teach you {{page.language}} from start to finish &mdash; click on this link to get started!{% elsif page.description %}{{page.description}}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 
@@ -9,10 +9,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Search engines -->
     <title>{{title}}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{description}}">
     <meta name="keywords" content="{{keywords}}">
+    <meta name="image" content="{{image}}">
+    <meta itemprop="name" content="{{title}}">
+    <meta itemprop="description" content="{{description}}">
+    <meta itemprop="image" content="{{image}}">
+
     <!-- Open Graph -->
     <meta property="og:title" content="{{title}}">
     <meta property="og:description" content="{{description}}">
@@ -20,6 +26,13 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{description}}">
+    <meta name="twitter:site" content="@CodeTheWebBlog">
+    <meta name="twitter:creator" content="@CodeTheWebBlog">
+    <meta name="twitter:image:src" content="{{image}}">
     <!-- Real Favicon Generator -->
     <!-- From https://realfavicongenerator.net/favicon_result?file_id=p1br6ah5so7lk102b1dnr1eh516fe6#.Wc4AtBOCx8c (modified - icon directory has been changed -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/website-icons/apple-touch-icon.png?v=1">
