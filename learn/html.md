@@ -27,11 +27,13 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 <ol class="learn-post-cards article-list">
 {% assign posts = site.posts | reverse %}
 {% assign listnum = 0 %}
+{% for url in site.learn.html.tutorials %}
 {% for post in posts %}
-{% if site.learn.html.tutorials contains post.url %}
+{% if post.url == url %}
 {% assign listnum = listnum | plus: 1 %}
 {% include learn-article-item.html %}
 {% endif %}
+{% endfor %}
 {% endfor %}
 </ol>
 

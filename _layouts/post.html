@@ -110,11 +110,13 @@
             <ol>
             {% assign posts = site.posts | reverse %}
             {% assign listnum = 0 %}
+            {% for url in site.learn[lang_downcase].tutorials %}
             {% for post in posts %}
-            {% if site.learn[lang_downcase].tutorials contains post.url %}
+            {% if post.url == url %}
             {% assign listnum = listnum | plus: 1 %}
             <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
             {% endif %}
+            {% endfor %}
             {% endfor %}
             </ol>
             {% endunless %}
