@@ -157,10 +157,10 @@ if (5 == 5 && 3 == 3) {
 }
 ```
 {:.reveal}
-**Question 2:** Alert "At least one of the statements is correct" if `1` plus `2` equals `4` or `1` plus `2` equals `3`.
+**Question 2:** Alert "At least one of the statements are correct" if `1` plus `2` equals `4` or `1` plus `2` equals `3`.
 ```JavaScript
 if (1 + 2 == 4 || 1 + 2 == 3) {
-    alert('At least one of the statements is correct');
+    alert('At least one of the statements are correct');
 }
 ```
 {:.reveal}
