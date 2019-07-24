@@ -95,7 +95,7 @@
                 });
                 window.addEventListener('scroll', function() {
                     
-                    console.log(window.scrollY, Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', '')));
+                    //console.log(window.scrollY, Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', '')));
                     
                     if(window.scrollY > Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', ''))) {
                         document.querySelector('.post-sidebar').classList.add('has-pluralsight-native');
