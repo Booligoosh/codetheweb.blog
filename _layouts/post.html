@@ -243,9 +243,9 @@ s.setAttribute('data-timestamp', +new Date());
 {% endif %}
 {% include end.html %}
 <script>
-    $("pre.reveal").click(function(){
-        $(this).removeClass("reveal");
-    })
+    document.querySelectorAll(`pre.reveal`).forEach(pre => pre.addEventListener(`click`, function(e){
+        e.target.classList.remove(`reveal`)
+    }))
 </script>
 <script>
     console.log("Number of words: {{content | number_of_words}}");
