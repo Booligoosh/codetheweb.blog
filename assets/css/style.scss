@@ -2044,16 +2044,13 @@ body.has-ph-banner aside.ph-banner {
     margin-right: -2em;
     background: linear-gradient(45deg, #ffce69, #fa709a);
     margin-top: 0.8em;
-    border-radius: /* 3.3em */ 5.5em;
+    border-radius: 2em;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     color: white;
-    padding-left: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    text-align: right;
 }
 
 .pluralsight-native h1 {
@@ -2062,15 +2059,21 @@ body.has-ph-banner aside.ph-banner {
 
 .pluralsight-native a.pluralsight-cta {
     background: white;
-    border-radius: 2em;
+    border-radius: 0.5em;
     color: #F0957E;
     padding: 1em;
     display: block;
-    margin-right: -1em;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
     /* font-family: 'Panton', sans-serif; */
     transition: padding-right .1s ease-in-out;
+    border-bottom-left-radius: 1em;
+    width: calc(100% - 2em);
+    text-align: center;
+}
+
+.pluralsight-native a.pluralsight-cta span {
+    font-size: 0.9em;
+    opacity: .8;
+    margin-top: 0.3em;
 }
 
 .pluralsight-native a.pluralsight-cta:hover {
@@ -2106,6 +2109,23 @@ body.has-ph-banner aside.ph-banner {
     margin-top: 0 !important;
 }
 
+.after-post .pluralsight-banner {
+    display: block;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.after-post .pluralsight-banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.after-post .newsletter {
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
 
 /* thembutton.xyz */
 button.likebtn#xLikebtn {
