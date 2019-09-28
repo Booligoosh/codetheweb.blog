@@ -11,8 +11,6 @@ Often when making a website, it can be overwhelming. I'll show you how to approa
 ## Just a note...
 This article is more about guiding you through the though-process of creating a website, rather than the techncical side of things. If you're coming here because you want to learn how to code websites, check out [How to learn web development][how-to-learn-web-development], or my series on [learning HTML][html].
 
-> This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
-
 ## The final product
 [Here's the final product of the site I'll be building today.][demo]{:target='_blank'} Take a look at it, and keep it in mind as we go through the tutorial.
 
@@ -410,11 +408,11 @@ So, I hope you enjoyed this article and hopefully you learned something along th
 
 I did something a little different from usual today, so [tell me your thoughts][comments]. Remember, this article is less about me showing you the actual technical parts of creating a website, but more about guiding you through the thought-process of creating a website.
 
-Thanks again to [Alisa Dubik-Wilson][alisa-dubik-wilson] for suggesting this article, and don't forget that [you can too!][contact]
-
 If you liked this article, please be an awesome human and [share][share] or [sign up to the newsletter][newsletter], I'll give you a free taco &#127790;  (not really &#128540; )
 
 Have fun, keep coding, and I'll see you next time, where' I'll be talking about [how to style a navigation bar (header) using CSS][style-header] - walking you through the nav bar that we created today, but in more detail. See you then!
+
+> This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
 
 [how-to-learn-web-development]: /2017/10/04/how-to-learn-web-development/
 [alisa-dubik-wilson]: https://adubik.github.io/
