@@ -9,7 +9,7 @@ checked: [grammarly]
 Often when making a website, it can be overwhelming. I'll show you how to approach creating a website from scratch in this article...
 
 ## Just a note...
-This article is more about guiding you through the though-process of creating a website, rather than the techncical side of things. If you're coming here because you want to learn how to code websites, check out [How to learn web development][how-to-learn-web-development], or start with my series on [learning HTML][html].
+This article is more about guiding you through the though-process of creating a website, rather than the techncical side of things. If you're coming here because you want to learn how to code websites, check out [How to learn web development][how-to-learn-web-development], or my series on [learning HTML][html].
 
 > This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
 
