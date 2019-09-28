@@ -8,10 +8,10 @@ checked: [grammarly]
 ---
 Often when making a website, it can be overwhelming. I'll show you how to approach creating a website from scratch in this article...
 
-> This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
-
 ## Just a note...
-This article is less about me showing you the actual technical parts of creating a website, but more about guiding you through the though-process of creating a website. Just letting you know...
+This article is more about guiding you through the though-process of creating a website, rather than the techncical side of things. If you're coming here because you want to learn how to code websites, check out [How to learn web development][how-to-learn-web-development], or start with my series on [learning HTML][html].
+
+> This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
 
 ## The final product
 [Here's the final product of the site I'll be building today.][demo]{:target='_blank'} Take a look at it, and keep it in mind as we go through the tutorial.
@@ -416,6 +416,7 @@ If you liked this article, please be an awesome human and [share][share] or [sig
 
 Have fun, keep coding, and I'll see you next time, where' I'll be talking about [how to style a navigation bar (header) using CSS][style-header] - walking you through the nav bar that we created today, but in more detail. See you then!
 
+[how-to-learn-web-development]: /2017/10/04/how-to-learn-web-development/
 [alisa-dubik-wilson]: https://adubik.github.io/
 [demo]: /demo/steps-to-creating-a-website/
 [html-doc-structure]: /2017/10/07/structure-of-an-html-document/
