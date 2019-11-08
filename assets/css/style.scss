@@ -1158,6 +1158,7 @@ blockquote.newsletter {
 
 img.screenshot-white {
     border: 1px solid black !important;
+    max-width: calc(100% - 2px);
 }
 
 .photo-cred {
@@ -1936,60 +1937,66 @@ body.has-ph-banner aside.ph-banner {
     margin: 0 !important;
 }
 
-.has-sidebar .post-content, .has-sidebar .author-detail, .has-sidebar .post-header {
-    padding-right: calc((100vw - 720px) / 2);
-    box-sizing: border-box;
+.post-page-content {
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+
+.post-content, .post-header-inner {
+    width: 720px;
+}
+
+.post-header-sidebar-spacer {
+
+}
+
+.post-sidebar-wrapper, .post-header-sidebar-spacer {
+    width: 360px;
+    margin-left: 32px;
 }
 
 .post-sidebar-wrapper {
     display: none;
+    z-index: 1;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
-    margin-left: auto;
-    width: calc((100vw - 720px) / 2);
-    z-index: 1;
-    height: 100vh;
-    margin-bottom: -100vh;
-    padding: 2em;
-    box-sizing: border-box;
-    overflow-y: scroll;
 }
 
 .has-sidebar .post-sidebar-wrapper {
     display: block;
 }
 
-.post-sidebar-wrapper.overlap {
-    background: white;
-    border-radius: 1.5em;
-    border-top-right-radius: 3.3em;
-    margin-top: -3em;
-    margin-bottom: calc(-100vh + 3em);
-}
-
 .post-sidebar {
-    opacity: .75;
+    top: 0;
+    padding-top: 40px;
+    box-sizing: border-box;
+    // height: 100%;
+    position: sticky;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: visible;
+    display: flex;
+    flex-direction: column;
 }
 
 .post-sidebar h1 {
     margin-bottom: 0.5em;
 }
 
-.post-sidebar img {
-    width: 100%;
-    margin-bottom: 1em;
-    border-radius: 0.5em;
-}
-
 .post-sidebar ol, .post-sidebar ul {
     list-style: none;
     margin-left: -0.5em;
+    overflow-y: auto;
+    padding-bottom: 40px;
 }
 
 .sidebar-post {
-    margin: 0.25em 0;
+    margin: 0.25em 0.5em;
     border-radius: 2em;
     padding: .5em;
+    opacity: .9;
 }
 
 .sidebar-post a {
@@ -2021,6 +2028,18 @@ body.has-ph-banner aside.ph-banner {
     color: #ffce69;
 }
 
+#codefund {
+    // top: 3em;
+    // position: sticky;
+    // margin-top: 3em;
+    // margin-bottom: 6em; /* So it doesn't overlap section after article */
+    margin-bottom: 1em;
+}
+
+#cf {
+    max-width: none !important;
+}
+
 .post-sidebar .t-n-e-m-e-s-i-t-r-e-v-d-a--wrapper {
     max-width: 350px; /* https://acceptableads.com/en/about/criteria#size */
     margin-top: -19.7em;
@@ -2039,25 +2058,23 @@ body.has-ph-banner aside.ph-banner {
     opacity: 1;
 }
 
-.pluralsight-native {
+.an-ad {
     padding: 1em;
     margin-right: -2em;
     background: linear-gradient(45deg, #ffce69, #fa709a);
     margin-top: 0.8em;
-    border-radius: 2em;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-radius: 12px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.pluralsight-native h1 {
+.an-ad h1 {
     font-size: 1.7em;
 }
 
-.pluralsight-native a.pluralsight-cta {
+.an-ad a.an-ad-cta {
     background: white;
     border-radius: 0.5em;
     color: #F0957E;
@@ -2065,48 +2082,22 @@ body.has-ph-banner aside.ph-banner {
     display: block;
     /* font-family: 'Panton', sans-serif; */
     transition: padding-right .1s ease-in-out;
-    border-bottom-left-radius: 1em;
     width: calc(100% - 2em);
     text-align: center;
 }
 
-.pluralsight-native a.pluralsight-cta span {
+.an-ad a.an-ad-cta span {
     font-size: 0.9em;
     opacity: .8;
     margin-top: 0.3em;
 }
 
-.pluralsight-native a.pluralsight-cta:hover {
-    padding-right: 3em;
-}
-
-.pluralsight-native-wrapper .is-this-an-ad {
+.an-ad-wrapper .is-this-an-ad {
     margin-bottom: 2rem;
     font-size: 0.8em;
     margin-top: 1rem;
-    text-align: right;
     margin-right: -2rem;
     padding-right: 0.5rem;
-}
-
-.pluralsight-native-wrapper {
-    margin-right: calc((100vw - 720px) / -2 + 2em);
-    margin-left: calc((100vw - 720px) / 2 - 2em);
-    opacity: 0;
-}
-
-.pluralsight-native-wrapper, .pluralsight-native-spacer {
-    transition: all 0.3s ease-in-out;
-}
-
-.post-sidebar.has-pluralsight-native .pluralsight-native-wrapper {
-    margin-left: 0;
-    margin-right: 0;
-    opacity: 1;
-}
-
-.post-sidebar.has-pluralsight-native .pluralsight-native-spacer {
-    margin-top: 0 !important;
 }
 
 .after-post .pluralsight-banner {
@@ -2260,8 +2251,8 @@ button.likebtn#xLikebtn svg path {
 */
 
 /* NO SIDEBAR */
-@media screen and (max-width: 1200px) {
-    .post-sidebar-wrapper {
+@media screen and (max-width: 1144px) { /* 720px (article) + 360px (sidebar) + 32px (space between) + 2 * 16px (side margins) */
+    .post-sidebar-wrapper, .post-header-sidebar-spacer {
         display: none !important;
     }
     .has-sidebar .post-content, .has-sidebar .author-detail, .has-sidebar .post-header {

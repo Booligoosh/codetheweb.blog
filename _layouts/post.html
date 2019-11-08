@@ -30,7 +30,7 @@
         "image": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
     }
 </script>
-<body class="post {% unless tags_str contains "Other" %}has-sidebar{% endunless %} {% if site.ph-banner %}has-ph-banner{% endif %}">
+<body class="post has-sidebar {% if site.ph-banner %}has-ph-banner{% endif %}">
 {% include ph-banner.html %}
     <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">You are using an older browser - please upgrade to a newer browser.！<a target="_blank" class="alert-link" href="http://browsehappy.com">Upgrade now</a></div>
@@ -41,7 +41,7 @@
 <main>
     <div class="post-header-wrapper">
         <header class="g-banner post-header {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }} {% unless page.image %}post-no-cover{% endunless %}{% if page.imageonpage == false %}post-no-cover{% endif %}" data-theme="{{ site.theme-color }}">
-            <div class="post-wrapper">
+            <div class="post-header-inner">
                 <div class="post-tags">
                     {% if page.tags.size > 0 %} 
                     {% for tag in page.tags  %}
@@ -55,6 +55,7 @@
                     <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
                 </div>
             </div>
+            <div class="post-header-sidebar-spacer"></div>
             {% if page.image and page.imageonpage != false %}
             <div class="filter"></div>
             <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
@@ -62,101 +63,63 @@
         </header>
     </div>
     
-    <aside class="post-sidebar-wrapper overlap">
-        <aside class="post-sidebar">
-           
-            <!-- <img src="/assets/img/ad.jpeg" class="t-n-e-m-e-s-i-t-r-e-v-d-a"> --> <!-- 'advertisement'.split('').reverse().join('-') -->
-            
-            <!-- <div class="t-n-e-m-e-s-i-t-r-e-v-d-a--wrapper">
-                <a href="//pluralsight.pxf.io/c/1354469/480964/7490">
-                    <img src="/assets/img/t-n-e-m-e-s-i-t-r-e-v-d-a.jpeg" border="0" alt="" width="300" height="250" class="t-n-e-m-e-s-i-t-r-e-v-d-a" style="display: block !important" />
-                    Old src: //a.impactradius-go.com/display-ad/7490-480964
-                </a>
-                <img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/480964/7490" style="position:absolute;visibility:hidden;" border="0" />
-                
-                <a href="#whats-with-these-ads-dude" class="is-this-an-ad">Excuse me, is this an ad? (▀̿Ĺ̯▀̿ ̿)</a>
-            </div> -->
-            <div class="pluralsight-native-wrapper">
-                <div class="pluralsight-native" id="503634">
-                    <h1>Learn {{lang}} with Pluralsight</h1>
-                    <a class="pluralsight-cta" href="//pluralsight.pxf.io/c/1354469/503634/7490" target="_blank">Free Trial&nbsp;<span>// Unlimited Access</span></a>
-                </div>
-                <a href="#whats-with-these-ads-dude" class="is-this-an-ad">Excuse me, is this an ad? (▀̿Ĺ̯▀̿ ̿)</a>
-            </div>
-            
-            <div class="pluralsight-native-spacer"></div>
-            
-            <img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/503634/7490" style="position:absolute;visibility:hidden;display:none" hidden border="0" />
-            
-            <script>
-                window.addEventListener('DOMContentLoaded', function() {
-                    document.querySelector('.pluralsight-native-spacer').style.marginTop = '-' + (document.querySelector('.pluralsight-native-wrapper').getBoundingClientRect().height + Number(getComputedStyle(document.querySelector('.is-this-an-ad')).marginBottom.replace('px','')) + Number(getComputedStyle(document.querySelector('.pluralsight-native')).marginTop.replace('px',''))/2) + 'px';
-                });
-                window.addEventListener('scroll', function() {
-                    
-                    //console.log(window.scrollY, Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', '')));
-                    
-                    if(window.scrollY > Number(getComputedStyle(document.querySelector('.post-header')).height.replace('px', ''))) {
-                        document.querySelector('.post-sidebar').classList.add('has-pluralsight-native');
-                    } else {
-                        document.querySelector('.post-sidebar').classList.remove('has-pluralsight-native');
-                    }
-                });
-            </script>
-            
-            {% unless tags_str contains "Other" %}
-            <h1>{{lang}} Tutorials</h1>
-            <ol>
-            {% assign posts = site.posts | reverse %}
-            {% assign listnum = 0 %}
-            {% for url in site.learn[lang_downcase].tutorials %}
-            {% for post in posts %}
-            {% if post.url == url %}
-            {% assign listnum = listnum | plus: 1 %}
-            <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
+    <div class="post-page-content">
+        <div class="post-content">
+            {% if page.subtitle %}
+            <h2 class="post-subtitle">{{ page.subtitle }}</h2>
             {% endif %}
-            {% endfor %}
-            {% endfor %}
-            </ol>
-            {% endunless %}
+            <article class="markdown-body" itemprop="articleBody">
+                {% if page.photoCred %}
+                <aside class="photo-cred">Photo by <a href="https://unsplash.com/photos/{{page.photoCred[1]}}?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">{{page.photoCred[0]}}</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></aside>
+                <br>
+                {% endif %}
+                {{ page.content }}
+            </article>
+            <section class="after-post">
+                <div id="emojicom-widget-inline"></div>
+                {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
+                {% unless tags_str contains "Other" %}
+                {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
+                <!-- Now we don't need this because we have a sidebar with all the language tutorials. -->
+                <!-- <blockquote style="text-align: center">
+                    <a href="/learn/{{lang | downcase}}" style="text-decoration: none">&#x1F449; Click here for all {{lang}} tutorials... &#x1F448;</a>
+                </blockquote> -->
+                {% endunless %}
+                {% include bmc.html %}
+                {% if tags_str contains "HTML"  %}
+                    <div class="freebie-hero promo">
+                        {% include guide-to-learning-html-freebie-hero.html %}
+                    </div>
+                {% else %}
+                    {% include newsletter.html %}
+                {% endif %}
+                <a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" />
+            </section>
+            {% if site.social-share %}
+                <h3 class="share-title">Share the knowledge :)</h3>
+                {% include share.html %}
+            {% endif %}
+        </div>
+        <aside class="post-sidebar-wrapper">
+            <aside class="post-sidebar">
+                {% include codefund.html %}
+                {% unless tags_str contains "Other" %}
+                <h1>{{lang}} Tutorials</h1>
+                <ol>
+                {% assign posts = site.posts | reverse %}
+                {% assign listnum = 0 %}
+                {% for url in site.learn[lang_downcase].tutorials %}
+                {% for post in posts %}
+                {% if post.url == url %}
+                {% assign listnum = listnum | plus: 1 %}
+                <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                </ol>
+                {% endunless %}
+            </aside>
         </aside>
-    </aside>
-
-    <div class="post-content">
-        {% if page.subtitle %}
-        <h2 class="post-subtitle">{{ page.subtitle }}</h2>
-        {% endif %}
-        <article class="markdown-body" itemprop="articleBody">
-            {% if page.photoCred %}
-            <aside class="photo-cred">Photo by <a href="https://unsplash.com/photos/{{page.photoCred[1]}}?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">{{page.photoCred[0]}}</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></aside>
-            <br>
-            {% endif %}
-            {{ page.content }}
-        </article>
-        <section class="after-post">
-            <div id="emojicom-widget-inline"></div>
-            {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
-            {% unless tags_str contains "Other" %}
-            {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
-            <!-- Now we don't need this because we have a sidebar with all the language tutorials. -->
-            <!-- <blockquote style="text-align: center">
-                <a href="/learn/{{lang | downcase}}" style="text-decoration: none">&#x1F449; Click here for all {{lang}} tutorials... &#x1F448;</a>
-            </blockquote> -->
-            {% endunless %}
-            {% include bmc.html %}
-            {% if tags_str contains "HTML"  %}
-                <div class="freebie-hero promo">
-                    {% include guide-to-learning-html-freebie-hero.html %}
-                </div>
-            {% else %}
-                {% include newsletter.html %}
-            {% endif %}
-            <a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" />
-        </section>
-        {% if site.social-share %}
-            <h3 class="share-title">Share the knowledge :)</h3>
-            {% include share.html %}
-        {% endif %}
     </div>
 
     <section class="author-detail">
