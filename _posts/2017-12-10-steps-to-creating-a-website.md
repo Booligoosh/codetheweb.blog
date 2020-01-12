@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The steps to creating a website (HTML &  CSS)"
+title: "How to create a website using HTML and CSS"
 image: '/assets/img/posts/steps-to-creating-a-website/cover.png'
 tags: Other HTML CSS
 keywords: ""
