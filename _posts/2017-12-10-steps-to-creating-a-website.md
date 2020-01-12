@@ -158,7 +158,7 @@ Here is the HTML after filling in some content:
 If you reload the page, you will see that we now have some content!
 ![The HTML content of our site (without CSS)][html-content]{:.screenshot-white}
 
-## 5. Adding some basic layout CSS
+## 5. Add some basic layout CSS
 Once we're done with our HTML, it's time to move on to CSS! The first and most important part to focus on first is to get it looking like our layout - then we can focus on the details.
 
 This means that we need to focus on properties like `width`, `height`, `margin`, `padding`, `position`, and `display`. Also, we need to make sure the images are the right size so that they don't obliterate the page.
