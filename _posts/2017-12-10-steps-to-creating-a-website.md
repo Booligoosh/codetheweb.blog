@@ -94,7 +94,7 @@ Note that we are giving the `<section>`s `id`s, so we can refer to them later.
 
 If you reload the page, you will see there is nothing there - this is because we are just creating the sections of the page, not the actual stuff in them.
 
-## 4. Filling in the HTML content
+## 4. Fill in the HTML content
 Once you have the sections of the page, it's time to fill them up! If you know what content you are going to be using, put that in. If not, put in some [dummy text][dummy-text] and replace it with the actual content later.
 
 Here is the HTML after filling in some content:
