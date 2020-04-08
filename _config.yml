@@ -2,7 +2,8 @@
 title: 'Code The Web'
 description: 'Web development explained for normal people - Learn HTML, CSS and JavaScript in ways that you can actually understand!'
 keyword: 'code the web, code the web blog, blog, web, web development, development, programming, internet, blog, website, html, css, javascript, learn, code, coding, learn to code, code web'
-url: 'https://codetheweb.blog' # your host
+url: 'https://codetheweb.blog'
+host: 'codetheweb.blog' # site.url without protocol
 baseurl: '/'
 
 # Hide future posts

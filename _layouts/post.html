@@ -158,7 +158,7 @@
                 </section>
                 {% if page.previous.image %}
                 <div class="filter"></div>
-                <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.url}}{{ page.previous.image }}?w=355" alt="{{ page.previous.title }}" loading="lazy">
+                <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.host}}{{ page.previous.image }}?w=355" alt="{{ page.previous.title }}" loading="lazy">
                 {% endif %}
             </div>
             {% endif %}
@@ -172,7 +172,7 @@
                 </section>
                 {% if page.next.image %}
                 <div class="filter"></div>
-                <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.url}}{{ page.next.image }}?w=355" alt="{{ page.next.title }}" loading="lazy">
+                <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.host}}{{ page.next.image }}?w=355" alt="{{ page.next.title }}" loading="lazy">
                 {% endif %}
             </div>
             {% endif %}
