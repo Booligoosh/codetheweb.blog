@@ -73,7 +73,7 @@ regenerate: true
                 {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.host }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
+                    <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
                 </div>
                 {% endif %}
                 <section class="post-preview">
@@ -121,7 +121,7 @@ regenerate: true
         <div class="g-sidebar">
             <section class="author-card">
                 <div class="avatar">
-                    <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.host }}/{{ site.avatar }}?w=70" alt="{{site.author}}">
+                    <img src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}/{{ site.avatar }}?w=70" alt="{{site.author}}">
                 </div>
                 <div class="author-name" rel="author">{{ site.author }}</div>
                 <div class="bio">

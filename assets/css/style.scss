@@ -140,7 +140,7 @@ a {
 }
 
 .home-banner.post-pattern-circuitBoard {
-    background-image: /*url("{% include circuit-board-pattern %}"),*/ linear-gradient(100deg, rgba(255, 206, 105, 0.95), rgba(250, 112, 154, 0.95)), url("{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.host}}/assets/img/header-img.jpg?w=1000");
+    background-image: /*url("{% include circuit-board-pattern %}"),*/ linear-gradient(100deg, rgba(255, 206, 105, 0.95), rgba(250, 112, 154, 0.95)), url("{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{site.urlhost}}/assets/img/header-img.jpg?w=1000");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
