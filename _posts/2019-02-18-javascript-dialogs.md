@@ -40,12 +40,7 @@ This method is great for testing our program, but it's not a good way to output 
 Using the [JavaScript DOM][dom], we can put the result in our HTML. This is good because it displays the result to a visitor without them having to open the console. Note that alerts are much easier than this method &mdash; if you're in the very early stages of learning JavaScript, maybe stick to alerts for now.
 #### 3. Use `alert`!
 Alerts are little boxes that pop up over a web page with some text. Here's what it looks like in Google Chrome:
-
-<img alt="An alert dialog box. Type alert('This is an alert!') to reproduce."
-    data-src="/assets/img/posts/javascript-dialogs/alert.png"
-    src="/assets/img/loading.svg"
-    class="screenshot-white">
-
+![An alert dialog box. Type alert('This is an alert!') to reproduce.][alert-img]{:.screenshot-white}
 Cool, right? Now the visitors have a little box that pops up saying whatever we tell it to say in our JavaScript!! 😁
 
 Try it out yourself! It's pretty simple &mdash; you can just put it in your code like this:
@@ -55,12 +50,7 @@ alert('Your text here!');
 
 ## Confirm
 JavaScript confirm dialogs are exciting because they're the easiest way to get a visitor to &mdash; well &mdash; *confirm* something! It's the simplest form of user input in JavaScript. Here's what it looks like:
-
-<img alt="An alert dialog box. Type confirm('Do you want to press the big blue button?') to reproduce."
-    data-src="/assets/img/posts/javascript-dialogs/confirm.png"
-    src="/assets/img/loading.svg"
-    class="screenshot-white">
-
+![An alert dialog box. Type confirm('Do you want to press the big blue button?') to reproduce.][confirm-img]{:.screenshot-white}
 Here's how we create the example above:
 ```JavaScript
 confirm('Do you want to press the big blue button?');
@@ -91,11 +81,7 @@ var text = prompt('Type some text:');
 <br>
 
 Here's what it looks like:
-
-<img alt="An alert dialog box. Type prompt('Type some text:') to reproduce."
-    data-src="/assets/img/posts/javascript-dialogs/prompt.png"
-    src="/assets/img/loading.svg"
-    class="screenshot-white">
+![An alert dialog box. Type prompt('Type some text:') to reproduce.][prompt-img]{:.screenshot-white}
 
 Once the user types some text and hits OK (or the Enter key), we can see what they typed! All we need to do is use the variable that we set to the `prompt`:
 ```JavaScript
@@ -135,6 +121,10 @@ And finally, don't forget to [join the newsletter][newsletter] to receive great 
 See you next time!! &#x1F600;
 
 [dom]: /2018/06/18/javascript-dom/
+
+[alert-img]: /assets/img/posts/javascript-dialogs/alert.png
+[confirm-img]: /assets/img/posts/javascript-dialogs/confirm.png
+[prompt-img]: /assets/img/posts/javascript-dialogs/prompt.png
 
 [contact]: {{site.contact}}
 [html]: /learn/html
