@@ -6,8 +6,9 @@ $theme-color-hue: 12;
 $theme-color-sat: 79%;
 $theme-color-single: hsl($theme-color-hue, $theme-color-sat, 72%);
 $page-bg: hsl($theme-color-hue, $theme-color-sat, 98%);
-$sans-serif: 'Montserrat',system-ui,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
-$serif: 'Roboto Slab',Merriweather,$sans-serif;
+$fallback: system-ui,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+$sans-serif: 'Montserrat',$fallback;
+$serif: 'Roboto Slab',$fallback;
 $fancy-serif: 'Libre Baskerville', $serif;
 $monospace: 'Roboto Mono',Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
