@@ -2,13 +2,16 @@
 ---
 
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
-$theme-color-single: hsl(12, 79%, 72%);
-$page-bg: hsl(12, 79%, 98%);
+$theme-color-hue: 12;
+$theme-color-sat: 79%;
+$theme-color-single: hsl($theme-color-hue, $theme-color-sat, 72%);
+$page-bg: hsl($theme-color-hue, $theme-color-sat, 98%);
 $sans-serif: 'Montserrat',-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 $serif: 'Roboto Slab',Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+$fancy-serif: 'Libre Baskerville', $serif;
 $monospace: 'Roboto Mono',Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
     font-family: 'Panton';
@@ -1843,9 +1846,11 @@ body.has-ph-banner aside.ph-banner {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom-left-radius: 11em;
+    // border-bottom-left-radius: 11em;
     box-sizing: border-box;
     padding-top: 58px; /* Header height */
+    height: 358px;
+    background: $theme-color-single;
 }
 
 .post-header .post-tags {
@@ -1853,7 +1858,7 @@ body.has-ph-banner aside.ph-banner {
 }
 
 .post-header h1 {
-    font-family: 'Panton', sans-serif;
+    font-family: $fancy-serif;
     font-size: 3em;
     line-height: 1em;
 }
@@ -1987,10 +1992,15 @@ body.has-ph-banner aside.ph-banner {
     overflow-x: visible;
     display: flex;
     flex-direction: column;
+    border-left: 1px solid hsl(0,0%,90%);
 }
 
 .post-sidebar h1 {
     margin-bottom: 0.5em;
+    margin-left: 32px;
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: $fancy-serif;
 }
 
 .post-sidebar ol, .post-sidebar ul {
@@ -2002,14 +2012,25 @@ body.has-ph-banner aside.ph-banner {
 
 .sidebar-post {
     margin: 0.25em 0.5em;
+    margin-left: 32px;
     border-radius: 2em;
-    padding: .5em;
     opacity: .9;
+    color: hsl($theme-color-hue, $theme-color-sat, 29%);
+    font-family: $fancy-serif;
+    
+    &:hover {
+        background: hsl($theme-color-hue, $theme-color-sat, 96%);
+    }
+    
+    &.active {
+        background: hsl($theme-color-hue, $theme-color-sat, 86%);
+    }
 }
 
 .sidebar-post a {
     display: flex;
     align-items: center;
+    padding: .5em;
 }
 
 .sidebar-post-number, .learn-lang-content .article-list .article-item .post-number {
@@ -2021,19 +2042,9 @@ body.has-ph-banner aside.ph-banner {
     align-items: center;
     margin-right: 0.5em;
     flex-shrink: 0;
-    background: linear-gradient(45deg,#ffce69,#fa709a);
-    color: white;
+    background: hsl($theme-color-hue, $theme-color-sat, 92%);
+    color: hsl($theme-color-hue, $theme-color-sat, 62%);
     font-weight: bold;
-}
-
-.sidebar-post:hover, .sidebar-post.active {
-    background: linear-gradient(45deg,#ffce69,#fa709a);
-    color: white;
-}
-
-.sidebar-post:hover .sidebar-post-number, .sidebar-post.active .sidebar-post-number {
-    background: white;
-    color: #ffce69;
 }
 
 #codefund {

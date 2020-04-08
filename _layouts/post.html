@@ -56,10 +56,12 @@
                 </div>
             </div>
             <div class="post-header-sidebar-spacer"></div>
+            <!--
             {% if page.image and page.imageonpage != false %}
             <div class="filter"></div>
             <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=1500&amp;url={% endif %}{{ site.url }}{{ page.image }}') center no-repeat; background-size: cover;">
             {% endif %}
+            -->
         </header>
     </div>
     
@@ -104,7 +106,7 @@
             <aside class="post-sidebar">
                 {% include codefund.html %}
                 {% unless tags_str contains "Other" %}
-                <h1>{{lang}} Tutorials</h1>
+                <h1>All {{lang}} Tutorials</h1>
                 <ol>
                 {% assign posts = site.posts | reverse %}
                 {% assign listnum = 0 %}
