@@ -8,7 +8,7 @@ checked: [grammarly]
 ---
 Flexboxes are something that every web developer should know. They let you align, position and even re-order elements, using CSS alone! It is revolutionary, and lets us do some really cool stuff...
 
-> Yup, that's right. Another punny cover image for today &#128540;
+<!-- > Yup, that's right. Another punny cover image for today &#128540; -->
 
 ## Getting started
 By following along, you will end up grasping this topic much better (and can also experiment!). To follow along, start by making a new project folder with `index.html` and `style.css` files in it. Add the following code to your `index.html`:
