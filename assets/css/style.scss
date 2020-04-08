@@ -918,34 +918,6 @@ pre.reveal * {
     display: none;
 }
 
-span.email {
-    cursor: pointer;
-}
-
-span.email:after {
-    content: "@codetheweb.blog"
-}
-
-span.email:before {
-    content: "hi";
-}
-
-span.email.booligoosh:before {
-    content: "booligoosh";
-}
-
-span.email.social:before {
-    content: "social";
-}
-
-span.email.sponsor:before {
-    content: "sponsor";
-}
-
-span.email.guestpost:before {
-    content: "guestpost";
-}
-
 .no-before:before {
     content: none !important;
 }
