@@ -2301,10 +2301,14 @@ button.likebtn#xLikebtn svg path {
     }
     .post-sidebar {
         height: max-content;
+        border-left: none;
     }
     .post-content,
     .post-sidebar {
         padding-top: 20px;
+    }
+    #codefund {
+        margin: 0;
     }
 }
 
