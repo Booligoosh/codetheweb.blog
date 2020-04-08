@@ -4,8 +4,10 @@
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
 $sans-serif: 'Montserrat',-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+$serif: 'Roboto Slab',Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+$monospace: 'Roboto Mono',Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700|Cookie');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @font-face {
     font-family: 'Panton';
@@ -2117,6 +2119,15 @@ body.has-ph-banner aside.ph-banner {
     border: none;
     box-shadow: none;
     border-radius: 10px;
+}
+
+.markdown-body {
+    font-family: $serif;
+}
+
+code[class*=language-], pre[class*=language-],
+.markdown-body p code {
+    font-family: $monospace;
 }
 
 /* thembutton.xyz */
