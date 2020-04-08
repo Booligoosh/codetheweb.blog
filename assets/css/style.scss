@@ -158,44 +158,46 @@ a {
 /* end */
 
 @media screen and (min-width: 701px) {
-.g-header .g-nav {
-    height: 58px;
-    margin-top: -8px;
-    background: white;
-    border-radius: 2em;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    margin-right: 0;
-    padding: 0 2%;
-    display: flex;
-    align-items: center;
-    transition: margin-top, .1s;
-}
+    body:not(.post) {
+        .g-header .g-nav {
+            height: 58px;
+            margin-top: -8px;
+            background: white;
+            border-radius: 2em;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-right: 0;
+            padding: 0 2%;
+            display: flex;
+            align-items: center;
+            transition: margin-top, .1s;
+        }
 
-.g-header .g-nav > ul > li {
-    display: flex;
-    align-items: center;
-    border-radius: 2em;
-    transition: all .25s;
-}
+        .g-header .g-nav > ul > li {
+            display: flex;
+            align-items: center;
+            border-radius: 2em;
+            transition: all .25s;
+        }
 
-.g-header .g-nav > ul > li > a {
-    opacity: 1;
-    color: rgb(250,112,154) !important;
-}
+        .g-header .g-nav > ul > li > a {
+            opacity: 1;
+            color: rgb(250,112,154) !important;
+        }
 
-.g-header .g-nav>ul>li:hover {
-    background: #fa709a !important;
-}
+        .g-header .g-nav>ul>li:hover {
+            background: #fa709a !important;
+        }
 
-.g-header .g-nav>ul>li:hover a {
-    color: white !important;
-}
+        .g-header .g-nav>ul>li:hover a {
+            color: white !important;
+        }
 
-.g-header.has-bg .g-nav {
-    background: transparent;
-    margin-top: -16px;
-}
+        .g-header.has-bg .g-nav {
+            background: transparent;
+            margin-top: -16px;
+        }
+    }
 }
 
 
