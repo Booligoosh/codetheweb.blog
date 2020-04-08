@@ -47,7 +47,7 @@ These are just other articles I have written about stuff that isn't programming,
 <li>
     <a href="{{post.url}}" class="learn-post-card">
         <h2>{{post.title}}</h2>
-        <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=700&amp;url={% endif %}{{ site.url }}{{ post.image }}" alt="{{ post.title }} - {{ site.title }}">
+        <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.host }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
     </a>
 </li>
 {% endif %}

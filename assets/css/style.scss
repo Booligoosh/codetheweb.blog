@@ -639,7 +639,6 @@ body.stop-scrolling {
 }
 
 .learn-lang-banner, .learn-index-banner {
-    /*background-image: url({% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=700&url={% endif %}{{ site.url }}/assets/img/learn-home-link.jpg) !important;*/
     background-image: linear-gradient(100deg,#ffce69,#fa709a) !important;
 }
 
