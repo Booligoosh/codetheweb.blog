@@ -3,6 +3,7 @@
 
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-single: #F0957E;
+$page-bg: hsl(12, 79%, 98%);
 $sans-serif: 'Montserrat',-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 $serif: 'Roboto Slab',Merriweather-Light,-apple-system,Verdana,"PingFang SC","Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
 $monospace: 'Roboto Mono',Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
@@ -1835,7 +1836,7 @@ body.has-ph-banner aside.ph-banner {
 }
 
 .post-header-wrapper {
-    background: white;
+    background: $page-bg;
 }
 
 .post-header {
@@ -1942,12 +1943,16 @@ body.has-ph-banner aside.ph-banner {
 .post-page-content {
     display: flex;
     justify-content: center;
-    background: white;
+    background: $page-bg;
 }
 
 .post-content, .post-header-inner {
     width: 720px;
     max-width: 100%;
+}
+
+.post-content {
+    background: $page-bg;
 }
 
 .post-header-sidebar-spacer {
@@ -2123,6 +2128,7 @@ body.has-ph-banner aside.ph-banner {
 
 .markdown-body {
     font-family: $serif;
+    background: $page-bg;
 }
 
 code[class*=language-], pre[class*=language-],
