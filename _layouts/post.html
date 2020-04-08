@@ -128,9 +128,9 @@
 
     <section class="author-detail">
         <section class="post-footer-item author-card">
-            <div class="avatar">
+            <!-- <div class="avatar">
                 <img src="/{{ site.avatar }}" alt="">
-            </div>
+            </div> -->
             <div class="author-name" rel="author">By {{ site.author }}.</div>
             <div class="bio">
                 <p>{{ site.bio }}</p>
@@ -158,7 +158,7 @@
                 </section>
                 {% if page.previous.image %}
                 <div class="filter"></div>
-                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.previous.image }}" alt="">
+                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.previous.image }}" alt="{{ page.previous.title }}" loading="lazy">
                 {% endif %}
             </div>
             {% endif %}
@@ -172,7 +172,7 @@
                 </section>
                 {% if page.next.image %}
                 <div class="filter"></div>
-                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.next.image }}" alt="">
+                <img src="{% if jekyll.environment == "production" %}https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=720&amp;url={% endif %}{{site.url}}{{ page.next.image }}" alt="{{ page.next.title }}" loading="lazy">
                 {% endif %}
             </div>
             {% endif %}
