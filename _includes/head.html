@@ -53,11 +53,11 @@
     <link rel="stylesheet" href="/assets/css/style.css?{{site.time | date: '%s%N'}}">
     {% if jekyll.environment == "production" %}
     <!-- Google Analytics -->
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-103555680-4"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103555680-4"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'UA-103555680-4');
