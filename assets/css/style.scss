@@ -520,14 +520,14 @@ body.stop-scrolling {
     //-moz-hyphens: auto;
     //-ms-hyphens: auto;
     //hyphens: auto;
-    font-family: "Merriweather";
+    font-family: $serif;
     padding-top: 0;
 }
 
 .learn-index-banner .subheading {
     display: block;
     font-size: 2rem;
-    font-family: "Merriweather-Light";
+    font-family: $serif;
 }
 
 
@@ -779,7 +779,7 @@ body.stop-scrolling {
 
 .in-post-stream.newsletter input[type="submit"], .freebie-hero .newsletter-form input[type="submit"] {
     width: 29%;
-    font-family: 'Merriweather';
+    font-family: $serif;
     font-weight: bold;
     vertical-align: middle;
     cursor: pointer;
@@ -823,7 +823,7 @@ body.stop-scrolling {
 
 .in-post-stream.social .explainer {
     display: none;
-    font-family: "Merriweather";
+    font-family: $serif;
 }
 
 .in-post-stream.social .networks-wrapper {
@@ -874,7 +874,7 @@ body.stop-scrolling {
 
 .learn-index-banner .codetheweb-learn {
     color: white;
-    font-family: "Merriweather-Light";
+    font-family: $serif;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -951,7 +951,7 @@ section.landing-intro {
     color: white;
     text-align: center;
     font-size: 2rem;
-    font-family: Merriweather;
+    font-family: $serif;
     line-height: 1.4em;
 }
 
@@ -966,7 +966,7 @@ section.landing-view-langs {
     background-color: #95f0ff;
     text-align: center;
     font-size: 2rem;
-    font-family: Merriweather;
+    font-family: $serif;
 }
 
 section.landing-lang {
@@ -1028,12 +1028,12 @@ section.landing-lang {
 }
 
 .landing-lang-content h1 {
-    font-family: Merriweather;
+    font-family: $serif;
     font-size: 3.5rem;
 }
 
 .landing-lang-content p {
-    font-family: "Merriweather-Light";
+    font-family: $serif;
     font-size: 1.2rem;
 }
 
@@ -1067,7 +1067,7 @@ section.landing-lang.odd .landing-lang-img {
     padding: 16px;
     border-radius: 32px;
     margin-top: 15px;
-    font-family: Merriweather;
+    font-family: $serif;
     filter: drop-shadow(0 0 4px rgba(0,0,0,0.2));
     transition: all, 1s;
 }
@@ -1479,7 +1479,7 @@ header .top-index-content {
 
 .freebie-hero h2 {
     font-size: 1.2em;
-    font-family: Merriweather-Light;
+    font-family: $serif;
     margin: 1rem 0;
 }
 
@@ -1559,7 +1559,7 @@ header .top-index-content {
 
 .newsletter-page .newsletter-header .code-the-web-weekly-logo {
     margin: 0 auto;
-    font-family: Merriweather;
+    font-family: $serif;
     font-size: 0.7em;
     padding-bottom: .5em;
     margin-bottom: .5em;
@@ -2234,7 +2234,7 @@ button.likebtn#xLikebtn svg path {
 
 .popup-inner > * {
     margin: 1em 0;
-    font-family: 'Merriweather-Light';
+    font-family: $serif;
     font-weight: bold;
     line-height: 1.5em;
 }

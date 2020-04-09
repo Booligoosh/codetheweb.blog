@@ -177,7 +177,7 @@
         .post-preview {
             position: relative;
             .post-title {
-                font-family: 'Merriweather', $fonts;
+                // font-family: 'Merriweather', $fonts;
                 color: $color-f-primary;
                 font-size: 24px;
                 line-height: 32px;
@@ -192,7 +192,7 @@
             .post-excerpt {
                 margin-top: 8px;
                 font-size: 16px;
-                font-family: 'Merriweather-Light', $fonts;
+                // font-family: 'Merriweather-Light', $fonts;
                 line-height: 26px;
             }
         }
@@ -526,7 +526,7 @@
 
 // Post style
 .markdown-body {
-    font-family: 'Merriweather-Light', $fonts;
+    // font-family: 'Merriweather-Light', $fonts;
     width: $post-content-w;
     box-sizing: border-box;
     padding: 0 0 32px;
