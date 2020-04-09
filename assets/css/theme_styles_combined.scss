@@ -3,5 +3,5 @@
 {% include_relative github-markdown.css %}
 {% include_relative prism.css %}
 {% include_relative share.min.css %}
-{% include_relative app.min.css %}
+@import 'theme/app.scss';
 {% include_relative myfont.css %}

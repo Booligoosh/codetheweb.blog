@@ -6,3 +6,4 @@ node_modules
 _site
 wordcount-trello.html
 .jekyll-metadata
+.sass-cache
