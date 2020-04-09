@@ -1,4 +1,4 @@
-// make all links open in new tab
+/* make all links open in new tab */
 var markdownBody = document.querySelector('.markdown-body')
 if (markdownBody) {
     var links = markdownBody.getElementsByTagName('a')
