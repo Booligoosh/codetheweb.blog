@@ -205,6 +205,8 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 var d = document, s = d.createElement('script');
 /* disqus */
 s.src = '{{ site.disqus_url }}';
+/* Async & defer added by me */
+s.async=1;s.defer=1;
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
