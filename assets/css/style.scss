@@ -18,16 +18,19 @@ $monospace: 'Roboto Mono',Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monosp
     font-family: 'Panton';
     src: url(../fonts/panton-bold.otf);
     font-weight: normal;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Panton';
     src: url(../fonts/panton-bold.otf);
     font-weight: bold;
+    font-display: swap;
 }
 @font-face {
     font-family: 'Panton';
     src: url(../fonts/panton-light.otf);
     font-weight: 300;
+    font-display: swap;
 }
 
 body, html {
@@ -88,7 +91,7 @@ a {
 .home-banner h1 > span {
     /* margin-left: 2rem; */
     font-size: 2.5em;
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     height: 100px;
     line-height: 100px;
 }
@@ -601,7 +604,7 @@ body.stop-scrolling {
     letter-spacing: 4px;
     font-weight: 400;
     display: inline;
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     line-height: 86px;
 }
 
@@ -685,7 +688,7 @@ body.stop-scrolling {
 
 .learn-post-card h2 {
     margin: 0 1em;
-    font-family: 'Panton';
+    font-family: 'Panton', $fallback;
     background: linear-gradient(100deg,#ffce69,#fa709a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1372,7 +1375,7 @@ a.learn-cta-what-to-learn {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     font-size: 2.5em;
 }
 
@@ -1394,7 +1397,7 @@ a.learn-cta-what-to-learn {
 }
 
 .article-list .article-item .post-preview .post-title {
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     background: linear-gradient(100deg,#ffce69,#fa709a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -1565,7 +1568,7 @@ header .top-index-content {
 }
 
 .newsletter-page .newsletter-header h1 {
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
 }
 
 .newsletter-page .newsletter-header .subheading {
@@ -1612,7 +1615,7 @@ header .top-index-content {
 
 .newsletter-thanks h1 {
     padding-top: 0;
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     text-align: center;
 }
 
@@ -2078,7 +2081,7 @@ body.has-ph-banner aside.ph-banner {
     color: #F0957E;
     padding: 1em;
     display: block;
-    /* font-family: 'Panton', sans-serif; */
+    /* font-family: 'Panton', $fallback; */
     transition: padding-right .1s ease-in-out;
     width: calc(100% - 2em);
     text-align: center;
@@ -2203,7 +2206,7 @@ button.likebtn#xLikebtn svg path {
 
 .popup-close-btn {
     display: block;
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     background: white;
     color: $theme-color-single;
     padding: 0.75rem 1.2rem;
@@ -2237,7 +2240,7 @@ button.likebtn#xLikebtn svg path {
 }
 
 .popup-inner h1 {
-    font-family: 'Panton', sans-serif;
+    font-family: 'Panton', $fallback;
     font-size: 2em;
     background: #ffce69;
     padding: 0 0.25em;
