@@ -61,12 +61,6 @@ regenerate: true
             <div class="search_result"></div>
         </div>
         {% endif %}
-        {% comment %}
-        <section class="freebie-hero promo card-style">
-            {% include guide-to-learning-html-freebie-hero.html %}
-        </section>
-        {% endcomment %}
-        {% comment %}<div class="light-newsletter" style="text-align: center">{% include newsletter.html %}</div>{% endcomment %}
         {% if paginator.page == 1 %}<h2 class="recent-articles-title">Recent Articles</h2>{% endif %}
         {% for post in paginator.posts %}
             <article class="article-item">
@@ -116,7 +110,6 @@ regenerate: true
     <aside class="g-sidebar-wrapper">
         <a href="{{site.newsletter}}" class="btn sidebar-btn"><span class="emoji"><span>&#x1F4E6;</span><div class="animation-bg"></div></span><span> Resources!</span></a>
         {% include bmc.html %}
-        <!-- <div class="card-style" style="">This blog is proudly ad-free and popup-free.<br><br>Let's make the internet a better place! &#x2728;</div> -->
         {% include share.html %}
         <div class="g-sidebar">
             <section class="author-card">
@@ -153,23 +146,8 @@ regenerate: true
         {% endif %}
         
         <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="/assets/img/loading.svg" data-src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
-        <!-- <h3 id="sponsors">Sponsors:</h3>
-        <div class="sponsors card-style">
-            <ul>
-                <li>
-                    <a href="{{ site.sponsor }}" target="_blank">
-                        <img src="/assets/img/loading.svg" data-src="/assets/img/your-logo-here.png">
-                        In return for a link on your site. <span href="{{ site.sponsor }}">Learn more.</span>
-                    </a>
-                </li>
-                <li></li>
-            </ul>
-        </div> -->
     </aside>
     
 </main>
-
-<!-- <button type="button" id="xLikebtn" data-uid="tm6edc7d3b4.bbf94fa39f"></button>
-<script src="https://app.thembutton.xyz/static/dist/mkbtn009.js" async defer></script> -->
 
 {% include footer.html %}
