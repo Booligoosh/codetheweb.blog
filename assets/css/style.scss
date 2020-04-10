@@ -1656,8 +1656,8 @@ body.has-ph-banner aside.ph-banner {
 }
 
 .post-header .filter {
-    opacity: .9;
-    background: linear-gradient(100deg, rgb(255, 206, 105), rgba(250, 112, 154, 0.9));
+    opacity: 1;
+    background: linear-gradient(59deg, $theme-color-single 720px, transparent)
 }
 
 .g-sidebar-wrapper > * {
