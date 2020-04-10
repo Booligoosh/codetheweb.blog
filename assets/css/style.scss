@@ -739,26 +739,6 @@ body.stop-scrolling {
     text-decoration: none;
 }
 
-.sponsors {
-    text-align: center;
-    margin-top: 7px;
-}
-
-.sponsors li {
-    margin-top: 10px;
-}
-
-.sponsors li img {
-    margin: auto auto 5px;
-    max-width: 100%;
-    max-height: 250px;
-    display: block;
-}
-
-.sponsors li a a, .sponsors li a span {
-    text-decoration: underline;
-}
-
 .token.doctype {
     color: white;
 }
@@ -1808,7 +1788,7 @@ code[class*=language-], pre[class*=language-],
 }
 
 @media screen and (max-width: 960px) {
-    .g-sidebar, .sp-badge-home, #sponsors, .sponsors {
+    .g-sidebar, .sp-badge-home {
         display: none !important;
     }
     .g-sidebar-wrapper {
@@ -1825,9 +1805,6 @@ code[class*=language-], pre[class*=language-],
         margin: 16px auto !important;
         left: 0;
         display: block;
-    }
-    #sponsors {
-        text-align: center;
     }
     .home-content {
         grid-template-columns: auto !important;
