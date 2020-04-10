@@ -1,3 +1,7 @@
+# Cache everything for 1 hour:
+/*
+	Cache-Control: public,max-age=3600
+
 # Cache for 7 days:
 /*.png
 	Cache-Control: public,max-age=604800
@@ -15,7 +19,3 @@
 # automatically updated every deploy:
 /assets/css/*
 	Cache-Control: public,max-age=604800
-
-# Cache for 1 hour:
-/*
-	Cache-Control: public,max-age=3600
