@@ -1,10 +1,12 @@
+const TIMEOUT_DURATION = 500;
+
 if (window.requestIdleCallback) {
   /* Only run function once the browser is idle */
   console.log("ABOUT TO REQUEST IDLE CALLBACK");
-  window.requestIdleCallback(onIdle);
+  window.requestIdleCallback(() => setTimeout(onIdle, TIMEOUT_DURATION));
 } else {
   /* Run function immediately if requestIdleCallback is not supported */
-  onIdle();
+  setTimeout(onIdle, TIMEOUT_DURATION);
 }
 
 function onIdle() {
