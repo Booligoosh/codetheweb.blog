@@ -1,10 +1,13 @@
+# Cache for 7 days:
 /*.png
-	Cache-Control: public,max-age=604800  # 7 days
+	Cache-Control: public,max-age=604800
 /*.jpg
-	Cache-Control: public,max-age=604800  # 7 days
+	Cache-Control: public,max-age=604800
 /*.gif
-	Cache-Control: public,max-age=604800  # 7 days
+	Cache-Control: public,max-age=604800
 /*.webp
-	Cache-Control: public,max-age=604800  # 7 days
+	Cache-Control: public,max-age=604800
+
+# Cache for 1 hour:
 /*
-	Cache-Control: public,max-age=3600   # 1 hour
+	Cache-Control: public,max-age=3600
