@@ -96,19 +96,6 @@ a {
     line-height: 100px;
 }
 
-.home-banner h1 > svg {
-    height: 100px;
-    width: auto;
-    max-width: calc(100vw - 20px - 20px);
-    
-    DISPLAY: NONE;
-    
-}
-
-.home-banner h1 > svg path {
-    fill: white !important;
-}
-
 .home-banner .tagline {
     margin: 1em 0;
 }
@@ -243,12 +230,6 @@ a {
     text-align: left;
 }
 
-.night-mode .colorful-banner, .night-mode #share, .night-mode .home-banner {
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6);
-    color: white;
-}
-
 .colorful-banner input, .feedback-banner textarea {
     margin: 50px auto 0 !important;
 }
@@ -364,11 +345,6 @@ $sidebar-btn-animation-duration: 0.25s;
     right: $offset;
 }
 
-.night-mode .sidebar-btn {
-    -webkit-filter: brightness(.6);
-    filter: brightness(.6);
-}
-
 .g-sidebar-wrapper .sidebar-btn {
     width: 100%;
 }
@@ -456,12 +432,6 @@ body.stop-scrolling {
     display: block;
     font-family: $sans-serif !important;
     margin-bottom: 4px;
-}
-
-.night-mode .social-share-home {
-    color: #868a94;
-    background-color: #2d313a;
-    border-color: rgba(255,255,255,.1);
 }
 
 .wrap code {
@@ -1222,16 +1192,6 @@ img.screenshot-white {
     text-align: center;
 }
 /* END MY BMC CODE */
-
-.before-article-list {
-    grid-column: 1 / span 2;
-    padding: 2em 0;
-}
-
-.before-article-list {
-    /* INFO IS NOW IN BANNER OR HEADER ON MOBILE */
-    DISPLAY: NONE !IMPORTANT;
-}
 
 .article-list, .g-sidebar-wrapper {
     margin-top: 2rem;
@@ -2055,61 +2015,6 @@ body.has-ph-banner aside.ph-banner {
 code[class*=language-], pre[class*=language-],
 .markdown-body p code {
     font-family: $monospace;
-}
-
-/* thembutton.xyz */
-button.likebtn#xLikebtn {
-    position: fixed !important;
-    left: 24px !important;
-    bottom: 20px !important;
-    transform: scale(0.67) !important;
-    transform-origin: bottom left !important;
-    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1) !important;
-    /* box-shadow: 0px 0px 30px 0px rgba(249, 79, 79, 0.1) !important; */
-}
-button.likebtn#xLikebtn svg path {
-    transform: scale(1.5) !important;
-    transform-origin: center center !important;
-    stroke: none !important;
-}
-
-.falling-code-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    /* opacity: .75;
-    filter: blur(1px); */
-    
-    opacity: .5;
-    filter: blur(4px);
-    
-    DISPLAY: NONE;
-}
-
-.falling-code-bit {
-    position: absolute;
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Monaco';
-}
-
-/* @keyframes bit-fall {
-    0% {
-        top: 0%;
-    }
-    100% {
-        top: 100%;
-    }
-} */
-
-.colorful-banner {
-    background-image: {% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
-}
-
-/*.home-banner.post-pattern-circuitBoard,*/ .colorful-banner.post-pattern-circuitBoard, .learn-lang-banner.post-pattern-circuitBoard, #share, .learn-index-banner, .newsletter-page .newsletter-header {
-    background-image: /*url("{% include circuit-board-pattern %}"), */{% if site.theme-color == 'pink' %}linear-gradient(100deg,#ffce69,#fa709a){% else %}linear-gradient(100deg,#3cd5ff,#007aff){% endif %};
 }
 
 /*
