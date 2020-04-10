@@ -61,10 +61,6 @@ a {
     background-color: #fff;
 }
 
-.actual-headings {
-    display: none;
-}
-
 .home-banner {
     min-height: 70vh;
     height: auto;
@@ -910,111 +906,6 @@ pre.reveal * {
     line-height: 1.5em;
 }
 
-.landing-content {
-    margin: 0 !important;
-}
-
-section.landing-intro {
-    width: calc(100vw - 8rem);
-    padding: 15vh 4rem;
-    background-color: #656565;
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    font-family: $serif;
-    line-height: 1.4em;
-}
-
-section.landing-intro a {
-    color: white;
-    text-decoration: underline;
-}
-
-section.landing-view-langs {
-    width: calc(100vw - 8rem);
-    padding: 8vh 4rem;
-    background-color: #95f0ff;
-    text-align: center;
-    font-size: 2rem;
-    font-family: $serif;
-}
-
-section.landing-lang {
-    width: 100vw;
-    height: 75vh;
-    display: grid;
-}
-
-.landing-lang-content, .landing-lang-img {
-    width: 50vw;
-    display: inline-block;
-    grid-row: 1;
-}
-
-.landing-lang-img {
-    grid-column: 1;
-    height: inherit;
-    background-image: url('/assets/img/loading.svg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.landing-lang-content {
-    grid-column: 2;
-    padding: 4rem;
-    width: calc(50vw - 8rem);
-    height: calc(75vh - 8rem);
-    
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    
-    background: linear-gradient(100deg,#ffce69,#fa709a);
-    color: white;
-    background-attachment: fixed;
-    box-shadow: inset 0 0 20px -5px black;
-    
-    /*background-size: 400% 400%;
-    -webkit-animation: AnimationName 25s ease infinite;
-    -moz-animation: AnimationName 25s ease infinite;
-    animation: AnimationName 25s ease infinite;
-    
-    @-webkit-keyframes AnimationName {
-        0%{background-position:0% 43%}
-        50%{background-position:100% 58%}
-        100%{background-position:0% 43%}
-    }
-    @-moz-keyframes AnimationName {
-        0%{background-position:0% 43%}
-        50%{background-position:100% 58%}
-        100%{background-position:0% 43%}
-    }
-    @keyframes AnimationName { 
-        0%{background-position:0% 43%}
-        50%{background-position:100% 58%}
-        100%{background-position:0% 43%}
-    }*/
-}
-
-.landing-lang-content h1 {
-    font-family: $serif;
-    font-size: 3.5rem;
-}
-
-.landing-lang-content p {
-    font-family: $serif;
-    font-size: 1.2rem;
-}
-
-section.landing-lang.odd .landing-lang-content {
-    grid-column: 1;
-    //text-align: right;
-}
-section.landing-lang.odd .landing-lang-img {
-    grid-column: 2;
-}
-
 .home-banner svg#Chevron_circled_down {
     height: 35px;
     margin-top: calc( ( ( (100vh - 186px) / 2 ) - 35px ) / 2 );
@@ -1024,46 +915,6 @@ section.landing-lang.odd .landing-lang-img {
 
 .home-banner svg#Chevron_circled_down:hover {
     opacity: 1;
-}
-
-.landing-lang-link:before {
-    content: "Get Started!";
-}
-
-.landing-lang-link, .landing-intro-cta {
-    height: fit-content;
-    background-color: #03A9F4;
-    color: white;
-    padding: 16px;
-    border-radius: 32px;
-    margin-top: 15px;
-    font-family: $serif;
-    filter: drop-shadow(0 0 4px rgba(0,0,0,0.2));
-    transition: all, 1s;
-}
-
-.landing-lang-link:hover, .landing-intro-cta:hover {
-    background-color: #0288D1;
-}
-
-.landing-intro-cta {
-    font-size: initial;
-    text-decoration: none !important;
-    margin-top: 7.5vh;
-    margin-bottom: -5.5vh;
-    display: block;
-}
-
-.landing-intro-cta-read-on {
-    display: block;
-    margin-top: 7vh;
-    margin-bottom: -13vh;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: "Open Sans";
-    width: fit-content; // This is so that the hyperlink doesn't span 100% being invisible
-    margin-left: auto;
-    margin-right: auto;
 }
 
 blockquote.newsletter {
@@ -2135,40 +1986,12 @@ code[class*=language-], pre[class*=language-],
 }
 
 @media screen and (max-width: 780px) {
-    section.landing-intro {
-        width: calc(100vw - 4rem);
-        padding: 15vh 2rem;
-    }
-    section.landing-lang {
-        margin-top: 75vh;
-    }
-    section.landing-lang:nth-child(2) {
-        margin-top: 0;
-    }
-    .landing-lang-img, .landing-lang-content {
-        grid-column: 1 !important;
-    }
-    .landing-lang-img {
-        width: 100vw;
-        grid-row: 1;
-    }
-    .landing-lang-content  {
-        width: calc(100vw - 8rem);
-        grid-row: 2;
-        
-        justify-content: center;
-        text-align: center;
-    }
-    section.landing-intro {
-        font-size: 1.5rem;
-    }
     .home-banner h1 > span {
         font-size: 1.3em;
     }
     .article-list .large-message {
         font-size: 2.1em;
     }
-
 }
 
 @media screen and (max-width: 768px) {
