@@ -1465,34 +1465,6 @@ body.has-ph-banner aside.ph-banner {
     margin: 3px;
 }
 
-.light-newsletter .in-post-stream.newsletter {
-    color: $theme-color-single;
-    background-color: white;
-}
-
-.light-newsletter .in-post-stream.newsletter input:not([type="submit"]), .light-newsletter .in-post-stream.newsletter input::placeholder {
-    background-color: $theme-color-single;
-    color: white;
-}
-
-.thin-newsletter .in-post-stream.newsletter input {
-        display: block !important;
-        width: 100% !important;
-        text-align: center;
-        border: none;
-        border-radius: 0;
-        margin-bottom: 0;
-        text-align: center;
-    }
-    
-.thin-newsletter .in-post-stream.newsletter input:first-child {
-    margin-bottom: .5em !important;
-}
-
-.thin-newsletter .in-post-stream.newsletter .note {
-    text-align: center !important;
-}
-
 .share-title {
     margin-bottom: 0.5em;
     text-align: center;
@@ -1500,11 +1472,6 @@ body.has-ph-banner aside.ph-banner {
 
 .tags-card .tag, .post-tag {
     font-family: $sans-serif !important;
-}
-
-#emojicom-widget-inline iframe {
-    max-width: unset !important;
-    margin: 0 !important;
 }
 
 .post-page-content {
@@ -1520,10 +1487,6 @@ body.has-ph-banner aside.ph-banner {
 
 .post-content {
     background: $page-bg;
-}
-
-.post-header-sidebar-spacer {
-
 }
 
 .post-sidebar-wrapper, .post-header-sidebar-spacer {
@@ -1862,9 +1825,9 @@ code[class*=language-], pre[class*=language-],
         position: static;
         height: auto;
     }
-    body.home .article-list {
-        /* margin-top: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem); */
-    }
+    // body.home .article-list {
+    //     margin-top: calc(82px + (3.75 * 24px) + 2rem + (36px + 1.2em + 10px) * 3 + 1.75rem + 2rem);
+    // }
     body.home header .top-index-content {
         DISPLAY: BLOCK;
         padding: 2em;
@@ -1881,9 +1844,9 @@ code[class*=language-], pre[class*=language-],
     .before-article-list {
         padding-bottom: 0 !important;
     }
-    .before-article-list {
-        /* DISPLAY: BLOCK !IMPORTANT; */
-    }
+    // .before-article-list {
+    //     DISPLAY: BLOCK !IMPORTANT;
+    // }
     .tagline {
         text-align: center;
     }
