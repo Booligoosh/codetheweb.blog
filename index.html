@@ -42,7 +42,7 @@ regenerate: true
                 {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="/assets/img/loading.svg" data-src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
+                    <img loading="lazy" src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
                 </div>
                 {% endif %}
                 <section class="post-preview">
@@ -120,7 +120,7 @@ regenerate: true
         </section>
         {% endif %}
         
-        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img src="/assets/img/loading.svg" data-src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
+        <a href="https://simpleprogrammer.com/2015/03/02/my-free-blogging-course-is-getting-unbelievable-results/" class="sp-badge sp-badge-home card-style" target="_blank"><img loading="lazy" src="https://simpleprogrammer.com/wp-content/uploads/2015/04/badge.png"></a>
     </aside>
     
 </main>
