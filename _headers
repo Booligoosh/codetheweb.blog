@@ -11,6 +11,10 @@
 # query string if/when changing the files:
 /assets/*.js
 	Cache-Control: public,max-age=604800
+# The query strings for these files are
+# automatically updated every deploy:
+/assets/*.css
+	Cache-Control: public,max-age=604800
 
 # Cache for 1 hour:
 /*
