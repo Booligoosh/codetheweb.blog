@@ -7,6 +7,10 @@
 	Cache-Control: public,max-age=604800
 /*.webp
 	Cache-Control: public,max-age=604800
+# These can be cached as long as I change the
+# query string if/when changing the files:
+/assets/*.js
+	Cache-Control: public,max-age=604800
 
 # Cache for 1 hour:
 /*
