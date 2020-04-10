@@ -445,87 +445,6 @@ body.stop-scrolling {
     margin-bottom: 3px;
 }
 
-.learn-index-banner {
-    //background: indianred !important;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-.learn-index-banner .post-wrapper {
-    margin-top: calc(160px - 1.5rem - 1rem);
-}
-
-.learn-index-banner h1 {
-    /* from https://kenneth.io/blog/2012/03/04/word-wrapping-hypernation-using-css/ */
-    /* Warning: Needed for oldIE support, but words are broken up letter-by-letter */
-    //-ms-word-break: break-all;
-    //word-break: break-all;
-
-    /* Non standard for webkit */
-    //word-break: break-word;
-
-    //-webkit-hyphens: auto;
-    //-moz-hyphens: auto;
-    //-ms-hyphens: auto;
-    //hyphens: auto;
-    font-family: $serif;
-    padding-top: 0;
-}
-
-.learn-index-banner .subheading {
-    display: block;
-    font-size: 2rem;
-    font-family: $serif;
-}
-
-
-.learn-index-banner .btn {
-    margin: 1rem;
-    margin-left: 0;
-    display: inline-block;
-    background-color:#fff;
-    //overflow:hidden;
-    font-weight: bold;
-    transition: opacity, 0.5s;
-    
-    width: 200px;
-    height: 80px;
-    line-height: 80px;
-}
-
-.learn-index-banner .btn:hover {
-    opacity: 1;
-}
-
-.learn-index-banner .btn span { /*
-    background-position: -20px -20px;
-    background-repeat: repeat;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;*/
-    color: indianred;
-    display:block;
-}
-
-.learn-index-banner .btn.hover-btn:hover span {
-    display: none !important;
-}
-
-.learn-index-banner .btn.hover-btn .on-hover {
-    display: none !important;
-}
-
-.learn-index-banner .btn.hover-btn:hover .on-hover {
-    display: block !important;
-}
-
-.learn-index-banner .btn:first-of-type {
-    margin-left: 0;
-}
-
-.learn-index-banner .btn:last-of-type {
-    margin-bottom: 3rem;
-}
-
 .learn-lang-banner {
     height: 370px;
     text-align: left;
@@ -589,17 +508,17 @@ body.stop-scrolling {
     font-family: $sans-serif;
 }
 
-.learn-link-post, .learn-lang-banner, .learn-index-banner {
+.learn-link-post, .learn-lang-banner {
     margin-bottom: 16px;
     padding: 24px;
     color: white;
 }
 
-.learn-lang-banner, .learn-index-banner {
+.learn-lang-banner {
     background-image: linear-gradient(100deg,#ffce69,#fa709a) !important;
 }
 
-.learn-lang-banner, .learn-index-banner {
+.learn-lang-banner {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -818,13 +737,6 @@ body.stop-scrolling {
 
 .codetheweb-learn a {
     text-decoration: none;
-}
-
-.learn-index-banner .codetheweb-learn {
-    color: white;
-    font-family: $serif;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
 }
 
 .sponsors {
@@ -2207,22 +2119,12 @@ code[class*=language-], pre[class*=language-],
 }
 
 @media screen and (max-width: 500px) {
-    .learn-index-banner h1 {
-        font-size: 70px;
-    }
     .markdown-body blockquote p {
         letter-spacing: 0; /* 1px by default theme styles, idk why because it looks terrible... */
         word-break: unset; /* break-all by default theme styles, idk why because it looks terrible... */
     }
     .in-post-stream.newsletter .row, .newsletter-form .row {
         flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .learn-index-banner .btn {
-        width: 100%;
-        margin-bottom: 0;
     }
 }
 
@@ -2239,13 +2141,6 @@ code[class*=language-], pre[class*=language-],
     .learn-lang-banner h1 {
         font-size: 50px;
         line-height: 50px;
-        letter-spacing: 1px;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    .learn-index-banner h1 {
-        font-size: 50px;
         letter-spacing: 1px;
     }
 }

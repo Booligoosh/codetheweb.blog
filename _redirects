@@ -3,3 +3,6 @@ https://codetheweb.netlify.com/* https://codetheweb.blog/:splat 301!
 
 # Redirect /suggest to Nolt
 /suggest https://codetheweb.nolt.io/ 302!
+
+# Redirect /learn to / because the links to each learn page are on the home page
+/learn/ /
