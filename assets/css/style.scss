@@ -203,7 +203,7 @@ a {
     text-align: left;
 }
 
-.colorful-banner input, .feedback-banner textarea {
+.colorful-banner input {
     margin: 50px auto 0 !important;
 }
 
@@ -745,35 +745,6 @@ blockquote.newsletter {
 
 .markdown-body > blockquote.newsletter:last-child {
     margin-top: 32px;
-}
-
-.feedback-banner input:first-of-type {
-    margin-top: 50px !important;
-}
-
-.feedback-banner input, .feedback-banner textarea {
-    margin-top: 10px !important;
-}
-
-.feedback-banner textarea {
-    resize: none;
-    line-height: normal;
-}
-
-.feedback-banner .newsletter-checkbox {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    text-align: center;
-    cursor: pointer;
-}
-
-.feedback-banner .newsletter-checkbox input[type="checkbox"] {
-    margin-top: 0 !important;
-}
-
-.feedback-banner .btn {
-    margin-top: 15px !important;
 }
 
 .np-banner {
@@ -1932,12 +1903,6 @@ code[class*=language-], pre[class*=language-],
     }
     .in-post-stream.newsletter .row, .newsletter-form .row {
         flex-wrap: wrap;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .feedback-banner h1 {
-        font-size: 59px;
     }
 }
 
