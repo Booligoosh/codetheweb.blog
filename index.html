@@ -14,28 +14,6 @@ regenerate: true
         <h1><span>Code The Web</span></h1>
         {% include top-index-content.html %}
     </div>
-    <div class="falling-code-wrapper"></div>
-    <script>
-        window.addEventListener('DOMContentLoaded', function() {
-            
-            var tagNames = Array.from(document.querySelectorAll('*')).map(el => el.tagName.toLowerCase()).filter(el => typeof el.closest !== 'function' || el.closest('svg') === null);
-            
-            for(var i = 0; i < tagNames.length; i++) {
-                var bit = document.createElement('div');
-                bit.innerHTML = `&lt;${tagNames[i]}&gt;`; // Number(Math.random() > 0.5)
-                bit.classList.add('falling-code-bit');
-                var layerNum = Math.random();
-                var left = Math.round(Math.random() * window.innerWidth);
-                var top = Math.random() * 100;
-                var animationDuration = Math.max(5, 60 - (layerNum * 60));
-                var animationDelay = (top/100) * animationDuration;
-                bit.setAttribute('style', `left: ${left}px; top: ${top}%; opacity: ${layerNum}; animation: bit-fall ${animationDuration}s infinite linear; animation-delay: ${animationDelay}s`);
-
-                document.querySelector('.falling-code-wrapper').appendChild(bit);
-                //
-            }
-        })
-    </script>
 </div>
 
 <main class="g-container home-content" id="main">
