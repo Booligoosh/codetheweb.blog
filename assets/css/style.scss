@@ -125,16 +125,6 @@ a {
     opacity: 1;
 }
 
-/* Full screen hero */
-.home-banner.large h2 {
-    padding-top: calc( (100vh - 186px) / 2 );
-}
-
-.home-banner.large {
-    height: 100vh;
-}
-/* end */
-
 @media screen and (min-width: 701px) {
     body:not(.post) {
         .g-header .g-nav {
