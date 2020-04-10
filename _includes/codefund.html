@@ -1,2 +1,21 @@
 <div id="codefund"><!-- fallback content --></div>
-<script src="https://app.codefund.io/properties/608/funder.js" async="async"></script>
+<script async="async"></script>
+<script>
+  if (window.requestIdleCallback) {
+    /* Only load Codefund once the browser is idle */
+    console.log("ABOUT TO REQUEST IDLE CALLBACK");
+    window.requestIdleCallback(loadCodeFund);
+  } else {
+    /* Load ABOUT immediately if requestIdleCallback is not supported */
+    loadCodeFund();
+  }
+  function loadCodeFund() {
+    console.log("LOADING CODEFUND");
+    var d = document,
+      s = d.createElement("script");
+    s.src = "https://app.codefund.io/properties/608/funder.js";
+    s.async = 1;
+    s.defer = 1;
+    (d.head || d.body).appendChild(s);
+  }
+</script>
