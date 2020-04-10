@@ -1,7 +1,7 @@
 ---
 ---
-{% include_relative github-markdown.css %}
-{% include_relative prism.css %}
-{% include_relative share.min.css %}
+@import 'github-markdown.scss';
+@import 'prism.scss';
+@import 'share.scss';
 @import 'theme/app.scss';
-{% include_relative myfont.css %}
+@import 'myfont.scss';
