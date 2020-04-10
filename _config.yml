@@ -46,11 +46,11 @@ postPatterns: 'circuitBoard'
 
 # SNS settings url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  github: 'https://github.com/Booligoosh'
+  # github: 'https://github.com/Booligoosh'
   website: 'https://ethan.link/'
   #twitter: 'https://twitter.com/Booligoosh' (icon doesn't work for some reason)
-  dribble: 'https://dribbble.com/Booligoosh'
-  medium: 'https://medium.com/@Booligoosh'
+  # dribble: 'https://dribbble.com/Booligoosh'
+  # medium: 'https://medium.com/@Booligoosh'
 
 # Tags
 recommend-tags: true # whether or not display recommend-tags on the sidebar
