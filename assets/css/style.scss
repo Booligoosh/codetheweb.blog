@@ -195,11 +195,6 @@ a {
     fill: url(#{{site.theme-color}}-theme) !important;
 }
 
-// The < and > of the logo
-.home-banner svg #text4174 path, .home-banner svg #text4194 path {
-    
-}
-
 .icon-website:before {
   content: "\f0ac";
 }
@@ -497,10 +492,6 @@ body.stop-scrolling {
     padding-top: 0;
 }
 
-.learn-lang-content .markdown-body {
-    /* margin-left: 60px; */
-}
-
 .learn-lang-content a.back {
     margin-bottom: 15px;
     display: block;
@@ -508,13 +499,10 @@ body.stop-scrolling {
     font-family: $sans-serif;
 }
 
-.learn-link-post, .learn-lang-banner {
+.learn-lang-banner {
     margin-bottom: 16px;
     padding: 24px;
     color: white;
-}
-
-.learn-lang-banner {
     background-image: linear-gradient(100deg,#ffce69,#fa709a) !important;
 }
 
@@ -523,43 +511,6 @@ body.stop-scrolling {
     background-position: center;
     background-size: cover;
 }
-
-/* .learn-post-cards {
-    list-style: none;
-    padding: 0;
-}
-
-.learn-post-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-    background: white;
-    border-radius: 2em;
-    margin: 4em 0;
-}
-
-.learn-post-card img {
-    height: 8em;
-    width: 40%;
-    object-fit: cover;
-    object-position: center center;
-    margin: 0;
-    border-radius: 2em;
-    margin-top: -0.5em;
-    margin-bottom: -0.5em;
-    margin-right: -0.5em;
-    border-bottom-right-radius: 6em;
-    border-top-right-radius: 6em;
-}
-
-.learn-post-card h2 {
-    margin: 0 1em;
-    font-family: 'Panton', $fallback;
-    background: linear-gradient(100deg,#ffce69,#fa709a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
 
 .learn-lang-content .article-list {
     max-width: none;
@@ -724,11 +675,6 @@ body.stop-scrolling {
 
 .in-post-stream a {
     text-decoration: underline;
-}
-
-.learn-link-post {
-    color: black;
-    text-align: center;
 }
 
 .codetheweb-learn, .codetheweb-learn .iconfont.icon-logo {
@@ -983,23 +929,6 @@ img.screenshot-white {
     padding-left: 66px;
 }
 }
-
-/* .learn-cta-wrapper a:hover {
-    z-index: 2;
-    background-color: rgba(255,0,0,0.5) !important;
-}
-
-.learn-cta-wrapper a:nth-child(1):hover {
-    margin-right: calc(-200% - 2em);
-}
-
-.learn-cta-wrapper a:nth-child(2):hover {
-    margin: 0 calc(-100% - 1rem);
-}
-
-.learn-cta-wrapper a:nth-child(3):hover {
-    margin-left: calc(-200% - 2em);
-} */
 
 a.learn-cta-what-to-learn {
     display: block;
@@ -1335,35 +1264,6 @@ header .top-index-content {
     text-align: center;
 }
 
-
-/* Product Hunt Upcoming Widget */
-#ph-upcoming-widget img {
-    object-fit: cover;
-}
-#ph-upcoming-widget > a:before {
-    content: "HTML EBOOK 25% OFF";
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 1.3em;
-    line-height: 1.4em;
-    background-color: rgba(0,0,0,0.4);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: .25em;
-    box-sizing: border-box;
-    transition: opacity, .2s;
-}
-#ph-upcoming-widget > a:hover:before {
-    opacity: 0;
-}
-/* End Product Hunt Upcoming Widget */
-
 .book-page .book-img {
     width: 100%;
 }
@@ -1563,10 +1463,6 @@ body.has-ph-banner aside.ph-banner {
 
 .tags-card .tag {
     margin: 3px;
-}
-
-#ph-upcoming-widget {
-    display: none !important;
 }
 
 .light-newsletter .in-post-stream.newsletter {
