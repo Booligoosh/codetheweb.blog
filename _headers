@@ -6,3 +6,5 @@
 	Cache-Control: public,max-age=604800  # 7 days
 /*.webp
 	Cache-Control: public,max-age=604800  # 7 days
+/*
+	Cache-Control: public,max-age=86400   # 24 hours
