@@ -150,6 +150,7 @@ layout: compress
             </ul>
             {% endif %}
         </section>
+        {% comment %}
         <section class="post-footer-item read-next">
             {% if page.previous.url %} 
             <div class="read-next-item">
@@ -180,6 +181,7 @@ layout: compress
             </div>
             {% endif %}
         </section>
+        {% endcomment %}
         {% if site.disqus and jekyll.environment == "production" %}
         <a name="comments"></a>
         <section class="post-footer-item comment">
