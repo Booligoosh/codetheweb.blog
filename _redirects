@@ -6,3 +6,5 @@ https://codetheweb.netlify.com/* https://codetheweb.blog/:splat 301!
 
 # Redirect /learn to / because the links to each learn page are on the home page
 /learn/ /
+
+/html&css/ /
