@@ -122,6 +122,10 @@ a {
     opacity: 1;
 }
 
+.g-header.has-bg .g-nav a {
+    color: #666;
+}
+
 @media screen and (min-width: 701px) {
     body:not(.post) {
         .g-header .g-nav {
@@ -183,12 +187,12 @@ a {
     fill: white !important;
 }
 
-.g-logo.colorful svg {
+.g-header.has-bg .g-logo svg {
     -webkit-filter: none;
     filter: none;
 }
 
-.g-logo.colorful svg path {
+.g-header.has-bg .g-logo svg path {
     fill: url(#pink-theme) !important;
 }
 

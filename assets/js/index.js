@@ -25,14 +25,12 @@ $(document).ready(function(){
 
         var header = document.querySelector('.g-header');
         var header_h = header.getBoundingClientRect().height;
-        var appLogo = $('.g-logo');
-        var navText = $('.g-nav a');
 
-        var themeColorFlag = $('.g-banner').attr('data-theme');
+        var themeColorFlag = /*$('.g-banner').attr('data-theme');*/ 'pink';
 
         var scFlag = $(document).scrollTop();
 
-        $(document).scroll(function(){
+        document.addEventListener('scroll', function(){
 
             var scrollTop = $(this).scrollTop();
 
@@ -43,18 +41,14 @@ $(document).ready(function(){
                 }
                 header.setAttribute('style', 'background-color: rgba(255, 255, 255, .98); box-shadow: 0 1px 12px rgba(0, 0, 0, .08)');
                 header.classList.add('has-bg'); // ME
-                appLogo.addClass('colorful');
-                navText.css('color', '#666');
-                $('.g-nav').addClass('nav-' + themeColorFlag);
+                document.querySelector('.g-nav').classList.add('nav-' + themeColorFlag);
 
             }else{
                 header.classList.remove('has-bg'); // ME
 
                 header.classList.remove('headerUp');
                 header.setAttribute('style', '');
-                appLogo.removeClass('colorful');
-                navText.css('color', '#fff');
-                $('.g-nav').removeClass('nav-' + themeColorFlag);
+                document.querySelector('.g-nav').classList.remove('nav-' + themeColorFlag);
 
             }
             // scroll action
@@ -64,6 +58,8 @@ $(document).ready(function(){
                 header.classList.remove("headerDown");
             }
             scFlag = scrollTop;
+        }, {
+            passive: true
         });
     }
 
