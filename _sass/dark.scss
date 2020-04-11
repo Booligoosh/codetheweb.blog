@@ -1,0 +1,18 @@
+@mixin dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+
+  img,
+  :not(pre)>code[class*=language-], pre[class*=language-] {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html.auto-theme {
+    @include dark-mode;
+  }
+}
+
+html.dark-theme {
+  @include dark-mode;
+}
