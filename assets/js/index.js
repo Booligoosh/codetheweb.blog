@@ -73,53 +73,6 @@ $(document).ready(function(){
         });
     }
 
-    /*
-    * Post Cover Resize
-    */
-    function postCover(img, container) {
-        var imgWidth = img.width(),
-            containerWidth = container.width(),
-            imgHeight = img.height(),
-            containerHeight = container.height();
-        var isOk = false;
-        if(imgHeight < containerHeight) {
-            img.css({
-                'width': 'auto',
-                'height': '100%'
-            });
-            imgWidth = img.width(),
-            containerWidth = container.width();
-            var marginLeft = (imgWidth - containerWidth) / 2;
-            img.css('margin-left', '-' + marginLeft + 'px');
-            isOk = true;
-        } else {
-            var marginTop = (containerHeight - imgHeight) / 2;
-            img.css('margin-top', marginTop + 'px');
-            isOk = true;
-        }
-
-        if(isOk) {
-            img.fadeIn();
-            isOk = false;
-        }
-    }
-
-    /**
-     * The Post Navigator
-     */
-    $('.read-next-item section').each(function(){
-        var _this = $(this),
-            n = _this.height(),
-            rn = $('.read-next-item').height();
-        _this.css('margin-top', (rn-n)/2 + 'px');
-        _this.fadeIn();
-    });
-
-    $('.read-next-item img').each(function(){
-        var _this = $(this);
-        postCover(_this, $('.read-next-item'));
-    });
-
     /**
      * Pagination
      */
@@ -218,43 +171,4 @@ $(document).ready(function(){
     }
 
     new Search();
-
-    /**
-     * Night mode
-     */
-    function nightMode() {
-        var el = $('body'),
-            className = 'night-mode';
-
-        var date = new Date(),
-            hour = date.getHours();
-
-        if((hour >= 0 && hour <= 6) || hour === 23) {
-            /* MAY ADD IN LATER */
-            //el.addClass(className);
-        }
-    }
-    
-    if($('#nm-switch').val() === 'true') {
-        nightMode();
-    }
-
-    /**
-     * Copy and copyright
-     *//*
-    function setClipboardData(str) {
-        str += '\n\n著作权归作者所有。\n商业转载请联系作者获得授权,非商业转载请注明出处。\n原文: ' + location.href;
-        $('.post-content').on('copy', function(e) {
-            var data = window.clipboardData || e.originalEvent.clipboardData;
-            data.setData('text/plain', str);
-            e.preventDefault();
-        }); 
-    }
-    $('.post-content').on('mouseup', function(e) {
-        var txt = window.getSelection();
-        if(txt.toString().length >= 30) {
-            setClipboardData(txt);
-        }
-    });*/
-    
 });
