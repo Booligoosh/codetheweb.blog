@@ -1,8 +1,8 @@
-$(document).ready(function(){
+document.addEventListener('DOMContentLoaded', function(){
     
     /**
      * Responsive Navigation
-     */ 
+     *//*
     document.querySelector('#menu-toggle').addEventListener('click', function(e){
 
         $('.g-nav').slideToggle(200);
@@ -12,7 +12,7 @@ $(document).ready(function(){
         });
 
         e.stopPropagation();
-    });
+    });*/
 
     document.querySelector('.g-nav').addEventListener('click', function(e){
         e.stopPropagation();
