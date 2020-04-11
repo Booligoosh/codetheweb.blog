@@ -99,23 +99,19 @@ $(document).ready(function(){
      * Search
      */  
     function Search() {
-        var self = this,
-            input = $('#search_input'),
-            result = $('.search_result');
+        var input = document.querySelector('#search_input');
         
-        input.focus(function() {
-            $('.icon-search').css('color', '#3199DB');
-            result.show();
+        input.addEventListener('focus', function() {
+            document.querySelector('.icon-search').style.color = '#3199DB';
         });
 
-        input.keyup(debounce(this.autoComplete));
+        input.addEventListener('keyup', debounce(this.autoComplete));
 
-        $(document).click(function(e) {
+        document.addEventListener('click', function(e) {
             if(e.target.id === 'search_input' || e.target.className === 'search_result' || e.target.className === 'search_item') {
                 return;
             }
-            $('.icon-search').css('color', '#CAD3DC');
-            result.hide();
+            document.querySelector('.icon-search').style.color = '#CAD3DC';
         });
     }
 
@@ -123,12 +119,12 @@ $(document).ready(function(){
         var keywords = this.value.toLowerCase();
         
         if(keywords.length) {
-            $('.icon-search').css('color', '#3199DB');
+            document.querySelector('.icon-search').style.color = '#3199DB';
         }else{
-            $('.icon-search').css('color', '#CAD3DC');
+            document.querySelector('.icon-search').style.color = '#CAD3DC';
         }
 
-        $.getJSON('../../search.json').done(function(data) {
+        fetch('/search.json').then(r => r.json()).then(function(data) {
             var html = '';
             for (var i in data) {
                 var item = data[i],
@@ -141,7 +137,7 @@ $(document).ready(function(){
                     html += '<a class="search_item" href="' + item.url + '">' + item.title + '</a>';
                 }
             }
-            $('.search_result').html(html);
+            document.querySelector('.search_result').innerHTML = html;
         });
     };
 
