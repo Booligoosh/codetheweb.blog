@@ -3,7 +3,7 @@ $(document).ready(function(){
     /**
      * Responsive Navigation
      */ 
-    $('#menu-toggle').on('click', function(e){
+    document.querySelector('#menu-toggle').addEventListener('click', function(e){
 
         $('.g-nav').slideToggle(200);
 
@@ -14,17 +14,17 @@ $(document).ready(function(){
         e.stopPropagation();
     });
 
-    $('.g-nav').on('click', function(e){
+    document.querySelector('.g-nav').addEventListener('click', function(e){
         e.stopPropagation();
     });
     
     /*
     *  Header Bar
     */
-    if($(window).width() > 695) {
+    if(window.innerWidth > 695) {
 
-        var header = $('.g-header');
-        var header_h = header.outerHeight();
+        var header = document.querySelector('.g-header');
+        var header_h = header.getBoundingClientRect().height;
         var appLogo = $('.g-logo');
         var navText = $('.g-nav a');
 
@@ -39,25 +39,19 @@ $(document).ready(function(){
             if(scrollTop > header_h) {
 
                 if(scrollTop > 3*header_h) {
-                    header.addClass('headerUp');
+                    header.classList.add('headerUp');
                 }
-                header.css({
-                    'background-color': 'rgba(255, 255, 255, .98)',
-                    'box-shadow': '0 1px 12px rgba(0, 0, 0, .08)'
-                });
-                header.addClass('has-bg'); // ME
+                header.setAttribute('style', 'background-color: rgba(255, 255, 255, .98); box-shadow: 0 1px 12px rgba(0, 0, 0, .08)');
+                header.classList.add('has-bg'); // ME
                 appLogo.addClass('colorful');
                 navText.css('color', '#666');
                 $('.g-nav').addClass('nav-' + themeColorFlag);
 
             }else{
-                header.removeClass('has-bg'); // ME
+                header.classList.remove('has-bg'); // ME
 
-                header.removeClass('headerUp');
-                header.css({
-                    'background-color': 'transparent',
-                    'box-shadow': 'none'
-                });
+                header.classList.remove('headerUp');
+                header.setAttribute('style', '');
                 appLogo.removeClass('colorful');
                 navText.css('color', '#fff');
                 $('.g-nav').removeClass('nav-' + themeColorFlag);
@@ -65,9 +59,9 @@ $(document).ready(function(){
             }
             // scroll action
             if(scFlag > scrollTop) {
-                header.addClass('headerDown');
+                header.classList.add('headerDown');
             }else{
-                header.removeClass('headerDown');
+                header.classList.remove("headerDown");
             }
             scFlag = scrollTop;
         });
