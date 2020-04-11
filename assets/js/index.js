@@ -26,13 +26,13 @@ $(document).ready(function(){
         var header = document.querySelector('.g-header');
         var header_h = header.getBoundingClientRect().height;
 
-        var themeColorFlag = /*$('.g-banner').attr('data-theme');*/ 'pink';
+        var themeColorFlag = /*document.querySelector('.g-banner').getAttribute('data-theme');*/ 'pink';
 
-        var scFlag = $(document).scrollTop();
+        var scFlag = document.querySelector("html").scrollTop;
 
         document.addEventListener('scroll', function(){
 
-            var scrollTop = $(this).scrollTop();
+            var scrollTop = document.querySelector("html").scrollTop;
 
             if(scrollTop > header_h) {
 
@@ -69,7 +69,7 @@ $(document).ready(function(){
     function pagination() {
         var total = parseInt(document.querySelector('#total_pages').value),
             current = parseInt(document.querySelector('#current_pages').value),
-            //baseUrl = $('#base_url').val(),
+            //baseUrl = document.querySelector('#base_url').value,
             baseUrl = '/',
             limit = 3;
 
