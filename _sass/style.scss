@@ -1,6 +1,3 @@
----
----
-
 $banner-shadow: 0 4px 100px rgba(0, 38, 55, 0.31);
 $theme-color-hue: 12;
 $theme-color-sat: 79%;
@@ -192,7 +189,7 @@ a {
 }
 
 .g-logo.colorful svg path {
-    fill: url(#{{site.theme-color}}-theme) !important;
+    fill: url(#pink-theme) !important;
 }
 
 .icon-website:before {
