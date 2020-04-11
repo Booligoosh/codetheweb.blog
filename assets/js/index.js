@@ -77,8 +77,8 @@ $(document).ready(function(){
      * Pagination
      */
     function pagination() {
-        var total = parseInt($('#total_pages').val()),
-            current = parseInt($('#current_pages').val()),
+        var total = parseInt(document.querySelector('#total_pages').value),
+            current = parseInt(document.querySelector('#current_pages').value),
             //baseUrl = $('#base_url').val(),
             baseUrl = '/',
             limit = 3;
@@ -101,7 +101,7 @@ $(document).ready(function(){
             }
         }
         
-        $('#page-link-container').html(link_html);
+        document.querySelector('#page-link-container').innerHTML = link_html;
     }
     pagination();
 
