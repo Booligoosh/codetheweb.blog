@@ -2,23 +2,23 @@
 /*
 	Cache-Control: public,max-age=3600
 
-# Cache for 7 days:
+# Cache for 1 year:
 /*.png
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 /*.jpg
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 /*.gif
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 /*.webp
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 # These can be cached as long as I change the
 # query string if/when changing the files:
 /assets/js/*
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 # The query strings for these files are
 # automatically updated every deploy:
 /assets/css/*
-	Cache-Control: public,max-age=604800
+	Cache-Control: public,max-age=31536000
 
 # Don't index demo pages
 /demo/*
