@@ -1938,7 +1938,7 @@ code[class*=language-], pre[class*=language-],
 
 
 /* __FLAT__ */
-body.flat *:not(.home-banner):not(.sidebar-btn):not(.post-number) {
+body.flat *:not(.home-banner):not(.sidebar-btn):not(.post-number):not(.social-share-icon) {
     box-shadow: none !important;
     border: none !important;
 }
