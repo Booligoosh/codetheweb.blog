@@ -47,4 +47,4 @@ window.onload = function() {
     s.defer = 1;
     d.getElementsByTagName("head")[0].appendChild(s);
   }
-});
+};
