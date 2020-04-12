@@ -104,6 +104,12 @@ layout: compress
                 <h3 class="share-title">Share the knowledge :)</h3>
                 {% include share.html %}
             {% endif %}
+            {% if site.disqus and jekyll.environment == "production" %}
+            <a name="comments"></a>
+            <section class="post-footer-item comment">
+                <div id="disqus_thread"></div>
+            </section>
+            {% endif %}
         </div>
         <aside class="post-sidebar-wrapper">
             <aside class="post-sidebar">
@@ -182,12 +188,6 @@ layout: compress
             {% endif %}
         </section>
         {% endcomment %}
-        {% if site.disqus and jekyll.environment == "production" %}
-        <a name="comments"></a>
-        <section class="post-footer-item comment">
-            <div id="disqus_thread"></div>
-        </section>
-        {% endif %}
     </section>
 </main>
 
