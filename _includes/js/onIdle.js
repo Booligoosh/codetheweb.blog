@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.onload = function() {
   const TIMEOUT_DURATION = 500;
 
   if (window.requestIdleCallback) {
