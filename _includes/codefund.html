@@ -16,5 +16,8 @@
     s.async = 1;
     s.defer = 1;
     (d.head || d.body).appendChild(s);
+
+    /* Preconnect to Codefund's various domains */
+    document.head.innerHTML += '<link rel="preconnect" href="https://cdn2.codefund.app/" crossorigin><link rel="preconnect" href="https://cdn2.codefund.io/" crossorigin>'
   }
 </script>
