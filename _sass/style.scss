@@ -962,14 +962,14 @@ a.learn-cta-what-to-learn {
 }
 
 .article-list .article-item .post-preview .post-title {
-    font-family: 'Panton', $fallback;
-    background: linear-gradient(100deg,#ffce69,#fa709a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: $monospace;
+    // background: linear-gradient(100deg,#ffce69,#fa709a);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
 }
 
 .article-list .article-item .post-preview .post-excerpt {
-    font-family: $sans-serif;
+    font-family: $fancy-serif;
 }
 
 .article-list .article-item .post-meta {
