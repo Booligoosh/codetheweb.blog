@@ -48,5 +48,9 @@
     s.async = 1;
     s.defer = 1;
     d.getElementsByTagName("head")[0].appendChild(s);
+
+
+    /* Preload analytics.js (which gets triggered from the URL above) */
+    document.head.innerHTML += '<link rel="preload" href="https://www.google-analytics.com/analytics.js" as="script" crossorigin>'
   }
 /*};*/
