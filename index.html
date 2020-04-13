@@ -10,7 +10,7 @@ regenerate: true
 {% include header.html %}
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }} post-pattern-{{ site.postPatterns }}" data-theme="{{ site.theme-color }}">
-    <div style="z-index: 1">
+    <div style="z-index: 1" class="home-banner-inner">
         <h1><span>Code The Web</span></h1>
         {% include top-index-content.html %}
     </div>
