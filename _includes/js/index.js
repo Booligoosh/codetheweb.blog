@@ -66,32 +66,37 @@
     /**
      * Pagination
      */
-    function pagination() {
-        var total = parseInt(document.querySelector('#total_pages').value),
-            current = parseInt(document.querySelector('#current_pages').value),
-            //baseUrl = document.querySelector('#base_url').value,
-            baseUrl = '/',
-            limit = 3;
+function pagination() {
+    if (
+        document.querySelector('#total_pages')
+        && document.querySelector('#current_pages')
+    ) {
+            var total = parseInt(document.querySelector('#total_pages').value),
+                current = parseInt(document.querySelector('#current_pages').value),
+                //baseUrl = document.querySelector('#base_url').value,
+                baseUrl = '/',
+                limit = 3;
 
-        var link_html = '';
+            var link_html = '';
 
-        for(var i = current - limit; i<current; i++) { 
-            if(i>0 && i!==1) {
-                link_html += '<a href="' + baseUrl + 'page' + i + '" class="page-link page-num">' + i + '</a>';
-            }else if(i===1) {
-                link_html += '<a href="' + baseUrl + '" class="page-link page-num">' + i + '</a>';
+            for (var i = current - limit; i < current; i++) {
+                if (i > 0 && i !== 1) {
+                    link_html += '<a href="' + baseUrl + 'page' + i + '" class="page-link page-num">' + i + '</a>';
+                } else if (i === 1) {
+                    link_html += '<a href="' + baseUrl + '" class="page-link page-num">' + i + '</a>';
+                }
             }
-        }
 
-        link_html += '<span class="page-link page-num active">' + current + '</span>';
+            link_html += '<span class="page-link page-num active">' + current + '</span>';
 
-        for(var j = current + 1; j<=current + limit; j++) { 
-            if(j<=total) {
-                link_html += '<a href="' + baseUrl + 'page' + j + '" class="page-link page-num">' + j + '</a>';
+            for (var j = current + 1; j <= current + limit; j++) {
+                if (j <= total) {
+                    link_html += '<a href="' + baseUrl + 'page' + j + '" class="page-link page-num">' + j + '</a>';
+                }
             }
+            
+            document.querySelector('#page-link-container').innerHTML = link_html;
         }
-        
-        document.querySelector('#page-link-container').innerHTML = link_html;
     }
     pagination();
 
@@ -100,19 +105,22 @@
      */  
     function Search() {
         var input = document.querySelector('#search_input');
-        
-        input.addEventListener('focus', function() {
-            document.querySelector('.icon-search').style.color = '#3199DB';
-        });
 
-        input.addEventListener('keyup', debounce(this.autoComplete));
+        if (input) {
+            
+            input.addEventListener('focus', function () {
+                document.querySelector('.icon-search').style.color = '#3199DB';
+            });
 
-        document.addEventListener('click', function(e) {
-            if(e.target.id === 'search_input' || e.target.className === 'search_result' || e.target.className === 'search_item') {
-                return;
-            }
-            document.querySelector('.icon-search').style.color = '#CAD3DC';
-        });
+            input.addEventListener('keyup', debounce(this.autoComplete));
+
+            document.addEventListener('click', function (e) {
+                if (e.target.id === 'search_input' || e.target.className === 'search_result' || e.target.className === 'search_item') {
+                    return;
+                }
+                document.querySelector('.icon-search').style.color = '#CAD3DC';
+            });
+        }
     }
 
     Search.prototype.autoComplete = function() {
