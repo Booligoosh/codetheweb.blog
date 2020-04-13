@@ -947,18 +947,17 @@ a.learn-cta-what-to-learn {
 .article-list .article-item {
     border-radius: 2em;
     padding: 25px;
-    margin-top: 12em;
     padding-bottom: calc(25px + 22px + 16px);
     position: relative;
 }
 
 .article-list .article-item .post-cover {
-    border-radius: 2em;
-    border-top-left-radius: 5em;
-    border-bottom-right-radius: 5em;
+    border-radius: inherit;
     border-bottom-left-radius: 0;
-    margin-left: -25px;
-    margin-top: -12em;
+    border-bottom-right-radius: 0;
+    margin: -25px;
+    margin-bottom: 25px;
+    width: auto;
 }
 
 .article-list .article-item .post-preview .post-title {
