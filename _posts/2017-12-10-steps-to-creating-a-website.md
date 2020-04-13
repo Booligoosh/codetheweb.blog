@@ -14,7 +14,8 @@ This article is more about guiding you through the though-process of creating a 
 ## The final product
 [Here's the final product of the site I'll be building today.][demo]{:target='_blank'} Take a look at it, and keep it in mind as we go through the tutorial.
 
-![The final product!][final-product]
+<!-- ![The final product!][final-product] -->
+{% gifvid /assets/img/posts/steps-to-creating-a-website/final-product %}
 
 It's going to be a fictional site about Boberick the llama (I get the strangest ideas sometimes...)
 
@@ -215,7 +216,8 @@ footer {
 Here, we are only adding styles to make our overall layout look similar - not the individual content. We make sure that the sections are set to [100% viewport height][vh], make the header have a [fixed position][position-fixed], position the items [in the header][style-header], and more. We also use [flexboxes][flexboxes] to center the content in our sections.
 
 This is the result:
-![Now our page looks similar to the sketch!][layout-css]{:.screenshot-white}
+<!-- ![Now our page looks similar to the sketch!][layout-css]{:.screenshot-white} -->
+{% gifvid /assets/img/posts/steps-to-creating-a-website/layout-css %}
 
 ## 6. Add more specific styles
 Once the basic framework of the site is done, we can add more specific styles.
@@ -295,7 +297,8 @@ header a {
 As you can see, we've made the title bigger, rounded our image (using `border-radius`), and changed the font. We've also removed some default styling from the header links.
 
 Here's the result:
-![Our website after adding more specific styles][specific-styles]{:.screenshot-white}
+<!-- ![Our website after adding more specific styles][specific-styles]{:.screenshot-white} -->
+{% gifvid /assets/img/posts/steps-to-creating-a-website/specific-styles %}
 
 ## 7. Add colors and backgrounds
 Yay, we're on the home stretch now! It's time to add the finishing touches to our website - colors and backgrounds!

@@ -175,13 +175,17 @@
   margin: 0.67em 0;
 }
 
-.markdown-body img {
+// I added .gifvid
+.markdown-body img,
+.markdown-body .gifvid {
   display: block;
   border-style: none;
   margin: 0 auto;
 }
 
-.markdown-body img {
+// I added .gifvid
+.markdown-body img,
+.markdown-body .gifvid {
   display: block;
   margin: 32px auto;
   max-width: 100%;
