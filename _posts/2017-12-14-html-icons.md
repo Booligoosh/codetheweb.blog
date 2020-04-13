@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The complete guide to HTML icons &mdash; iOS, Android, desktop and more..."
+title: "The complete guide to HTML icons — iOS, Android, desktop and more..."
 image: '/assets/img/posts/html-icons/cover.png'
 tags: HTML
 keywords: "favicon, favicons, icon, icons, HTML, HTML favicons, HTML favicon, HTML icon, HTML icons"
