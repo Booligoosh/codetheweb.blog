@@ -19,6 +19,8 @@
 # query string if/when changing the files:
 /assets/js/*
 	Cache-Control: public,max-age=31536000
+/assets/website-icons/*
+	Cache-Control: public,max-age=31536000
 # The query strings for these files are
 # automatically updated every deploy:
 /assets/css/*
