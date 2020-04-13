@@ -4,7 +4,10 @@
 
 {% capture keywords %}{{ site.keyword }}{% if page.tags.size > 0 %}, {% for tag in page.tags  %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}{% endcapture %}
 
+{% comment %}
 {% capture image %}{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/banner.png{% endif %}{% endcapture %}
+{% endcomment %}
+{% capture image %}{% if page.layout == 'post' %}{{site.url}}/assets/img/og-images/posts/{{page.slug}}.png{% elsif page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/banner.png{% endif %}{% endcapture %}
 
 <head>
     <!-- Preconnect URLs -->
