@@ -13,6 +13,7 @@ module OgImages
           has_children = true
           Process.fork do
             system('node ogimage.js "' + title + '" "' + slug + '"')
+            site.static_files << Jekyll::StaticFile.new(site, site.source + "/assets/img/og-images/posts", "#{slug}.png")
           end
         end
       }
