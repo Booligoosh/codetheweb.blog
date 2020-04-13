@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function(){
+// document.addEventListener('DOMContentLoaded', function () {
     
     /**
      * Responsive Navigation
@@ -157,4 +157,4 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     new Search();
-});
+// });
