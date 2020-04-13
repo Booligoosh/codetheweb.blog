@@ -10,11 +10,15 @@ module OgImages
         if File.exist?(rootDir + '/assets/img/og-images/posts/' + slug + '.png')
           puts slug + '.png already exists'
         else
-          has_children = true
-          Process.fork do
+          # has_children = true
+          # Process.fork do
             system('node ogimage.js "' + title + '" "' + slug + '"')
-            site.static_files << Jekyll::StaticFile.new(site, site.source, "/assets/img/og-images/posts", "#{slug}.png")
-          end
+            staticFile = Jekyll::StaticFile.new(site, site.source, "/assets/img/og-images/posts", "#{slug}.png")
+            # puts staticFile.destination_rel_dir
+            # puts site.static_files.length
+            site.static_files << staticFile
+            # puts site.static_files.length
+          # end
         end
       }
 
