@@ -1,4 +1,4 @@
-window.onload = function() {
+// window.onload = function() {
   const TIMEOUT_DURATION = 500;
 
   if (window.requestIdleCallback) {
@@ -49,4 +49,4 @@ window.onload = function() {
     s.defer = 1;
     d.getElementsByTagName("head")[0].appendChild(s);
   }
-};
+// };
