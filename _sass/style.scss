@@ -39,6 +39,7 @@ html {
 
 body {
     font-family: $sans-serif;
+    background: $page-bg;
 }
 
 a {
@@ -1538,6 +1539,10 @@ header .top-index-content {
 code[class*=language-], pre[class*=language-],
 .markdown-body p code {
     font-family: $monospace;
+}
+
+.g-footer {
+    background: hsl(220, 23%, 97%);
 }
 
 /*
