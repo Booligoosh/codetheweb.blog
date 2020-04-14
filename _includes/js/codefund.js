@@ -24,5 +24,10 @@ function loadCodeFund() {
      This method required less JS and fewer domain connections */
   fetch("https://api.codefund.app/properties/608/funder.html")
     .then(r => r.text())
-    .then(html => (document.getElementById("codefund").innerHTML = html));
+    .then(html => (document.getElementById("codefund").innerHTML = html))
+    .catch(
+      () =>
+        (document.getElementById("codefund").innerHTML =
+          '<div class="codefund-placeholder" style="text-align: left">Please consider disabling your ad blocker to support this site.<br><br>This rectangle is the only place on the page where ads are shown.</div>')
+    );
 }
