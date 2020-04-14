@@ -1519,6 +1519,10 @@ header .top-index-content {
         box-sizing: border-box;
         cursor: default;
     }
+
+    a {
+        transition: none;
+    }
 }
 
 #cf {
