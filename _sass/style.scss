@@ -3,10 +3,10 @@ $theme-color-hue: 12;
 $theme-color-sat: 79%;
 $theme-color-single: hsl($theme-color-hue, $theme-color-sat, 72%);
 $page-bg: hsl($theme-color-hue, $theme-color-sat, 98%);
-$sans-serif: 'Product Sans', 'Google Sans', 'Montserrat', ui-sans-serif, system-ui,-apple-system, 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$sans-serif: 'Product Sans', 'Google Sans', 'Montserrat', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Noto Sans', 'Droid Sans', 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 $serif: 'Roboto Slab', ui-serif, 'Noto Serif', 'Droid Serif', 'Palatino', 'Georgia', serif;
 $fancy-serif: 'Libre Baskerville', $serif;
-$monospace: 'Roboto Mono', ui-monospace, 'Droid Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+$monospace: 'Roboto Mono', ui-monospace, 'Noto Mono', 'Noto Sans Mono', 'Droid Mono', 'Droid Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
 @font-face {
     font-family: 'Panton';
