@@ -98,18 +98,18 @@ layout: compress
                 {% else %}
                     {% include newsletter.html %}
                 {% endif %}
-                <!-- <a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" /> -->
+                <!-- <a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" /> -->  
+                {% if site.social-share %}
+                    <h3 class="share-title">Share the knowledge :)</h3>
+                    {% include share.html %}
+                {% endif %}
+                {% if site.disqus and jekyll.environment == "production" %}
+                <a name="comments"></a>
+                <section class="comments">
+                    <div id="disqus_thread"></div>
+                </section>
+                {% endif %}
             </section>
-            {% if site.social-share %}
-                <h3 class="share-title">Share the knowledge :)</h3>
-                {% include share.html %}
-            {% endif %}
-            {% if site.disqus and jekyll.environment == "production" %}
-            <a name="comments"></a>
-            <section class="comments">
-                <div id="disqus_thread"></div>
-            </section>
-            {% endif %}
         </div>
         <aside class="post-sidebar-wrapper">
             <aside class="post-sidebar">
