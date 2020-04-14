@@ -4,6 +4,9 @@
 <script src="/assets/js/bundle.js?v=1" async defer></script>
 <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;600;700&display=swap"> -->
 {% nonblockingcss https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@300;400;600;700&display=swap %}
+{% if page.layout == 'post' %}
+<script>{% include js/codefund.js %}</script>
+{% endif %}
 <!-- <script>
 WebFontConfig = {
     google: {
