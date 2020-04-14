@@ -1,3 +1,6 @@
+# This plugin follows the instructions from here:
+# https://github.com/filamentgroup/loadCSS#how-to-use-loadcss-recommended-example
+
 module Jekyll
   class NonBlockingCSSTag < Liquid::Tag
 
