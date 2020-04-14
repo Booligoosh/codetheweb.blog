@@ -1537,6 +1537,10 @@ header .top-index-content {
 .markdown-body {
     font-family: $serif;
     background: $page-bg;
+
+    p {
+        text-align: left;
+    }
 }
 
 code[class*=language-], pre[class*=language-],
@@ -1668,9 +1672,9 @@ code[class*=language-], pre[class*=language-],
     .markdown-body, .post-wrapper, .read-next, .after-post {
         width: 80%; /* Originally 92% by default theme styles */
     }
-    .markdown-body p {
-        text-align: left;
-    }
+    // .markdown-body p {
+    //     text-align: left;
+    // }
     .patron-page .patron-grid {
         grid-template-columns: 1fr;
     }
