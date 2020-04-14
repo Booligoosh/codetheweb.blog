@@ -1450,7 +1450,7 @@ header .top-index-content {
     margin-left: 32px;
     font-size: 1.3em;
     font-weight: 600;
-    font-family: $fancy-serif;
+    font-family: $serif;
 }
 
 .post-sidebar ol, .post-sidebar ul {
@@ -1466,7 +1466,7 @@ header .top-index-content {
     border-radius: 2em;
     opacity: .9;
     color: hsl($theme-color-hue, $theme-color-sat, 29%);
-    font-family: $fancy-serif;
+    font-family: $serif;
     
     &:hover {
         background: hsl($theme-color-hue, $theme-color-sat, 96%);
