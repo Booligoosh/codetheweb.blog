@@ -22,7 +22,7 @@ function loadCodeFund() {
 
   /* Based on https://codefund.docs.apiary.io/#reference/0/advertisement-html
      This method required less JS and fewer domain connections */
-  fetch("https://api.codefund.app/properties/608/funder.html")
+  fetch("https://api.codefund.app/properties/608/funder.html?$third-party")
     .then(r => r.text())
     .then(html => (document.getElementById("codefund").innerHTML = html))
     .catch(
