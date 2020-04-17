@@ -6,7 +6,9 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"],
+// This line was added by me so it works without JS:
+.markdown-body pre {
 	color: #f8f8f2;
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
@@ -29,7 +31,9 @@ pre[class*="language-"] {
 }
 
 /* Code blocks */
-pre[class*="language-"] {
+pre[class*="language-"],
+// This line was added by me so it works without JS:
+.markdown-body pre {
 	padding: 1em;
 	margin: .5em 0;
 	overflow: auto;
@@ -37,7 +41,9 @@ pre[class*="language-"] {
 }
 
 :not(pre) > code[class*="language-"],
-pre[class*="language-"] {
+pre[class*="language-"],
+// This line was added by me so it works without JS:
+.markdown-body pre {
 	background: #272822;
 }
 
