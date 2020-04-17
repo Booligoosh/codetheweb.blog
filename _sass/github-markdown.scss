@@ -14,6 +14,8 @@
   word-wrap: break-word;
 }
 
+/*
+
 .markdown-body .pl-c {
   color: #969896;
 }
@@ -146,11 +148,14 @@
   color: #183691;
 }
 
+*/
+/*
 .markdown-body .octicon {
   display: inline-block;
   vertical-align: text-top;
   fill: currentColor;
 }
+*/
 
 .markdown-body a {
   background-color: transparent;
@@ -369,6 +374,8 @@ li p:nth-child(2) {
   vertical-align: text-bottom;
 }
 
+/*
+
 .markdown-body .pl-0 {
   padding-left: 0 !important;
 }
@@ -396,6 +403,8 @@ li p:nth-child(2) {
 .markdown-body .pl-6 {
   padding-left: 40px !important;
 }
+
+*/
 
 .markdown-body::before {
   display: table;
@@ -477,6 +486,8 @@ li p:nth-child(2) {
   box-shadow: inset 0 -1px 0 #959da5;
 }
 
+/*
+
 .markdown-body h1 .octicon-link,
 .markdown-body h2 .octicon-link,
 .markdown-body h3 .octicon-link,
@@ -505,6 +516,8 @@ li p:nth-child(2) {
 .markdown-body h6:hover .anchor .octicon-link {
   visibility: visible;
 }
+
+*/
 
 .markdown-body h1 {
   font-size: 2em;
