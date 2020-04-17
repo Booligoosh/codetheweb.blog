@@ -1524,6 +1524,74 @@ header .top-index-content {
     }
 }
 
+/* Default CodeFund CSS from https://api.codefund.app/packs/css/code_fund_ad-fa201a47.css
+   I put it here to:
+   a) Reduce request counts
+   b) Reduce size (original CSS contains all themes & templates)
+*/
+// #cf[data-template][data-theme=dark],#cf[data-template][data-theme=dark] *,#cf[data-template][data-theme=light],#cf[data-template][data-theme=light] * {
+#cf, #cf * {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+// #cf[data-template][data-theme=dark] a,#cf[data-template][data-theme=light] a {
+#cf a {
+    box-shadow: none
+}
+
+// #cf[data-template][data-theme=dark] .cf-impression,#cf[data-template][data-theme=light] .cf-impression {
+#cf .cf-impression {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    border-style: none
+}
+div#cf/*[data-template=default][data-theme=light]*/ {
+    margin: 0 auto;
+    max-width: 330px
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper {
+    border-radius: 4px;
+    display: block;
+    padding: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    background-color: rgba(0,0,0,.05);
+    font-family: Helvetica,Arial,sans-serif
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper a {
+    box-shadow: none!important;
+    text-decoration: none
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper span.cf-img-wrapper {
+    float: left;
+    margin-right: 15px
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper span.cf-img-wrapper img.cf-img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 130px;
+    position: relative
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper span.cf-text {
+    color: #333
+}
+
+div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper a.cf-powered-by {
+    margin-top: 5px;
+    font-size: 12px;
+    display: block;
+    color: #777
+}
+/* End default CodeFund CSS */
+
 #cf {
     max-width: none !important;
 }
