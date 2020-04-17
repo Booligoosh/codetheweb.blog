@@ -8,25 +8,6 @@ $serif: 'Roboto Slab', ui-serif, 'Noto Serif', 'Droid Serif', 'Palatino', 'Georg
 $fancy-serif: 'Libre Baskerville', $serif;
 $monospace: 'Roboto Mono', ui-monospace, 'Noto Mono', 'Noto Sans Mono', 'Droid Mono', 'Droid Sans Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
-@font-face {
-    font-family: 'Panton';
-    src: url(../fonts/panton-bold.otf);
-    font-weight: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Panton';
-    src: url(../fonts/panton-bold.otf);
-    font-weight: bold;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Panton';
-    src: url(../fonts/panton-light.otf);
-    font-weight: 300;
-    font-display: swap;
-}
-
 body, html {
     min-height: 100%;
     height: auto;
@@ -462,9 +443,9 @@ body.stop-scrolling {
 .learn-lang-banner h1 {
     font-size: 86px;
     letter-spacing: 4px;
-    font-weight: 400;
     display: inline;
-    font-family: 'Panton', $sans-serif;
+    font-weight: bold;
+    font-family: $serif;
     line-height: 86px;
 }
 
@@ -1133,7 +1114,7 @@ header .top-index-content {
 }
 
 .newsletter-page .newsletter-header h1 {
-    font-family: 'Panton', $sans-serif;
+    font-family: $serif;
 }
 
 .newsletter-page .newsletter-header .subheading {
@@ -1180,8 +1161,9 @@ header .top-index-content {
 
 .newsletter-thanks h1 {
     padding-top: 0;
-    font-family: 'Panton', $sans-serif;
+    font-family: $monospace;
     text-align: center;
+    font-weight: bold;
 }
 
 .newsletter-thanks {
