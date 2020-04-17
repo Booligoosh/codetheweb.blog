@@ -1,12 +1,12 @@
 /*window.onload = function() {*/
-  if (window.requestIdleCallback) {
-    /* Only run function once the browser is idle */
+  /*if (window.requestIdleCallback) {
+    /* Only run function once the browser is idle *//*
     console.log("ABOUT TO REQUEST IDLE CALLBACK");
     window.requestIdleCallback(onIdle);
-  } else {
+  } else {*/
     /* Run function immediately if requestIdleCallback is not supported */
-    onIdle();
-  }
+    onIdle();/*
+  }*/
 
   function onIdle() {
     {% if page.layout == 'post' %}
