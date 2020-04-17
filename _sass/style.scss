@@ -46,6 +46,7 @@ a {
     justify-content: center;
     text-align: center;
     box-shadow: none;
+    background: $theme-color-single;
 
     .home-banner-inner {
         text-align: center;
@@ -743,7 +744,7 @@ img.screenshot-white {
     opacity: .4;
 }
 
-/* DEFAULT BMC CODE */
+/* DEFAULT BMC CODE *//*
 .bmc-button img {
     width: 27px !important;
     margin-bottom: 3px !important;
@@ -783,10 +784,10 @@ img.screenshot-white {
     box-shadow: 0 4px 16px 0 rgba(190, 190, 190, .45) !important;
     opacity: 0.85 !important;
     color: #ffffff !important;
-}
+}*/
 /* END DEFAULT BMC CODE */
 
-/* MY BMC CODE */
+/* MY BMC CODE *//*
 .bmc-button {
     display: block !important;
     box-sizing: border-box;
@@ -800,7 +801,7 @@ img.screenshot-white {
     overflow: hidden;
 }
 .bmc-button:hover span:before {
-    content: '$4 = 1 coffee ☕️ __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________'; /* Underscores end up on next line */
+    content: '$4 = 1 coffee ☕️ __________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________'; // Underscores end up on next line
 }
 .bmc-button img {
     background-color: unset;
@@ -811,7 +812,7 @@ img.screenshot-white {
     width: auto;
     margin: 1rem auto !important;
     text-align: center;
-}
+}*/
 /* END MY BMC CODE */
 
 .article-list, .g-sidebar-wrapper {
@@ -1176,7 +1177,7 @@ header .top-index-content {
 .newsletter-thanks > div {
     max-width: 695px;
 }
-
+/*
 .newsletter-thanks .bmc-wrapper {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -1196,7 +1197,7 @@ header .top-index-content {
     padding: 1em;
     text-align: center;
 }
-
+*/
 .book-page .book-img {
     width: 100%;
 }

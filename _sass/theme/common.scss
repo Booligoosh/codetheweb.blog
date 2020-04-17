@@ -120,7 +120,7 @@
         z-index: 0;
     }
 }
-
+/*
 .banner-theme-default {
     background: -webkit-linear-gradient(0deg, #3CD5FF, #007AFF);
     background: -o-linear-gradient(0deg, #3CD5FF, #007AFF);
@@ -140,7 +140,7 @@
 .themeColor-pink {
     background-color: $color-theme-pink;
 }
-
+*/
 .home-content {
     margin: 40px auto 60px;
     @include clearfix;
@@ -211,11 +211,11 @@
         }
     }
 }
-
+/*
 .author-card {
     @include authorCard;
 }
-
+*/
 .article-item .post-meta .post-tag, .tags-card .tag, .tags-content .tag{
     @include tagStyle;
 }
@@ -224,7 +224,7 @@
     float: right;
     width: 240px;
 }
-
+/*
 .g-sidebar {
     @include cardStyle;
     section {
@@ -242,7 +242,7 @@
         }
     }
 }
-
+*/
 .search-card {
     position: relative;
     margin-top: 16px;
@@ -433,7 +433,7 @@
             }
         }
     }
-
+    /*
     .filter {
         position: absolute;
         content: '';
@@ -454,8 +454,9 @@
         height: 100%;
         z-index: -2;
     }
+    */
 }
-
+/*
 .bgcolor-default {
     background-color: $color-theme-default;
 }
@@ -469,7 +470,7 @@
         margin-top: 100px;
     }
 }
-
+*/
 /* .post-pattern-circuitBoard {
     @include postHeaderPattern('circuitBoard');
 }
@@ -563,7 +564,7 @@
     margin: 0 auto;
     width: $post-content-w;
 }
-
+/*
 .author-detail {
     position: relative;
     top: -35px;
@@ -643,7 +644,7 @@
         z-index: 0;
     }
 }
-
+*/
 .tags-banner {
     height: 300px;
     text-align: center;

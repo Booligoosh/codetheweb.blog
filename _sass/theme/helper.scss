@@ -68,7 +68,7 @@ $post-content-w: 720px;
     box-shadow: 0 1px 3px rgba(0, 37, 55, .06);
 }
 
-@mixin authorCard {
+/*@mixin authorCard {
     text-align: center;
     
     .avatar {
@@ -114,7 +114,7 @@ $post-content-w: 720px;
             @include snsIcon;
         }
     }
-}
+}*/
 
 @mixin timeStyle {
     display: inline-block;
