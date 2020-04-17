@@ -24,7 +24,12 @@ function loadCodeFund() {
      This method required less JS and fewer domain connections */
   fetch("https://api.codefund.app/properties/608/funder.html?$third-party")
     .then(r => r.text())
-    .then(html => (document.getElementById("codefund").innerHTML = html))
+    .then(
+      html =>
+        (document.getElementById("codefund").innerHTML = html
+          /* Remove stylesheet link to save network usage */
+          .replace(/<link .*?rel="stylesheet".*?>/g, ""))
+    )
     .catch(
       () =>
         (document.getElementById("codefund").innerHTML =
