@@ -50,6 +50,9 @@
     s.defer = 1;
     d.getElementsByTagName("head")[0].appendChild(s);
     */
+    
+    document.head.innerHTML += '<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>';
+
     (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
     ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
     ;c.parentNode.insertBefore(a,c)
