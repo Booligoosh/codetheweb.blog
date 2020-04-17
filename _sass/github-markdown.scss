@@ -215,7 +215,7 @@
   height: 0;
   overflow: visible;
 }
-
+/*
 .markdown-body input {
   font: inherit;
   margin: 0;
@@ -229,7 +229,7 @@
   box-sizing: border-box;
   padding: 0;
 }
-
+*/
 .markdown-body * {
   box-sizing: border-box;
 }
@@ -369,11 +369,11 @@ li p:nth-child(2) {
 .markdown-body dd {
   margin-left: 0;
 }
-
+/*
 .markdown-body .octicon {
   vertical-align: text-bottom;
 }
-
+*/
 /*
 
 .markdown-body .pl-0 {
@@ -429,7 +429,7 @@ li p:nth-child(2) {
   color: inherit;
   text-decoration: none;
 }
-
+/*
 .markdown-body .anchor {
   float: left;
   padding-right: 4px;
@@ -440,7 +440,7 @@ li p:nth-child(2) {
 .markdown-body .anchor:focus {
   outline: none;
 }
-
+*/
 .markdown-body blockquote,
 .markdown-body ul,
 .markdown-body ol,
@@ -609,12 +609,12 @@ li p:nth-child(2) {
   background-color: rgba(27,31,35,0.05);
   border-radius: 3px;
 }
-
+/*
 .markdown-body .full-commit .btn-outline:not(:disabled):hover {
   color: #005cc5;
   border-color: #005cc5;
 }
-
+*/
 .markdown-body kbd {
   display: inline-block;
   padding: 3px 5px;
@@ -628,7 +628,7 @@ li p:nth-child(2) {
   border-radius: 3px;
   box-shadow: inset 0 -1px 0 #959da5;
 }
-
+/*
 .markdown-body :checked+.radio-label {
   position: relative;
   z-index: 1;
@@ -647,7 +647,7 @@ li p:nth-child(2) {
   margin: 0 0.2em 0.25em -1.6em;
   vertical-align: middle;
 }
-
+*/
 .markdown-body hr {
   border-bottom-color: #eee;
 }
