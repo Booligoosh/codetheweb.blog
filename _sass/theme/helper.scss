@@ -116,7 +116,7 @@ $post-content-w: 720px;
     }
 }*/
 
-@mixin timeStyle {
+/*@mixin timeStyle {
     display: inline-block;
     font-size: 14px;
     letter-spacing: .6px;
@@ -133,9 +133,9 @@ $post-content-w: 720px;
         background: url('../icons/date.svg') no-repeat center;
         background-size: 100%;
     }
-}
+}*/
 
-@mixin snsIcon {
+/*@mixin snsIcon {
     .iconfont {
         color: #B8BDC3;
         transition: .2s;
@@ -183,7 +183,7 @@ $post-content-w: 720px;
         color: #0BE370;
     }
     
-}
+}*/
 /* @mixin postHeaderPattern($shape) {
 
     @if $shape == 'circuitBoard' {
