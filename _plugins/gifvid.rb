@@ -7,9 +7,9 @@ module Jekyll
     end
 
     def render(context)
-      "<p><video class='gifvid' autoplay='true' loop='true' muted='true' playsinline='true'>
-        <source src='#{@extensionless}.webm' type='video/webm'>
-        <source src='#{@extensionless}.mp4' type='video/mp4'>
+      "<p><video class='gifvid loading-lazy' autoplay='true' loop='true' muted='true' playsinline='true'>
+        <source data-src='#{@extensionless}.webm' type='video/webm'>
+        <source data-src='#{@extensionless}.mp4' type='video/mp4'>
         Sorry, your browser doesn't support embedded videos.
       </video></p>"
     end

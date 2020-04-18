@@ -2,7 +2,10 @@ class Kramdown::Converter::Html
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_img
   def convert_img(el, _indent)
-    "<noscript class=\"loading-lazy\"><img#{html_attributes(el.attr)} loading=\"lazy\" /></noscript>"
+    el.attr["data-src"] = el.attr["src"]
+    el.attr["src"] = nil
+    el.attr["class"] = "#{el.attr["class"]} loading-lazy"
+    "<img#{html_attributes(el.attr)} class='loading-lazy' />"
   end
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_a
