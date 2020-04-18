@@ -12,7 +12,8 @@ Hero images are used by websites all over the internet and look awesome. Learn h
 
 ## What we'll be making
 Here's what we'll be making today:
-![A full-screen image header][final-product-gif]
+<!-- ![A full-screen image header][final-product-gif] -->
+{% gifvid /assets/img/posts/full-image-hero/final-product %}
 
 [You can view a live demo here.][demo]{:target='_blank'}
 
@@ -381,7 +382,8 @@ background-attachment: fixed;
 Makes the background image stay in the same spot, even you scroll down the page.
 
 Save, reload and take a look at the result:
-![The results of the background-image property][bg-img-gif]
+<!-- ![The results of the background-image property][bg-img-gif] -->
+{% gifvid /assets/img/posts/full-image-hero/bg-img %}
 
 Awesome! However, it is very hard to see the text now. What if we tried making everything white?
 Here are the lines of our CSS file to add/change:
