@@ -75,6 +75,13 @@ plugins: [jekyll-paginate, jekyll-sitemap]
 
 
 # ME
+defaults:
+  -
+    scope:
+      path: "/demo/**"
+    values:
+      sitemap: false
+
 sass:
   style: compressed
   
