@@ -45,6 +45,12 @@ body,
         .open-grid-item-number {
           font-size: 5rem;
         }
+
+        .open-grid-item-text {
+          .open-grid-item-text-updated {
+            opacity: .5;
+          }
+        }
       }
     }
   }
