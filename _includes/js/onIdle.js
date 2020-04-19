@@ -1,4 +1,8 @@
 /*window.onload = function() {*/
+  {% if page.layout == 'post' %}
+  loadCodeFund();
+  {% endif %}
+
   if (window.requestIdleCallback) {
     /* Only run function once the browser is idle */
     console.log("ABOUT TO REQUEST IDLE CALLBACK");
@@ -9,9 +13,11 @@
   }
 
   function onIdle() {
+    {% comment %}
     {% if page.layout == 'post' %}
     loadCodeFund();
     {% endif %}
+    {% endcomment %}
     loadCrisp();
     {% if jekyll.environment == "production" %}
     loadGoogleAnalytics();
