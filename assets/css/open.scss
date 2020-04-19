@@ -3,6 +3,10 @@
 
 @import "variables";
 
+body {
+  margin-top: 0 !important;
+}
+
 html,
 body,
 .open-page-wrapper {
@@ -18,18 +22,16 @@ body,
   box-sizing: border-box;
 
   .open-page {
-    max-width: 800px;
+    width: 800px;
+    max-width: 100%;
 
     > *:not(:last-child) {
       margin-bottom: 1rem;
     }
 
     .home-link {
-      float: right;
-      font-size: initial;
-      font-weight: initial;
+      display: inline-block;
       opacity: 0.8;
-      line-height: inherit;
 
       &:hover {
         opacity: 1;
@@ -58,5 +60,17 @@ body,
         }
       }
     }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .open-page-wrapper .open-page .open-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .open-page-wrapper .open-page .open-grid .open-grid-item .open-grid-item-number {
+    font-size: 3.5rem;
   }
 }
