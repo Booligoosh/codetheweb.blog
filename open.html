@@ -1,0 +1,51 @@
+---
+layout: default
+title: Open stats page
+description:
+  I believe that transparency is really important, so I have made this page
+  so that you can see how much traffic Code The Web gets. Let me know if you
+  would like me to add anything.
+---
+
+<link rel="stylesheet" href="/assets/css/open.css" />
+
+<div class="open-page-wrapper">
+  <div class="open-page">
+    <h1>Open stats page <a href="/" class="home-link">← Back to Home</a></h1>
+    <p>
+      I believe that transparency is really important, so I have made this page
+      so that you can see how much traffic Code The Web gets. Let me know if you
+      would like me to add anything.
+    </p>
+    <div class="open-grid">
+      <div class="open-grid-item">
+        <div class="open-grid-item-number" id="all-time-users">&hellip;</div>
+        <div class="open-grid-item-text">All-time visitors</div>
+      </div>
+      <div class="open-grid-item">
+        <div class="open-grid-item-number" id="all-time-pageviews">
+          &hellip;
+        </div>
+        <div class="open-grid-item-text">All-time page views</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* https://stackoverflow.com/a/2901298 */
+  function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
+  fetch("https://open-page-api.codetheweb.blog/api/open")
+    .then(r => r.json())
+    .then(r => {
+      document.getElementById("all-time-users").innerText = numberWithCommas(
+        r.allTimeUsers
+      );
+      document.getElementById(
+        "all-time-pageviews"
+      ).innerText = numberWithCommas(r.allTimePageViews);
+    });
+</script>

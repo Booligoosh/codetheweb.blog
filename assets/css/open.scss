@@ -1,0 +1,51 @@
+---
+---
+
+@import "variables";
+
+html,
+body,
+.open-page-wrapper {
+  height: 100%;
+}
+
+.open-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+
+  .open-page {
+    max-width: 800px;
+
+    > *:not(:last-child) {
+      margin-bottom: 1rem;
+    }
+
+    .home-link {
+      float: right;
+      font-size: initial;
+      font-weight: initial;
+      opacity: 0.8;
+      line-height: inherit;
+    }
+
+    .open-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+
+      .open-grid-item {
+        background: $theme-color-single;
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+
+        .open-grid-item-number {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}
