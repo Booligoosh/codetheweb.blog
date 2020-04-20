@@ -1,5 +1,19 @@
-<script>{% include js/onIdle.js %}</script>
-<script src="/assets/js/bundle.js?v=4" async defer></script>
+<script>
+{% include js/onIdle.js %}
+
+
+{% include js/vanilla-lazyload-15.1.1.min.js %}
+var imageLazyLoadInstance = new LazyLoad({
+  elements_selector: "img.loading-lazy",
+  use_native: true
+});
+var videoLazyLoadInstance = new LazyLoad({
+  elements_selector: "video.loading-lazy"
+});
+
+
+{% include js/index.js %}
+</script>
 {% comment %}
 <!-- Basin tracking code (requires jQuery first) -->
 <script src="https://usebasin.com/f/01ede12f14de/ahoy.js" async defer></script>

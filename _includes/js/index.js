@@ -1,4 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {*/
 
 /**
  * Responsive Navigation
@@ -43,10 +43,10 @@ if (window.innerWidth > 695) {
           "style",
           "background-color: rgba(255, 255, 255, .98); box-shadow: 0 1px 12px rgba(0, 0, 0, .08)"
         );
-        header.classList.add("has-bg"); // ME
+        header.classList.add("has-bg"); /*ME*/
         document.querySelector(".g-nav").classList.add("nav-" + themeColorFlag);
       } else {
-        header.classList.remove("has-bg"); // ME
+        header.classList.remove("has-bg"); /*ME*/
 
         header.classList.remove("headerUp");
         header.setAttribute("style", "");
@@ -54,7 +54,7 @@ if (window.innerWidth > 695) {
           .querySelector(".g-nav")
           .classList.remove("nav-" + themeColorFlag);
       }
-      // scroll action
+      /* scroll action */
       if (scFlag > scrollTop) {
         header.classList.add("headerDown");
       } else {
@@ -78,7 +78,7 @@ function pagination() {
   ) {
     var total = parseInt(document.querySelector("#total_pages").value),
       current = parseInt(document.querySelector("#current_pages").value),
-      //baseUrl = document.querySelector('#base_url').value,
+      /*baseUrl = document.querySelector('#base_url').value,*/
       baseUrl = "/",
       limit = 3;
 
@@ -197,4 +197,4 @@ function debounce(fn, delay) {
 }
 
 new Search();
-// });
+/*});*/
