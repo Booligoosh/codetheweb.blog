@@ -204,8 +204,10 @@ layout: compress
         e.target.classList.remove(`reveal`)
     }))
 </script>
+{% if jekyll.environment != "production" %}
 <script>
     console.log("Number of words: {{content | number_of_words}}");
 </script>
+{% endif %}
 </body>
 </html>

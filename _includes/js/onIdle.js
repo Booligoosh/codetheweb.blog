@@ -3,7 +3,10 @@
     /*{% comment %}
     Only run function once the browser is idle
     {% endcomment %}*/
+
+    /*{% comment %}
     console.log("ABOUT TO REQUEST IDLE CALLBACK");
+    {% endcomment %}*/
     window.requestIdleCallback(onIdle);
   } else {
     /*{% comment %}
@@ -41,7 +44,10 @@
   {% endcomment %}*/
 
   function loadGoogleAnalytics() {
+    /*{% comment %}
     console.log('LOADING GOOGLE ANALYTICS');
+    {% endcomment %}*/
+
     /*{% comment %}
     window.dataLayer = window.dataLayer || [];
     window.gtag = function() {
@@ -71,7 +77,10 @@
   }
 
   function loadCodeFund() {
+    /*{% comment %}
     console.log("LOADING CODEFUND");
+    {% endcomment %}*/
+    
     /*{% comment %}
     console.log("LOADING CODEFUND");
     var d = document,
