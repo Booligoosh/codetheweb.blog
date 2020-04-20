@@ -25,7 +25,7 @@ if (window.location.hash.startsWith('#comment')) {
     },
     { threshold: [0] }
   );
-  disqus_observer.observe(document.querySelector("#disqus_thread"));
+  disqus_observer.observe(document.querySelector(".after-post"));
 }
 
 function loadDisqus() {
