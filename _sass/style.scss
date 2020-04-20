@@ -1230,6 +1230,13 @@ header .top-index-content {
     -webkit-margin-collapse: separate;
 }
 
+.search-card label {
+    display: block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 .patron-page ul {
     list-style: none;
     margin-left: 0;
