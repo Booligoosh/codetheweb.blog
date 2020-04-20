@@ -1,15 +1,21 @@
 <form accept-charset="UTF-8" action="https://usebasin.com/f/01ede12f14de" method="POST"  oninput="input(this)" onblur="blurred(this)" class="newsletter-form">
-    <input name="email" type="email" placeholder="Enter your email address" class="card-style" required>
+    <label for="newsletter-form-email">Enter your email address (required)</label>
+    <input id="newsletter-form-email" name="email" type="email" placeholder="Enter your email address" class="card-style" required>
     <input type="submit" value="Here we go..." class="card-style">
     <div class="extra">
         <div class="measurer">
-            <input name="found-out" type="text" placeholder="How did you find out about Code The Web?" class="card-style" required>
+            <label for="newsletter-form-found-out">How did you find out about Code The Web? (required)</label>
+            <input id="newsletter-form-found-out" name="found-out" type="text" placeholder="How did you find out about Code The Web?" class="card-style" required>
             <div class="row">
-                <input name="fname" type="text" placeholder="(First name)" class="card-style">
-                <input name="lname" type="text" placeholder="(Last name)" class="card-style">
-                <input name="url" type="text" placeholder="(Your URL)" class="card-style">
+                <label for="newsletter-form-fname">First name (optional)</label>
+                <input id="newsletter-form-fname" name="fname" type="text" placeholder="(First name)" class="card-style">
+                <label for="newsletter-form-lname">Last name (optional)</label>
+                <input id="newsletter-form-lname" name="lname" type="text" placeholder="(Last name)" class="card-style">
+                <label for="newsletter-form-url">Your URL (optional)</label>
+                <input id="newsletter-form-url" name="url" type="text" placeholder="(Your URL)" class="card-style">
             </div>
-            <input name="extra-comments" type="text" placeholder="(Anything else you want to tell me?)" class="card-style">
+            <label for="newsletter-form-extra-comments">Anything else you want to tell me? (optional)</label>
+            <input id="newsletter-form-extra-comments" name="extra-comments" type="text" placeholder="(Anything else you want to tell me?)" class="card-style">
         </div>
     </div>
 </form>

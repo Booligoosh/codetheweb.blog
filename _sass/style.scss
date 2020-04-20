@@ -553,6 +553,13 @@ body.stop-scrolling {
     margin-bottom: 1em;
 }
 
+.newsletter-form label {
+    display: block;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+}
+
 .newsletter-form input {
     font-family: inherit;
     border: none;
