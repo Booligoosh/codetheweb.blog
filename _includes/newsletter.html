@@ -1,21 +1,6 @@
 <div class="in-post-stream newsletter card-style">
     <div class="explainer">Get a weekly email filled with resources to learn web development <a href="/newsletter" style="font-weight: normal">(more info)</a></div>
-    <form accept-charset="UTF-8" action="https://usebasin.com/f/01ede12f14de" method="POST"  oninput="input(this)" onblur="blurred(this)">
-        <input name="email" type="email" placeholder="Enter your email address" class="card-style" required>
-        <input type="submit" value="Here we go..." class="card-style">
-        <div class="extra">
-            <div class="measurer">
-                <input name="found-out" type="text" placeholder="How did you find out about Code The Web?" class="card-style" required>
-                <div class="row">
-                    <input name="fname" type="text" placeholder="(First name)" class="card-style">
-                    <input name="lname" type="text" placeholder="(Last name)" class="card-style">
-                    <input name="url" type="text" placeholder="(Your URL)" class="card-style">
-                </div>
-                <input name="extra-comments" type="text" placeholder="(Anything else you want to tell me?)" class="card-style">
-            </div>
-        </div>
-    </form>
-    <div class="note">I'll never share your email with anyone, and hate those people who say they hate spam on signup forms.</div>
+    {% include newsletter-form.html %}
 </div>
 <script>
     function input(elem) {

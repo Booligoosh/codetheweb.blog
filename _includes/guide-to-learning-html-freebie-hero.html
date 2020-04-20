@@ -1,22 +1,7 @@
 <div class="left">
     <h1>Your FREE guide to learning HTML! &#x1F381;</h1>
     <h2>Get it when you sign up for the <a href="/newsletter">weekly newsletter</a>:</h2>
-    <form accept-charset="UTF-8" action="https://usebasin.com/f/01ede12f14de" method="POST"  oninput="input(this)" onblur="blurred(this)" class="newsletter-form">
-        <input name="email" type="email" placeholder="Enter your email address" class="card-style" required>
-        <input type="submit" value="Send it to me!" class="card-style">
-        <div class="extra">
-            <div class="measurer">
-                <input name="found-out" type="text" placeholder="How did you find out about Code The Web?" class="card-style" required>
-                <div class="row">
-                    <input name="fname" type="text" placeholder="(First name)" class="card-style">
-                    <input name="lname" type="text" placeholder="(Last name)" class="card-style">
-                    <input name="url" type="text" placeholder="(Your URL)" class="card-style">
-                </div>
-                <input name="extra-comments" type="text" placeholder="(Anything else you want to tell me?)" class="card-style">
-            </div>
-        </div>
-        <div class="note">I'll never share your email with anyone, and hate spam as much as you do.</div>
-    </form>
+    {% include newsletter-form.html %}
 </div>
 
 <img data-src="/assets/img/guide-to-learning-html-teaser-compressed.png" class="teaser loading-lazy" alt="Low-quality preview of the Guide to Learning HTML">
