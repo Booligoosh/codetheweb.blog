@@ -53,17 +53,17 @@ layout: compress
                 </div>
                 <h1>{{ page.title }}</h1>
                 <div class="post-meta">
-                    By <span class="post-meta-item"><!--<i class="iconfont icon-author"></i>--><!--<a href="{{ site.url }}" target="_blank" rel="author">-->{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}<!--</a>--></span>
-                    on <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><!--<i class="iconfont icon-date"></i>-->{{ page.date | date_to_string }}</time>
+                    By <span class="post-meta-item">{% comment %}<!--<i class="iconfont icon-author"></i>--><!--<a href="{{ site.url }}" target="_blank" rel="author">-->{% endcomment %}{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}{% comment %}<!--</a>-->{% endcomment %}</span>
+                    on <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}">{% comment %}<!--<i class="iconfont icon-date"></i>-->{% endcomment %}{{ page.date | date_to_string }}</time>
                 </div>
             </div>
             <div class="post-header-sidebar-spacer"></div>
-            <!--
+            {% comment %}
             {% if page.image and page.imageonpage != false %}
             <div class="filter"></div>
             <div class="post-cover" style="background: url('{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ page.image }}?w=1500') center no-repeat; background-size: cover;">
             {% endif %}
-            -->
+            {% endcomment %}
         </header>
     </div>
     
@@ -73,22 +73,24 @@ layout: compress
             <h2 class="post-subtitle">{{ page.subtitle }}</h2>
             {% endif %}
             <article class="markdown-body" itemprop="articleBody">
-                <!--
+                {% comment %}
                 {% if page.photoCred %}
                 <aside class="photo-cred">Photo by <a href="https://unsplash.com/photos/{{page.photoCred[1]}}?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">{{page.photoCred[0]}}</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></aside>
                 <br>
                 {% endif %}
-                -->
+                {% endcomment %}
                 {{ page.content }}
             </article>
             <section class="after-post">
                 {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
                 {% unless tags_str contains "Other" %}
                 {% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% elsif tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
-                <!-- Now we don't need this because we have a sidebar with all the language tutorials. -->
-                <!-- <blockquote style="text-align: center">
+                {% comment %}
+                Now we don't need this because we have a sidebar with all the language tutorials. -->
+                <blockquote style="text-align: center">
                     <a href="/learn/{{lang | downcase}}" style="text-decoration: none">&#x1F449; Click here for all {{lang}} tutorials... &#x1F448;</a>
-                </blockquote> -->
+                </blockquote>
+                {% endcomment %}
                 {% endunless %}
                 {% include bmc.html %}
                 {% if tags_str contains "HTML"  %}
@@ -98,7 +100,7 @@ layout: compress
                 {% else %}
                     {% include newsletter.html %}
                 {% endif %}
-                <!-- <a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" /> -->  
+                {% comment %}<a href="//pluralsight.pxf.io/c/1354469/512013/7490" target="_blank" id="512013" class="pluralsight-banner"><img src="//a.impactradius-go.com/display-ad/7490-512013" border="0" alt="" width="970" height="250"/></a><img height="0" width="0" src="//pluralsight.pxf.io/i/1354469/512013/7490" style="position:absolute;visibility:hidden;" border="0" />{% endcomment %} 
                 {% if site.social-share %}
                     <h3 class="share-title">Share the knowledge :)</h3>
                     {% include share.html %}
