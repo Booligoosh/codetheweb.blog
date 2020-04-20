@@ -16,6 +16,7 @@ class Kramdown::Converter::Html
       host = url.host
       if host and host != 'codetheweb.blog'
         el.attr['target'] = '_blank'
+        el.attr['rel'] = 'noopener'
       end
     end
     format_as_span_html(el.type, el.attr, inner(el, indent))
