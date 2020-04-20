@@ -16,15 +16,23 @@
   }
 
   function onIdle() {
-    {% if page.layout == 'post' %}
-    loadCodeFund();
-    {% endif %}
+    /*{% comment %}
+    Don't load GA or CodeFund during Lighthouse reports
+    because CodeFund will respond with a 404 and Google
+    Analytics will be blocked.
+    {% endcomment %}*/
+    const isLighthouse = navigator.userAgent.includes('Chrome-Lighthouse');
+    if (!isLighthouse) {
+      {% if page.layout == 'post' %}
+      loadCodeFund();
+      {% endif %}
+      {% if jekyll.environment == "production" %}
+      loadGoogleAnalytics();
+      {% endif %}
+    }
     /*{% comment %}
     loadCrisp();
     {% endcomment %}*/
-    {% if jekyll.environment == "production" %}
-    loadGoogleAnalytics();
-    {% endif %}
   }
 
   /*{% comment %}
