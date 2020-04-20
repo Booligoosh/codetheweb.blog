@@ -4,9 +4,11 @@
 // Wrap each file in an anonymous function so
 // they don't pollute each others' scopes
 
+{% comment %}
 (function() {
   {% include js/prism.js %}
 })();
+{% endcomment %}
 
 {% comment %}
 (function() {
