@@ -553,7 +553,7 @@ body.stop-scrolling {
     margin-bottom: 1em;
 }
 
-.in-post-stream.newsletter input, .freebie-hero .newsletter-form input {
+.newsletter-form input {
     font-family: inherit;
     border: none;
     font-size: 1em;
@@ -563,11 +563,11 @@ body.stop-scrolling {
     vertical-align: top;
 }
 
-.in-post-stream.newsletter input[type="email"], .freebie-hero .newsletter-form input[type="email"] {
+.newsletter-form input[type="email"] {
     width: 70%;
 }
 
-.in-post-stream.newsletter input[type="submit"], .freebie-hero .newsletter-form input[type="submit"] {
+.newsletter-form input[type="submit"] {
     width: 29%;
     font-family: $serif;
     font-weight: bold;
@@ -576,33 +576,32 @@ body.stop-scrolling {
     background: #f8cc5c;
 }
 
-// .in-post-stream.newsletter .note, .freebie-hero .newsletter-form .note {
+// .newsletter-form .note {
 //     margin-top: 1rem;
 //     font-size: 0.75em;
 //     font-weight: normal;
 //     DISPLAY: NONE;
 // }
 
-.in-post-stream.newsletter .extra, .newsletter-form .extra {
+.newsletter-form .extra {
     height: 0;
     overflow: hidden;
     transition: height, 1s;
 }
 
-.in-post-stream.newsletter .extra input, .newsletter-form .extra input {
+.newsletter-form .extra input {
     margin: .25em !important;
 }
 
-.in-post-stream.newsletter .extra .measurer > input:first-child, .newsletter-form .extra .measurer > input:first-child {
+.newsletter-form .extra .measurer > input:first-child {
     margin-top: .5em !important;
 }
 
-.in-post-stream.newsletter .row, .newsletter-form .row {
+.newsletter-form .row {
     display: flex;
 }
 
-
-.in-post-stream.newsletter .extra input:not([required]), .newsletter-form .extra input:not([required]) {
+.newsletter-form .extra input:not([required]) {
     opacity: .7;
 }
 
