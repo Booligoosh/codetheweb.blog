@@ -8,7 +8,8 @@ class Kramdown::Converter::Html
     # Load images as WebPs using statically.io.
     # They automatically serve a PNG if they detect a browser
     # that doesn't support WebP, so no need for fallback URLs.
-    if ENV['JEKYLL_ENV'] == 'production' and src.start_with?("/")
+    shouldUseStaticallyRegEx = /^\/.*\.(png|jpg)$/
+    if ENV['JEKYLL_ENV'] == 'production' and shouldUseStaticallyRegEx.match?(src)
       src = "https://cdn.statically.io/img/codetheweb.blog#{src}?format=webp"
     end
 
