@@ -403,13 +403,13 @@
         margin: 150px 0 16px;
         .post-tag {
             @include tagStyle;
-            color: #fff;
-            background-color: rgba(255, 255, 255, .26);
+            // color: #fff;
+            // background-color: rgba(255, 255, 255, .26);
             box-shadow: none;
             margin-bottom: 8px;
             &:hover {
-                color: #fff;
-                background-color: rgba(255, 255, 255, .4);
+                // color: #fff;
+                // background-color: rgba(255, 255, 255, .4);
             }
         }
     }
@@ -418,9 +418,10 @@
         .post-meta-item {
             display: inline-block;
             font-size: 16px;
-            color: #fff;
+            // color: #fff;
             // margin-right: 4px;
-            opacity: .8;
+            // opacity: .8;
+            font-weight: 500; // ME
             &:last-child {
                 margin-right: 0;
             }

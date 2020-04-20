@@ -1322,10 +1322,21 @@ header .top-index-content {
     padding-top: 58px; /* Header height */
     height: 358px;
     background: $theme-color-single;
+    color: $theme-color-single-dark;
 }
 
 .post-header .post-tags {
     margin-top: 0;
+
+    .post-tag {
+        color: $theme-color-single-dark;
+        background: hsla($theme-color-hue, $theme-color-sat, 20%, 0.16);
+
+        &:hover {
+            color: $theme-color-single-dark;
+            background: hsla($theme-color-hue, $theme-color-sat, 20%, 0.26);
+        }
+    }
 }
 
 .post-header h1 {
