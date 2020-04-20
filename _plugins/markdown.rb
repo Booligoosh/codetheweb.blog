@@ -2,8 +2,17 @@ class Kramdown::Converter::Html
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_img
   def convert_img(el, _indent)
-    el.attr["data-src"] = el.attr["src"]
+    src = el.attr["src"]
     el.attr["src"] = nil
+
+    # Load images as WebPs using statically.io.
+    # They automatically serve a PNG if they detect a browser
+    # that doesn't support WebP, so no need for fallback URLs.
+    if ENV['JEKYLL_ENV'] == 'production' and src.start_with?("/")
+      src = "https://cdn.statically.io/img/codetheweb.blog#{src}?format=webp"
+    end
+
+    el.attr["data-src"] = src
     el.attr["class"] = "#{el.attr["class"]} loading-lazy"
     "<img#{html_attributes(el.attr)} class='loading-lazy' />"
   end
