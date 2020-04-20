@@ -142,7 +142,7 @@ Now if you reload the page, the script will still work! This is just an alternat
 ## Conclusion
 Well done, you made it! You now know how to write some JavaScript, link it to our HTML and call a basic function!
 
-It is really awesome to have been able to help you write your first line of JavaScript, who knows where you'll be in a few years' time! If you liked this article and want to continue learning JavaScript, I will be releasing one JavaScript tutorial each week, which you can find [here][js].
+It is really awesome to have been able to help you write your first line of JavaScript, who knows where you'll be in a few years' time! If you liked this article and want to continue learning JavaScript, I will be releasing one JavaScript tutorial each week, which you can find on the [learn JavaScript page][js].
 
 Also, these articles take time and effort, so I'd really appreciate it if you [shared it][share] :)
 

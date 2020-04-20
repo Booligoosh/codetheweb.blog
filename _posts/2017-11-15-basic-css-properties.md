@@ -172,7 +172,7 @@ If you have any questions, feedback or need help then [let me know below in the 
 
 Have fun, and I'll see you next time where I'll be talking about [CSS sizing and positioning][sizing-and-positioning]. See you then!
 
-> This article is the second post in my [Learn CSS series][css]. You can view all my CSS tutorials __*in order*__ [here][css] - to help you along your coding journey.
+> This article is the second post in my [Learn CSS series][css]. You can view all my CSS tutorials __*in order*__ on the [learn CSS page][css] &mdash; to help you along your coding journey.
 
 [syntax]: /2017/11/11/css-syntax/
 [preview]: /2017/10/06/web-development-on-your-computer/#running-your-code

@@ -355,7 +355,7 @@ You can play around with the order a bit more now if you want.
 ## Game Time! &#128377;&#128377;&#128377; &#128056;
 If you want to reinforce what you've learned today and have a bit of geeky fun, I highly recommend you go and play [Flexbox Froggy][flexbox-froggy]. There are 24 levels where you have to position frogs onto their correct lilypads using CSS flexboxes. It was actually one of the first places that I found out about flexboxes when I was learning, and it was really helpful.
 
-Also, if you want to see some things that are possible with flexboxes, take a look [here][examples].
+Also, if you want to see some things that are possible with flexboxes, take a look at these [flexbox examples][examples].
 
 But don't go yet! We still need to do the conclusion bit where I ask you to be nice and [share this][share] and congratulate you even though I probably don't actually know you!
 

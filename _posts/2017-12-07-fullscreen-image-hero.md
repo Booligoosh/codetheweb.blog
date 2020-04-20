@@ -158,7 +158,7 @@ Save and reload your browser - now the hero section takes up the whole screen! (
 
 ![The hero section now takes up the whole screen!][hero-sizing]{:.screenshot-white}
 
-We want our text to be centered both horizontally *and* vertically within our hero section, so it shows up in the middle of the screen. The best way to do this is using [flexboxes][flexbox] (I wrote a little bit about perfect centering using flexboxes [here][perfect-centering]).
+We want our text to be centered both horizontally *and* vertically within our hero section, so it shows up in the middle of the screen. The best way to do this is using [flexboxes][flexbox] (I wrote a little bit about perfect centering using flexboxes in the [perfect centering][perfect-centering] section).
 
 So, let's add some perfect centering to our hero!
 

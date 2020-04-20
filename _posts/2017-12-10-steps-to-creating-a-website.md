@@ -394,7 +394,7 @@ header a {
 ```
 As you can see, we've added some general [background styles][advanced-bg-imgs] to the `section` elements, as well as adding a `background-image` to each section individually.
 
-The reason for the `linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), ` before the `url('image.jpg')` is because otherwise the text is hard to read - so we add a semi-transparent white overlay ontop. I wrote a bit more about that [here][bg-gradient-overlay].
+The reason for the `linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), ` before the `url('image.jpg')` is because otherwise the text is hard to read - so we add a semi-transparent white overlay ontop. I wrote a bit more about that in my article on [how to create a full-page hero image][bg-gradient-overlay].
 
 ![Yay! We're done!][final-product]
 
