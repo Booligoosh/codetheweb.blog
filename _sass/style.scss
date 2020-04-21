@@ -40,23 +40,21 @@ a {
     box-shadow: none;
     background: $theme-color-single;
 
-    .home-banner-inner {
-        text-align: center;
-    }
-
     h1 {
 
         > span {
             /* margin-left: 2rem; */
             font-size: 2.5em;
-            font-family: $monospace;
+            font-family: $fancy-serif;
             height: 100px;
             line-height: 100px;
         }
     }
 
     .tagline {
-        margin: 1em 0;
+        margin: 0;
+        margin-top: 0.1em;
+        margin-bottom: 1em;
     }
 
     .learn-cta-wrapper {
@@ -64,10 +62,10 @@ a {
     }
 
     a.learn-cta-what-to-learn {
-        color: white;
+        // color: white;
         font-weight: bold;
-        transition: all, .5s;
-        width: 100%;
+        transition: all, .25s;
+        // width: 100%;
 
         &:hover {
             opacity: 1;
@@ -75,18 +73,10 @@ a {
     }
 }
 
-.home-banner .learn-cta-wrapper a, header .learn-cta-wrapper a, .top-index-content .in-post-stream.newsletter input[type="submit"] {
-    background-color: white;
-    color: $theme-color-single;
-    border: 2px solid white;
-    box-shadow: unset;
-    text-transform: uppercase;
-    transition: all, .5s;
-}
-
-.home-banner .learn-cta-wrapper a:hover, header .learn-cta-wrapper a:hover, .top-index-content .in-post-stream.newsletter input[type="submit"]:hover {
-    background-color: rgba(255,255,255,0.2);
-    color: white;
+.home-banner-inner {
+    text-align: left;
+    width: 960px;
+    color: $theme-color-single-dark;
 }
 
 .g-header.has-bg .g-nav a {
@@ -834,31 +824,34 @@ img.screenshot-white {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
+
+    width: max-content;
+    max-width: 100%;
 }
 
 .learn-cta-wrapper a {
-    border: 1px solid #e7eaf1;
-    border-radius: 3px;
     box-sizing: border-box;
-    box-shadow: 0 1px 3px rgba(0,37,55,0.06);
     padding: 1em 2em;
-    /* width: calc((100% - 2rem) / 3); */
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: linear-gradient(100deg,#ffce69,#fa709a); */
-    background-color: $theme-color-single;
-    color: white;
     font-weight: bold;
     
     border-radius: 2em;
     transition: all 1s;
+
+    background-color: $theme-color-single-dark;
+    color: $theme-color-single;
+    text-transform: uppercase;
+    transition: all, .5s;
 }
 
 .learn-cta-wrapper a:hover {
     transform: scale(0.95) translateY(0.5em);
+    background-color: hsla($theme-color-hue, $theme-color-sat, 20%, 0.2);
+    color: $theme-color-single-dark;
 }
 
 a.learn-cta-what-to-learn {
@@ -1214,15 +1207,24 @@ header .top-index-content {
 }
 
 .search-card {
-    margin-top: 0;
     margin-bottom: 2em;
     display: block;
     max-width: calc(100vw - 4em);
+    margin-top: -4.2rem;
 }
 
 .search-card, .search-card input {
-    text-align: center;
     font-family: $sans-serif;
+}
+
+.search-card input {
+    color: $theme-color-single-dark;
+    background: hsl($theme-color-hue, $theme-color-sat, 90%);
+
+    &::placeholder {
+        color: $theme-color-single-dark;
+        opacity: .5;
+    }
 }
 
 .search-card .search_result {
@@ -1687,6 +1689,9 @@ code[class*=language-], pre[class*=language-],
         text-align: center;
         margin-top: 1rem;
     }
+    .home-banner-inner {
+        width: 695px;
+    }
     /* Freebie page */
     .freebie-hero {
         min-height: auto;
@@ -1767,7 +1772,7 @@ code[class*=language-], pre[class*=language-],
         box-shadow: $banner-shadow;
     }
     body.home .g-header {
-        background-image: linear-gradient(100deg,#ffce69,#fa709a);
+        background: $theme-color-single;
     }
     .tagline {
         font-weight: bold;
@@ -1840,13 +1845,13 @@ code[class*=language-], pre[class*=language-],
         DISPLAY: BLOCK;
         padding: 2em;
         margin-top: 56px;
-        color: white;
+        color: $theme-color-single-dark;
     }
     body.home header .learn-cta-wrapper a {
         text-transform: unset;
     }
     body.home header .learn-cta-what-to-learn {
-        color: white;
+        color: $theme-color-single-dark;
         font-weight: bold;
     }
     .before-article-list {

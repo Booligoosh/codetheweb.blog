@@ -25,14 +25,16 @@ regenerate: true
           text-align:  center;
       "><span class="learn-link-home-title">{{site.homepage-message}}</span></div>
       {% endif %}
+        {% comment %}
         <div class="large-message">
             <div class="primary">I am a real human here to help you learn web development.</div>
             <div class="sub">My name's Ethan, nice to meet you &#x1F44B;</div>
         </div>
+        {% endcomment %}
         {% if site.search %}
         <div class="search-card">
             <label for="search_input">Search Code The Web</label>
-            <input id="search_input" type="text" placeholder="I want to learn about...">
+            <input id="search_input" type="text" placeholder="Search Code The Web...">
             <i class="iconfont icon-search"></i>
             <div class="search_result"></div>
         </div>
