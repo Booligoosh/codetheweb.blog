@@ -89,7 +89,7 @@ function pagination() {
         link_html +=
           '<a href="' +
           baseUrl +
-          "page" +
+          "page/" +
           i +
           '" class="page-link page-num">' +
           i +
@@ -108,7 +108,7 @@ function pagination() {
         link_html +=
           '<a href="' +
           baseUrl +
-          "page" +
+          "page/" +
           j +
           '" class="page-link page-num">' +
           j +
