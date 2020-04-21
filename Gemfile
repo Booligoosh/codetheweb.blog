@@ -10,3 +10,4 @@ gem "jekyll-sitemap", "~> 1.4.0"
 gem "execjs", "~> 2.7"
 
 gem "mini_racer", "~> 0.2.9"
+gem "fastimage", "~> 2.1"

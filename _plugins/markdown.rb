@@ -1,9 +1,24 @@
+require 'fastimage'
+
 class Kramdown::Converter::Html
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_img
   def convert_img(el, _indent)
     src = el.attr["src"]
     el.attr["src"] = nil
+
+    # Give all images width and height attributes
+    # so that their aspect ratio is preserved before
+    # they are lazy loaded
+    width = nil
+    height = nil
+    if src.start_with?("/")
+      width, height = FastImage.size(".#{src}")
+    else
+      width, height = FastImage.size(src)
+    end
+    el.attr["width"] = width if width
+    el.attr["height"] = height if height
 
     # Load images as WebPs using statically.io.
     # They automatically serve a PNG if they detect a browser
