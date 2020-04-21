@@ -90,7 +90,7 @@ module Kramdown
         def self.call(converter, text, lang, type, call_opts)
           if type == :block and lang
             lang = lang.downcase
-            puts "Highlighting #{lang} block"
+            # puts "Highlighting #{lang} block"
             output = @context.call("myLangFunctions.#{lang}", text)
             return output
           end

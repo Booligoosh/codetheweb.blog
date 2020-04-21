@@ -8,8 +8,9 @@ module OgImages
         rootDir = __dir__.sub! '/_plugins', ''
         
         if File.exist?(rootDir + '/assets/img/og-images/posts/' + slug + '.png')
-          puts slug + '.png already exists'
+          # puts slug + '.png already exists'
         else
+          puts "Generating og image for #{slug}"
           # has_children = true
           # Process.fork do
             system('node ogimage.js "' + title + '" "' + slug + '"')
