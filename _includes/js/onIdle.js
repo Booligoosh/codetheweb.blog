@@ -81,7 +81,13 @@
     galite('create', 'UA-103555680-4', 'auto');
     galite('send', 'pageview');
 
-    document.head.innerHTML += '<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>';
+    // Don't use += as that forces re-fetching of other stuff in head
+    // document.head.innerHTML += '<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>';
+    const link = document.createElement("link");
+    link.rel = "preconnect";
+    link.href = "https://www.google-analytics.com/";
+    link.crossOrigin = "";
+    document.head.appendChild(link);
   }
 
   function loadCodeFund() {
@@ -123,7 +129,12 @@
             '<div class="codefund-placeholder" style="text-align: left">Please consider disabling your ad blocker to support this site.<br><br>This rectangle is the only place on the page where ads are shown.</div>')
       );
 
-    document.head.innerHTML +=
-      '<link rel="preconnect" href="https://cdn2.codefund.io/" crossorigin>';
+    // Don't use += as that forces re-fetching of other stuff in head
+    // document.head.innerHTML += '<link rel="preconnect" href="https://cdn2.codefund.io/" crossorigin>';
+    const link = document.createElement("link");
+    link.rel = "preconnect";
+    link.href = "https://cdn2.codefund.io/";
+    link.crossOrigin = "";
+    document.head.appendChild(link);
   }
 /*};*/
