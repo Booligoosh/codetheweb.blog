@@ -81,8 +81,10 @@
     galite('create', 'UA-103555680-4', 'auto');
     galite('send', 'pageview');
 
-    // Don't use += as that forces re-fetching of other stuff in head
+    /*{% comment %}
+    Don't use += as that forces re-fetching of other stuff in head
     // document.head.innerHTML += '<link rel="preconnect" href="https://www.google-analytics.com/" crossorigin>';
+    {% endcomment %}*/
     const link = document.createElement("link");
     link.rel = "preconnect";
     link.href = "https://www.google-analytics.com/";
@@ -129,8 +131,10 @@
             '<div class="codefund-placeholder" style="text-align: left">Please consider disabling your ad blocker to support this site.<br><br>This rectangle is the only place on the page where ads are shown.</div>')
       );
 
-    // Don't use += as that forces re-fetching of other stuff in head
+    /*{% comment %}
+    Don't use += as that forces re-fetching of other stuff in head
     // document.head.innerHTML += '<link rel="preconnect" href="https://cdn2.codefund.io/" crossorigin>';
+    {% endcomment %}*/
     const link = document.createElement("link");
     link.rel = "preconnect";
     link.href = "https://cdn2.codefund.io/";
