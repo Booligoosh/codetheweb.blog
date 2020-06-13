@@ -1510,7 +1510,7 @@ header .top-index-content {
         padding: 15px;
         font-size: 14px;
         text-align: center;
-        background-color: hsla(0, 0%, 0%, 0.05);
+        background-color: $ad-bg-color;
         font-family: Helvetica,Arial,sans-serif;
         height: 130px;
         display: flex;
@@ -1560,7 +1560,8 @@ div#cf/*[data-template=default][data-theme=light]*/ span.cf-wrapper {
     font-size: 14px;
     line-height: 1.4;
     text-align: left;
-    background-color: rgba(0,0,0,.05);
+    // background-color: rgba(0,0,0,.05);
+    background-color: $ad-bg-color; // Worked out by eyedropping using the value above
     font-family: Helvetica,Arial,sans-serif
 }
 
@@ -1742,7 +1743,8 @@ code[class*=language-], pre[class*=language-],
 
 @media screen and (max-width: 768px) {
     .markdown-body, .post-wrapper, .read-next, .after-post {
-        width: 80%; /* Originally 92% by default theme styles */
+        // width: 80%; /* Originally 92% by default theme styles */
+        width: calc(100% - 40px);
     }
     // .markdown-body p {
     //     text-align: left;
@@ -1803,6 +1805,42 @@ code[class*=language-], pre[class*=language-],
         background: unset;
         -webkit-background-clip: unset;
         -webkit-text-fill-color: unset;
+    }
+
+    body.post {
+        margin-top: 0px !important;
+    }
+
+    body.post .g-header {
+        background: $theme-color-single;
+        box-shadow: none;
+        padding: 0;
+        height: 0;
+
+        .g-logo a {
+            width: auto;
+            position: absolute;
+            height: 1.3em;
+            right: 20px;
+            top: 40px;
+        }
+    }
+
+    body.post .g-logo svg {
+        width: auto;
+
+        path {
+            fill: $theme-color-single-dark !important;
+        }
+    }
+
+    .post-sidebar-wrapper {
+        width: 100%;
+        background: $ad-bg-color;
+    }
+
+    .post-sidebar {
+        padding-top: 0;
     }
     
     body.home .g-logo svg path {
@@ -1920,6 +1958,10 @@ code[class*=language-], pre[class*=language-],
     
     .post-header {
         border-bottom-left-radius: 0;
+        height: auto;
+        background: linear-gradient($theme-color-single, $ad-bg-color);
+        padding-top: 40px !important;
+        padding-bottom: 20px !important;
     }
     .post-header h1 {
         font-size: 2em;
