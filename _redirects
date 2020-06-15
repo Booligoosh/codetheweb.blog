@@ -8,3 +8,6 @@ https://codetheweb.netlify.com/* https://codetheweb.blog/:splat 301!
 /learn/ /
 
 /html&css/ /
+
+# To fix that one time where I got the date wrong lol
+/2020/05/15/javascript-localstorage/ /2020/06/15/javascript-localstorage/
