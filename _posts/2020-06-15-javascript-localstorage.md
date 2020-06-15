@@ -72,7 +72,7 @@ You should see this data show up in our localStorage as well!
 
 ![Our pageLoadCount of 0 set in localStorage][page-load-count-0-img]
 
-## Getting data `localStorage.getItem`
+## Getting data with `localStorage.getItem`
 Every time you reload the page, you'll see that our data stays in localStorage. Now it's time to learn how to use it! We can retrieve it from localStorage using `localStorage.getItem`, along with the key that we want to retrieve. For example, here is how we can `console.log` the `fullName` value:
 
 ```javascript
@@ -116,7 +116,7 @@ As you can see, we wrap `localStorage.getItem('pageLoadCount')` in `Number()`. T
 
 Set that as the contents of your `<script>` tag, reload the page a few times, and try it out! You'll see that our `pageLoadCount` now goes up by `1` in localStorage every time we reload the page.
 
-## Removing data `localStorage.removeItem`
+## Removing data with `localStorage.removeItem`
 If we want to remove a piece of data from localStorage, we can simply use `localStorage.removeItem` along with the key name, similar to how we use `localStorage.getItem`. Try it out:
 ```javascript
 localStorage.removeItem('fullName');
@@ -124,7 +124,7 @@ localStorage.removeItem('fullName');
 
 Our `fullName` of `Jenny Smith` will now be removed from localStorage.
 
-## `localStorage.clear`
+## Clearing data with `localStorage.clear`
 If we want to remove all data from localStorage, we can do so by calling `localStorage.clear` without any parameters:
 ```javascript
 localStorage.clear();
