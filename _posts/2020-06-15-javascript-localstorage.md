@@ -4,7 +4,7 @@ title: How to store data in the browser with JavaScript localStorage
 image: '/assets/img/posts/javascript-localstorage/cover.jpg'
 tags: JavaScript
 keywords: "JavaScript, Learn JavaScript, localStorage, JavaScript localStorage, store data using JavaScript, JavaScript store data, JavaScript store data on reload"
-checked: []
+checked: [grammarly]
 ---
 
 Normally, when you set a variable, it goes away once you reload the page. What if you could store data that stays every time you load the page? That's what `localStorage` is! Learn how to use it in this article.
@@ -36,7 +36,7 @@ LocalStorage is a _key-value store_, meaning that you store data with a _key_. A
 All localStorage data gets converted to a string before saving, even if it's not a string to begin with.
 
 ## Inspecting localStorage
-Google Chrome has a built in tool to help you view the data that you have stored in localStorage. Many other browsers also have similar tools. To open the localStorage inspector in Google Chrome, start by right-clicking on your page, then clicking "Inspect Element". From here, go to the "Application" tab. You may need to click the little arrow in the inspector tab bar to find it:
+Google Chrome has a built-in tool to help you view the data that you have stored in localStorage. Many other browsers also have similar tools. To open the localStorage inspector in Google Chrome, start by right-clicking on your page, then clicking "Inspect Element". From here, go to the "Application" tab. You may need to click the little arrow in the inspector tab bar to find it:
 
 ![Application button in the Google Chrome inspector tab bar][inspector-application-tab-button-img]
 
@@ -49,7 +49,7 @@ Great! This is where our data will show up once we start setting stuff in localS
 Note that if you're using an HTML file that you've opened up in your browser, you may already see some data in there. This is because all page URLs starting with `file://` use the _same localStorage area_. Normally, each domain name has its own localStorage area. So `example.com`, `google.com` and `blog.example.com` would all have different localStorage areas. Setting an item in localStorage for one of them would not set it for the others.
 
 ## Adding and updating data with `localStorage.setItem`
-Let's get started with adding some data to localStorage!
+Let's get started by adding some data to localStorage!
 
 We can use the `localStorage.setItem` function to do this. It takes two parameters &mdash; the key to store the data under, and the value that you want to store. For example, this code sets the key `fullName` to `Jenny Smith` in localStorage:
 
@@ -94,9 +94,9 @@ localStorage.setItem('pageLoadCount', newPageLoadCountValue);
 
 Try reloading the page a few times, then take a look at our `pageLoadCount` value in localStorage. In my case, I reloaded the page three times:
 
-![pageLoadCount now has the value of 0111 in localStorage][page-load-count-wrong-img]
+![pageLoadCount now has a value of 0111 in localStorage][page-load-count-wrong-img]
 
-Oops! That's not what we wanted! It should have had the value of 3!
+Oops! That's not what we wanted! It should have had a value of 3!
 
 Why do you think it ended up as `0111`?
 
@@ -158,7 +158,7 @@ Let's see what it looks like in `localStorage`:
 
 ![The key "user" has the value of "[Object object]"][object-object-img]
 
-Oops! That's not we want!
+Oops! That's not what we want!
 
 It looks like this because when you convert an object to a string using `toString`, it gives using a string with a value of `"[Object object]"`. This isn't very helpful!
 
@@ -196,20 +196,18 @@ The output will look like this:
 
 ![The parsed object logged to the console][object-parsed-log-img]
 
-Great!
-
-This method would also work if `user` was an array, instead of an object.
+Awesome! This method would also work if `user` was an array, instead of an object.
 
 ## Conclusion
 Awesome, that's everything for today! Congrats on getting through this tutorial, you can now save data between page loads! This can be very useful for many things including web apps and web-based games. These concepts can be confusing at first, but you'll get the hang of it with practice.
 
-If you think this article would be helpful to others, feel free to share it [share it][share]!
+If you think this article would be helpful to others, feel free to [share it][share]!
 
 If you have any feedback, need help, or just wanna say hi, feel free to do so [in the comments below][comments].
 
 If you found this article helpful, you can also [buy me a coffee][coffee] &mdash; it takes lots of time and effort to write these articles and maintain this site, and you get to read it all for free! I do get ad revenue from the ethical ads on this site, but it's currently only about $10-15 per month.
 
-And finally, don't forget to [join the newsletter][newsletter] to receive curated web development resources for beginners from around the internet! It's been a bit inactive lately, but sign up to recieve them when I start it more actively again.
+And finally, don't forget to [join the newsletter][newsletter] to receive curated web development resources for beginners from around the internet! It's been a bit inactive lately, but sign up to receive them when I start it more actively again.
 
 See you next time! &#x1F600;
 
