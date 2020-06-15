@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A guide to JavaScript localStorage — how to store data in the browser
+title: How to store data in the browser with JavaScript localStorage
 image: '/assets/img/posts/javascript-localstorage/cover.jpg'
 tags: JavaScript
 keywords: "JavaScript, Learn JavaScript, localStorage, JavaScript localStorage, store data using JavaScript, JavaScript store data, JavaScript store data on reload"
