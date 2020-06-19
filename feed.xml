@@ -4,7 +4,7 @@
 {% if page.xsl %}
   <?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>
 {% endif %}
-<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %} xmlns:media="http://search.yahoo.com/mrss/">
+<feed xmlns="http://www.w3.org/2005/Atom" {% if site.lang %}xml:lang="{{ site.lang }}"{% endif %} xmlns:media="http://search.yahoo.com/mrss/" xmlns:webfeeds="http://webfeeds.org/rss/1.0">
   <generator uri="https://jekyllrb.com/" version="{{ jekyll.version }}">Jekyll</generator>
   <link href="{{ page.url | absolute_url }}" rel="self" type="application/atom+xml" />
   <link href="{{ '/' | absolute_url }}" rel="alternate" type="text/html" {% if site.lang %}hreflang="{{ site.lang }}" {% endif %}/>
@@ -19,6 +19,7 @@
 
   {% if site.description %}
     <subtitle>{{ site.description | xml_escape }}</subtitle>
+    <description>{{ site.description | xml_escape }}</description>
   {% endif %}
 
   {% if site.author %}
@@ -34,6 +35,13 @@
   {% endif %}
   
   <icon>{{ site.url }}/assets/img/icon1_80px.png</icon> 
+  <webfeeds:icon>{{ site.url }}/assets/img/icon1_80px.png</webfeeds:icon>
+
+  <webfeeds:cover image="{{ site.url }}/assets/img/banner.png" />
+
+  <webfeeds:accentColor>F0967F</webfeeds:accentColor>
+
+  <webfeeds:related layout="card" target="browser"/>
 
   {% assign posts = site.posts | where_exp: "post", "post.draft != true" %}
   {% for post in posts limit: 10 %}
