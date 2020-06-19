@@ -14,6 +14,11 @@ module Jekyll
       height = nil
       if @extensionless.start_with?("/")
         width, height = FastImage.size(".#{@extensionless}.gif")
+
+        # Use absolute URLs in production
+        if ENV['JEKYLL_ENV'] == 'production'
+          @extensionless = "https://codetheweb.blog" + @extensionless
+        end
       else
         width, height = FastImage.size(@extensionless)
       end
