@@ -362,8 +362,8 @@ And finally, don't forget to [join the newsletter][newsletter] to receive great 
 
 See you next time, where I'll be talking about [timeouts and intervals][js-timeouts-and-intervals] &mdash; another part of JavaScript involving durations!
 
-[arrays]: /2018/04/28/javascript-arrays/
-[dom]: /2018/06/18/javascript-dom/
+[arrays]: /javascript-arrays/
+[dom]: /javascript-dom/
 [js-timeouts-and-intervals]: {{site.newsletter}}
 
 [back-to-the-future-img]: /assets/img/posts/javascript-dates-and-times/back-to-the-future.gif

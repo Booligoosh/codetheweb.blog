@@ -52,7 +52,7 @@ These are just other articles I have written about stuff that isn't programming,
 
 [newsletter]: {{site.newsletter}}
 
-[welcome]: /2017/09/29/welcome/
-[p1]: /2017/10/04/how-to-learn-web-development/
-[p2]: /2017/10/05/how-the-internet-works/
-[p3]: /2017/10/06/web-development-on-your-computer/
+[welcome]: /welcome/
+[p1]: /how-to-learn-web-development/
+[p2]: /how-the-internet-works/
+[p3]: /web-development-on-your-computer/

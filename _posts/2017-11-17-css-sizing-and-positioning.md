@@ -157,9 +157,9 @@ If you liked this article, I'd really appreciate if you [shared it with your fri
 Have fun and I'll see you next time, where I'll be talking about [more advanced CSS positioning, such as fixed positions and display types.][advanced-positioning] See you then!
 
 
-[bg-color]: /2017/11/15/basic-css-properties/#the-background-color-property
-[units]: /2017/12/04/css-units/
-[advanced-positioning]: /2017/11/21/css-position-property/
+[bg-color]: /basic-css-properties/#the-background-color-property
+[units]: /css-units/
+[advanced-positioning]: /css-position-property/
 
 [initial-code]: /assets/img/posts/css-sizing-and-positioning/initial-code.png
 [width-img]: /assets/img/posts/css-sizing-and-positioning/width.png

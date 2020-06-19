@@ -627,9 +627,9 @@ Image generator URL:
 https://carbon.now.sh/?bg=rgba(0,0,0,1)&t=lucario&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=48px&ph=32px&ln=false&fm=Hack&fs=18px&si=false&code=%252F%252F%2520All%2520about%2520arrays%2520in%2520JavaScript%2520%257C%2520Code%2520The%2520Web%250Avar%2520array1%2520%253D%2520%255B%27String%27%252C%25208%252C%2520true%252C%2520myFunction()%255D%253B%250Avar%2520nestedArray%2520%253D%2520%255B%2520%255B1%252C2%252C3%255D%2520%252C%2520%255B4%252C5%252C6%255D%2520%255D%253B%250Aalert(array1.reverse().join(%27%2520%27))%253B%250Aalert(nestedArray%255B1%255D%255B2%255D)%253B&es=2x&wm=false
 {% endcomment %}
 
-[functions]: /2018/04/05/javascript-functions/
-[objects]: /2018/06/09/javascript-objects/
-[or]: /2018/02/28/if-statements-boolean-operators/#multiple-truefalse-statements
+[functions]: /javascript-functions/
+[objects]: /javascript-objects/
+[or]: /if-statements-boolean-operators/#multiple-truefalse-statements
 
 [console]: /assets/img/posts/javascript-arrays/console.png
 [array.split]: /assets/img/posts/javascript-arrays/array.split.png

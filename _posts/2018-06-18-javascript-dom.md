@@ -220,9 +220,9 @@ Last but not least, don't forget to join the [&#x2728;&#x2728;&#x2728;  special 
 See you next time, where I'll be talking about [URL parsing (processing) in JavaScript][js-urls]!
 
 [css-selectors]: https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/
-[array-functions]: /2018/04/28/javascript-arrays/#array-functions
-[for]: /2018/03/25/for-and-while-loops-javascript/#for-loops
-[js-urls]: /2019/01/21/javascript-url-parsing/
+[array-functions]: /javascript-arrays/#array-functions
+[for]: /for-and-while-loops-javascript/#for-loops
+[js-urls]: /javascript-url-parsing/
 
 [contact]: {{site.contact}}
 [html]: /learn/html

@@ -372,11 +372,11 @@ Keep coding, have an awesome day, and see you then!
 
 > and don't forget about [Flexbox Froggy][flexbox-froggy] &#128056; &#128521;
 
-[vw-vh]: /2017/12/04/css-units/#vw--vh
+[vw-vh]: /css-units/#vw--vh
 [responsive]: {{site.newsletter}}
 [flexbox-froggy]: http://flexboxfroggy.com/
 [examples]: http://flexible-grid.com/examples
-[full-page-image-hero]: /2017/12/07/fullscreen-image-hero/
+[full-page-image-hero]: /fullscreen-image-hero/
 
 [base-code]: /assets/img/posts/css-flexboxes/base-code.png
 [flexbox-structure]: /assets/img/posts/css-flexboxes/flexbox-structure.png

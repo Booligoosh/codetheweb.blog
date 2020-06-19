@@ -174,17 +174,17 @@ Have fun, and I'll see you next time where I'll be talking about [CSS sizing and
 
 > This article is the second post in my [Learn CSS series][css]. You can view all my CSS tutorials __*in order*__ on the [learn CSS page][css] &mdash; to help you along your coding journey.
 
-[syntax]: /2017/11/11/css-syntax/
-[preview]: /2017/10/06/web-development-on-your-computer/#running-your-code
+[syntax]: /css-syntax/
+[preview]: /web-development-on-your-computer/#running-your-code
 [color-names]: http://htmlcolorcodes.com/color-names/
 [HSL]: https://www.w3schools.com/colors/colors_hsl.asp
 [HWB]: https://www.w3schools.com/colors/colors_hwb.asp
 [CMYK]: https://www.w3schools.com/colors/colors_cmyk.asp
 [color-converter]: https://www.w3schools.com/colors/colors_converter.asp
 [color-picker]: http://htmlcolorcodes.com/color-picker/
-[sizing-and-positioning]: /2017/11/17/css-sizing-and-positioning/
-[images]: /2017/10/14/links-images-about-file-paths/
-[advanced-bg-images]: /2017/12/02/css-advanced-background-images/
+[sizing-and-positioning]: /css-sizing-and-positioning/
+[images]: /links-images-about-file-paths/
+[advanced-bg-images]: /css-advanced-background-images/
 
 [color-screenshot]: /assets/img/posts/basic-css-properties/color-screenshot.png
 [rgb-screenshot]: /assets/img/posts/basic-css-properties/rgb-screenshot.png

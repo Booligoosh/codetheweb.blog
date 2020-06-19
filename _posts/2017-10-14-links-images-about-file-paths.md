@@ -251,11 +251,11 @@ Cool! Now you know about two of the most common tags in HTML - `<img>` and `<a>`
 
 If you need any help or have something to say, [tell me in the comments][comments]. Have fun, and I'll see you next time!
 
-[last-post]: /2017/10/09/basic-types-of-html-tags/
-[set-up]: /2017/10/06/web-development-on-your-computer/
-[how-the-internet-works]: /2017/10/05/how-the-internet-works/
-[run-code]: /2017/10/06/web-development-on-your-computer/#running-your-code
-[br]: /2017/10/09/basic-types-of-html-tags/#line-breaks-br
+[last-post]: /basic-types-of-html-tags/
+[set-up]: /web-development-on-your-computer/
+[how-the-internet-works]: /how-the-internet-works/
+[run-code]: /web-development-on-your-computer/#running-your-code
+[br]: /basic-types-of-html-tags/#line-breaks-br
 [llama-pic]: /assets/img/posts/links-images-about-file-paths/llama.jpg
 [folder-1]: /assets/img/posts/links-images-about-file-paths/folder-1.png
 [folder-2]: /assets/img/posts/links-images-about-file-paths/folder-2.png

@@ -530,15 +530,15 @@ Okay! Have fun, keep coding and I'll see you next time, where I'll be talking ab
 
 
 [demo]: /demo/full-image-hero/
-[document-structure]: /2017/10/07/structure-of-an-html-document/
-[flexbox]: /2017/12/05/css-flexboxes/
-[font-family]: /2018/01/17/css-text-properties-and-google-fonts/#font-family
-[vw-vh]: /2017/12/04/css-units/#vw--vh
-[perfect-centering]: /2017/12/05/css-flexboxes/#perfect-centering
-[advanced-bg-images]: /2017/12/02/css-advanced-background-images/
+[document-structure]: /structure-of-an-html-document/
+[flexbox]: /css-flexboxes/
+[font-family]: /css-text-properties-and-google-fonts/#font-family
+[vw-vh]: /css-units/#vw--vh
+[perfect-centering]: /css-flexboxes/#perfect-centering
+[advanced-bg-images]: /css-advanced-background-images/
 [bg-image-link]: /assets/img/posts/full-image-hero/image.jpg
 [gradients]: {{site.newsletter}}
-[style-nav-bar]: /2017/12/12/style-a-navigation-bar-css/
+[style-nav-bar]: /style-a-navigation-bar-css/
 
 [final-product]: /assets/img/posts/full-image-hero/final-product.png
 [final-product-gif]: /assets/img/posts/full-image-hero/final-product.gif

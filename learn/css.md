@@ -57,14 +57,14 @@ These are just other articles I have written about stuff that isn't programming,
 
 [newsletter]: {{site.newsletter}}
 
-[welcome]: /2017/09/29/welcome/
-[p1]: /2017/10/04/how-to-learn-web-development/
-[p2]: /2017/10/05/how-the-internet-works/
-[p3]: /2017/10/06/web-development-on-your-computer/
+[welcome]: /welcome/
+[p1]: /how-to-learn-web-development/
+[p2]: /how-the-internet-works/
+[p3]: /web-development-on-your-computer/
 
-[r-devchat]: /2017/11/24/devchat/
-[r-steps-to-creating-a-website]: /2017/12/10/steps-to-creating-a-website/
-[r-reference-sites]: /2017/12/16/web-development-reference-sites/
+[r-devchat]: /devchat/
+[r-steps-to-creating-a-website]: /steps-to-creating-a-website/
+[r-reference-sites]: /web-development-reference-sites/
 
 [js]: /learn/javascript
 

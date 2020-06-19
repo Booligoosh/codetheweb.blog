@@ -110,9 +110,9 @@ So, what did you think of that article? Don't hesitate to [tell me in the commen
 
 [dont-code]: https://simpleprogrammer.com/2016/02/22/please-dont-learn-to-code-unless/
 [StackOverflow]: https://stackoverflow.com/
-[reference-sites-to-help-you-learn-coding]: /2017/12/16/web-development-reference-sites/
+[reference-sites-to-help-you-learn-coding]: /web-development-reference-sites/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
-[set-up]: /2017/10/04/how-to-learn-web-development/
+[set-up]: /how-to-learn-web-development/
 [learn]: /learn
 
 [share]: {{site.share}}

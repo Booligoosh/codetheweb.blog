@@ -153,10 +153,10 @@ And finally, don't forget to [join the newsletter][newsletter] to receive great 
 
 See you next time!! &#x1F600;
 
-[functions]: /2018/04/05/javascript-functions/
-[loops]: /2018/03/25/for-and-while-loops-javascript/
-[dates-and-times]: /2019/01/28/javascript-dates-and-times/
-[dom]: /2018/06/18/javascript-dom/
+[functions]: /javascript-functions/
+[loops]: /for-and-while-loops-javascript/
+[dates-and-times]: /javascript-dates-and-times/
+[dom]: /javascript-dom/
 
 [contact]: {{site.contact}}
 [html]: /learn/html

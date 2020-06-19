@@ -31,7 +31,7 @@ Ok, I'm going to show you a bit of code. *WHAT???* Don't panic. You don't have t
         <tr>
             <td class="post-num">#1</td>
             <td class="post-date">Friday 29 September 2017</td>
-            <td class="post-title"><a href="https://codetheweb.blog/2017/09/29/welcome/" target="_blank">Welcome to Code The Web!</a></td>
+            <td class="post-title"><a href="https://codetheweb.blog/welcome/" target="_blank">Welcome to Code The Web!</a></td>
             <td class="post-words">1373</td>
         </tr>
     </tbody>
@@ -48,7 +48,7 @@ An *element* refers to the content as well as the two tags. This is an example o
 ```
 Elements can be nested inside each other. When nesting elements, it is usually good to put the elements on new lines, and indented correctly. There are some exceptions, such as
 ```HTML
-<td class="post-title"><a href="https://codetheweb.blog/2017/09/29/welcome/" target="_blank">Welcome to Code The Web!</a></td>
+<td class="post-title"><a href="https://codetheweb.blog/welcome/" target="_blank">Welcome to Code The Web!</a></td>
 ```
 Note that putting nested elements on new lines and indenting are _**not mandatory,**_ they are just what we call *good code practice*. Good code practice is sort of like etiquette for programming. The aim of good code practice is to make your code easier to read and easier for others to understand (this is especially important when collaborating on large-scale projects).
 
@@ -100,11 +100,11 @@ Let's consolidate what we know about HTML tags and elements into this diagram:
 Phew. That might have been a bit confusing, but eventually you'll get the hang of it. If there's anything you don't get you can go back over this article or [ask me in the comments][comments]. If you liked the article, don't forget to [share with your friends][share] and [subscribe to the newsletter][newsletter]. Have fun and I'll see you next time, where I'll be talking about [the general structure of HTML websites][html-document-structure].
 
 
-[learn-web-development]: /2017/10/04/how-to-learn-web-development/
+[learn-web-development]: /how-to-learn-web-development/
 [tag-structure-1]: /assets/img/posts/html-syntax/tag-structure-1.png
 [tag-structure-2]: /assets/img/posts/html-syntax/tag-structure-2.png
-[types-of-html-tags]: /2017/10/09/basic-types-of-html-tags/
-[html-document-structure]: /2017/10/07/structure-of-an-html-document/
+[types-of-html-tags]: /basic-types-of-html-tags/
+[html-document-structure]: /structure-of-an-html-document/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

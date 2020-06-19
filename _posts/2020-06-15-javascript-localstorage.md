@@ -211,8 +211,8 @@ And finally, don't forget to [join the newsletter][newsletter] to receive curate
 
 See you next time! &#x1F600;
 
-[objects]: /2018/06/09/javascript-objects/
-[arrays]: /2018/04/28/javascript-arrays/
+[objects]: /javascript-objects/
+[arrays]: /javascript-arrays/
 
 [inspector-application-tab-button-img]: /assets/img/posts/javascript-localstorage/inspector-application-tab-button.png
 [inspector-application-localstorage-table-img]: /assets/img/posts/javascript-localstorage/inspector-application-localstorage-table.png

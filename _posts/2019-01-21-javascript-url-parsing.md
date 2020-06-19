@@ -200,8 +200,8 @@ And finally, don't forget to [join the newsletter][newsletter] to receive great 
 
 See you next time, where I'll be talking about [dates and time in JavaScript][js-dates]!
 
-[links-and-file-paths]: /2017/10/14/links-images-about-file-paths
-[js-dates]: /2019/01/28/javascript-dates-and-times/
+[links-and-file-paths]: /links-images-about-file-paths
+[js-dates]: /javascript-dates-and-times/
 
 [url-annotated-img]: /assets/img/posts/javascript-url-parsing/url-annotated.png
 [console-log-myURL-img]: /assets/img/posts/javascript-url-parsing/console-log-myURL.png

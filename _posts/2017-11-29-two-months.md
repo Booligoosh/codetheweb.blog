@@ -113,20 +113,20 @@ If you found this post boring, don't worry - It'll be back to normal next time! 
 See you next time, where I'll be talking about [Advanced background images][advanced-background-images]!
 
 
-[first-post]: /2017/09/29/welcome/
-[devchat]: /2017/11/24/devchat/
+[first-post]: /welcome/
+[devchat]: /devchat/
 [nythiennzo]: https://www.nythiennzo.codes/
 [blog-course]: simpleprogrammer.com/blog-course
 [sp]: https://www.youtube.com/user/jsonmez
 [ga]: https://analytics.google.com/
 [reddit-post]: https://www.reddit.com/r/learnprogramming/comments/7c7rd5/i_just_finished_writing_9_tutorials_on_html/
 [infoq]: http://www.infoq.com/cn/news/2017/11/arch-weekly-39
-[how-to-learn-webdev]: /2017/10/04/how-to-learn-web-development/
+[how-to-learn-webdev]: /how-to-learn-web-development/
 [programming-bloggers]: https://programmingbloggers.herokuapp.com/
 [hemingway]: http://www.hemingwayapp.com/
 [front-end-checklist]: https://frontendchecklist.io/
 [seo]: {{site.newsletter}}
-[advanced-background-images]: /2017/12/02/css-advanced-background-images/
+[advanced-background-images]: /css-advanced-background-images/
 
 [intro-email]: /assets/img/posts/two-months/intro-email.png
 [hw-1]: /assets/img/posts/two-months/hw-1.png

@@ -216,10 +216,10 @@ Also if you liked this article, I'd love it if you [shared it][share] or signed 
 
 Have fun and I'll see you next time, where I'll be talking about [the different types of units in CSS][units] and what they do - there are more than you think!
 
-[background-image]: /2017/11/15/basic-css-properties/#the-background-image-property
+[background-image]: /basic-css-properties/#the-background-image-property
 [units-vh]: {{site.newsletter}}
-[position-fixed]: /2017/11/21/css-position-property/#position-fixed
-[units]: /2017/12/04/css-units/
+[position-fixed]: /css-position-property/#position-fixed
+[units]: /css-units/
 
 [bg-img]: /assets/img/posts/css-advanced-background-images/cover.jpg
 [base-code]: /assets/img/posts/css-advanced-background-images/base-code.png

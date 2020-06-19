@@ -101,10 +101,10 @@ So, now you've built the skeleton of an HTML document!
 In my next article, I'll be talking all about coding your actual website (the bit in the `<body>` tags) and about the main types of HTML tags and what they do. If you liked this article, don't forget to [share] and [subscribe to the newsletter][newsletter]. If you need some help or have something to say, [let me know in the comments][comments].
 
 
-[last-post]: /2017/10/06/html-syntax/
-[set-up]: /2017/10/06/web-development-on-your-computer/
-[code-editor]: /2017/10/06/web-development-on-your-computer/#code-editor
-[run-code]: /2017/10/06/web-development-on-your-computer/#running-your-code
+[last-post]: /html-syntax/
+[set-up]: /web-development-on-your-computer/
+[code-editor]: /web-development-on-your-computer/#code-editor
+[run-code]: /web-development-on-your-computer/#running-your-code
 [css]: /learn/css
 [javascript]: /learn/javascript
 [share]: {{site.share}}

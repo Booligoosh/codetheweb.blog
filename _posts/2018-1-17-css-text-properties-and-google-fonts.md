@@ -266,9 +266,9 @@ While your nice comments and knowing that I am helping you all make it worthwhil
 See you next time, where I'll be talking about [using custom font files][custom-fonts] to extend your font choices beyond Google Fonts. See you then! Have a great and productive 2018 filled with lots of coding fun! &#128588; &#127878; &#128640;
 
 [g-fonts]: https://fonts.google.com/
-[css-units]: /2017/12/04/css-units/
+[css-units]: /css-units/
 [custom-fonts]: {{site.newsletter}}
-[em]: /2017/12/04/css-units/#em
+[em]: /css-units/#em
 [ribeye-marrow]: https://fonts.google.com/specimen/Ribeye+Marrow
 [imports]: {{site.newsletter}}
 [pomodoro]: https://en.wikipedia.org/wiki/Pomodoro_Technique

@@ -84,7 +84,7 @@ So, now you know how to preview websites on your computer! If you were to change
 Hopefully you know have a full web development set-up! This will be great for learning web development, as if there is no way to run your code then you can't see the result. You're all good to go, and ready to start. **I encourage you to follow along in all of my posts** - it really helps you learn the language. If you need any help setting things up, [I'll be happy to help you in the comments][comments]. I hope you enjoyed this article, and if you liked it don't forget to [subscribe][newsletter] and [share with your friends][share].
 
 
-[last-post]: /2017/10/05/how-the-internet-works/
+[last-post]: /how-the-internet-works/
 [unix-support]: https://unix.stackexchange.com/
 [mac]: https://www.apple.com/mac/
 [ubuntu]: https://www.ubuntu.com/desktop

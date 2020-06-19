@@ -120,7 +120,7 @@ And finally, don't forget to [join the newsletter][newsletter] to receive great 
 
 See you next time!! &#x1F600;
 
-[dom]: /2018/06/18/javascript-dom/
+[dom]: /javascript-dom/
 
 [alert-img]: /assets/img/posts/javascript-dialogs/alert.png
 [confirm-img]: /assets/img/posts/javascript-dialogs/confirm.png

@@ -417,19 +417,19 @@ Have fun, keep coding, and I'll see you next time, where' I'll be talking about 
 
 > This article was suggested by [Alisa Dubik-Wilson][alisa-dubik-wilson] - thanks! If you also want to suggest an article, you can [contact me][contact] or tell me in the [comments][comments].
 
-[how-to-learn-web-development]: /2017/10/04/how-to-learn-web-development/
+[how-to-learn-web-development]: /how-to-learn-web-development/
 [alisa-dubik-wilson]: https://adubik.github.io/
 [demo]: /demo/steps-to-creating-a-website/
-[html-doc-structure]: /2017/10/07/structure-of-an-html-document/
+[html-doc-structure]: /structure-of-an-html-document/
 [semantic]: {{site.newsletter}}
 [dummy-text]: https://lipsum.com/feed/html
-[vh]: /2017/12/04/css-units/#vw--vh
-[position-fixed]: /2017/11/21/css-position-property/#position-fixed
-[style-header]: /2017/12/12/style-a-navigation-bar-css/
-[flexboxes]: /2017/12/05/css-flexboxes/
-[advanced-bg-imgs]: /2017/11/29/advanced-background-images/
-[bg-gradient-overlay]: /2017/12/07/fullscreen-image-hero/#bg-gradient-overlay
-[fullscreen-hero-image]: /2017/12/07/fullscreen-image-hero/
+[vh]: /css-units/#vw--vh
+[position-fixed]: /css-position-property/#position-fixed
+[style-header]: /style-a-navigation-bar-css/
+[flexboxes]: /css-flexboxes/
+[advanced-bg-imgs]: /advanced-background-images/
+[bg-gradient-overlay]: /fullscreen-image-hero/#bg-gradient-overlay
+[fullscreen-hero-image]: /fullscreen-image-hero/
 
 [sketch]: /assets/img/posts/steps-to-creating-a-website/sketch.png
 [base-code]: /assets/img/posts/steps-to-creating-a-website/base-code.png

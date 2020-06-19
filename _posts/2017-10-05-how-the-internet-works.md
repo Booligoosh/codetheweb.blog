@@ -13,7 +13,7 @@ To fully understand how the internet works, we need to know how it all started. 
 This is basically what the early internet looked like, and it gives us a good basis to understand how it works today (it's actually surprisingly similar).
 
 ## What happens when you visit a website
-When you go to a website it has a URL (Universal Resource Locator). For example, the URL of this page is `https://codetheweb.blog/2017/10/05/how-the-internet-works/`, and the URL of the homepage is `https://codetheweb.blog/`.
+When you go to a website it has a URL (Universal Resource Locator). For example, the URL of this page is `https://codetheweb.blog/how-the-internet-works/`, and the URL of the homepage is `https://codetheweb.blog/`.
 
 `codetheweb.blog` is known as a *domain name*. There are [many different domain extensions][domcomp], such as `.com`, `.io` and `.blog`. A domain is just a pretty way of getting to an *IP address*. Every computer connected to the internet has one, whether it's a server or just a normal computer. I could even go to your IP address (if I knew what it was), except there would be nothing there because you are not currently running a server. When you go to a URL, your computer connects to a *Domain Name Server* (DNS), which goes and finds the IP address that the domain corresponds to.
 
@@ -59,13 +59,13 @@ Remember I said that all URL's do is tell your computer where to download the we
 If you liked this article, don't forget to [share with your friends][share] or [leave a comment below][comments] to say hi (feedback is always welcome)!
 
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
-[prev-post]: /2017/10/04/how-to-learn-web-development/
+[prev-post]: /how-to-learn-web-development/
 [domcomp]: https://www.domcomp.com/
-[languages-explained]: /2017/10/04/how-to-learn-web-development/#html
+[languages-explained]: /how-to-learn-web-development/#html
 [prime-generator]: https://booligoosh.github.io/technetiumprime
 [nodejs]: https://nodejs.org/
-[next-post]: /2017/10/04/how-to-learn-web-development/
-[set-up]: /2017/10/06/web-development-on-your-computer/
+[next-post]: /how-to-learn-web-development/
+[set-up]: /web-development-on-your-computer/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

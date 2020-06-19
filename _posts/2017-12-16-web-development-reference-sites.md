@@ -114,7 +114,7 @@ If you liked this article and want to inspire some fellow coders or soon-to-be c
 
 Have a great 2018 and hopefully these websites I shared will help you along your coding journey! Stay tuned for next time, where I'll be talking about [free resources to test your website][test-your-website]. This is a great way to see how you can improve your website going into 2018 &#128198; &#127878; . See you then!
 
-[advanced-bg-imgs]: /2017/11/29/advanced-background-images/
+[advanced-bg-imgs]: /advanced-background-images/
 
 [w3]: https://www.w3schools.com/
 [w3-logo]: /assets/img/posts/web-development-reference-sites/w3.png

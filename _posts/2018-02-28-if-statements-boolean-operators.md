@@ -290,7 +290,7 @@ Next time, I'll be writing about some basic math in JavaScript. I'll be talking 
 > 
 > (and if ya wanna say thanks, I wouldn't mind a [coffee][donate] &#x1F609; &#x2615;)
 
-[math]: /2018/03/18/javascript-math/
+[math]: /javascript-math/
 
 [contact]: {{site.contact}}
 [html]: /learn/html

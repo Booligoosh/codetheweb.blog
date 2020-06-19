@@ -121,8 +121,8 @@ Next week I'll be talking about how to use GitHub pages to host your website on 
 
 Oh! And if you have any feedback, need any help or just wanna say howdy, do so in the [comments below][comments]. Don't forget to [share][share], [subscribe][newsletter], and I'll see you next time!
 
-[how-the-internet-works]: /2017/10/05/how-the-internet-works/
-[website-cost]: https://www.whoishostingthis.com/blog/2014/07/29/website-cost/
+[how-the-internet-works]: /how-the-internet-works/
+[website-cost]: https://www.whoishostingthis.com/blog/website-cost/
 [gh-pages]: https://pages.github.com/
 [gh]: https://github.com
 [gh-desktop]: https://desktop.github.com/

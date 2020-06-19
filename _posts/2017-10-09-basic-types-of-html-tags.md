@@ -244,14 +244,14 @@ If there's anything you want to ask/tell me, do so in the [comments below][comme
 
 
 
-[syntax]: /2017/10/06/html-syntax/
-[last-post]: /2017/10/07/structure-of-an-html-document/
-[preview]: /2017/10/06/web-development-on-your-computer/#running-your-code
+[syntax]: /html-syntax/
+[last-post]: /structure-of-an-html-document/
+[preview]: /web-development-on-your-computer/#running-your-code
 [headings]: /assets/img/posts/basic-types-of-html-tags/headings.png
 [paragraphs]: /assets/img/posts/basic-types-of-html-tags/paragraphs.png
 [br]: /assets/img/posts/basic-types-of-html-tags/br.png
 [hr]: /assets/img/posts/basic-types-of-html-tags/hr.png
-[links-and-images]: /2017/10/14/links-images-about-file-paths/
+[links-and-images]: /links-images-about-file-paths/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

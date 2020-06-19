@@ -152,9 +152,9 @@ Finally, if you have any questions or feedback, [tell me about it in the comment
 
 See you next time, where I'll be talking about [variables][vars] - one of the *most important* parts of JavaScript. See you then!
 
-[returning-functions]: /2018/04/05/javascript-functions/#functions-with-an-output-functions-that-return-something
-[functions]: /2018/04/05/javascript-functions/
-[vars]: /2018/02/25/javascript-variables/
+[returning-functions]: /javascript-functions/#functions-with-an-output-functions-that-return-something
+[functions]: /javascript-functions/
+[vars]: /javascript-variables/
 
 [semicolon-keyboard]: /assets/img/posts/hello-javascript/semicolon-keyboard.png
 [alert]: /assets/img/posts/hello-javascript/alert.png

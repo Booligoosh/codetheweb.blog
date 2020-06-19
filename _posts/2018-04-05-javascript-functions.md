@@ -409,7 +409,7 @@ Finally, if you want to receive some web-dev goodness in your inbox each week to
 Okay, that's it for today! Have fun coding and I'll see you next time, where I'll be talking all about [arrays (aka. lists) in JavaScript][arrays]. See you then! &#x1F44A;
 
 [scopes]: {{site.newsletter}}
-[arrays]: /2018/04/28/javascript-arrays/
+[arrays]: /javascript-arrays/
 
 [contact]: {{site.contact}}
 [html]: /learn/html

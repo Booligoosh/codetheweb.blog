@@ -272,11 +272,11 @@ Have fun and I'll see you [next time, where I'll be talking about some basic CSS
 [css]: /learn/css
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
 [with-css]: /assets/img/posts/css-syntax/with-css.png
-[run-code]: /2017/10/06/web-development-on-your-computer/#running-your-code
+[run-code]: /web-development-on-your-computer/#running-your-code
 [final-page]: /assets/img/posts/css-syntax/final-page.png
 [advanced-css-selectors]: {{site.newsletter}}
 [freecodecamp-reference]: https://guide.freecodecamp.org/css/tutorials/css-selectors-cheat-sheet/
-[css-properties]: /2017/11/15/basic-css-properties/
+[css-properties]: /basic-css-properties/
 
 [share]: {{site.share}}
 [comments]: {{site.comments}}

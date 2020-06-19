@@ -536,15 +536,15 @@ In the meantime, I'd really love it if you [shared this][share] or [subscribed t
 
 Have fun, keep coding and I'll see you next time, where I'll be talking about [website icons in HTML][html-icons] (I thought I'd change it up a bit and do an HTML one). See you then!
 
-[navigation-html]: /2017/10/29/lists-and-navigation/#navigation
+[navigation-html]: /lists-and-navigation/#navigation
 [demo]: /demo/style-a-navigation-bar-css/
-[vh]: /2017/12/04/css-units/#vw--vh
+[vh]: /css-units/#vw--vh
 [seo]: {{site.newsletter}}
-[position-fixed]: /2017/11/21/css-position-property/#position-fixed
-[flex]: /2017/12/05/css-flexboxes/
+[position-fixed]: /css-position-property/#position-fixed
+[flex]: /css-flexboxes/
 [shadows]: {{site.newsletter}}
 [responsive-nav]: {{site.newsletter}}
-[html-icons]: /2017/12/14/html-icons/
+[html-icons]: /html-icons/
 
 
 [final-product]: /assets/img/posts/style-a-navigation-bar-css/final-product.png

@@ -234,8 +234,8 @@ Have fun and I'll see you next time, where I'll be talking about [something a li
 [z-index-img]: /assets/img/posts/css-position-property/z-index.png
 [z-index-gif]: /assets/img/posts/css-position-property/z-index.gif
 
-[units]: /2017/12/04/css-units/
-[devchat]: /2017/11/24/devchat/
+[units]: /css-units/
+[devchat]: /devchat/
 
 [html]: /learn/html
 [css]: /learn/css

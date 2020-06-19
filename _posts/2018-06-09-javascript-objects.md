@@ -319,9 +319,9 @@ If you happen to be a real-life superhero who appreciates my work, go ahead and 
 
 See you next time, where I'll be talking all about [how to modify HTML and CSS in JavaScript][dom]. This is one of the most important parts of JavaScript and is the intersection between all three web languages.
 
-[arrays]: /2018/04/28/javascript-arrays/
+[arrays]: /javascript-arrays/
 [mutation]: https://alistapart.com/article/why-mutation-can-be-scary
-[dom]: /2018/06/18/javascript-dom/
+[dom]: /javascript-dom/
 [json.org]: https://json.org/
 
 [contact]: {{site.contact}}
