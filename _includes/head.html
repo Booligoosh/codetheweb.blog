@@ -1,4 +1,6 @@
-{% capture title %}{% if page.title %}{{ page.title }}{% unless page.home-title %}{% unless page.removeTitleSuffix %} – {{ site.title }}{% endunless %}{% endunless %}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+{% capture titleSuffix %}{% if page.title %}{% unless page.home-title %}{% unless page.removeTitleSuffix %} • {{ site.title }}{% endunless %}{% endunless %}{% endif %}{% endcapture %}
+
+{% capture title %}{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
 
 {% capture description %}{% if page.home %}{{ site.description }}{% elsif page.layout == "learn" %}These beginner-friendly, easy-to-understand and jargon-free tutorials will teach you {{page.language}} from start to finish &mdash; click on this link to get started!{% elsif page.description %}{{page.description}}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}{% else %}{{ site.description }}{% endif %}{% endcapture %}
 
@@ -29,12 +31,12 @@
     {% comment %}
     <!-- Search engines -->
     {% endcomment %}
-    <title>{{title}}</title>
+    <title>{{title}}{{titleSuffix}}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="description" content="{{description}}">
     <meta name="keywords" content="{{keywords}}">
     <meta name="image" content="{{image}}">
-    <meta itemprop="name" content="{{title}}">
+    <meta itemprop="name" content="{{title}}{{titleSuffix}}">
     <meta itemprop="description" content="{{description}}">
     <meta itemprop="image" content="{{image}}">
     <meta name="google-site-verification" content="TyZHs8B5DeFBqeBKi7wW3u6WcMhW5dl0c5xrKmwrrPA" />
