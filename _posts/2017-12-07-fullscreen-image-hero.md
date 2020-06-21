@@ -4,7 +4,7 @@ title: "How to create a full-page hero image (HTML & CSS)"
 image: '/assets/img/posts/full-image-hero/cover.png'
 photoCred: [ben o'bro,wpU4veNGnHg]
 tags: CSS
-keywords: "hero image tutorial, hero image, tutorial, hero image html, hero image css, hero image code, fullscreen hero image, fullsize hero image, css banner image"
+keywords: "hero image tutorial, hero image, tutorial, hero image html, hero image css, hero image code, fullscreen hero image, fullsize hero image, css banner image, css hero image, hero image html, header hero, hero header"
 wordsAdjust: 496
 checked: [grammarly]
 ---

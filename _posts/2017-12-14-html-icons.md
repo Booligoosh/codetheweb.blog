@@ -3,7 +3,7 @@ layout: post
 title: "The complete guide to HTML icons — iOS, Android, desktop and more..."
 image: '/assets/img/posts/html-icons/cover.png'
 tags: HTML
-keywords: "favicon, favicons, icon, icons, HTML, HTML favicons, HTML favicon, HTML icon, HTML icons"
+keywords: "favicon, favicons, icon, icons, HTML, HTML favicons, HTML favicon, HTML icon, HTML icons, meta favicon"
 checked: [grammarly]
 ---
 Learn how to make an icon for iOS, Android, desktop and more using HTML in this article...

@@ -4,7 +4,7 @@ title: "Styling a navigation bar using CSS"
 image: '/assets/img/posts/style-a-navigation-bar-css/cover.png'
 photoCred: [Christopher Burns,C1J_eSGNPt0]
 tags: CSS
-keywords: ""
+keywords: "navigation bar, navbar, navbar css, navigation bar css, css navigation bar"
 checked: [grammarly]
 ---
 You can find navigation bars on almost any website on the internet. Learn how to code and style one in this article!

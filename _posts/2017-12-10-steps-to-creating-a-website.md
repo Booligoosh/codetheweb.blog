@@ -3,7 +3,7 @@ layout: post
 title: "How to create a website using HTML and CSS"
 image: '/assets/img/posts/steps-to-creating-a-website/cover.png'
 tags: Other HTML CSS
-keywords: ""
+keywords: "how to create a webpage using html and css, how to create a website using html and css, steps to creating a website, how to create a website using html css and javascript step by step, how to create a website using html"
 checked: [grammarly]
 ---
 Often when making a website, it can be overwhelming. I'll show you how to approach creating a website from scratch in this article...

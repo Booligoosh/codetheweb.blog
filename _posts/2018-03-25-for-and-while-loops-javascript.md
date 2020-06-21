@@ -4,7 +4,7 @@ title: For loops and while loops in JavaScript
 image: '/assets/img/posts/for-and-while-loops-javascript/cover.jpg'
 photoCred: [Ian Romie Ona,x6QdZQkuroI]
 tags: JavaScript
-keywords: "For loop, While loop, For loops, While loops, For, While, For and while loops in JavaScript, For loops in JavaScript, While loops in JavaScript, Loops in JavaScript, JavaScript, Learn JavaScript"
+keywords: "For loop, While loop, For loops, While loops, For, While, For and while loops in JavaScript, For loops in JavaScript, While loops in JavaScript, Loops in JavaScript, JavaScript, Learn JavaScript, else if and if, else if and if else, if and if else"
 checked: [grammarly]
 ---
 Loops let you run code as many times as you want! They are really powerful, and a great thing to know. Learn them once and for all in this article from Code The Web!
