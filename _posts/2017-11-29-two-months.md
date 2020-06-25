@@ -116,7 +116,7 @@ See you next time, where I'll be talking about [Advanced background images][adva
 [first-post]: /welcome/
 [devchat]: /devchat/
 [nythiennzo]: https://www.nythiennzo.codes/
-[blog-course]: simpleprogrammer.com/blog-course
+[blog-course]: https://simpleprogrammer.com/blog-course
 [sp]: https://www.youtube.com/user/jsonmez
 [ga]: https://analytics.google.com/
 [reddit-post]: https://www.reddit.com/r/learnprogramming/comments/7c7rd5/i_just_finished_writing_9_tutorials_on_html/
