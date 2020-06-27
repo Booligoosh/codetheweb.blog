@@ -38,9 +38,9 @@ They also have many other references for things such as [jQuery][w3-jquery], [PH
 [DevDocs][devdocs] is very similar to freeCodeCamp in that is has many different languages (not only web development), from very popular ones to lesser-known ones. I really like the layout - it is similar to W3Schools and especially freeCodeCamp with the sidebar and drop-downs. The reference is really great and in-depth, but also easy to skim and find what you need.
 
 ### Reference links:
-- [HTML Reference][fcc-html]
-- [CSS Reference][fcc-css]
-- [JavaScript Reference][fcc-js]
+- [HTML Reference][devdocs-html]
+- [CSS Reference][devdocs-css]
+- [JavaScript Reference][devdocs-js]
 - And basically everything else &#128514;
 
 
