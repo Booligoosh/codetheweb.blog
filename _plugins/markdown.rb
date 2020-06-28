@@ -28,9 +28,10 @@ class Kramdown::Converter::Html
       src = "https://cdn.statically.io/img/codetheweb.blog#{src}?f=auto"
     end
 
-    el.attr["data-src"] = src
-    el.attr["class"] = "#{el.attr["class"]} loading-lazy"
-    "<img#{html_attributes(el.attr)} class='loading-lazy' />"
+    # el.attr["data-src"] = src
+    el.attr["src"] = src
+    # el.attr["class"] = "#{el.attr["class"]} loading-lazy"
+    "<img#{html_attributes(el.attr)} loading='lazy' />"
   end
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_a
