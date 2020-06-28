@@ -36,23 +36,6 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 {% endfor %}
 {% endfor %}
 </ol>
-<!-- 
-# Other resources you may find useful
-These are just other articles I have written about stuff that isn't programming, but will help you along your web development journey.
-
-<ul class="learn-post-cards">
-{% assign posts = site.posts | reverse %}
-{% for post in posts %}
-{% if site.learn.css.other contains post.url %}
-<li>
-    <a href="{{post.url}}" class="learn-post-card">
-        <h2>{{post.title}}</h2>
-        <img loading="lazy" src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700" alt="{{ post.title }} - {{ site.title }}">
-    </a>
-</li>
-{% endif %}
-{% endfor %}
-</ul> -->
 <span class="invisible-text">   ‍   </span>
 
 [newsletter]: {{site.newsletter}}
