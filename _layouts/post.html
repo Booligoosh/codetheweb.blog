@@ -3,7 +3,7 @@ layout: compress
 ---
 
 {% capture tags_str %}{{ page.tags  | join: "," }}{% endcapture %}
-{% capture lang %}{% if tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% else tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
+{% capture lang %}{% if page.suggestedlang %}{{page.suggestedlang}}{% elsif tags_str contains "JavaScript" %}JavaScript{% elsif tags_str contains "CSS" %}CSS{% else tags_str contains "HTML" %}HTML{% endif %}{% endcapture %}
 {% capture lang_downcase %}{{lang | downcase}}{% endcapture %}
 
 <!DOCTYPE html>

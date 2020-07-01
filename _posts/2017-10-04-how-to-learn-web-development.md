@@ -3,6 +3,7 @@ layout: post
 title: 'How to learn web development'
 image: '/assets/img/posts/how-to-learn-web-development/cover.jpg'
 tags: Other HTML CSS JavaScript
+suggestedlang: HTML
 keywords: "learn code, learn to code, learn web development, learn html, learn css, learn javascript, learn html and css, how to become a web developer, how to learn html, how to learn css, how to learn javascript, how to learn web development, how to make a website"
 checked: [grammarly]
 ---
