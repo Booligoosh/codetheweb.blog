@@ -11,74 +11,72 @@
 {% endcomment %}
 {% capture image %}{% if page.layout == 'post' %}{{site.url}}/assets/img/og-images/posts/{{page.slug}}.png{% elsif page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/banner.png{% endif %}{% endcapture %}
 
-<head>
-    {% comment %}
-    <!-- Preconnect URLs -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
-    {% endcomment %}
-    {% if page.layout == 'post' %}
-    <link rel="preconnect" href="https://api.codefund.app/" crossorigin>
-    {% endif %}
-    {% comment %}
-    <!-- Top stuff -->
-    {% endcomment %}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% comment %}
-    <!-- Canonical link -->
-    {% endcomment %}
-    <link rel="canonical" href="{{site.url}}{{page.url}}">
-    {% comment %}
-    <!-- Search engines -->
-    {% endcomment %}
-    <title>{{title}}{{titleSuffix}}</title>
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{description}}">
-    <meta name="keywords" content="{{keywords}}">
-    <meta name="image" content="{{image}}">
-    <meta itemprop="name" content="{{title}}{{titleSuffix}}">
-    <meta itemprop="description" content="{{description}}">
-    <meta itemprop="image" content="{{image}}">
-    <meta name="google-site-verification" content="TyZHs8B5DeFBqeBKi7wW3u6WcMhW5dl0c5xrKmwrrPA" />
-    {% comment %}
-    <!-- RSS Feed -->
-    {% endcomment %}
-    <link rel="alternate" type="application/atom+xml" title="RSS Feed for Code The Web" href="{{site.url}}/feed.xml">
-    {% comment %}
-    <!-- Open Graph -->
-    {% endcomment %}
-    <meta property="og:title" content="{{title}}">
-    <meta property="og:description" content="{{description}}">
-    <meta property="og:image" content="{{image}}">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ page.url | prepend: site.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    {% comment %}
-    <!-- Twitter -->
-    {% endcomment %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{title}}">
-    <meta name="twitter:description" content="{{description}}">
-    <meta name="twitter:site" content="@CodeTheWebBlog">
-    <meta name="twitter:creator" content="@CodeTheWebBlog">
-    <meta name="twitter:image:src" content="{{image}}">
-    {% comment %}
-    <!-- Real Favicon Generator -->
-    <!-- From https://realfavicongenerator.net/favicon_result?file_id=p1br6ah5so7lk102b1dnr1eh516fe6#.Wc4AtBOCx8c (modified - icon directory has been changed -->
-    {% endcomment %}
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/website-icons/apple-touch-icon.png?v=1">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/website-icons/favicon-32x32.png?v=1">
-    <link rel="icon" type="image/png" sizes="192x192" href="/assets/website-icons/android-chrome-192x192.png?v=1">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/website-icons/favicon-16x16.png?v=1">
-    <link rel="manifest" href="/assets/website-icons/manifest.json?v=1">
-    <link rel="mask-icon" href="/assets/website-icons/safari-pinned-tab.svg?v=1" color="#fa709a">
-    <link rel="shortcut icon" href="/assets/website-icons/favicon.ico?v=1">
-    <meta name="msapplication-TileColor" content="#2b5797">
-    <meta name="msapplication-TileImage" content="/assets/website-icons/mstile-144x144.png?v=1">
-    <meta name="msapplication-config" content="/assets/website-icons/browserconfig.xml?v=1">
-    <meta name="theme-color" content="#F0957E">
-    {% comment %}
-    <!-- CSS -->
-    {% endcomment %}
-    <link rel="stylesheet" href="/assets/css/bundle.css?{{site.time | date: '%s%N'}}">
-</head>
+{% comment %}
+<!-- Preconnect URLs -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
+{% endcomment %}
+{% if page.layout == 'post' %}
+<link rel="preconnect" href="https://api.codefund.app/" crossorigin>
+{% endif %}
+{% comment %}
+<!-- Top stuff -->
+{% endcomment %}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% comment %}
+<!-- Canonical link -->
+{% endcomment %}
+<link rel="canonical" href="{{site.url}}{{page.url}}">
+{% comment %}
+<!-- Search engines -->
+{% endcomment %}
+<title>{{title}}{{titleSuffix}}</title>
+<meta name="author" content="{{ site.author }}">
+<meta name="description" content="{{description}}">
+<meta name="keywords" content="{{keywords}}">
+<meta name="image" content="{{image}}">
+<meta itemprop="name" content="{{title}}{{titleSuffix}}">
+<meta itemprop="description" content="{{description}}">
+<meta itemprop="image" content="{{image}}">
+<meta name="google-site-verification" content="TyZHs8B5DeFBqeBKi7wW3u6WcMhW5dl0c5xrKmwrrPA" />
+{% comment %}
+<!-- RSS Feed -->
+{% endcomment %}
+<link rel="alternate" type="application/atom+xml" title="RSS Feed for Code The Web" href="{{site.url}}/feed.xml">
+{% comment %}
+<!-- Open Graph -->
+{% endcomment %}
+<meta property="og:title" content="{{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="{{image}}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | prepend: site.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+{% comment %}
+<!-- Twitter -->
+{% endcomment %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{title}}">
+<meta name="twitter:description" content="{{description}}">
+<meta name="twitter:site" content="@CodeTheWebBlog">
+<meta name="twitter:creator" content="@CodeTheWebBlog">
+<meta name="twitter:image:src" content="{{image}}">
+{% comment %}
+<!-- Real Favicon Generator -->
+<!-- From https://realfavicongenerator.net/favicon_result?file_id=p1br6ah5so7lk102b1dnr1eh516fe6#.Wc4AtBOCx8c (modified - icon directory has been changed -->
+{% endcomment %}
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/website-icons/apple-touch-icon.png?v=1">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/website-icons/favicon-32x32.png?v=1">
+<link rel="icon" type="image/png" sizes="192x192" href="/assets/website-icons/android-chrome-192x192.png?v=1">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/website-icons/favicon-16x16.png?v=1">
+<link rel="manifest" href="/assets/website-icons/manifest.json?v=1">
+<link rel="mask-icon" href="/assets/website-icons/safari-pinned-tab.svg?v=1" color="#fa709a">
+<link rel="shortcut icon" href="/assets/website-icons/favicon.ico?v=1">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-TileImage" content="/assets/website-icons/mstile-144x144.png?v=1">
+<meta name="msapplication-config" content="/assets/website-icons/browserconfig.xml?v=1">
+<meta name="theme-color" content="#F0957E">
+{% comment %}
+<!-- CSS -->
+{% endcomment %}
+<link rel="stylesheet" href="/assets/css/bundle.css?{{site.time | date: '%s%N'}}">

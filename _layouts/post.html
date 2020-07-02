@@ -8,29 +8,31 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-<script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "url": "codetheweb.blog",
-        "datePublished": "{{page.date}}",
-        "dateModified": "{{page.date}}",
-        "author": {
-            "type": "Person",
-            "name": "Ethan",
-            "url": "https://ethan.link/"
-        },
-        "publisher": {
-            "type": "Organization",
-            "name": "Code The Web",
-            "url": "{{site.url}}",
-            "logo": "{{ site.url }}/assets/img/icon1.png"
-        },
-        "headline": "{{page.title}}",
-        "image": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
-    }
-</script>
+<head>
+    {% include head.html %}
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "url": "codetheweb.blog",
+            "datePublished": "{{page.date}}",
+            "dateModified": "{{page.date}}",
+            "author": {
+                "type": "Person",
+                "name": "Ethan",
+                "url": "https://ethan.link/"
+            },
+            "publisher": {
+                "type": "Organization",
+                "name": "Code The Web",
+                "url": "{{site.url}}",
+                "logo": "{{ site.url }}/assets/img/icon1.png"
+            },
+            "headline": "{{page.title}}",
+            "image": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/img/icon1.png{% endif %}"
+        }
+    </script>
+</head>
 <body class="post has-sidebar">
     <!--[if lt IE 10]>
 <div class="alert-danger" role="alert">You are using an older browser - please upgrade to a newer browser.！<a target="_blank" class="alert-link" href="http://browsehappy.com">Upgrade now</a></div>
