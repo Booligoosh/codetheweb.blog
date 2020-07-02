@@ -5,7 +5,6 @@ class Kramdown::Converter::Html
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_img
   def convert_img(el, _indent)
     src = el.attr["src"]
-    el.attr["src"] = nil
 
     # Give all images width and height attributes
     # so that their aspect ratio is preserved before
