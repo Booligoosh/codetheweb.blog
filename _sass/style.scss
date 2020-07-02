@@ -1526,6 +1526,18 @@ code[class*=language-], pre[class*=language-],
     display: none !important;
 }
 
+/* Ethical Ads */
+#ethical-ads {
+    min-height: 104.85px;
+
+    .ea-content {
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-top: 0;
+    }
+}
+/* End Ethical Ads */
+
 /*
 < |---------------| >
 < | MEDIA QUERIES | >
@@ -1535,7 +1547,7 @@ code[class*=language-], pre[class*=language-],
 /* NO SIDEBAR */
 @media screen and (max-width: 1144px) { /* 720px (article) + 360px (sidebar) + 32px (space between) + 2 * 16px (side margins) */
     .post-header-sidebar-spacer,
-    .post-sidebar > *:not(#codefund) {
+    .post-sidebar > *:not(#codefund):not(#ethical-ads) {
         display: none !important;
     }
     .has-sidebar .post-content,
@@ -1550,17 +1562,34 @@ code[class*=language-], pre[class*=language-],
     .post-sidebar-wrapper {
         position: static;
         margin-left: 0;
+        width: 100%;
     }
     .post-sidebar {
         height: max-content;
         border-left: none;
-    }
-    .post-content,
-    .post-sidebar {
         padding-top: 20px;
+    }
+    .post-content {
+        padding-top: 0;
     }
     #codefund {
         margin: 0;
+    }
+    #ethical-ads {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 760px; // 720px + 20px + 20px (for the margins)
+        margin-left: auto;
+        margin-right: auto;
+
+        .ea-content {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .ea-callout {
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -1740,7 +1769,6 @@ code[class*=language-], pre[class*=language-],
 
     .post-sidebar-wrapper {
         width: 100%;
-        background: $ad-bg-color;
     }
 
     .post-sidebar {

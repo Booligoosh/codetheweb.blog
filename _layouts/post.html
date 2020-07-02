@@ -116,6 +116,7 @@ layout: compress
         <aside class="post-sidebar-wrapper">
             <aside class="post-sidebar">
                 {% include codefund.html %}
+                <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text"></div>
                 <h1>All {{lang}} Tutorials</h1>
                 <ol>
                 {% assign posts = site.posts | reverse %}
@@ -207,5 +208,6 @@ layout: compress
     console.log("Number of words: {{content | number_of_words}}");
 </script>
 {% endif %}
+<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
 </body>
 </html>
