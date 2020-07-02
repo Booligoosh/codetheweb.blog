@@ -35,6 +35,15 @@ description:
           <span class="open-grid-item-text-updated">(updated daily)</span>
         </div>
       </div>
+      <div class="open-grid-item">
+        <div class="open-grid-item-number" id="last-30-days-ad-revenue">
+          &hellip;
+        </div>
+        <div class="open-grid-item-text">
+          Ad revenue in the last 30 days
+          <span class="open-grid-item-text-updated">(updated daily)</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -54,5 +63,8 @@ description:
       document.getElementById(
         "all-time-pageviews"
       ).innerText = numberWithCommas(r.allTimePageViews);
+      document.getElementById(
+        "last-30-days-ad-revenue"
+      ).innerText = '$' + numberWithCommas(r.last30DaysAdRevenue);
     });
 </script>
