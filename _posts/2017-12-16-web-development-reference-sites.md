@@ -153,9 +153,9 @@ Have a great 2018 and hopefully these websites I shared will help you along your
 [codrops]: https://tympanus.net/codrops/css_reference/
 [codrops-logo]: /assets/img/posts/web-development-reference-sites/codrops.png
 
-[stackoverflow]: https://stackoverflow/
+[stackoverflow]: https://stackoverflow.com/
 [stackoverflow-logo]: /assets/img/posts/web-development-reference-sites/stackoverflow.png
-[stackoverflow-tour]: https://stackoverflow/tour
+[stackoverflow-tour]: https://stackoverflow.com/tour
 
 [cheat-sheets]: {{site.newsletter}}
 [cheat-sheets-img]: /assets/img/banner.png
