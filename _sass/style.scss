@@ -1528,7 +1528,9 @@ code[class*=language-], pre[class*=language-],
 
 /* Ethical Ads */
 #ethical-ads {
-    min-height: 104.85px;
+    min-height: 123.05px;
+    display: flex;
+    align-items: center;
 
     .ea-content {
         margin-left: 32px;
