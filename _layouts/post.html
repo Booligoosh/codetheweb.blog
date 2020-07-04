@@ -68,6 +68,25 @@ layout: compress
     </div>
     
     <div class="post-page-content">
+        <aside class="post-sidebar-wrapper">
+            <aside class="post-sidebar">
+                {% comment %}{% include codefund.html %}{% endcomment %}
+                <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text"></div>
+                <h1>All {{lang}} Tutorials</h1>
+                <ol>
+                {% assign posts = site.posts | reverse %}
+                {% assign listnum = 0 %}
+                {% for url in site.learn[lang_downcase].tutorials %}
+                {% for post in posts %}
+                {% if post.url == url %}
+                {% assign listnum = listnum | plus: 1 %}
+                <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
+                {% endif %}
+                {% endfor %}
+                {% endfor %}
+                </ol>
+            </aside>
+        </aside>
         <div class="post-content">
             {% if page.subtitle %}
             <h2 class="post-subtitle">{{ page.subtitle }}</h2>
@@ -113,25 +132,6 @@ layout: compress
                 {% endif %}
             </section>
         </div>
-        <aside class="post-sidebar-wrapper">
-            <aside class="post-sidebar">
-                {% comment %}{% include codefund.html %}{% endcomment %}
-                <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text"></div>
-                <h1>All {{lang}} Tutorials</h1>
-                <ol>
-                {% assign posts = site.posts | reverse %}
-                {% assign listnum = 0 %}
-                {% for url in site.learn[lang_downcase].tutorials %}
-                {% for post in posts %}
-                {% if post.url == url %}
-                {% assign listnum = listnum | plus: 1 %}
-                <li class="sidebar-post {% if post.slug == page.slug %}active{% endif %}"><a href="{{post.url}}"><span class="sidebar-post-number">{{listnum}}</span> <span class="sidebar-post-title">{{post.title}}</span></a></li>
-                {% endif %}
-                {% endfor %}
-                {% endfor %}
-                </ol>
-            </aside>
-        </aside>
     </div>
 
     <section class="author-detail">
