@@ -22,19 +22,19 @@ class Kramdown::Converter::Html
     # Load images as WebPs using statically.io.
     # They automatically serve a PNG if they detect a browser
     # that doesn't support WebP, so no need for fallback URLs.
-    pngSrc = "#{src}?x=x"
-    webpSrc = "#{src}?x=x"
     shouldUseStaticallyRegEx = /^\/.*\.(png|jpg)$/
     if ENV['JEKYLL_ENV'] == 'production' and shouldUseStaticallyRegEx.match?(src)
       pngSrc = "https://cdn.statically.io/img/codetheweb.blog#{src}?f=png"
       webpSrc = "https://cdn.statically.io/img/codetheweb.blog#{src}?f=webp"
+
+      "<picture>
+        <source srcset='#{webpSrc}&w=720, #{webpSrc}&w=1440 2x, #{webpSrc}&w=2160 3x, #{webpSrc}&w=2880 4x' type='image/webp'>
+        <source srcset='#{pngSrc}&w=720, #{pngSrc}&w=1440 2x, #{pngSrc}&w=2160 3x, #{pngSrc}&w=2880 4x' type='image/png'> 
+        <img#{html_attributes(el.attr)} loading='lazy'>
+      </picture>"
+    else
+      "<img#{html_attributes(el.attr)} loading='lazy'>"
     end
-    
-    "<picture>
-      <source srcset='#{webpSrc}&w=720, #{webpSrc}&w=1440 2x, #{webpSrc}&w=2160 3x, #{webpSrc}&w=2880 4x' type='image/webp'>
-      <source srcset='#{pngSrc}&w=720, #{pngSrc}&w=1440 2x, #{pngSrc}&w=2160 3x, #{pngSrc}&w=2880 4x' type='image/png'> 
-      <img#{html_attributes(el.attr)} loading='lazy'>
-    </picture>"
   end
   # Overrides this function:
   # https://kramdown.gettalong.org/rdoc/Kramdown/Converter/Html.html#method-i-convert_a
