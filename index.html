@@ -45,7 +45,7 @@ regenerate: true
                 {% if post.image %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img loading="lazy" src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700&f=auto" alt="{{ post.title }} - {{ site.title }}">
+                    <img loading="lazy" src="{% if jekyll.environment == "production" %}https://cdn.statically.io/img/{% endif %}{{ site.urlhost }}{{ post.image }}?w=700&f=auto" alt="{{ post.title }} - {{ site.title }}" {% img_dimension_attributes post.image %}>
                 </div>
                 {% endif %}
                 <section class="post-preview">
