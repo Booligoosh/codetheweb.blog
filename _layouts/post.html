@@ -218,7 +218,7 @@ function eaCallback(adJson) {
 }
 </script>
 {% if jekyll.environment == "production" %}
-<script src="https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&callback=eaCallback&format=jsonp"></script>
+<script async src="https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&callback=eaCallback&format=jsonp"></script>
 {% endif %}
 </body>
 </html>
