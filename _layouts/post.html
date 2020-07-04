@@ -208,6 +208,15 @@ layout: compress
     console.log("Number of words: {{content | number_of_words}}");
 </script>
 {% endif %}
-<script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
+{% comment %}
+JSONP script will call eaCallback function with data
+{% endcomment %}
+<script>
+function eaCallback(adJson) {
+    document.getElementById('ethical-ads').innerHTML = adJson.html;
+    document.getElementById('ethical-ads').classList.add('loaded');
+}
+</script>
+<script src="https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&callback=eaCallback&format=jsonp"></script>
 </body>
 </html>
