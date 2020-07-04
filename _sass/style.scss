@@ -1425,16 +1425,12 @@ header .top-index-content {
 }
 
 .post-sidebar-wrapper {
-    display: none;
+    display: block;
     z-index: 1;
     box-sizing: border-box;
     // position: sticky;
     // top: 0;
     z-index: 1001; // Above header
-}
-
-.has-sidebar .post-sidebar-wrapper {
-    display: block;
 }
 
 .post-sidebar {
@@ -1577,9 +1573,9 @@ body.post .g-header {
     .post-sidebar > *:not(#codefund):not(#ethical-ads) {
         display: none !important;
     }
-    .has-sidebar .post-content,
-    .has-sidebar .author-detail,
-    .has-sidebar .post-header {
+    .post-content,
+    .author-detail,
+    .post-header {
         padding-right: 0;
     }
     .post-page-content {
