@@ -1531,6 +1531,7 @@ code[class*=language-], pre[class*=language-],
     min-height: 123.05px;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 
     .ea-content {
         margin-left: 32px;
