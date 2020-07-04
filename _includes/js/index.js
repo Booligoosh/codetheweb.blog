@@ -22,6 +22,7 @@ document.querySelector(".g-nav").addEventListener("click", function(e) {
  *  Header Bar
  */
 if (window.innerWidth > 695) {
+  var isPostPage = document.body.classList.contains('post');
   var header = document.querySelector(".g-header");
   var header_h = header.getBoundingClientRect().height;
 
@@ -41,7 +42,7 @@ if (window.innerWidth > 695) {
         }
         header.setAttribute(
           "style",
-          "background-color: rgba(255, 255, 255, .98); box-shadow: 0 1px 12px rgba(0, 0, 0, .08)"
+          isPostPage ? "background-color: hsl(12, 79%, 98%)" : "background-color: rgba(255, 255, 255, .98); box-shadow: 0 1px 12px rgba(0, 0, 0, .08)"
         );
         header.classList.add("has-bg"); /*ME*/
         document.querySelector(".g-nav").classList.add("nav-" + themeColorFlag);
