@@ -211,14 +211,13 @@ layout: compress
 {% comment %}
 JSONP script will call eaCallback function with data
 {% endcomment %}
+{% if jekyll.environment == "production" %}
 <script>
-function eaCallback(adJson) {
+fetch('/ethical.json').then(r => r.json()).then(adJson => {
     document.getElementById('ethical-ads').innerHTML = adJson.html;
     document.getElementById('ethical-ads').classList.add('loaded');
-}
+})
 </script>
-{% if jekyll.environment == "production" %}
-<script async src="/.ethical"></script>
 {% endif %}
 </body>
 </html>

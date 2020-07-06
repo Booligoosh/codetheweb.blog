@@ -29,7 +29,7 @@
 	Cache-Control: public,max-age=31536000
 
 # Don't cache ethical ads
-/.ethical
+/ethical.json
 	Cache-Control: no-store
 
 # Don't index demo pages

@@ -8,7 +8,7 @@ https://codetheweb.netlify.com/* https://codetheweb.blog/:splat 301!
 /learn/ /
 
 # Serve Ethical Ads from same domain for performance
-/.ethical https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&callback=eaCallback&format=jsonp 200!
+/ethical.json https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&format=json 200!
 
 /html&css/ /
 
