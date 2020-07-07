@@ -23,11 +23,17 @@ module Jekyll
         width, height = FastImage.size(@extensionless)
       end
 
-      "<p><video class='gifvid loading-lazy' autoplay='true' loop='true' muted='true' playsinline='true' width='#{width}' height='#{height}'>
+      # Calculate aspect ratio for video
+      # See https://css-tricks.com/fluid-width-video/#iframe-video-youtube-vimeo-etc
+      # Replace with the aspect-ratio CSS property in a few years when it has support
+      paddingBottomPercent = (height.to_f / width.to_f) * 100
+
+      "<p><div class='gifvid' style='padding-bottom:#{paddingBottomPercent}%'>
+      <video class='loading-lazy' autoplay='true' loop='true' muted='true' playsinline='true' width='#{width}' height='#{height}'>
         <source data-src='#{@extensionless}.webm' type='video/webm'>
         <source data-src='#{@extensionless}.mp4' type='video/mp4'>
         Sorry, your browser doesn't support embedded videos.
-      </video></p>"
+      </video></div></p>"
     end
   end
 end
