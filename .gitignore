@@ -8,3 +8,4 @@ wordcount-trello.html
 .jekyll-metadata
 .sass-cache
 /assets/img/og-images/posts/*.png
+.vercel
