@@ -11,7 +11,7 @@ export default async (req: NowRequest, res: NowResponse) => {
   // Always update browser cache, update Zeit cache every 24 hours
   res.setHeader(
     "Cache-Control",
-    "max-age=0, s-maxage=86400, stale-while-revalidate"
+    "max-age=0, s-maxage=1, stale-while-revalidate"
   );
   res.json({ ...googleAnalyticsData, ...ethicalAdsData });
 };
