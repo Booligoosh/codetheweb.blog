@@ -32,48 +32,27 @@
   "headers": [
     {
       "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public,max-age=3600"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "public,max-age=3600" }]
     },
     {
       "source": "/(.*)\\.(png|jpg|gif|webp|mp4|webm)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public,max-age=31536000"
-        }
+        { "key": "Cache-Control", "value": "public,max-age=31536000" }
       ]
     },
     {
       "source": "/assets/(css|js|icons|website-icons)/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public,max-age=31536000"
-        }
+        { "key": "Cache-Control", "value": "public,max-age=31536000" }
       ]
     },
     {
       "source": "/ethical\\.json",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-store"
-        }
-      ]
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
     },
     {
       "source": "/demo/(.*)",
-      "headers": [
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex"
-        }
-      ]
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
     }
   ]
 }
