@@ -54,7 +54,7 @@ description:
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
   }
 
-  fetch("https://open-page-api.codetheweb.blog/api/open")
+  fetch("/api/open/")
     .then(r => r.json())
     .then(r => {
       document.getElementById("all-time-users").innerText = numberWithCommas(

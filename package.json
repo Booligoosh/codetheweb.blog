@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "canvas": "^2.6.1"
+    "@now/node": "^1.5.1",
+    "canvas": "^2.6.1",
+    "googleapis": "^49.0.0",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -9,3 +9,4 @@ wordcount-trello.html
 .sass-cache
 /assets/img/og-images/posts/*.png
 .vercel
+.env
