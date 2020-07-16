@@ -9,9 +9,6 @@ baseurl: '/'
 # Hide future posts
 future: false
 
-# Keep _redirects and _headers files in build
-include: ['_redirects', '_headers']
-
 # Navigation links
 nav:
   home: '/'
