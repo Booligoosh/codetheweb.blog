@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/suggest",
+      "destination": "https://codetheweb.nolt.io/",
+      "permanent": false
+    },
+    {
+      "source": "/learn/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/html&css/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/20[12][0789]/[0-9][0-9]/[0-9][0-9]/(.*)",
+      "destination": "/$1",
+      "permanent": true
+    }
+  ]
+}
