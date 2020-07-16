@@ -22,5 +22,11 @@
       "destination": "/$4",
       "permanent": true
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/ethical\\.json",
+      "destination": "https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&format=json"
+    }
   ]
 }
