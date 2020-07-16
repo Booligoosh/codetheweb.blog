@@ -214,7 +214,7 @@ JSONP script will call eaCallback function with data
 {% if jekyll.environment == "production" %}
 <script>
 fetch('/ethical.json').then(r => r.json()).then(adJson => {
-    document.getElementById('ethical-ads').innerHTML = adJson.html;
+    document.getElementById('ethical-ads').innerHTML = adJson.html || "";
     document.getElementById('ethical-ads').classList.add('loaded');
 })
 </script>
