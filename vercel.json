@@ -32,18 +32,33 @@
   "headers": [
     {
       "source": "/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public,max-age=3600,s-maxage=1,stale-while-revalidate" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=3600,s-maxage=1,stale-while-revalidate"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
     },
     {
       "source": "/(.*)\\.(png|jpg|gif|webp|mp4|webm)",
       "headers": [
-        { "key": "Cache-Control", "value": "public,max-age=31536000,s-maxage=1,stale-while-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=31536000,s-maxage=1,stale-while-revalidate"
+        }
       ]
     },
     {
       "source": "/assets/(css|js|icons|website-icons)/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public,max-age=31536000,s-maxage=1,stale-while-revalidate" }
+        {
+          "key": "Cache-Control",
+          "value": "public,max-age=31536000,s-maxage=1,stale-while-revalidate"
+        }
       ]
     },
     {
