@@ -92,7 +92,7 @@ function pagination() {
           baseUrl +
           "page/" +
           i +
-          '" class="page-link page-num">' +
+          '/" class="page-link page-num">' +
           i +
           "</a>";
       } else if (i === 1) {
@@ -111,7 +111,7 @@ function pagination() {
           baseUrl +
           "page/" +
           j +
-          '" class="page-link page-num">' +
+          '/" class="page-link page-num">' +
           j +
           "</a>";
       }
