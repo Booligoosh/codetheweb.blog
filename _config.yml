@@ -12,8 +12,8 @@ future: false
 # Navigation links
 nav:
   home: '/'
-  tags: '/tags'
-  "newsletter &#127790; &#128640;": '/newsletter'
+  tags: '/tags/'
+  "newsletter &#127790; &#128640;": '/newsletter/'
 
 # Author
 author: 'Ethan'
@@ -92,20 +92,20 @@ defaults:
 sass:
   style: compressed
   
-newsletter: /newsletter
+newsletter: /newsletter/
 share: '#share'
 comments: '#disqus_thread'
 contact: /contact
 repo: https://github.com/CodeTheWebBlog/CodeTheWebBlog.github.io/
 permalink: /:title/
 sponsor: /sponsor
-donate: https://buymeacoffee.com/CodeTheWeb
+donate: https://www.buymeacoffee.com/CodeTheWeb
 patreon: https://www.patreon.com/CodeTheWebBlog
 
 email: 'hi@codetheweb.blog'
 
 social:
-  reddit: 'https://reddit.com/u/CodeTheWebBlog/'
+  reddit: 'https://www.reddit.com/uuser/CodeTheWebBlog'
   twitter: 'https://twitter.com/CodeTheWebBlog/'
 
 wpm: 180
