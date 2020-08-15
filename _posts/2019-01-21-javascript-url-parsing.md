@@ -208,8 +208,8 @@ See you next time, where I'll be talking about [dates and time in JavaScript][js
 [console-log-window-location-img]: /assets/img/posts/javascript-url-parsing/console-log-window-location.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

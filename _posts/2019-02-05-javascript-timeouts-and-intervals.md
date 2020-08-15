@@ -159,8 +159,8 @@ See you next time!! &#x1F600;
 [dom]: /javascript-dom/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

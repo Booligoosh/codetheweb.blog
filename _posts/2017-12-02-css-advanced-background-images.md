@@ -233,8 +233,8 @@ Have fun and I'll see you next time, where I'll be talking about [the different 
 [color-and-img]: /assets/img/posts/css-advanced-background-images/color-and-img.png
 [bg-attachment-fixed]: /assets/img/posts/css-advanced-background-images/bg-attachment-fixed.gif
 
-[html]: /learn/html
-[css]: /learn/css`
+[html]: /learn/html/
+[css]: /learn/css/`
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

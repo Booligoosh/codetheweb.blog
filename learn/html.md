@@ -43,6 +43,6 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [p2]: /how-the-internet-works/
 [p3]: /web-development-on-your-computer/
 
-[css]: /learn/css
+[css]: /learn/css/
 
 [newsletter]: {{site.newsletter}}

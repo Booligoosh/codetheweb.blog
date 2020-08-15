@@ -69,7 +69,7 @@ The referral traffic is from lots of different sources including places that emb
 I took a look at my most popular pages:
 ![My most popular pages][ga-content]{:.screenshot-white}
 
-The [`/learn/html`][html] page was obviously the most popular, as that was the page that I linked to in my [Reddit post][reddit-post].
+The [`/learn/html/`][html] page was obviously the most popular, as that was the page that I linked to in my [Reddit post][reddit-post].
 
 In terms of popular articles, my [How To Learn Web Development][how-to-learn-webdev] article was the most popular. I think that is because it has a very generalized title, which I should keep in mind when writing future posts.
 
@@ -139,8 +139,8 @@ See you next time, where I'll be talking about [Advanced background images][adva
 [ga-content]: /assets/img/posts/two-months/ga-content.png
 [happy-birthday]: /assets/img/posts/two-months/happy-birthday.gif
 
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

@@ -412,8 +412,8 @@ Okay, that's it for today! Have fun coding and I'll see you next time, where I'l
 [arrays]: /javascript-arrays/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

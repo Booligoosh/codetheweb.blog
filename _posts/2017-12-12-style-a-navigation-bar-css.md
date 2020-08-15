@@ -565,8 +565,8 @@ Have fun, keep coding and I'll see you next time, where I'll be talking about [w
 [box-shadow-syntax]: /assets/img/posts/style-a-navigation-bar-css/box-shadow-syntax.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

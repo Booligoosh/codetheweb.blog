@@ -325,8 +325,8 @@ See you next time, where I'll be talking all about [how to modify HTML and CSS i
 [json.org]: https://json.org/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

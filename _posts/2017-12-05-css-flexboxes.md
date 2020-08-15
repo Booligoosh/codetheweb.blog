@@ -399,8 +399,8 @@ Keep coding, have an awesome day, and see you then!
 [flex-direction-axes]: /assets/img/posts/css-flexboxes/flex-direction-axes.png
 [order-213]: /assets/img/posts/css-flexboxes/order-213.png
 
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

@@ -225,8 +225,8 @@ See you next time! &#x1F600;
 [object-parsed-log-img]: /assets/img/posts/javascript-localstorage/object-parsed-log.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

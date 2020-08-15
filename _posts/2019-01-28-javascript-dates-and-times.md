@@ -369,8 +369,8 @@ See you next time, where I'll be talking about [timeouts and intervals][js-timeo
 [back-to-the-future-img]: /assets/img/posts/javascript-dates-and-times/back-to-the-future.gif
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

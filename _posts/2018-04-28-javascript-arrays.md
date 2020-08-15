@@ -635,8 +635,8 @@ https://carbon.now.sh/?bg=rgba(0,0,0,1)&t=lucario&wt=none&l=javascript&ds=true&d
 [array.split]: /assets/img/posts/javascript-arrays/array.split.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

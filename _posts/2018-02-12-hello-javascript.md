@@ -160,8 +160,8 @@ See you next time, where I'll be talking about [variables][vars] - one of the *m
 [alert]: /assets/img/posts/hello-javascript/alert.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

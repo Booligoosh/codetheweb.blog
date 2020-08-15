@@ -180,8 +180,8 @@ Next time, I'll be doing a special post on [Quick-reference sites to help you al
 [custom-windows-tiles]: /assets/img/posts/html-icons/custom-windows-tiles.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

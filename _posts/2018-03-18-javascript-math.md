@@ -202,8 +202,8 @@ That's it for today! Next time, I'll be writing about [for loops and while loops
 [js-loops]: /for-and-while-loops-javascript/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

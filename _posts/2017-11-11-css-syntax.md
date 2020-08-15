@@ -268,8 +268,8 @@ So, I hope you learned a lot today and I congratulate you on your journey of lea
 
 Have fun and I'll see you [next time, where I'll be talking about some basic CSS properties][css-properties] such as `background-color`, `background-image`, `font-size` and `text-align`. See you then!
 
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [no-css]: /assets/img/posts/how-to-learn-web-development/no-css.png
 [with-css]: /assets/img/posts/css-syntax/with-css.png
 [run-code]: /web-development-on-your-computer/#running-your-code

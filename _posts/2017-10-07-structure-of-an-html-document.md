@@ -105,8 +105,8 @@ In my next article, I'll be talking all about coding your actual website (the bi
 [set-up]: /web-development-on-your-computer/
 [code-editor]: /web-development-on-your-computer/#code-editor
 [run-code]: /web-development-on-your-computer/#running-your-code
-[css]: /learn/css
-[javascript]: /learn/javascript
+[css]: /learn/css/
+[javascript]: /learn/javascript/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

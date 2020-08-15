@@ -49,6 +49,6 @@ I make a new tutorial at least once a week. Over time, this list will grow. Once
 [r-steps-to-creating-a-website]: /steps-to-creating-a-website/
 [r-reference-sites]: /web-development-reference-sites/
 
-[js]: /learn/javascript
+[js]: /learn/javascript/
 
 [newsletter]: {{site.newsletter}}

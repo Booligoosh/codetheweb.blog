@@ -293,8 +293,8 @@ Next time, I'll be writing about some basic math in JavaScript. I'll be talking 
 [math]: /javascript-math/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

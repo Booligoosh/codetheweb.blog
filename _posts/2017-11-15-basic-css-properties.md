@@ -196,8 +196,8 @@ Have fun, and I'll see you next time where I'll be talking about [CSS sizing and
 [text-align-center-screenshot]: /assets/img/posts/basic-css-properties/text-align-center-screenshot.png
 [text-align-right-screenshot]: /assets/img/posts/basic-css-properties/text-align-right-screenshot.png
 
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

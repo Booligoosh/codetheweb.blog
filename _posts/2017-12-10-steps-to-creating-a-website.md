@@ -439,8 +439,8 @@ Have fun, keep coding, and I'll see you next time, where' I'll be talking about 
 [final-product]: /assets/img/posts/steps-to-creating-a-website/final-product.gif
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css`
+[html]: /learn/html/
+[css]: /learn/css/`
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

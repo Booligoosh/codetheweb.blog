@@ -115,8 +115,8 @@ See you next time, when I'll be talking about [if statements in JavaScript][if],
 [if]: /if-statements-boolean-operators/
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [js]: /learn/js
 [share]: {{site.share}}
 [comments]: {{site.comments}}

@@ -557,8 +557,8 @@ Okay! Have fun, keep coding and I'll see you next time, where I'll be talking ab
 [white-over-bg]: /assets/img/posts/full-image-hero/white-over-bg.png
 [darkened-background]: /assets/img/posts/full-image-hero/darkened-background.png
 
-[html]: /learn/html
-[css]: /learn/css`
+[html]: /learn/html/
+[css]: /learn/css/`
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

@@ -144,8 +144,8 @@ Oh! And if you have any feedback, need any help or just wanna say howdy, do so i
 [site-2]: /assets/img/posts/github-pages-free-hosting/site-2.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

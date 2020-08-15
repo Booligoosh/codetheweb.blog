@@ -171,8 +171,8 @@ Have fun and I'll see you next time, where I'll be talking about [more advanced 
 [padding-img]: /assets/img/posts/css-sizing-and-positioning/padding.png
 [padding-force-field-img]: /assets/img/posts/css-sizing-and-positioning/padding-force-field.png
 
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

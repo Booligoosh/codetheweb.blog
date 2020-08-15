@@ -292,8 +292,8 @@ See you next time, where I'll be talking about [using custom font files][custom-
 [font-family-ribeye-marrow]: /assets/img/posts/css-text-properties-and-google-fonts/font-family-ribeye-marrow.png
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}

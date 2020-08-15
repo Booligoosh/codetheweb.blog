@@ -163,8 +163,8 @@ Have a great 2018 and hopefully these websites I shared will help you along your
 [test-your-website]: {{site.newsletter}}
 
 [contact]: {{site.contact}}
-[html]: /learn/html
-[css]: /learn/css
+[html]: /learn/html/
+[css]: /learn/css/
 [share]: {{site.share}}
 [comments]: {{site.comments}}
 [newsletter]: {{site.newsletter}}
