@@ -1,3 +1,6 @@
+# This file is commented out for now because the npm package installation seems to be messing up
+# The =begin and =end are used to make a multiline comment in Ruby.
+=begin
 module OgImages
   class Generator < Jekyll::Generator
     def generate(site)
@@ -30,3 +33,4 @@ module OgImages
     end
   end
 end
+=end
