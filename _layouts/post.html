@@ -214,7 +214,8 @@ JSONP script will call eaCallback function with data
 {% if jekyll.environment == "production" %}
 <script>
 fetch('/ethical.json').then(r => r.json()).then(adJson => {
-    document.getElementById('ethical-ads').innerHTML = adJson.html || "";
+    document.getElementById('ethical-ads').innerHTML = adJson.campaign_type === "paid" ?  (adJson.html || "")
+        : "<div class=\"ea-placement ea-type-text\"><div class=\"ea-content\"><div class=\"ea-text\"><a href=\"https://1feed.app/?utm_source=codetheweb.blog&utm_medium=self_ad&utm_campaign=sidebar1\" rel=\"nofollow\" target=\"_blank\">Want to keep up with sites like Code The Web? <strong>Try using 1Feed</strong><span> &mdash; your subscribe button for the internet.</a></div></div></div>";
     document.getElementById('ethical-ads').classList.add('loaded');
 })
 </script>
