@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 ruby "2.7.0"
 
-gem "jekyll", "~> 3.8.0"
+gem "jekyll", "~> 4.2.0"
 
 gem "jekyll-paginate"
 
