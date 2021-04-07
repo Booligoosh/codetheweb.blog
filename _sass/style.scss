@@ -1417,11 +1417,12 @@ header .top-index-content {
 
 .post-content {
     background: $page-bg;
+    flex-grow: 1;
 }
 
 .post-sidebar-wrapper, .post-header-sidebar-spacer {
-    width: 360px;
-    margin-left: 32px;
+    width: $sidebar-width;
+    margin-left: $sidebar-left-margin;
 }
 
 .post-sidebar-wrapper {
