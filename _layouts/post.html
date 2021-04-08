@@ -71,7 +71,9 @@ layout: compress
         <aside class="post-sidebar-wrapper">
             <aside class="post-sidebar">
                 {% comment %}{% include codefund.html %}{% endcomment %}
+                {% if site.ad == "ethical-ads" %}
                 <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text"></div>
+                {% endif %}
                 <h1>All {{lang}} Tutorials</h1>
                 <ol>
                 {% assign posts = site.posts | reverse %}
@@ -211,7 +213,7 @@ layout: compress
 {% comment %}
 JSONP script will call eaCallback function with data
 {% endcomment %}
-{% if jekyll.environment == "production" %}
+{% if jekyll.environment == "production" and site.ad == "ethical-ads" %}
 <script>
 fetch('/ethical.json').then(r => r.json()).then(adJson => {
     document.getElementById('ethical-ads').innerHTML = adJson.campaign_type === "paid" ?  (adJson.html || "")
