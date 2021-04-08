@@ -6,7 +6,7 @@ url: 'https://codetheweb.blog'
 urlhost: 'codetheweb.blog' # site.url without protocol
 baseurl: '/'
 
-ad: 'ethical-ads'
+ad: 'nocsdegree'
 
 # Hide future posts
 future: false
