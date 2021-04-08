@@ -74,6 +74,29 @@ layout: compress
                 {% if site.ad == "ethical-ads" %}
                 <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text"></div>
                 {% endif %}
+                {% if site.ad == "nocsdegree" %}
+                <div id="ethical-ads" data-ea-publisher="codetheweb" data-ea-type="text" class="loaded">
+                    <div class="ea-placement ea-type-text">
+                        <div class="ea-content" style="background: black;color: white">
+                            <div class="ea-text">
+                                <form style="color: white;" onsubmit="noCsDegreeSubmit(event)">
+                                    <div style="font-weight: bold;margin-bottom: .5rem;display: flex;align-items: center;">
+                                        <img src="https://cdn.statically.io/img/www.nocsdegree.com/content/images/2020/07/logo.png?f=webp" style="border-radius: 50%;height: 1.3rem;margin-right: 0.5rem;">
+                                        No CS Degree
+                                    </div>
+                                    <div>Real stories of developers hired without a Computer Science degree, delivered to your inbox weekly.</div>
+                                    <input id="nocsdegree-email" type="email" name="email" placeholder="Your email address" required style="font: inherit;padding: .5rem;width: 100%;box-sizing: border-box;border: none;border-radius: 5px;margin-top: 1rem;margin-bottom: .5rem;">
+                                    <button style="font: inherit;padding: .5rem;width: 100%;box-sizing: border-box;border: none;border-radius: 5px;margin-bottom: 1rem;background: #088cdb;color: white;font-weight: 600;cursor: pointer;">Sign up</button>
+                                    <div>Get a free Imposter Syndrome ebook worth $5 when you sign up!</div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="ea-callout">
+                            <div style="margin-right: 6px;font-size: .8em;color: #6a6a6a;margin-top: 0.5rem;">Sponsored</div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
                 <h1>All {{lang}} Tutorials</h1>
                 <ol>
                 {% assign posts = site.posts | reverse %}
@@ -220,6 +243,26 @@ fetch('/ethical.json').then(r => r.json()).then(adJson => {
         : "<div class=\"ea-placement ea-type-text\"><div class=\"ea-content\"><div class=\"ea-text\"><a href=\"https://1feed.app/?utm_source=codetheweb.blog&utm_medium=self_ad&utm_campaign=sidebar1\" target=\"_blank\">Want to keep up with sites like Code The Web? <strong>Try using 1Feed</strong><span> &mdash; your subscribe button for the internet.</a></div></div></div>";
     document.getElementById('ethical-ads').classList.add('loaded');
 })
+</script>
+{% endif %}
+{% if site.ad == "nocsdegree" %}
+<script>
+function  noCsDegreeSubmit(event) {
+    event.preventDefault();
+    var emailAddress = document.getElementById("nocsdegree-email").value;
+    fetch("https://www.nocsdegree.com/members/api/send-magic-link/", {
+        method:'POST',
+        headers:{
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify({
+            email: emailAddress,
+            emailType: "subscribe",
+            labels: ["codetheweb"]
+        })
+    });
+    event.target.innerHTML = "Thanks for subscribing! Now check your inbox and click the link to confirm your subscription.";
+}
 </script>
 {% endif %}
 </body>
