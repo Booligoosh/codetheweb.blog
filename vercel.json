@@ -32,7 +32,7 @@
       "destination": "https://server.ethicalads.io/api/v1/decision/?publisher=codetheweb&ad_types=text-v1&div_ids=codetheweb1&format=json"
     },
     {
-      "source": "/js/script.outbound-links.js",
+      "source": "/js/script.js",
       "destination": "https://plausible.io/js/script.outbound-links.js"
     },
     {
