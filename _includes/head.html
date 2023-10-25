@@ -15,7 +15,6 @@
 <!-- Preconnect URLs -->
 <!-- <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin> -->
 {% endcomment %}
-<link rel="preconnect" href="https://pl.codetheweb.blog">
 <link rel="preconnect" href="https://cdn.statically.io">
 {% comment %}
 <!-- Top stuff -->
@@ -81,6 +80,6 @@
 <link rel="stylesheet" href="/assets/css/bundle.css?{{site.time | date: '%s%N'}}">
 <!-- Plausible Analytics -->
 {% if jekyll.environment == "production" %}
-<script async defer data-domain="codetheweb.blog" src="https://pl.codetheweb.blog/js/index.outbound-links.js"></script>
+<script async defer data-domain="codetheweb.blog" src="/js/script.outbound-links.js"></script>
 {% endif %}
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
